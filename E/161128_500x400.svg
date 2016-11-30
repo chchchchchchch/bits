@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- CLEANED: 1480514262 -->
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -15,7 +15,6 @@
    width="500"
    height="400"
    sodipodi:docname="161128_500x400.svg"
-   inkscape:export-filename="/home/christoph/_owncloud/LFKN_Freeze+Press/Artwork/2015/150528--twitter/upload/expanded.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <metadata
@@ -31,35 +30,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs6">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath3080">
-      <path
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path3082"
-         d="m 636,148 215,0 0,40 -215,0 z" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath3097">
-      <path
-         d="m -66,-16 549,0 0,600 -549,0 z"
-         id="path3099"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath3105">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3107"
-         d="m 504,-16 139,0 0,600 -139,0 z"
-         sodipodi:nodetypes="ccccc" />
-    </clipPath>
-  </defs>
+     id="defs6" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#646464"
