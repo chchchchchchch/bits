@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- CLEANED: 1480688474 -->
+<!-- CLEANED: 1480689519 -->
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -14,7 +14,7 @@
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
    width="500"
-   height="600"
+   height="550"
    sodipodi:docname="161202_photoshop.svg"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -45,19 +45,19 @@
      inkscape:window-height="480"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.5"
-     inkscape:cx="187.44841"
-     inkscape:cy="268.75066"
-     inkscape:current-layer="layer4"
+     inkscape:zoom="0.26714811"
+     inkscape:cx="77.252411"
+     inkscape:cy="285.47042"
+     inkscape:current-layer="layer2"
      showguides="true"
      inkscape:guide-bbox="true">
     <sodipodi:guide
-       position="0,600"
+       position="0,550"
        orientation="0,500"
        id="guide3159" />
     <sodipodi:guide
-       position="500,600"
-       orientation="600,0"
+       position="500,550"
+       orientation="550,0"
        id="guide3161" />
     <sodipodi:guide
        position="500,0"
@@ -65,7 +65,7 @@
        id="guide3163" />
     <sodipodi:guide
        position="0,0"
-       orientation="-600,0"
+       orientation="-550,0"
        id="guide3165" />
   </sodipodi:namedview>
   <g
@@ -76,9 +76,10 @@
      sodipodi:insensitive="true">
     <path
        style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:20;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 0,0 500,0 0,600 -500,0 z"
+       d="m 0,0 500,0 0,550 -500,0 z"
        id="rect3160"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <path
        inkscape:connector-curvature="0"
        id="path3237"
@@ -94,7 +95,7 @@
      sodipodi:insensitive="true">
     <path
        style="opacity:0.5;fill:none;stroke:#66ff00;stroke-width:20px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m 10,10.000012 480,0 L 490,590 10,590 z"
+       d="m 10,10 480,0 0,530 -480,0 z"
        id="rect3336"
        inkscape:connector-curvature="0" />
     <path
@@ -1065,12 +1066,12 @@
      inkscape:label="CONTENT"
      style="display:inline">
     <image
-       y="28"
-       x="79"
-       id="image3234"
        xlink:href="../../../src/incoming/2013/r+w/LGM-2013_da2d6de3_1363819524.gif"
+       width="341"
        height="500"
-       width="341" />
+       id="image3234"
+       x="79"
+       y="23" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1079,8 +1080,8 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <path
-       style="opacity:0.95;fill:#ffffff"
-       d="m -4500,-4500 0,10000 10000,0 0,-10000 z M 0,0 500,0 500,600 0,600 z"
+       style="fill:#ffffff;display:inline"
+       d="m -4500,-4500 0,10000 10000,0 0,-10000 z M 0,0 500,0 500,550 0,550 z"
        id="path4112-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
