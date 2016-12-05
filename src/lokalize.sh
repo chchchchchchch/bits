@@ -32,13 +32,13 @@
        if [ `curl "$REMOTE" -z "$LOKAL" -o "$LOKAL" \
              -s -L -w %{http_code}` == "200" ]; then
              echo "Download $LOKAL"
-             curl "$REMOTE" -o "$LOKAL"
+             curl -L "$REMOTE" -o "$LOKAL"
        else  echo "$LOKAL is up-to-date"
        fi;else
  
      # DOWNLOAD IF NO LOKAL FILE                      #
      # ---------------------------------------------- #
-             curl "$REMOTE" -o "$LOKAL"
+             curl -L "$REMOTE" -o "$LOKAL"
        fi;fi
 
       done
