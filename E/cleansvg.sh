@@ -1,30 +1,27 @@
 #!/bin/bash
 
-
 # REMOVE SODIPODI IMAGE LINKS, ABSOLUTE LINKS, PERSONAL DATA
-# TODO:- test,test,test
-#      - do nothing if src = xbase64
-#      - rm sodipodi named view
-#      - run if image is missing
+
+# TODO: - test,test,test
+#       - do nothing if src = xbase64
+#       - rm sodipodi named view
+#      (- run if image is missing)
 
 # --------------------------------------------------------------------------- #
   SVGALL=`find . -name "*.svg"`
-
   SHPATH=`dirname \`readlink -f $0\``
-  XLINKID="xlink:href"
   SRCPATH="$SHPATH/../src"
- #SEARCHDEPTH=`echo $SHPATH | sed 's/[^\/]//g' | wc -c`
- #echo "SEARCHDEPTH $SEARCHDEPTH "
+  XLINKID="xlink:href"
 
-# --------------------------------------------------------------------------- #
+# =========================================================================== #
+
   for SVG in $SVGALL
    do
-     SVGNAME=`basename $SVG`
+     SVGNAME=`basename $SVG`     #
      SVGPATH=`realpath $SVG    | #
               rev              | #
               cut -d "/" -f 2- | #
               rev`
-
      MD5NOW=`sed '/^<!-- CLEANED:.*-->/d' $SVG | #
              md5sum | cut -d " " -f 1`
      MD5OLD=`grep "^<!-- CLEANED:.*-->" $SVG | #
@@ -154,18 +151,17 @@
        sed -i '/^<!-- CLEANED:.*-->$/d'    $SVGNAME    # DELETE STAMP
        sed -i "1s,^.*$,&\n$CLEANSTAMP," $SVGNAME       # INSERT STAMP  
      # ----------------------------------------------------------------- #
-
        cd - > /dev/null
 
    # ------------------------------------------------------------------------ #
-
      else
           echo "NO NEED TO CLEAN ($SVG)"
           sleep 0
      fi
-
   done
-# --------------------------------------------------------------------------- #
+
+# =========================================================================== #
+
 
 exit 0;
 
