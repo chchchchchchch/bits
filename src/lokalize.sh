@@ -11,7 +11,7 @@
    then echo "----"; echo "CHECK/DOWNLOAD ALL SOURCES"
         SRCDIR="."
         N=`cat \`find $SRCDIR -name "*.src"\` | #
-                 grep "^http" | wc -l`
+                 grep "^[ \t]*http" | wc -l`
         echo -e "THIS MEANS CHECKING $N FILES \
                  AND WILL TAKE SOME TIME.\n" | tr -s ' '
         read -p "SHOULD WE DO IT? [y/n] " ANSWER
