@@ -5,6 +5,7 @@
 # TODO: - test,test,test
 #       - do nothing if src = xbase64
 #       - rm sodipodi named view
+#       - md5ify ids
 #      (- run if image is missing)
 
 # --------------------------------------------------------------------------- #
@@ -51,12 +52,12 @@
      # ---------------------------------------------------------------- #
        cd $SVGPATH; # SVGNAME=`basename $SVG`
   
-     # VACUUM DEFS, REMOVE SODIPODI IMG LINK, REMOVE EXPORT PATH
+     # VACUUM DEFS, REMOVE PERSONAL/UNNECESSARY STUFF
      # ---------------------------------------------------------------- #
-       inkscape --vacuum-defs $SVGNAME
-       sed -i 's/sodipodi:absref="[^"]*"//' $SVGNAME
-       sed -i 's/inkscape:export-filename="[^"]*"//g' $SVGNAME
-       sed -i '/^[ \t]*$/d' $SVGNAME
+       sed -i 's/sodipodi:absref="[^"]*"//'   $SVGNAME
+       sed -i 's/inkscape:[wcze].*="[^"]*"//' $SVGNAME
+       inkscape --vacuum-defs                 $SVGNAME
+       sed -i '/^[ \t]*$/d'                   $SVGNAME
     
      # ---------------------------------------------------------------- #
      # CHANGE ABSOLUTE PATHS TO RELATIVE
