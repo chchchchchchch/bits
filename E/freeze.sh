@@ -1,86 +1,115 @@
 #!/bin/bash
 
-# CREATE WWW VERSION FROM SVG WORK FILE
+# ----------------------------------------------------------------- #
+# FREEZE EDITS
+# ----------------------------------------------------------------- #
+  OUTDIR=../_
+  if [ ! -d $OUTDIR ]; then echo "$OUTDIR DOES NOT EXIST."
+                            exit 0; fi
 
-# ----------------------------------------------------- #
-  function save4WWW() {
+# ================================================================= #
+# ANALYSE AND SAVE
+# ----------------------------------------------------------------- #
+  function saveOptimized() {
 
+    SAVETHIS=$1
     HASIMG=`grep "<image" $EDIT | wc -l`
+
+    echo -e "\e[34mCHECK $EDIT\e[0m"
+
     if [ $HASIMG -gt 0 ]; then
 
-      inkscape --export-png=${WWWBASENAME}.png \
+        #echo "BITMAP"
+    
+    # PIXEL: BASE EXPORT (PNG)                       #
+    # ---------------------------------------------- #
+      inkscape --export-png=${SAVETHIS}.png \
                --export-background-opacity=0   \
-               $EDIT
-  
-      NUMCOLOR=`convert ${WWWBASENAME}.png -format %c \
-                -depth 8  histogram:info:- | \
+               $EDIT > /dev/null 2>&1 
+      NUMCOLOR=`convert ${SAVETHIS}.png -format %c \
+                -depth 8  histogram:info:- | #
                 sed '/^[[:space:]]*$/d' | wc -l`
-  
-      NOTRANSPARENCY=`convert ${WWWBASENAME}.png \
+      NOTRANSPARENCY=`convert ${SAVETHIS}.png \
                       -format "%[opaque]" info:`
-   
+     #echo "$NUMCOLOR COLORS"     
+
       if [ X$NOTRANSPARENCY = "Xtrue" ]; then
-       if [ $NUMCOLOR -lt 4000 ]; then
-            convert ${WWWBASENAME}.png \
-                    ${WWWBASENAME}.gif
-            rm ${WWWBASENAME}.png
-       else
-            convert ${WWWBASENAME}.png \
-                    -quality 95 \
-                    ${WWWBASENAME}.jpg
-            rm ${WWWBASENAME}.png
-       fi
+
+          #echo "NO TRANSPARENCY"
+
+      # NOT TRANSPARENT: COMPRESS (JPG/GIF)        #
+      # ------------------------------------------ #
+        if [ $NUMCOLOR -lt 256 ]; then
+             echo -e "\e[42mSAVE ${SAVETHIS}.gif\e[0m";
+             convert ${SAVETHIS}.png \
+                     ${SAVETHIS}.gif
+             rm ${SAVETHIS}.png
+        else
+             echo -e "\e[42mSAVE ${SAVETHIS}.jpg\e[0m";
+             convert ${SAVETHIS}.png \
+                     -quality 90 \
+                     ${SAVETHIS}.jpg
+             rm ${SAVETHIS}.png
+        fi
+      else
+             echo -e "\e[42mSAVE ${SAVETHIS}.png\e[0m"
+             sleep 1
       fi
     else
 
-       # inkscape --export-plain-svg=${WWWBASENAME}.svg \
-       #          $EDIT
-     # BREAK FONTS, FORGET ABOUT HIDDEN STUFF
-       inkscape --export-pdf=${WWWBASENAME}.pdf \
-                -T $EDIT
-       inkscape --export-plain-svg=${WWWBASENAME}.svg \
-                ${WWWBASENAME}.pdf
-       rm ${WWWBASENAME}.pdf
+   #echo "VECTOR"
+    echo -e "\e[102m\e[97m SAVE ${SAVETHIS}.svg \e[0m";
+
+    # VECTOR: BREAK FONTS, FORGET ABOUT HIDDEN STUFF #
+    # ---------------------------------------------- #
+      inkscape --export-pdf=${SAVETHIS}.pdf \
+               -T $EDIT > /dev/null 2>&1
+      inkscape --export-plain-svg=${SAVETHIS}.svg \
+               ${SAVETHIS}.pdf > /dev/null 2>&1
+      rm ${SAVETHIS}.pdf
    fi
 
   }
-# ----------------------------------------------------- #
+# ================================================================= #
 
- for EDIT in `find . -name "*.svg" | \
-              grep "EDIT/.*.svg"`
-  do
-         BASENAME=`basename $EDIT | \
-                   cut -d "." -f 1`
-         EDITPATH=`echo $EDIT | rev | \
-                   cut -d "/" -f 2- | rev`
+  for EDIT in `find . -name "*.svg"`
+   do
+       EDITNAME=`basename $EDIT |   #
+                 cut -d "." -f 1`   #
+       EDITPATH=`echo $EDIT | rev | #
+                 cut -d "/" -f 2- | #
+                 rev`               #
+        EDITMD5=`md5sum $EDIT     | #
+                 cut -d " " -f 1  | #
+                 cut -c 1-6       | #
+                 tr [:lower:] [:upper:]`
+       NOW=`date +%y%m%d`
+       FREEZENAME=${EDITMD5}${EDITNAME}
+       FREEZEBASE=${OUTDIR}/${NOW}_$FREEZENAME
 
+       if [ `ls $OUTDIR | #
+             grep $FREEZENAME | wc -l` -lt 1 ]
+        then
 
-       #  WWWPATH=`echo $EDITPATH | rev | \
-       #           cut -d "/" -f 2- | rev`"/_"
-       # ALLOW SUBFOLDERS IN "EDIT" BUT NOT IN "_"
+         FREEZE=`ls $OUTDIR | #
+                 grep $EDITNAME | #
+                 tail -n 1`
+         if [ `echo $FREEZE | wc -c` -lt 2 ]
+          then
+               echo -e "\e[31mNO FREEZE YET\e[0m ($EDIT)"
+         else
+               echo -e "\e[31m$FREEZE NEEDS UPDATE\e[0m ($EDIT)"
+         fi
+         saveOptimized $FREEZEBASE
 
-          WWWPATH=`echo $EDITPATH | \
-                   sed 's/EDIT/\n/g' | head -1`"_"
-       WWWBASENAME=${WWWPATH}/${BASENAME}
+        else
 
+         FREEZE=`ls $OUTDIR | #
+                 grep $FREEZENAME | #
+                 tail -n 1`
+         echo "$FREEZE IS UP-TO-DATE ($EDIT)"
 
-     if [ `find ${WWWPATH} -maxdepth 1 \
-                           -name "${BASENAME}.*" | \
-           wc -l` -lt 1 ]; then
-           echo "no www version"
-           save4WWW
-     else
-           EXPORTED=`ls -t ${WWWPATH}/${BASENAME}.* | \
-                     head -n 1`
-      if [ $EDIT -nt $EXPORTED ]; then
-           echo "$EXPORTED not up-to-date"
-           save4WWW
-      else
-           echo "$EXPORTED is up-to-date"
-      fi
-     fi
-
- done
-
+       fi
+  done
 
 exit 0;
