@@ -5,12 +5,12 @@
   SRCDIR=`echo $* | grep "/" | head -n 1`
 # -------------------------------------------------------------- #
   if [ ! -d $SRCDIR ]
-   then echo "----"; echo "$SRCDIR DOES NOT EXIST."
+   then echo "----"; echo "$SRCDIR NOT A DIRECTORY."
       exit 0;
   elif [ `echo "$SRCDIR" | wc -c` -lt 2 ]
    then echo "----"; echo "CHECK/DOWNLOAD ALL SOURCES"
         SRCDIR="."
-        N=`cat \`find $SRCDIR -name "*.src"\` | #
+        N=`cat \`find $SRCDIR -name "*.remote"\` | #
                  grep "^[ \t]*http" | wc -l`
         echo -e "THIS MEANS CHECKING $N FILES \
                  AND WILL TAKE SOME TIME.\n" | tr -s ' '
@@ -28,15 +28,15 @@
                           else echo; fi
 
 # -------------------------------------------------------------- #
-  for SRC in `find $SRCDIR -name "*.src"`
+  for SRC in `find $SRCDIR -name "*.remote"`
     do
         SRCDIR=`echo $SRC | rev | cut -d "/" -f 2- | rev`
       # ------------------------------------------------- #
-        for REMOTE in `cat $SRC           | #
-                       grep -v "^%"       | # 
-                       grep "^[ \t]*http" | #
-                       sort -u            | #
-                       shuf`                #
+        for REMOTE in `cat $SRC               | #
+                       grep -v "^%"           | # 
+                       grep "^[ \t]*http"     | #
+                       sort -u                | #
+                       shuf`                    #
          do
             LOKAL=$SRCDIR/`echo $REMOTE | rev   | #
                            cut -d "/" -f 1 | rev` #
@@ -56,13 +56,13 @@
          if [ `curl "$REMOTE" -z "$LOKAL" -o "$LOKAL" \
                -s -L -w %{http_code}` == "200" ]; then
                echo "Download $LOKAL"
-               curl -L "$REMOTE" -o "$LOKAL"
+               curl -RL "$REMOTE" -o "$LOKAL"
          else  echo "$LOKAL is up-to-date"
          fi;else
    
        # DOWNLOAD IF NO LOKAL FILE                      #
        # ---------------------------------------------- #
-               curl -L "$REMOTE" -o "$LOKAL"
+               curl -RL "$REMOTE" -o "$LOKAL"
          fi;fi
   
         done
