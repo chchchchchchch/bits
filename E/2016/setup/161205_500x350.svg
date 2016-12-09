@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- CLEANED: 1481026058/6f284d055345eef2869d1e151be851bd -->
+<!-- CLEANED: 1481026058/2c7e7540a70aae28beccf2555f59be8b -->
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -12,9 +12,9 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   width="600"
-   height="315"
-   sodipodi:docname="161128_600x315.svg">
+   width="500"
+   height="350"
+   sodipodi:docname="161205_500x350.svg">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -41,31 +41,32 @@
      id="namedview4"
      showgrid="false">
     <sodipodi:guide
-       position="0,315"
-       orientation="0,600"
-       id="guide3284" />
+       position="0,350"
+       orientation="0,500"
+       id="guide3194" />
     <sodipodi:guide
-       position="600,315"
-       orientation="315,0"
-       id="guide3286" />
+       position="500,350"
+       orientation="350,0"
+       id="guide3196" />
     <sodipodi:guide
-       position="600,0"
-       orientation="0,-600"
-       id="guide3288" />
+       position="500,0"
+       orientation="0,-500"
+       id="guide3198" />
     <sodipodi:guide
        position="0,0"
-       orientation="-315,0"
-       id="guide3290" />
+       orientation="-350,0"
+       id="guide3200" />
   </sodipodi:namedview>
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="BG"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:20;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 0,0 600,0 0,315 -600,0 z"
-       id="rect3175" />
+       style="color:#000000;fill:#d5ffe6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:20;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 0,0 500,0 0,350 -500,0 z"
+       id="rect3160" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -74,10 +75,14 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <path
-       style="opacity:0.5;fill:none;stroke:#ff0000;stroke-width:20px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m 10,10.00001 580,0 L 590,305 10,305 z"
-       id="rect3336"
-       sodipodi:nodetypes="ccccc" />
+       style="opacity:0.5;fill:none;stroke:#00ff00;stroke-width:20px;stroke-linecap:butt;stroke-linejoin:miter"
+       d="m 10,10 480,0 0,330 -480,0 z"
+       id="rect3336" />
+    <path
+       style="fill:#ffffff;display:inline"
+       d="m -4500,-4500 0,10000 10000,0 0,-10000 z M 0,0 500,0 500,400 0,400 z"
+       id="path4112"
+       sodipodi:nodetypes="cccccccccc" />
     <path
        style="fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
        d="M 20,1000 20,0"
@@ -100,7 +105,7 @@
          x="100.00586"
          y="102.09961">100</tspan></text>
     <path
-       style="fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="M 40,1000 40,0"
        id="path3176"
        sodipodi:nodetypes="cc" />
@@ -469,7 +474,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m 910,99.5 88,0"
+       d="m 910,99.5 90,0"
        id="path3140"
        sodipodi:nodetypes="cc" />
     <text
@@ -491,7 +496,7 @@
     <path
        sodipodi:nodetypes="cc"
        id="path3148"
-       d="m 110,199.5 1090,0"
+       d="m 110,199.5 890,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
     <path
        sodipodi:nodetypes="cc"
@@ -516,7 +521,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m 110,299.5 1090,0"
+       d="m 110,299.5 890,0"
        id="path3158"
        sodipodi:nodetypes="cc" />
     <path
@@ -543,7 +548,7 @@
     <path
        sodipodi:nodetypes="cc"
        id="path3168"
-       d="m 110,399.5 1090,0"
+       d="m 110,399.5 890,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
     <path
        sodipodi:nodetypes="cc"
@@ -568,7 +573,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m 110,499.5 1090,0"
+       d="m 110,499.5 890,0"
        id="path3179"
        sodipodi:nodetypes="cc" />
     <path
@@ -595,7 +600,7 @@
     <path
        sodipodi:nodetypes="cc"
        id="path3189"
-       d="m 110,599.5 1090,0"
+       d="m 110,599.5 890,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
     <path
        sodipodi:nodetypes="cc"
@@ -620,7 +625,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m 110,699.5 1090,0"
+       d="m 110,699.5 890,0"
        id="path3199"
        sodipodi:nodetypes="cc" />
     <path
@@ -647,7 +652,7 @@
     <path
        sodipodi:nodetypes="cc"
        id="path3209"
-       d="m 110,799.5 1090,0"
+       d="m 110,799.5 890,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
     <path
        sodipodi:nodetypes="cc"
@@ -672,7 +677,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m 110,899.5 1090,0"
+       d="m 110,899.5 890,0"
        id="path3219"
        sodipodi:nodetypes="cc" />
     <path
@@ -688,168 +693,208 @@
     <path
        sodipodi:nodetypes="cc"
        id="path3233"
-       d="m -0.5,19.5 1000.5,0" />
+       d="m -0.5,19.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m -0.5,-0.5 1201.5,0"
+       d="m -0.5,-0.5 1000.5,0"
        id="path3116"
        sodipodi:nodetypes="cc" />
     <path
        d="m -0.5,39.5 1000.5,0"
        id="path3258"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3260"
-       d="m -0.5,59.5 1000.5,0" />
+       d="m -0.5,59.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,79.5 1000.5,0"
        id="path3262"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3264"
-       d="m -0.5,119.5 1000.5,0" />
+       d="m -0.5,119.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,139.5 1000.5,0"
        id="path3266"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3268"
-       d="m -0.5,159.5 1000.5,0" />
+       d="m -0.5,159.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,179.5 1000.5,0"
        id="path3270"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3272"
-       d="m -0.5,219.5 1000.5,0" />
+       d="m -0.5,219.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,239.5 1000.5,0"
        id="path3274"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3276"
-       d="m -0.5,259.5 1000.5,0" />
+       d="m -0.5,259.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,279.5 1000.5,0"
        id="path3278"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3280"
-       d="m -0.5,319.5 1000.5,0" />
+       d="m -0.5,319.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,339.5 1000.5,0"
        id="path3282"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3284"
-       d="m -0.5,359.5 1000.5,0" />
+       d="m -0.5,359.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,379.5 1000.5,0"
        id="path3286"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3288"
-       d="m -0.5,419.5 1000.5,0" />
+       d="m -0.5,419.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,439.5 1000.5,0"
        id="path3290"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3292"
-       d="m -0.5,459.5 1000.5,0" />
+       d="m -0.5,459.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,479.5 1000.5,0"
        id="path3294"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3296"
-       d="m -0.5,519.5 1000.5,0" />
+       d="m -0.5,519.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,539.5 1000.5,0"
        id="path3298"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3300"
-       d="m -0.5,559.5 1000.5,0" />
+       d="m -0.5,559.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,579.5 1000.5,0"
        id="path3302"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3304"
-       d="m -0.5,619.5 1000.5,0" />
+       d="m -0.5,619.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,639.5 1000.5,0"
        id="path3306"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3308"
-       d="m -0.5,659.5 1000.5,0" />
+       d="m -0.5,659.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,679.5 1000.5,0"
        id="path3310"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3312"
-       d="m -0.5,719.5 1000.5,0" />
+       d="m -0.5,719.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,739.5 1000.5,0"
        id="path3314"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3316"
-       d="m -0.5,759.5 1000.5,0" />
+       d="m -0.5,759.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,779.5 1000.5,0"
        id="path3318"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3320"
-       d="m -0.5,819.5 1000.5,0" />
+       d="m -0.5,819.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,839.5 1000.5,0"
        id="path3322"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3324"
-       d="m -0.5,859.5 1000.5,0" />
+       d="m -0.5,859.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,879.5 1000.5,0"
        id="path3326"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3328"
-       d="m -0.5,919.5 1000.5,0" />
+       d="m -0.5,919.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,939.5 1000.5,0"
        id="path3330"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        sodipodi:nodetypes="cc"
        id="path3332"
-       d="m -0.5,959.5 1000.5,0" />
+       d="m -0.5,959.5 1000.5,0"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m -0.5,979.5 1000.5,0"
        id="path3334"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
        d="M 0,1000 0,0"
@@ -858,101 +903,29 @@
     <path
        sodipodi:nodetypes="cc"
        id="path3229"
-       d="m -0.5,999.5 1200.5,0"
+       d="m -0.5,999.5 1000.5,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
     <path
        sodipodi:nodetypes="cc"
        id="path3102"
-       d="M 1200,1000 1200,0"
+       d="M 1000,1000 1000,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
-    <path
-       sodipodi:nodetypes="cccc"
-       id="path3205"
-       d="m 1010,1000 0,-894 m 0,-13 0,-93"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
-    <text
-       sodipodi:linespacing="141%"
-       id="text3207"
-       y="102.09961"
-       x="1009.6992"
-       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:140.99999666%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-       xml:space="preserve"><tspan
-         y="102.09961"
-         x="1009.6992"
-         id="tspan3209"
-         sodipodi:role="line">1100</tspan></text>
-    <path
-       style="fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="M 1030,1000 1030,0"
-       id="path3212"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="M 1050,1000 1050,0"
-       id="path3214"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="M 1070,1000 1070,0"
-       id="path3216"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="M 1090,1000 1090,0"
-       id="path3218"
-       sodipodi:nodetypes="cc" />
-    <path
-       sodipodi:nodetypes="cc"
-       id="path3220"
-       d="m 1022,99.5 86,0"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m 1120,1000 0,-894 m 0,-13 0,-93"
-       id="path3222"
-       sodipodi:nodetypes="cccc" />
-    <text
-       xml:space="preserve"
-       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:140.99999666%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-       x="1119.6992"
-       y="102.09961"
-       id="text3224"
-       sodipodi:linespacing="141%"><tspan
-         sodipodi:role="line"
-         id="tspan3226"
-         x="1119.6992"
-         y="102.09961">1200</tspan></text>
-    <path
-       sodipodi:nodetypes="cc"
-       id="path3228"
-       d="M 1140,1000 1140,0"
-       style="fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
-    <path
-       sodipodi:nodetypes="cc"
-       id="path3230"
-       d="M 1160,1000 1160,0"
-       style="fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
-    <path
-       sodipodi:nodetypes="cc"
-       id="path3232"
-       d="M 1180,1000 1180,0"
-       style="fill:none;stroke:#ececec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m 1132,99.5 68,0"
-       id="path3236"
-       sodipodi:nodetypes="cc" />
     <path
        style="fill:#ffffff;display:inline"
-       d="m -4500,-4500 0,10000 10000,0 0,-10000 z M 0,0 600,0 600,315 0,315 z"
-       id="path4112-3"
+       d="m -4500,-4500 0,10000 10000,0 0,-10000 z M 0,0 500,0 500,350 0,350 z"
+       id="path4112-2-6"
        sodipodi:nodetypes="cccccccccc" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="CONTENT"
-     style="display:inline" />
+     style="display:inline">
+    <path
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:20;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 325,175 c 0,41.42135 -33.57864,75 -75,75 -41.42136,0 -75,-33.57865 -75,-75.00001 0,-41.42135 33.57864,-74.999995 75,-74.999995 41.42136,0 75,33.578645 75,74.999995 z"
+       id="path3165" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer1"
@@ -961,8 +934,8 @@
      sodipodi:insensitive="true">
     <path
        style="opacity:0.95;fill:#ffffff"
-       d="m -4500,-4500 0,10000 10000,0 0,-10000 z M 0,0 600,0 600,315 0,315 z"
-       id="path4112"
+       d="m -4500,-4500 0,10000 10000,0 0,-10000 z M 0,0 500,0 500,350 0,350 z"
+       id="path4112-2"
        sodipodi:nodetypes="cccccccccc" />
   </g>
 </svg>
