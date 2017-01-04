@@ -5,7 +5,7 @@
  e() { echo $1 >> ${SVGOUT}; }
 
 ( IFS=$'\n'
-  for CHARACTER in `cat $CHARLIST | head -n 1`
+  for CHARACTER in `cat $CHARLIST`
    do
       C=`echo $CHARACTER | cut -d "|" -f 1`
       URL=`echo $CHARACTER  | cut -d "|" -f 3`
