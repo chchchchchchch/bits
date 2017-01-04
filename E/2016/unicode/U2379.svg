@@ -1,14 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1000" height="770" id="svg" version="1.1"
-xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
->
-<g inkscape:label="BG" inkscape:groupmode="layer" id="X">
-<path style="fill:#000000;" d="M 1000,0 0,0 l 0,770 1000,0 z"/></g>
-<g inkscape:label="C" inkscape:groupmode="layer" id="X">
-<flowRoot xml:space="preserve" id="flowRoot"
-style="font-size:400px;                 font-style:normal;                 font-variant:normal;                 font-weight:normal;                 font-stretch:normal;                 text-align:center;                 line-height:100%;                 letter-spacing:0px;                 word-spacing:0px;                 writing-mode:lr-tb;                 text-anchor:middle;                 fill:#ffffff;                 fill-opacity:1;                 stroke:none;                 font-family:Symbola;                -inkscape-font-specification:Symbola"
-><flowRegion id="flowRegion">
-<rect id="rect" width="800" height="465" x="100" y="200" />
-</flowRegion><flowPara id="flwP">⍹</flowPara></flowRoot>
-</g>
+<!-- CLEANED: 1483535607/988fd4416b6883e2d57b347b4c227ea1 -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="770"
+   id="svg"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="U2379.svg">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview12" />
+  <g
+     inkscape:label="BG"
+     inkscape:groupmode="layer"
+     id="X">
+    <path
+       style="fill:#000000;"
+       d="M 1000,0 0,0 l 0,770 1000,0 z"
+       id="path4" />
+  </g>
+  <g
+     inkscape:label="C"
+     inkscape:groupmode="layer"
+     id="g6">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot"
+       style="font-size:400px;                 font-style:normal;                 font-variant:normal;                 font-weight:normal;                 font-stretch:normal;                 text-align:center;                 line-height:100%;                 letter-spacing:0px;                 word-spacing:0px;                 writing-mode:lr-tb;                 text-anchor:middle;                 fill:#ffffff;                 fill-opacity:1;                 stroke:none;                 font-family:Symbola;                -inkscape-font-specification:Symbola"><flowRegion
+         id="flowRegion">
+<rect
+   id="rect"
+   width="800"
+   height="465"
+   x="100"
+   y="200" />
+</flowRegion><flowPara
+         id="flwP">⍹</flowPara></flowRoot>  </g>
 </svg>
