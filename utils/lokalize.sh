@@ -11,7 +11,7 @@
       exit 0;
   elif [ `echo "$SRCDIR" | wc -c` -lt 2 ]
    then echo "----"; echo "CHECK/DOWNLOAD ALL SOURCES."
-        SRCDIR="../_"
+        SRCDIR="../src"
    if [ `find $SRCDIR -name "*.remote" | #
          wc -l` -gt 0 ]; then
         N=`cat \`find $SRCDIR -name "*.remote"\` | #
