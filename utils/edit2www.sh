@@ -16,8 +16,9 @@
 # SET VARIABLES 
 # --------------------------------------------------------------------------- #
   SHPATH=`dirname \`readlink -f $0\``
-  SVGROOT="../_"
-  THISSCRIPT="http://freeze.sh/utils/edit2www.sh"
+  SVGROOT="$SHPATH/../E"
+  WWWCENTRAL="$SHPATH/../_"
+  THISSCRIPT="https://gitlab.com/chch/ssssprawl/tree/master/utils/edit2www.sh"
   TMP=
 # =========================================================================== #
 # CHECK INPUT
@@ -27,11 +28,9 @@
     then if [ -f `echo $ARGUMENTS | sed 's/\.svg$//'`.svg ]
          then SVGALL=`echo $ARGUMENTS | sed 's/\.svg$//'`.svg
          elif [ -d $ARGUMENTS ]
-         then SVGALL=`find $ARGUMENTS -name "*.svg" | #
-                      grep "EDIT/" | grep "\.svg$"`   #
+         then SVGALL=`find $ARGUMENTS -name "*.svg" | grep "\.svg$"`   #
          else echo "SOMETHING SEEMS WRONG";exit 0;fi
-    else SVGALL=`find $SVGROOT -name "*.svg" | #
-                 grep "EDIT/" | grep "\.svg$"`
+    else SVGALL=`find $SVGROOT -name "*.svg" | grep "\.svg$"`
          N=`echo $SVGALL | sed 's/ /\n/g' | wc -l`
         echo -e "$N FILES TO PROCESS. \
                  THIS WILL TAKE SOME TIME.\n" | tr -s ' '
@@ -152,8 +151,7 @@
    do
          EDITPATH=`echo "$EDITSRC"  | rev | #
                    cut -d "/" -f 2- | rev`  #
-         WWWPATH=`echo "$EDITPATH"  |       #
-                  sed 's,/EDIT.*$,/_,g'`    #
+         WWWPATH="$WWWCENTRAL"
 
          BASENAME=`basename "$EDITSRC" |    #
                    cut -d "." -f 1`         #
