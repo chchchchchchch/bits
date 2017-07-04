@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- CLEANED: 1483535699/bb4fa6d8d9cbb92f424b860ac311e05b -->
+<!-- CLEANED: 1499164957/1f71f11e9956fc85a25bd8aec75fcf90 -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -36,15 +36,14 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview12" />
+     id="namedview12"
+     showgrid="false" />
   <g
      inkscape:label="BG"
      inkscape:groupmode="layer"
      id="X">
     <path
-       style="fill:#000000;"
+       style="fill:#66ff00"
        d="M 1000,0 0,0 l 0,770 1000,0 z"
        id="path4" />
   </g>
@@ -55,14 +54,16 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot"
-       style="font-size:400px;                 font-style:normal;                 font-variant:normal;                 font-weight:normal;                 font-stretch:normal;                 text-align:center;                 line-height:100%;                 letter-spacing:0px;                 word-spacing:0px;                 writing-mode:lr-tb;                 text-anchor:middle;                 fill:#ffffff;                 fill-opacity:1;                 stroke:none;                 font-family:Symbola;                -inkscape-font-specification:Symbola"><flowRegion
+       style="font-size:400px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#80ff80;fill-opacity:1;stroke:none;font-family:Symbola;-inkscape-font-specification:Symbola"
+       transform="matrix(1.3873232,0,0,1.3873232,-206.91451,-164.47539)"><flowRegion
          id="flowRegion">
 <rect
    id="rect"
    width="800"
    height="465"
    x="100"
-   y="200" />
+   y="200"
+   style="fill:#80ff80" />
 </flowRegion><flowPara
          id="flwP">🙵</flowPara></flowRoot>  </g>
 </svg>

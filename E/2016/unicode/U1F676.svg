@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- CLEANED: 1483535758/7c6c8692654c8b26074b3c07ea9eac53 -->
+<!-- CLEANED: 1499164963/727de3e108a8004bcabca2e090a33a5e -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -36,15 +36,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview12" />
+     id="namedview12"
+     showgrid="false" />
   <g
      inkscape:label="BG"
      inkscape:groupmode="layer"
-     id="X">
+     id="X"
+     sodipodi:insensitive="true">
     <path
-       style="fill:#000000;"
+       style="fill:#ffd5d5"
        d="M 1000,0 0,0 l 0,770 1000,0 z"
        id="path4" />
   </g>
@@ -55,14 +55,26 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot"
-       style="font-size:400px;                 font-style:normal;                 font-variant:normal;                 font-weight:normal;                 font-stretch:normal;                 text-align:center;                 line-height:100%;                 letter-spacing:0px;                 word-spacing:0px;                 writing-mode:lr-tb;                 text-anchor:middle;                 fill:#ffffff;                 fill-opacity:1;                 stroke:none;                 font-family:Symbola;                -inkscape-font-specification:Symbola"><flowRegion
+       style="font-size:400px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffff00;fill-opacity:1;stroke:none;font-family:Symbola;-inkscape-font-specification:Symbola"
+       transform="matrix(1.8818755,0,0,1.8818755,-440.76553,-244.32431)"><flowRegion
          id="flowRegion">
 <rect
    id="rect"
    width="800"
    height="465"
    x="100"
-   y="200" />
+   y="200"
+   style="fill:#ffff00" />
 </flowRegion><flowPara
          id="flwP">🙶</flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="ADDON">
+    <path
+       style="fill:none;stroke:#ffff00;stroke-width:30;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 363.50001,525 273.99998,0"
+       id="path2988"
+       sodipodi:nodetypes="cc" />
+  </g>
 </svg>
