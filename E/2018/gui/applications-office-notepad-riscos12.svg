@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- CLEANED: 1515870853/9deac1fea5606813a9fb20bcfcdc8306 -->
+<!-- CLEANED: 1515887808/eb97945da0a303900fbaa4700f28882e -->
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -45,15 +45,243 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="XX_SRC"
-     sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <image
-       width="182"
-       height="172"
        xlink:href="../../../src/incoming/2018/guidebookgallery/applications-office-notepad-riscos12.png"
        checksum="ca74d1b9f8e70590"
+       width="182"
+       height="172"
        id="image10"
        x="0"
        y="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="XX_TRACE"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       d="m 1,22 0,128 160,0 0,-128 z"
+       id="path28"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="M 0,0 0,172 182,172 182,0 0,0 z m 1,22 160,0 0,128 L 1,150 1,22 z"
+       id="path12" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="M 1,2 1,20 20,20 20,2 1,2"
+       id="path3059" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="M 21,2 21,20 40,20 40,2 21,2"
+       id="path3057" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="M 41,2 41,20 161,20 161,2 41,2"
+       id="path3055" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 162,2 0,18 19,0 0,-18 -19,0"
+       id="path14" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 6,4 0,10 2,0 0,4 6,0 0,-10 -2,0 0,-4 -6,0 z m 3,6 4,0 0,6 -4,0 0,-6 z"
+       id="path3073" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 27,4 0,2 2,0 0,-2 -2,0 z m 2,2 0,2 2,0 0,-2 -2,0 z m 2,0 2,0 0,-2 -2,0 0,2 z m 2,0 0,4 1,0 0,-4 -1,0 z m 0,4 -1,0 0,2 1,0 0,-2 z m 0,2 0,4 1,0 0,-4 -1,0 z m 0,4 -2,0 0,2 2,0 0,-2 z m -2,0 0,-2 -2,0 0,2 2,0 z m -2,0 -2,0 0,2 2,0 0,-2 z m -2,0 0,-4 -1,0 0,4 1,0 z m 0,-4 1,0 0,-2 -1,0 0,2 z m 0,-2 0,-4 -1,0 0,4 1,0 z"
+       id="path3071" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 70,4 0,14 2,0 0,-6 1,0 0,2 1,0 0,4 2,0 0,-14 -2,0 0,6 -1,0 0,-2 -1,0 0,-4 -2,0"
+       id="path3069" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 87,4 0,4 -1,0 0,2 1,0 0,6 1,0 0,2 3,0 0,-2 -2,0 0,-6 2,0 0,-2 -2,0 0,-4 -2,0"
+       id="path3067" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 110,4 0,14 2,0 0,-6 3,0 0,-2 1,0 0,-4 -1,0 0,-2 -5,0 z m 2,2 2,0 0,4 -2,0 0,-4 z"
+       id="path3065" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 130,4 0,4 -3,0 0,2 -1,0 0,6 1,0 0,2 5,0 0,-14 -2,0 z m -2,6 2,0 0,6 -2,0 0,-6 z"
+       id="path3063" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 167,4 0,6 3,0 0,8 5,0 0,-8 -4,0 0,-6 -4,0 z m 1,2 2,0 0,2 -2,0 0,-2 z"
+       id="path16" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 79,8 0,2 -1,0 0,6 1,0 0,2 4,0 0,-2 1,0 0,-6 -1,0 0,-2 -4,0 z m 1,2 2,0 0,6 -2,0 0,-6 z"
+       id="path3085" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 95,8 0,2 -1,0 0,6 1,0 0,2 4,0 0,-2 -3,0 0,-2 4,0 0,-4 -1,0 0,-2 -4,0 z m 1,2 2,0 0,2 -2,0 0,-2 z"
+       id="path3083" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 119,8 0,2 3,0 0,2 -3,0 0,2 -1,0 0,2 1,0 0,2 5,0 0,-8 -1,0 0,-2 -4,0 z m 1,6 2,0 0,2 -2,0 0,-2 z"
+       id="path20" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 102,10 0,2 6,0 0,-2 -6,0"
+       id="path24" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 2,22 0,2 2,0 0,12 2,0 0,-12 2,0 0,-2 -6,0"
+       id="path3111" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 10,22 0,14 2,0 0,-8 2,0 0,8 2,0 0,-8 -1,0 0,-2 -3,0 0,-4 -2,0"
+       id="path3109" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 20,22 0,2 2,0 0,-2 -2,0"
+       id="path3107" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 44,22 0,2 2,0 0,-2 -2,0"
+       id="path3105" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 99,22 0,4 -1,0 0,2 1,0 0,6 1,0 0,2 3,0 0,-2 -2,0 0,-6 2,0 0,-2 -2,0 0,-4 -2,0"
+       id="path3103" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 134,22 0,4 -3,0 0,2 -1,0 0,6 1,0 0,2 5,0 0,-14 -2,0 z m -2,6 2,0 0,6 -2,0 0,-6 z"
+       id="path30" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 162,22 0,18 19,0 0,-18 -19,0"
+       id="path32" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 170,24 0,2 2,0 0,-2 -2,0 z m 2,2 0,2 1,0 0,-2 -1,0 z m 1,2 0,2 -1,0 0,6 -2,0 0,-6 -1,0 0,-2 -1,0 0,2 -1,0 0,2 2,0 0,6 4,0 0,-6 2,0 0,-2 -1,0 0,-2 -1,0 z m -4,0 1,0 0,-2 -1,0 0,2 z"
+       id="path34" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 19,26 0,2 1,0 0,6 -1,0 0,2 4,0 0,-2 -1,0 0,-8 -3,0"
+       id="path3135" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 27,26 0,2 -1,0 0,2 1,0 0,2 3,0 0,2 -4,0 0,2 5,0 0,-2 1,0 0,-2 -1,0 0,-2 -3,0 0,-2 4,0 0,-2 -5,0"
+       id="path3133" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 43,26 0,2 1,0 0,6 -1,0 0,2 4,0 0,-2 -1,0 0,-8 -3,0"
+       id="path3131" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 51,26 0,2 -1,0 0,2 1,0 0,2 3,0 0,2 -4,0 0,2 5,0 0,-2 1,0 0,-2 -1,0 0,-2 -3,0 0,-2 4,0 0,-2 -5,0"
+       id="path3129" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 67,26 0,2 3,0 0,2 -3,0 0,2 -1,0 0,2 1,0 0,2 5,0 0,-8 -1,0 0,-2 -4,0 z m 1,6 2,0 0,2 -2,0 0,-2 z"
+       id="path3127" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 82,26 0,10 2,0 0,-8 2,0 0,8 2,0 0,-8 -1,0 0,-2 -5,0"
+       id="path3125" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 91,26 0,2 -1,0 0,6 1,0 0,2 4,0 0,-2 1,0 0,-6 -1,0 0,-2 -4,0 z m 1,2 2,0 0,6 -2,0 0,-6 z"
+       id="path3123" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 107,26 0,2 -1,0 0,6 1,0 0,2 4,0 0,-2 -3,0 0,-2 4,0 0,-4 -1,0 0,-2 -4,0 z m 1,2 2,0 0,2 -2,0 0,-2 z"
+       id="path3121" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 114,26 0,12 2,0 0,-4 3,0 0,-2 1,0 0,-4 -1,0 0,-2 -5,0 z m 2,2 2,0 0,4 -2,0 0,-4 z"
+       id="path3119" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 123,26 0,2 3,0 0,2 -3,0 0,2 -1,0 0,2 1,0 0,2 5,0 0,-8 -1,0 0,-2 -4,0 z m 1,6 2,0 0,2 -2,0 0,-2 z"
+       id="path36" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 40,40 0,2 1,0 0,16 -1,0 0,2 1,0 0,-2 1,0 0,2 1,0 0,-2 -1,0 0,-16 1,0 0,-2 -1,0 0,2 -1,0 0,-2 -1,0"
+       id="path42" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 3,42 0,4 -1,0 0,2 1,0 0,6 1,0 0,2 3,0 0,-2 -2,0 0,-6 2,0 0,-2 -2,0 0,-4 -2,0"
+       id="path3155" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 27,42 0,4 -1,0 0,2 1,0 0,6 1,0 0,2 3,0 0,-2 -2,0 0,-6 2,0 0,-2 -2,0 0,-4 -2,0"
+       id="path44" />
+    <path
+       style="fill:#ffcc99;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 162,42 0,88 19,0 0,-88 -19,0"
+       id="path46" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 165,44 0,6 13,0 0,-6 -13,0"
+       id="path48" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 11,46 0,2 -1,0 0,6 1,0 0,2 4,0 0,-2 -3,0 0,-2 4,0 0,-4 -1,0 0,-2 -4,0 z m 1,2 2,0 0,2 -2,0 0,-2 z"
+       id="path3163" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 19,46 0,2 -1,0 0,2 1,0 0,2 3,0 0,2 -4,0 0,2 5,0 0,-2 1,0 0,-2 -1,0 0,-2 -3,0 0,-2 4,0 0,-2 -5,0"
+       id="path50" />
+    <path
+       style="fill:#ffcc66;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 166,46 0,2 11,0 0,-2 -11,0"
+       id="path52" />
+    <path
+       style="fill:#000066;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 36,52 0,4 2,0 0,-4 -2,0"
+       id="path56" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 162,132 0,18 19,0 0,-18 -19,0"
+       id="path58" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 169,134 0,6 -2,0 0,2 1,0 0,2 1,0 0,-2 1,0 0,-6 2,0 0,6 1,0 0,2 1,0 0,-2 1,0 0,-2 -2,0 0,-6 -4,0 z m 4,10 -1,0 0,2 1,0 0,-2 z m -1,2 -2,0 0,2 2,0 0,-2 z m -2,0 0,-2 -1,0 0,2 1,0 z"
+       id="path60" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 1,152 0,18 19,0 0,-18 -19,0"
+       id="path62" />
+    <path
+       style="fill:#ffcc99;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 21,152 0,18 120,0 0,-18 -120,0"
+       id="path64" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 142,152 0,18 19,0 0,-18 -19,0"
+       id="path3183" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 162,152 0,18 19,0 0,-18 -19,0"
+       id="path66" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 9,154 0,2 1,0 0,4 3,0 0,2 -3,0 0,4 -1,0 0,2 2,0 0,-4 3,0 0,-6 -3,0 0,-4 -2,0 z m 0,12 0,-2 -1,0 0,2 1,0 z m -1,-2 0,-2 -1,0 0,2 1,0 z m -1,-2 0,-2 -1,0 0,2 1,0 z m 0,-2 1,0 0,-2 -1,0 0,2 z m 1,-2 1,0 0,-2 -1,0 0,2 z"
+       id="path3191" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 24,154 0,14 29,0 0,-14 -29,0"
+       id="path3189" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 150,154 0,4 -3,0 0,6 3,0 0,4 2,0 0,-2 -1,0 0,-4 -3,0 0,-2 3,0 0,-4 1,0 0,-2 -2,0 z m 2,2 0,2 1,0 0,-2 -1,0 z m 1,2 0,2 1,0 0,-2 -1,0 z m 1,2 0,2 1,0 0,-2 -1,0 z m 0,2 -1,0 0,2 1,0 0,-2 z m -1,2 -1,0 0,2 1,0 0,-2 z"
+       id="path3187" />
+    <path
+       style="fill:#000099;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 167,154 0,14 7,0 0,-14 -7,0 z m 1,2 2,0 0,4 -2,0 0,-4 z m 3,0 2,0 0,10 -5,0 0,-4 3,0 0,-6 z"
+       id="path68" />
+    <path
+       style="fill:#ffcc66;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 25,156 0,10 27,0 0,-10 -27,0"
+       id="path72" />
   </g>
 </svg>
