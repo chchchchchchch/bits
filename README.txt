@@ -5,9 +5,6 @@
  making things, open ended, never unfinished. then: pipe to world.
 
 
-
-
-
  -------------------------------------------------------------------
  Copyright (c) 2016 Christoph Haag
  -------------------------------------------------------------------
@@ -35,4 +32,11 @@
  -> http://www.gnu.org/licenses/gpl.txt
 
  -------------------------------------------------------------------
+
+
+ H E L P F U L :
+
+ for T in `find . -name "*.*" | grep ".*\.[0-9]\{10\}$"`; \
+ do mv $T `echo $T | sed 's/\.[0-9]*$//'`.tweet  ; done
+
 
