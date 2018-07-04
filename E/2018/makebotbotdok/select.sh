@@ -23,25 +23,64 @@
  # ------------------------------------------------------------------------- #
  # CHECK LAYER FLAG
  # ------------------------------------------------------------------------- #
-   LAYERFLAG=`echo $* | sed 's/--/\n&/g' | grep "^--layers=" | sed 's/ /\n/g'` 
+ # AND
+ # LAYERFLAG=`echo $* | sed 's/--/\n&/g' | grep "^--layers=" | sed 's/ /\n/g'` 
+ # if [ "$LAYERFLAG" != "" ];then
+ #       SELECTLAYERS=`echo $LAYERFLAG       | #
+ #                     cut -d "=" -f 2       | #
+ #                     sed 's/:$//'          | #
+ #                     sed 's/^/grep -B 3 /' | #
+ #                     sed 's/:/ | grep -B 3 /g'`
+ # else
+ #       SELECTLAYERS="tee"
+ # fi
+ # OR
+ # LAYERFLAG=`echo $* | sed 's/--/\n&/g' | grep "^--layers=" | sed 's/ /\n/g'` 
+ # if [ "$LAYERFLAG" != "" ];then
+ #       SELECTLAYERS=`echo $LAYERFLAG         | #
+ #                     cut -d "=" -f 2         | #
+ #                     sed 's/:$//'            | #
+ #                     sed 's/:/|/'            | #
+ #                     sed 's/^/egrep -B 3 "/' | #
+ #                     sed 's/$/"/'`
+ # else
+ #       SELECTLAYERS="tee"
+ # fi
+
+   LAYERFLAG=`echo $* | sed 's/--/\n&/g' | #
+              grep "^--layers=" | sed 's/ /\n/g' | #
+              cut -d "=" -f 2- | sed 's/:$//'` 
    if [ "$LAYERFLAG" != "" ];then
-         SELECTLAYERS=`echo $LAYERFLAG       | #
-                       cut -d "=" -f 2       | #
-                       sed 's/:$//'          | #
-                       sed 's/^/grep -B 3 /' | #
-                       sed 's/:/ | grep -B 3 /g'`
+
+         for BASETYPE in `echo $LAYERFLAG | #
+                          sed 's/:/\n/g'  | #
+                          cut -d "-" -f 1 | #
+                          sort -u`          #
+          do
+              LAYERGREP=`echo $LAYERFLAG            | #
+                         sed 's/:/\n/g'             | #
+                         grep "^$BASETYPE"          | #
+                         sed ':a;N;$!ba;s/\n/|/g'   | #
+                         sed 's/^/"/' | sed 's/$/"/'` #
+              COLLECTGREP="$LAYERGREP:$COLLECTGREP"  
+         done
+         SELECTLAYERS=`echo $COLLECTGREP          | #
+                       sed 's/:$//'               | #
+                       sed 's/^/egrep -B 3 /'     | #
+                       sed 's/:/ | egrep -B 3 /g'`
    else
          SELECTLAYERS="tee"
    fi
+
  # ------------------------------------------------------------------------- #
  # CHECK FILESIZE FLAG
  # ------------------------------------------------------------------------- #
    FILESIZEFLAG=`echo $* | sed 's/--/\n&/g' | grep "^--max-size="` 
 
 
-    cat $FAVINFO    | # LET'S GET STARTED
-    eval $CHECKFLIP | #
-    eval $SELECTLAYERS
+   cat $FAVINFO    | # LET'S GET STARTED
+   eval $CHECKFLIP | #
+   eval $SELECTLAYERS
 
 
 
