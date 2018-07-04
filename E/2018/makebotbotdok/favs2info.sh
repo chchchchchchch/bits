@@ -46,8 +46,11 @@
                    sort -n | cut -d ":" -f 2     | # RESORT AND RM NUMBERS
                    grep -v "^XX_"                | # IGNORE IGNORED
                    sed ':a;N;$!ba;s/\n/:/g'`       # MOVE TO ONE LINE
-      SVGFILESIZE=`du ${SVGNAME}.tmp | cut -f 1  | #
-                   sed 's/^/00000/' | cut -c 1-10` #
+      SVGFILESIZE=`du ${SVGNAME}.tmp | cut -f 1  | # GET FILE SIZE
+                   sed 's/^/00000/' | cut -c 1-10` # DO ZERO PADDING
+        CHECKFLIP=`grep 'groupmode="layer' ${SVGNAME}.tmp | # CHECK FLIP
+                   grep 'transform=\"scale(-1,1)' | wc -l`  # CHECK FLIP
+      if [ $CHECKFLIP -gt 0 ]; then CHECKFLIP=YES; else CHECKFLIP=NO; fi
 
                   #echo "SHORTURL:    $SHORTURL"
                   #echo "SHORTID:     $SHORTID"
@@ -55,6 +58,7 @@
                   #echo "LONGID:      $LONGID"
                    echo "SVGNAME:     $SVGNAME"
                   #echo "SVGURL:      $SVGURL"
+                   echo "SVGFLIP:     $CHECKFLIP"
                    echo "SVGFILESIZE: $SVGFILESIZE"
                    echo "SVGLAYERS:   $SVGLAYERS"
                    echo ""
