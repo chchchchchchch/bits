@@ -3,9 +3,8 @@
 
  # select.sh --flip=no --layers=ARML-090:KOPF-040 --max-size=32 --num=36 --shuffle
 
-   FAVINFO="dev.favinfo"
    FAVINFO="1807040947_makebotbot.favinfo"
-
+ # ========================================================================= # 
  # PARSE FLAGS
  # ========================================================================= # 
  # CHECK FLIP FLAG
@@ -23,30 +22,6 @@
  # ------------------------------------------------------------------------- #
  # CHECK LAYER FLAG
  # ------------------------------------------------------------------------- #
- # AND
- # LAYERFLAG=`echo $* | sed 's/--/\n&/g' | grep "^--layers=" | sed 's/ /\n/g'` 
- # if [ "$LAYERFLAG" != "" ];then
- #       SELECTLAYERS=`echo $LAYERFLAG       | #
- #                     cut -d "=" -f 2       | #
- #                     sed 's/:$//'          | #
- #                     sed 's/^/grep -B 3 /' | #
- #                     sed 's/:/ | grep -B 3 /g'`
- # else
- #       SELECTLAYERS="tee"
- # fi
- # OR
- # LAYERFLAG=`echo $* | sed 's/--/\n&/g' | grep "^--layers=" | sed 's/ /\n/g'` 
- # if [ "$LAYERFLAG" != "" ];then
- #       SELECTLAYERS=`echo $LAYERFLAG         | #
- #                     cut -d "=" -f 2         | #
- #                     sed 's/:$//'            | #
- #                     sed 's/:/|/'            | #
- #                     sed 's/^/egrep -B 3 "/' | #
- #                     sed 's/$/"/'`
- # else
- #       SELECTLAYERS="tee"
- # fi
-
    LAYERFLAG=`echo $* | sed 's/--/\n&/g' | #
               grep "^--layers=" | sed 's/ /\n/g' | #
               cut -d "=" -f 2- | sed 's/:$//'` 
@@ -72,23 +47,41 @@
          SELECTLAYERS="tee"
    fi
 
+ # ========================================================================= #
+ # DUMP FOR FURTHER PROCESSING
+ # ========================================================================= #
+
+   cat $FAVINFO        | # LET'S GET STARTED
+   eval $CHECKFLIP     | # CHECK FLIP
+   eval $SELECTLAYERS  | # SELECT LAYERS
+   sed 's/^--$//'      | # MAKE SEPARATORS BLANK
+   tee > /tmp/tmp.txt
+
  # ------------------------------------------------------------------------- #
  # CHECK FILESIZE FLAG
  # ------------------------------------------------------------------------- #
-   FILESIZEFLAG=`echo $* | sed 's/--/\n&/g' | grep "^--max-size="` 
+   FILESIZEFLAG=`echo $* | sed 's/--/\n&/g' | #
+                 grep "^--max-size=" | sed 's/ /\n/g'`
+   MAXSIZE=`echo $FILESIZEFLAG | cut -d "=" -f 2`
+   if [ "$FILESIZEFLAG" != "" ];then
 
+         for FILESIZE in `grep "^SVGFILESIZE" /tmp/tmp.txt | #
+                          cut -d " " -f 2 | sort -u`
+          do
+             if [ $FILESIZE -gt $MAXSIZE ]
+              then
+                  grep -B 2 -A 1 "SVGFILESIZE: $FILESIZE" /tmp/tmp.txt |
+                  grep "^SVGNAME:" | cut -d ":" -f 2 | sed 's/^[ ]*//'
+             fi
+         done
+   else 
+        grep "^SVGNAME:" /tmp/tmp.txt | cut -d ":" -f 2 | sed 's/^[ ]*//'
+   fi
 
-   cat $FAVINFO    | # LET'S GET STARTED
-   eval $CHECKFLIP | #
-   eval $SELECTLAYERS
-
-
-
-
-
-
-
-
+ # ========================================================================= #
+ # CLEANUP
+ # ========================================================================= #
+   if [ -f /tmp/tmp.txt ];then rm /tmp/tmp.txt ; fi
 
 
 
