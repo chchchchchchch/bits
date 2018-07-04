@@ -41,6 +41,9 @@
                    sed 's/inkscape:label=/\n&/g' | # SEPARATE LABELS
                    grep "^inkscape:label="       | # EXTRACT LABELS
                    cut -d "\"" -f 2              | # EXTRACT LAYER NAMES
+                   grep -n ""                    | # ADD NUMBERS TO RESORT
+                   sort -t : -k 2,2 -u           | # UNIQ ACCORDING TO NAMES
+                   sort -n | cut -d ":" -f 2     | # RESORT AND RM NUMBERS
                    grep -v "^XX_"                | # IGNORE IGNORED
                    sed ':a;N;$!ba;s/\n/:/g'`       # MOVE TO ONE LINE
 
