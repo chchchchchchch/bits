@@ -46,14 +46,17 @@
                    sort -n | cut -d ":" -f 2     | # RESORT AND RM NUMBERS
                    grep -v "^XX_"                | # IGNORE IGNORED
                    sed ':a;N;$!ba;s/\n/:/g'`       # MOVE TO ONE LINE
+      SVGFILESIZE=`du ${SVGNAME}.tmp | cut -f 1  | #
+                   sed 's/^/00000/' | cut -c 1-10` #
 
-                  #echo "SHORTURL:  $SHORTURL"
-                  #echo "SHORTID:   $SHORTID"
-                  #echo "PAGEID:    $PAGEID"
-                  #echo "LONGID:    $LONGID"
-                   echo "SVGNAME:   $SVGNAME"
-                  #echo "SVGURL:    $SVGURL"
-                   echo "SVGLAYERS: $SVGLAYERS"
+                  #echo "SHORTURL:    $SHORTURL"
+                  #echo "SHORTID:     $SHORTID"
+                  #echo "PAGEID:      $PAGEID"
+                  #echo "LONGID:      $LONGID"
+                   echo "SVGNAME:     $SVGNAME"
+                  #echo "SVGURL:      $SVGURL"
+                   echo "SVGFILESIZE: $SVGFILESIZE"
+                   echo "SVGLAYERS:   $SVGLAYERS"
                    echo ""
   done
 
