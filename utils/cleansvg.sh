@@ -12,8 +12,8 @@
 # =========================================================================== #
 # CONFIGURE VARIABLES
 # =========================================================================== #
- #MODE="1" # FIND CLOSEST TO SVG FILE
-  MODE="2" # FIND BESTMATCH IN CENTRAL LOCATION
+  MODE="1" # FIND CLOSEST TO SVG FILE
+ #MODE="2" # FIND BESTMATCH IN CENTRAL LOCATION
   XLINKID="xlink:href"
 # =========================================================================== #
 # SET VARIABLES 
