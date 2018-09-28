@@ -36,7 +36,7 @@
         AAAAA3NCSVQICAjb4U/gAAAADElEQVQImWP4z8AAAAMBAQCc479ZAAAAAElFTkSuQmCC"
   IMGFOO=`echo $IMGFOO | sed 's/ //g'`
   DORELINK=`echo $* | sed 's/ /\n/g' | grep "^-r$" | wc -l`
-  ROOTDEPTH=`realpath $SVGROOT | sed 's/[^\/]//g' | wc -c`
+  ROOTDEPTH=`realpath $SVGROOT | sed 's/[^\/]//g' | sed 's/\///' | wc -c`
 # =========================================================================== #
 # FUNCTIONS
 # =========================================================================== #
