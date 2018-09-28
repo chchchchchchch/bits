@@ -5,44 +5,31 @@
 
 # TODO: - test,test,test
 #       - 'grep "EDIT/[^/]*\.svg"' not working for subdirs (?)
-#      X- grep -v # (-> UNNECESSARY ???)
 #       - md5ify ids
-#      X- image search modes (?)
 #      (- run if image is missing)
 #      (- rm sodipodi named view)
-#      X- do nothing if src = xbase64
-#      X- add/check md5 for src
-#      X- if images is missing
-#      X  -> comment (=save image src)
-#      X  -> add placeholder (xbase64/color)
 
 # =========================================================================== #
 # CONFIGURE VARIABLES
 # =========================================================================== #
-  MODE="1" # FIND CLOSEST TO SVG FILE
- #MODE="2" # FIND BESTMATCH IN CENTRAL LOCATION
+ #MODE="1" # FIND CLOSEST TO SVG FILE
+  MODE="2" # FIND BESTMATCH IN CENTRAL LOCATION
   XLINKID="xlink:href"
 # =========================================================================== #
 # SET VARIABLES 
 # =========================================================================== #
   SHPATH=`dirname \`readlink -f $0\``
   SVGROOT="$SHPATH/../E"
-  SRCPATH="$SHPATH/../_"
+  SRCPATH="$SHPATH/../src"
   # ----------------------------------------------------------------------- #
     ARGUMENTS=`echo $* | sed 's/ -[a-z]\b//g'`
     if [ `echo $ARGUMENTS | wc -c` -gt 1  ]
      then if [ -f `echo $ARGUMENTS | sed 's/\.svg$//'`.svg ]
           then SVGALL=`echo $ARGUMENTS | sed 's/\.svg$//'`.svg
           elif [ -d $ARGUMENTS ]
-          then SVGALL=`find $ARGUMENTS -name "*.svg" | grep "\.svg$"`
+          then SVGALL=`find $ARGUMENTS -name "*.svg"`
           else echo "SOMETHING SEEMS WRONG";exit 0;fi
-     else SVGALL=`find $SVGROOT -name "*.svg" | grep "\.svg$"`
-          N=`echo $SVGALL | sed 's/ /\n/g' | wc -l`
-          echo -e "$N FILES TO PROCESS. \
-                   THIS WILL TAKE SOME TIME.\n" | tr -s ' '
-          read -p "SHOULD WE DO IT? [y/n] " ANSWER
-          if [ X$ANSWER != Xy ] ; then echo "BYE."; exit 1;
-                                  else echo; fi
+     else SVGALL=`find $SVGROOT -name "*.svg"`
     fi
   # ----------------------------------------------------------------------- #
   IMGFOO="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1Pe
