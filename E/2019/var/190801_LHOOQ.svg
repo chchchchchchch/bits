@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- CLEANED: 1564763001/0f573c4ccd94ca3cdc4a97cbe4c566fb -->
+<!-- CLEANED: 1565690319/17bd35e1975381a8519ad195a4639a8f -->
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -162,11 +162,11 @@
     <image
        xlink:href="../../../src/2019/800px-Marcel_Duchamp_1919_LHOOQ.jpg"
        checksum="50fb897bbfc07ba1"
-       width="800"
-       height="1033"
-       id="image3155"
+       y="-445"
        x="-945"
-       y="-445" />
+       id="image3155"
+       height="1033"
+       width="800" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -177,19 +177,9 @@
     <image
        xlink:href="../../../src/2019/786px-Gioconda_copia_del_Museo_del_Prado_restaurada.jpg"
        checksum="e5264f841551db04"
-       clip-path="url(#clipPath3358)"
-       style="opacity:0.5"
-       width="452.3"
-       height="589.3"
-       id="image3346"
-       x="-774.1"
-       y="-231.1" />
-    <image
-       xlink:href="../../../src/2019/786px-Gioconda_copia_del_Museo_del_Prado_restaurada.jpg"
-       checksum="e5264f841551db04"
        y="-231.1"
        x="-774.1"
-       id="image3394"
+       id="image3346"
        height="589.3"
        width="452.3"
        style="opacity:0.5"
@@ -197,14 +187,24 @@
     <image
        xlink:href="../../../src/2019/786px-Gioconda_copia_del_Museo_del_Prado_restaurada.jpg"
        checksum="e5264f841551db04"
-       transform="matrix(1.011,0,0,1.011,4.144,-14.95)"
-       clip-path="url(#clipPath3400)"
+       clip-path="url(#clipPath3358)"
        style="opacity:0.5"
        width="452.3"
        height="589.3"
-       id="image3396"
+       id="image3394"
        x="-774.1"
        y="-231.1" />
+    <image
+       xlink:href="../../../src/2019/786px-Gioconda_copia_del_Museo_del_Prado_restaurada.jpg"
+       checksum="e5264f841551db04"
+       y="-231.1"
+       x="-774.1"
+       id="image3396"
+       height="589.3"
+       width="452.3"
+       style="opacity:0.5"
+       clip-path="url(#clipPath3400)"
+       transform="matrix(1.011,0,0,1.011,4.144,-14.95)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -780,16 +780,17 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="BEHIND-00"
-     sodipodi:insensitive="true" />
+     sodipodi:insensitive="true"
+     style="display:none" />
   <g
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="BEHIND-01"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        id="path3213"
-       d="M 219.6,163.2 340.8,93.63 287.6,260.1 z"
+       d="M 219.6,163.2 351.8,112.6 294.6,271.1 z"
        style="fill:#ffffff;stroke:none"
        sodipodi:nodetypes="cccc" />
     <path
@@ -798,13 +799,43 @@
        style="fill:#ffffff;stroke:none"
        sodipodi:nodetypes="cccc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px"
+       style="fill:none;stroke:#ff0044;stroke-width:1px"
        d="M 136.8,235.1 66.43,101.4 212.6,174.1"
        id="path3207" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px"
-       d="M 219.6,163.2 340.8,93.63 287.6,260.1"
-       id="path3211" />
+       style="fill:none;stroke:#ff0044;stroke-width:1px"
+       d="M 219.6,163.2 351.8,112.6 294.6,271.1"
+       id="path3211"
+       sodipodi:nodetypes="ccc" />
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="BEHIND-02"
+     id="g3979"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
+    <path
+       id="path4101"
+       d="M 219.6,163.2 351.8,112.6 302.2,239.3 z"
+       style="fill:#ffffff;stroke:none"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="path3995"
+       d="m 136.8,235.1 -24.2,-45.9 29.6,-50.1 70.4,35 z"
+       style="fill:#ffffff;stroke:none"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#ff0044;stroke-width:1px;stroke-linecap:round"
+       d="M 136.8,235.1 112.6,189.2"
+       id="path3993" />
+    <path
+       style="fill:none;stroke:#ff0044;stroke-width:1px;stroke-linecap:round"
+       d="m 142.2,139.1 70.4,35"
+       id="path3985" />
+    <path
+       style="fill:none;stroke:#ff0044;stroke-width:1px;stroke-linecap:round"
+       d="M 219.6,163.2 272.4,143"
+       id="path4025" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -889,7 +920,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="DUCHAMPS-01"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
@@ -964,6 +995,37 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="BEHIND-02"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       sodipodi:nodetypes="cccc"
+       id="path4081"
+       d="m 272.4,143 79.4,-30.4 -49.6,126.7 z"
+       style="fill:#ffffff;stroke:none;display:inline" />
+    <path
+       id="path3999"
+       d="M 112.6,189.2 66.43,101.4 142.2,139.1 z"
+       style="fill:#ffffff;stroke:none;display:inline"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#ff0044;stroke-width:1px;stroke-linecap:round;display:inline"
+       d="M 112.6,189.2 66.43,101.4 142.2,139.1"
+       id="path3991" />
+    <path
+       style="fill:none;stroke:#ff0044;stroke-width:1px;stroke-linecap:round;display:inline"
+       d="m 272.4,143 79.4,-30.4 -49.6,126.7"
+       id="path3987"
+       sodipodi:nodetypes="ccc" />
+    <path
+       sodipodi:nodetypes="ccc"
+       id="path4868-3"
+       d="m 302.3,239.6 c -9.9,-26.1 -26.4,-50 -41,-61.4 0,0 -63.7,20.6 -95.4,102.9"
+       style="fill:none;stroke:#241c1c;stroke-width:1px;stroke-linecap:round" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="HLEFT-01"
      style="display:inline"
@@ -1016,7 +1078,7 @@
        sodipodi:nodetypes="cc" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="HRIGHT-01"
      id="g6248"
      inkscape:groupmode="layer"
@@ -1041,7 +1103,7 @@
      inkscape:groupmode="layer"
      id="g6273"
      inkscape:label="HRIGHT-02"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="csccc"
