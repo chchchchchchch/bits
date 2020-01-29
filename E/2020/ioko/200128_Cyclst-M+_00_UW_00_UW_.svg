@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    style="display:inline"
-   sodipodi:docname="200128_Cyclst_00_UW_00_UW_.svg"
+   sodipodi:docname="200128_Cyclst-M+_00_UW_00_UW_.svg"
    inkscape:version="0.48.3.1 r9886"
    version="1.1"
    id="svg2902"
@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.3849479559"
-     inkscape:cx="635.1379345"
-     inkscape:cy="392.1112631"
+     inkscape:zoom="3.130532641"
+     inkscape:cx="173.2673573"
+     inkscape:cy="366.2832802"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="g4458"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -1297,12 +1297,11 @@
        id="path4992"
        inkscape:connector-curvature="0" />
     <path
-       inkscape:original-d="m 164.5545058,61.27723997 c 0,0 14.0988534,-18.24489331 31.4901549,-18.24489331 17.3912447,0 31.4887335,18.24489331 31.4887335,18.24489331"
-       style="fill:none;stroke:#003291;stroke-width:1px"
-       d="m 153.2486095,42.13284242 c 0,0 17.6176891,-22.7985105 39.3495656,-22.7985105 21.7318056,0 39.3477894,22.7985105 39.3477894,22.7985105"
+       style="fill:none;stroke:#003291;stroke-width:1px;display:inline"
        id="path4996"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       d="m 153.2486095,42.1328424 c 0,0 17.6176891,-22.7985105 39.3495656,-22.7985105 21.7318056,0 39.3477894,22.7985105 39.3477894,22.7985105" />
   </g>
   <g
      inkscape:groupmode="layer"
