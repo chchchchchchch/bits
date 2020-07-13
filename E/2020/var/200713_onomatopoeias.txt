@@ -1,0 +1,2177 @@
+Cross-linguistic onomatopoeias
+==============================
+
+    <div id="bodyContent" class="mw-body-content">
+        <div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+        <div id="contentSub"></div>
+
+
+        <div id="jump-to-nav"></div>
+        <a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+        <a class="mw-jump-link" href="#searchInput">Jump to search</a>
+        <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table class="box-Multiple_issues plainlinks metadata ambox ambox-content ambox-multiple_issues compact-ambox" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" decoding="async" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" data-file-width="40" data-file-height="40" /></div></td><td class="mbox-text"><div class="mbox-text-span"><div class="mw-collapsible" style="width:95%; margin: 0.2em 0;"><b>This article has multiple issues.</b> Please help <b><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Cross-linguistic_onomatopoeias&amp;action=edit">improve it</a></b> or discuss these issues on the <b><a href="/wiki/Talk:Cross-linguistic_onomatopoeias" title="Talk:Cross-linguistic onomatopoeias">talk page</a></b>. <small><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove these template messages</a>)</i></small>
+
+[]
+
+This article needs additional citations for verification. Please help
+improve this article by adding citations to reliable sources. Unsourced
+material may be challenged and removed.  
+Find sources: "Cross-linguistic onomatopoeias" – news · newspapers ·
+books · scholar · JSTOR (November 2010)(Learn how and when to remove
+this template message)
+
+[]
+
+This article possibly contains original research. Please improve it by
+verifying the claims made and adding inline citations. Statements
+consisting only of original research should be removed. (November
+2010)(Learn how and when to remove this template message)
+
+[]
+
+This article or section should specify the language of its non-English
+content, using {{lang}}, with an appropriate ISO 639 code. See why.
+(April 2019)
+
+(Learn how and when to remove this template message)
+
+  ---- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  []   This article contains Indic text. Without proper rendering support, you may see question marks or boxes, misplaced vowels or missing conjuncts instead of Indic text.
+  ---- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Because of the nature of onomatopoeia, there are many words which show a
+similar pronunciation in the languages of the world. The following is a
+list of some conventional examples:
+
+Contents
+--------
+
+-   1 Human sounds
+    -   1.1 Consuming food or drink
+    -   1.2 Bodily functions and involuntary sounds
+    -   1.3 Cries of distress
+    -   1.4 Interrupted speech
+    -   1.5 Expressions of positive emotions
+
+-   2 Animal sounds
+    -   2.1 Bird sounds
+        -   2.1.1 Domestic birds
+        -   2.1.2 Wild birds
+
+    -   2.2 Mammal sounds
+        -   2.2.1 Cats and dogs
+        -   2.2.2 Equine sounds
+        -   2.2.3 Animals with cloven hoofs
+        -   2.2.4 Other mammals
+
+    -   2.3 Other animals
+
+-   3 Collisions, bursts, and strikes
+    -   3.1 Balloon or bubble bursting
+    -   3.2 Cannon firing; gunshot; machine gun fire
+    -   3.3 Crash
+    -   3.4 Door or floor creaking
+    -   3.5 Engine back-firing while freewheeling
+    -   3.6 Knocking
+    -   3.7 Strikes
+        -   3.7.1 Dull strike
+        -   3.7.2 Falling strike
+        -   3.7.3 Sharp strike
+        -   3.7.4 Wet strike
+
+    -   3.8 Crunch, сracking (of sticks, bones etc.)
+
+-   4 Machinery
+    -   4.1 Camera shutter
+    -   4.2 Car engine revving
+    -   4.3 Car horn honking
+    -   4.4 Clock ticking
+    -   4.5 Doorbell ringing
+    -   4.6 Keyboard striking
+    -   4.7 Match striking
+    -   4.8 Telephone ringing
+    -   4.9 Siren wailing
+    -   4.10 Train whistling
+
+-   5 Physical and natural phenomena
+    -   5.1 Electric flowing (buzzing)
+    -   5.2 Electric shock
+    -   5.3 Fire
+    -   5.4 Rain
+    -   5.5 Thunder
+    -   5.6 Steam hissing
+    -   5.7 Thunder
+    -   5.8 Water dripping
+    -   5.9 White water
+    -   5.10 Wind blowing or waves flowing
+
+-   6 Others
+    -   6.1 Jingling
+
+-   7 References
+    -   7.1 Arabic words
+    -   7.2 Chinese words
+    -   7.3 Croatian words
+    -   7.4 Danish words
+    -   7.5 English words
+    -   7.6 French words
+    -   7.7 German words
+    -   7.8 Greek words
+    -   7.9 Hebrew words
+    -   7.10 Italian words
+    -   7.11 Japanese words
+    -   7.12 Marathi words
+    -   7.13 Portuguese words
+    -   7.14 Spanish words
+    -   7.15 Ukrainian words
+    -   7.16 Urdu words
+
+-   8 External links
+
+This is a dynamic list and may never be able to satisfy particular
+standards for completeness. You can help by expanding it with reliably
+sourced entries.
+
+Human sounds[edit]
+------------------
+
+Consuming food or drink[edit]
+
+  ------------------- ------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------- ----------------------------------------------------------------
+  Language            Biting                                                       Eating food                                                                                                                                 Drinking                                                                Swallowing             Brushing teeth
+  Afrikaans           nom, gomf                                                                                                                                                                                                gloeg gloeg gloeg                                                                              
+  Albanian            ham, kërr, krrëk                                             ham-ham, njam-njam                                                                                                                          llup, gllup                                                                                    fësh-fësh, fër-fër
+  Arabic              hum-hum                                                      humm                                                                                                                                                                                                                                       
+  Basque              kosk, hozk                                                   mauka mauka                                                                                                                                 zurrut                                                                  klik                   
+  Batak                                                                            nyaum nyaum                                                                                                                                                                                                         guk                    
+  Bengali                                                                          গব গব (gob gob), গবা গব (goba gob), সপা সপ (sopa sop)                                                                                       dhak dhak                                                               dhnok gela             
+  Bulgarian           хрус (hrus), мляс (mlias)                                    ам ам (am am)                                                                                                                               гльок гльок (glyok glyok)                                               гъл (gull)             
+  Catalan             nyac                                                         nyam nyam                                                                                                                                   glup                                                                    glu glu                
+  Chinese, Mandarin                                                                                                                                                                                                            咕咚 咕咚 (gū-dōng gū-dōng), 咕嚕咕嚕 (gū-lū gū-lū)                                            唰 (shua)[citation needed]
+  Croatian            gric                                                         njam njam                                                                                                                                   glp glp, glu glu                                                        gut                    
+  Czech               chřup [xr̝up], chroup [xroup]                                 ham, ňam ňam [ɲam], mňam mňam [mɲam]                                                                                                        glo glo                                                                                        
+  Danish              haps [hɑb̥s][dan 1]                                           nam nam, mam mam                                                                                                                            slurk, glub                                                             glub, gulp             
+  Dutch               hap                                                          jam jam                                                                                                                                     slurp, klok klok klok                                                   slik                   
+  English             chomp                                                        yum yum, om nom nom, slurp slurp                                                                                                            slurp, glug                                                             gulp                   
+  Estonian            amps                                                         näm näm, nämm nämm                                                                                                                          kull kull                                                               lonks                  
+  Finnish             rousk                                                        nam nam, nami nami                                                                                                                                                                                                  klup                   
+  French              miam, crounche                                               miam miam                                                                                                                                   glouglouglou                                                            gloups                 
+  German              mampf                                                        mampf mampf, hamm hamm                                                                                                                      schlürf, gluck                                                          schluck                
+  Gujarati                                                                                                                                                                                                                     gudgud                                                                                         
+  Hebrew                                                                           אָממ אָממ (amm amm)                                                                                                                                                                                                 שלוּק (shluk)          צחצוח (tsikhtsúakh) (שקשוק shikshúk refers to "shaking teeth")
+  Hungarian           hamm                                                         nyam-nyam, csám-csám                                                                                                                        glu-glu, glugy-glugy                                                                           sika-sika
+  Icelandic                                                                        namm namm                                                                                                                                   glúgg glúgg                                                                                    
+  Indonesian          krauk                                                        nyam nyam                                                                                                                                   glek glek, gluk gluk                                                    glek                   sruk sruk
+  Italian             gnam                                                         gnam gnam                                                                                                                                   glu glu                                                                 glu glu                
+  Japanese            ムシャムシャ (musha-musha) [jpn 1]                           モグモグ (mogu mogu),[jpn 2] パクパク (paku paku)[jpn 3]                                                                                    ゴクゴク (goku goku)                                                    ごくっ (goku)[jpn 4]   シャカシャカ (shaka shaka)
+  Kazakh                                                                                                                                                                                                                       лық-лық (lyq-lyq), сылқ-сылқ (sylq-sylq)                                сылқ (sylq)            
+  Korean              와작와작 (wajak-wajak)                                       냠냠 (nyam nyam), 얌얌 (yam yam), 쩝쩝 (jjeop jjeop)                                                                                        꿀꺽 꿀꺽 (kkul kkeok kkul kkeok)                                       꿀꺽 (kkul kkeok)      치카치카 (chika chika)
+  Kyrgyz                                                                           шам-шум (sham-shum)                                                                                                                                                                                                                        
+  Latvian             am                                                           ņam ņam                                                                                                                                     gul gul                                                                                        
+  Lithuanian                                                                       niam niam                                                                                                                                   kliuk kliuk                                                                                    
+  Malay               ngap ngap                                                    nyam nyam nyam                                                                                                                              glup glup, teguk                                                                               
+  Malayalam                                                                        ഞംഞം (njam-njam), കറുമുറു (karu-muru) (hard/crunchy)                                                                                                                                                                                       
+  Marathi             कुर्रुम-कुर्रुम (krum-krum)                                  मम् मम् (mam mam)                                                                                                                           गट-गट (gaT gaT)                                                         गटक (gatak)            
+  Norwegian                                                                        nam nam                                                                                                                                                                                                                                    
+  Persian                                                                                                                                                                                                                      qolop-qolop                                                                                    
+  Polish              chap, am, chrup (crunch)                                     mniam mniam, chrup chrup (if hard), mlask                                                                                                   gul gul                                                                 gul gul                szuru szuru, szuru buru
+  Portuguese          nhac, nhoc                                                   nham nham                                                                                                                                   glup glup                                                                                      
+  Romanian            hap, haț                                                     miam miam, niam niam, pleasc-pleasc                                                                                                         gâl-gâl                                                                 gogâlț                 
+  Russian             хрум (khrum)                                                 ам (am) (quick), ням-ням (njam-njam)                                                                                                        бульк бульк (bulk-bulk)                                                                        
+  Serbian             гриц (gric) [grits]                                          њам-њам (njam-njam)                                                                                                                                                                                                                        
+  Slovak              chrum                                                        mňam, ham                                                                                                                                   glo, glo-glo                                                                                   
+  Spanish             ñam                                                          ñam ñam                                                                                                                                     glu glu glu, glup                                                       glup                   
+  Swedish             nam-nam                                                      nam nam                                                                                                                                     glugg glugg, klunk klunk                                                gulp                   
+  Tagalog                                                                          nam nam                                                                                                                                                                                                             lunók                  tsuka tsuka
+  Tamil                                                                            karukk murukk                                                                                                                                                                                                                              
+  Thai                งั่บ (ngap), ง่ำ (ngam)                                      ง่ำ ง่ำ (ngam ngam)                                                                                                                         อึ้ก (uek), เอื้อก (ueak)                                               อึก อึก (uek uek)      
+  Turkish             hart, hurt                                                   ham hum, nam nam                                                                                                                            hüüp, lıkır lıkır                                                       gulp                   
+  Ukrainian           ам (am), ням (niam), хрум (khrum) (if crunchy), кусь (kus)   ням-ням (niam-niam), хрусь-хрусь (khrus-khrus) (if crunchy), хлам-хлам (khlam-khlam) (if hastily), хряп-хряп (khriap-khriap) (if hastily)   бульк-бульк (bulk-bulk), глип-глип (glyp-glyp), ґлаґ-ґлаґ (glug-glug)   ґольґ (golg)           шурх-шурх (shurkh-shurkh), шорх-шорх (shorkh-shorkh)
+  Vietnamese          ngoạm                                                        măm măm, nhăm nhăm, nhồm nhoàm, chàm chạp                                                                                                   ực ực, ừng ực                                                                                  
+  ------------------- ------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------- ----------------------------------------------------------------
+
+Bodily functions and involuntary sounds[edit]
+
+  -------------------- ---------------------------------------------------------------------- ---------------------------------------- -------------------- ------------------------------------ ------------------------------------------------ ----------------------------------------------- -------------------
+  Language             Heart beating                                                          Belching                                 Coughing             Flatulence                           Sneezing                                         Snoring                                         Yawning
+  Afrikaans            doef doef                                                                                                                            poep                                 atiesjoe                                         snork                                           
+  Albanian             pam-pam, bam-bam                                                       grrom                                    këm-këm, gam-gam     përrpërr                             tësh, açu, eçu                                   gërr, grro                                      
+  Arabic               tum tum, رطم رطم (raṭama-raṭama)                                                                                                     draat, fassi, or tooz[ara 1]         hatchu[ara 1]                                                                                    
+  Armenian                                                                                                                                                  thurr, tuss                                                                                                                           
+  Basque               taup taup, taupa taupa                                                 korrok                                   tuju, tuju           turrut, purrun                       usin                                             zurrun-zurrun                                   
+  Batak                bar-bar-bar                                                            org                                                           put                                  atcim                                            korrrr                                          
+  Bengali              দুরদুর (durdur), দুরুদুরু (duruduru), লাব ডুব (lāb dub), dhuk-puk                                                                                                         হাঁচি (hąci), hąccho                             bhnosh bhnosh                                   hai
+  Bulgarian            туп-туп (tup tup)                                                      уриг (urig)                                                   пръц (prats)                         апчих (apchih), ких (kih)                        хърр (hurr)                                     
+  Catalan              tu-tum tu-tum, pu-pum pu-pum                                           rot                                      cof, cof             prut                                 atxum, atxís, atxim                              rrrr, rau-rau                                   uà, uaah
+  Cebuano                                                                                                                                                                                                                                                                                         hahay
+  Chinese, Cantonese   卜卜 (buk4 buk4)                                                       oek4 or oet4 [œʔ²¹]                      kem4 (kem2)          but4, but4 but4                      乞嗤 (hāt-chī)                                   got4 syu4, got4 got2 seng1, goet4 goet2 seng1   
+  Chinese, Mandarin    怦怦 (pēng pēng)[zho 1]                                                                                                                                                   阿嚏 (ā tì)[zho 2]                               呼噜 (hū lu)[zho 3]                             
+  Croatian             tup tup, bum bum                                                                                                                                                          apćih, apćiha                                                                                    zijev
+  Czech                buch buch                                                              krk                                                           prd                                  hepčí [ˈɦɛpt͡ʃiː]                                 chrrr                                           zív
+  Danish               dunk dunk, bank bank                                                   bøvs [bœwˀs],[dan 2] ræb [ʁεˀb][dan 3]                        prut, fis                            atju, hatju                                      snork                                           gab
+  Dutch                boenk boenk, boem boem                                                                                                                                                    hatsjoe, hatsjie                                 snurk, zzz                                      
+  English              thump thump                                                            burp                                                          fart, toot                           achoo                                            zzz                                             yawn
+  Estonian             tuks tuks                                                              krooks                                   köh köh              puuks                                atsihh, atsih, aptsihh, aptsih                   norr                                            
+  Finnish              tu-tum, pu-pum                                                         röyh                                     köh köh              prut, prööt                          atshii, atshiu, atsiuh, ätshii, ätshiu, ätsiuh   krooh pyyh                                      haukotus
+  French               boum boum                                                              beurp                                    koff koff, teu-heu   prout                                atchoum, atchi, atcha                            ron pchi, (rrr) zzz                             ouaaah
+  German               ba-dumm, bumm bumm, poch poch                                          rülps                                                         pups                                 hatschi, hatschu                                 chrr-pfüüh, schnarch, zzz, chhhh                gähn
+  Greek                ντουκ ντουκ (duk-duk)                                                                                                                                                     αψ(ι)ου (aps(i)u)                                                                                
+  Hebrew               בּוּם־בּוּם (bum-búm)                                                  גְּרֶפְּס (greps)                                             פּוּק (pook), פלוץ (flotz)           אַפְּצִ'י apchi[heb 1]                           חְררר (xrrr)                                    
+  Hindi                daḍak (pronounced [ˈd̪əɖək])                                                                                                                                               achhee                                                                                           
+  Hungarian            ta-tamm                                                                böff                                     köh-köh              pú                                   hapci                                            hrr pityipű                                     
+  Icelandic                                                                                                                                                                                      atsjú                                                                                            
+  Indonesian           dag-dig-dug, deg-deg                                                   erk                                      uhuk-uhuk            pret, prett, tuut                    hacciihh                                         grookkk                                         hoam
+  Italian              tu tump                                                                rutt                                                          prot                                 etciú                                            ronf, zzz                                       
+  Japanese             (nervous excitement) ドキドキ (doki doki), (suspense, thrill)[jpn 5]   ゲップ (geppu)                                                ブ (bu), プ (pu)                     ハクション (hakushon)[jpn 6]                     ぐうぐう gu-gu[jpn 7]                           フワアーア fuwaāa
+  Kannada              dub bub, dava dava                                                                                                                                                                                                                                                         
+  Kazakh               дүрс-дүрс (du'rs-du'rs)                                                                                                              парт (part), парт-пұрт (part-purt)   әпшу (apshu)                                     қорр (qorr), қорр-қорр (qorr-qorr)              
+  Korean               두근두근 (dugeun dugeun)                                               꺼억 (kkeo-eok)                                               뿡 (ppung)                           에취 (echwi)                                     드르렁 (deureureong)                            
+  Latin                                                                                       ruct                                                          prox                                                                                                                                  
+  Latvian              tuk-tuk                                                                                                                                                                   ačī, apčī                                                                                        žāv
+  Lithuanian           tuk tuk                                                                                                                              pirst                                apčiū, apči                                                                                      
+  Macedonian           туп туп (tup tup)                                                                                                                                                         апчиха (apchiha)                                                                                 
+  Malay                dup dap dup dap                                                        ə~kk, bəkk                                                    pro~t, pret, poot                    achom, achum                                     krrohh krrohh, dengkur                          haaa, nguap
+  Marathi              धड धड (dhad dhad), धक-धक (dhak dhak)                                                                                                 ढुस्स (dhuss), ढुम (dhum)            आच्छीं (acchin), आच्छू (acchoo)                  घोर (ghor), घुर्र (ghurr)                       
+  Navajo               tsʼidog                                                                                                                                                                                                                                                                    
+  Nepali               dhuk dhuk                                                                                                                                                                                                                                                                  हाइ (haaai)
+  Norwegian            dunk dunk                                                                                                                                                                 aatsjoo                                                                                          
+  Persian              tāp-o-tūp, tāp-tāp                                                     ārūγ                                                          pup                                  achu                                             xor-o-pof, xor-nāse                             
+  Polish               bum bum, bu-bum                                                        bek                                                           prrr(yt), prut                       a-psik                                           chrrr, chrrr-pśśś                               ziew
+  Portuguese           tun-tum                                                                burp[por 1]                                                   pum                                  atchim, atchô[por 1]                                                                             uah
+  Romanian                                                                                    râg (a râgâi = to burp)                                       pârț                                 hapciu                                           sfor                                            
+  Russian              тук-тук (tuk-tuk)                                                                                                                    пук (puk)                            апчхи (apchkhi)                                  хр-р-р (khrrr)                                  
+  Serbian              туп-туп (tup-tup)                                                                                                                    трт (trt)                            апћиха (apćiha)                                                                                  
+  Sinhalese                                                                                                                                                                                      හචිස් (hacis)                                                                                    
+  Slovak                                                                                      grg                                                                                                hapčí                                                                                            
+  Slovene                                                                                                                                                                                        ačih, ačiha                                                                                      
+  Spanish              bum bum bum, tucutún tucutún                                                                                    tjum, tjum           prt                                  achu, achís, achú                                                                                
+  Swedish              du-dunk, du-dunk                                                       rap                                                           prutt                                atjoo                                            snark                                           gäsp
+  Tagalog              dub dub dub dub, tibók tibók                                           ebb                                                           purorót, utót                        hatsíng, bahíng                                  kok-sss                                         hikab
+  Tamil                lappu-tappu                                                                                                                          karukk murukk                        a-choo                                                                                           
+  Telugu               lab-dab                                                                                                                                                                                                                                                                    
+  Thai                 ตุ้บ ตุ้บ (tup tup), ตึ้ก ตั้ก (tuek tak)                              เอิ่ก (oek)                                                   ปู้ด (puut), ป้าด (pät)              ฮัดเช่ย (hatchoei), ฮัดชิ่ว (hatchio)            ครอก ฟี้ (khrok fi), ครอก ครอก (khrok khrok)    หาว (hao)
+  Turkish              güm güm, küt küt, güp güp                                              gark                                                          zart, zort, pırt                     hapşu                                            hor                                             
+  Urdu                 dhakdhak                                                                                                                                                                                                                                                                   
+  Vietnamese           thình thịch, bình bịch                                                 ợ                                                             phẹt, bủm, địt                       hắt xì, ắt xì                                    khò, khò khò                                    oáp, ngáp
+  -------------------- ---------------------------------------------------------------------- ---------------------------------------- -------------------- ------------------------------------ ------------------------------------------------ ----------------------------------------------- -------------------
+
+Cries of distress[edit]
+
+  ------------------- ---------------------------------------------- --------------------------------------------------------------------------------------------------------------------- ---------------------------------
+  Language            Baby crying                                    Scream                                                                                                                Shriek
+  Afrikaans           wê                                                                                                                                                                   
+  Albanian            ua-ua, uëë                                     au, oh, ai,                                                                                                           
+  Arabic              وع وع (wa'-wa')                                أي (ai)[ara 2]                                                                                                        
+  Azerbaijani                                                        uf                                                                                                                    
+  Basque                                                             ai, aiei, epa                                                                                                         
+  Batak               nguek nguek                                    alale                                                                                                                 ei
+  Belarusian                                                         ай (aj)                                                                                                               
+  Bengali             ওয়া ওয়া oaa oaa                                                                                                                                                    
+  Bulgarian           уаа уаа (uaa uaa)                              ай (aj), ау (au), ох (oh), ой (oj)                                                                                    
+  Catalan             anguèè                                         ai, au, ui, uix                                                                                                       hiii, crii
+  Chinese, Mandarin   哇哇 (wā wā)[zho 4]                            啊 (ā), 噢 (ō), 哎呀 (āiyā), 哎哟 (āiyō)                                                                              
+  Croatian                                                           jao, joj, uaijh, au, auč                                                                                              
+  Czech               bé bé [bɛːbɛː]                                 au, jau                                                                                                               
+  Danish              vræl [ˈvʁεːˀl][dan 4]                          av                                                                                                                    
+  Dutch                                                              au, auw                                                                                                               iek
+  English             wah-wah[eng 1]                                 ah, arghh ow, ouch, yeow, yow, agh, eek, yikes, oof                                                                   gah, eek, yikes
+  Estonian            ää-ää                                          ai, oi                                                                                                                
+  Finnish             byääh, yää                                     au, ai, auts                                                                                                          iik, kääk
+  French              ouin ouin                                      aïe, ouille, ayoye (Quebec), ouch (Quebec), aw (Quebec), ouaille (Belgium)                                            hii
+  Galician                                                           ai                                                                                                                    
+  German              wäh-wäh                                        au, aua, ah, autsch                                                                                                   uwah, waah, ieh
+  Greek               ουά-ουά (ouá-ouá) /uaua/[gre 1]                ωχ (òkh)                                                                                                              
+  Haitian Creole                                                     ay                                                                                                                    
+  Hebrew                                                             אָח (àx),[heb 2] אָי (ài), אױ װײ (oy vey)                                                                             
+  Hindi                                                              आहा (àhhà), वाह-वाह (hhàvh-hhàvh)                                                                                     
+  Hungarian           oá oá                                          aú, á, jaj                                                                                                            
+  Icelandic                                                          ái, ói, æi                                                                                                            
+  Indonesian          owe-owe                                        aduh, ai, aih, awww                                                                                                   wao, huwah
+  Irish                                                              aigh                                                                                                                  
+  Italian             uè-uè                                          ahi, ahia, ohi                                                                                                        aah, iih
+  Japanese            オギャ- (ogyaa)[jpn 8]                         ギャー (gyā)                                                                                                          きゃあ (kyaa)[jpn 9]
+  Kazakh              іңгә-іңгә (in'ga-in'ga)                                                                                                                                              
+  Korean              응애-응애 (eung'ae-eung'ae)                    아 (a), 아야 (aya), 꺄 (kkya)                                                                                         
+  Kyrgyz              ыңаа-ыңаа (yngaa-yngaa)                                                                                                                                              
+  Latvian                                                            vai, au, ā                                                                                                            ai
+  Lithuanian                                                         ai, oi                                                                                                                
+  Macedonian                                                         уф (uf)                                                                                                               
+  Malay               uwek-uwek, wek-wek                             aduh, adoi, adoiyai, opocot, alamak, omakkau, aaah, haish                                                             iish, eee, iyek
+  Marathi             वँ वँ (waan waan)                              आ आ (aa aa), आऽई (aaee)                                                                                               आऽई (aaee), ईऽ (ee)
+  Navajo                                                             ayá                                                                                                                   
+  Nepali                                                             bzzt(?)                                                                                                               
+  Norwegian                                                          au                                                                                                                    
+  Pashtu                                                             ooauy, why                                                                                                            
+  Persian             vang-vang                                      آخ (āx), وای (vāy)                                                                                                    آی (āy)
+  Polish              łee                                            ała (stressed on the last syllable), ła, ał, auuu, auć (possibly borrowed from English or directly from German), aj   aaa
+  Portuguese          buá buá[por 1]                                 ah, au, ui[por 1]                                                                                                     ai[por 1]
+  Romanian            oa-oa, ue-ue                                   au, ai, aa, ah                                                                                                        
+  Russian             уа-уа (ua-ua)                                  ой (oj), ай (aj), ох (okh)                                                                                            уи-и-и (wi-i-i) (of pig)
+  Serbian             кме-кме (kme-kme)                              jao, joj, uaijh, au, auč, jao, ауу                                                                                    
+  Slovak                                                             au                                                                                                                    
+  Slovenian                                                          auč                                                                                                                   
+  Spanish             buá buá                                        au, ay                                                                                                                
+  Sinhalese           oha oha                                                                                                                                                              
+  Swedish             uää-uää                                        aj, oj                                                                                                                ii
+  Tagalog             uwá                                            aráy, ay, arúy                                                                                                        
+  Thai                อุแว้ อุแว้ (uwae uwae), แง้ แง้ (ngae ngae)   อ๊าก (ak), ;ว๊าก (wak), โอ๊ย (oi), อ๊าย (ai)                                                                          อู๊ย (ui), โอ๊ย (oi), อ๊าย (ai)
+  Turkish             ıngaa                                          ah, ahh, of, öf, üf                                                                                                   ciyak
+  Ukrainian                                                          ай (aj), йой (joj), ой (oj)                                                                                           
+  Urdu                                                               آہ (-ààh), ooauy                                                                                                      
+  Uropi                                                              aw                                                                                                                    
+  Vietnamese          oa oa, oe oe                                   a, á, ối, oái                                                                                                         
+  Yiddish                                                            אוי (oy)                                                                                                              
+  ------------------- ---------------------------------------------- --------------------------------------------------------------------------------------------------------------------- ---------------------------------
+
+Interrupted speech[edit]
+
+  ------------------- ------------------------------------------------------------------------------------- ----------------------------- ----------------------
+  Language            Hushing                                                                               Pausing or thinking           Stuttering
+  Afrikaans           sjoes, sjuut                                                                                                        hakkel
+  Albanian            shh, shët                                                                             ëëë, ëmm                      gaga, gëgë
+  Arabic              suh, hoss                                                                             يعني (y'ani)                  tahtaha
+  Armenian            լուռ (loor), սուս (soos)                                                              ըը, ըհը (uhh, uhu)            թօթօ (to-to)
+  Basque              ixo                                                                                   ba...                         ele-mele
+  Batak                                                                                                                                   a-ak
+  Bengali                                                                                                                                 থৎমৎ (thôtomôto)
+  Bulgarian           шът (shut, sh't)                                                                      ъъъ (aaa)                     
+  Catalan             xxt, xst, pst, xit, xist                                                              ai, au, ui, uix               
+  Chinese, Mandarin   噓 (xū)[zho 5]                                                                        嗯 (èn)                       
+  Croatian            ššš, pssst                                                                                                          
+  Czech               pš [pʃ]                                                                               é [e:]/[ʔ], hmmm, mmm         bla bla
+  Danish              ssh, sshy, schyy all pronounced [ʃː(ʷ)],[dan 5] tys [tˢys],[dan 6] hys [hys][dan 7]   øh                            
+  Dutch               ssst                                                                                                                
+  English             hush, shh,shush                                                                       uh, um, er, erm, hmmm, mmm    
+  Estonian            kuss, tšš                                                                             ee                            
+  Finnish             shh, hys                                                                              öö                            
+  French              chut                                                                                  heu, euh                      
+  German              pst, pscht                                                                            äh, ähm                       Hawa, hawa, babababa
+  Greek               σσσ (shh), σσουτ (shhut), σιωπή (sjopí, “silence”)                                    μα (ma), ε (eh)               
+  Hebrew              שְשש (shh)                                                                            אהמ (ehm)                     גִּמְגּוּם (gimgum)
+  Hungarian           pissz, psszt                                                                          hm, hmm, őő                   
+  Icelandic           uss, suss                                                                                                           
+  Indonesian          ssst                                                                                  hmmm                          a ak
+  Italian             shh                                                                                   mmm, ehm                      
+  Japanese            シー (shh)                                                                            アーノ (āno), エート (ēto)    
+  Korean              쉿 (swit)                                                                             어 (eo), 음 (eum), 그 (keu)   
+  Latvian             kuš, ššš                                                                              mmm, hmm                      
+  Lithuanian          ša, ššš                                                                                                             
+  Malay               shhht                                                                                 aaa, amm                      ha ha
+  Marathi             शूऽऽ (ssshhhoo), चुप (chup)                                                           हम्ऽ (hmm)                    तत पप (tata papa)
+  Norwegian           hysj                                                                                  ø, øh                         
+  Persian             hīs                                                                                   hmm                           tete-pete
+  Polish              ćśśś                                                                                  hmmm, yyy                     y-yh
+  Portuguese          chi, chit, si, xiu, psiu[por 1]                                                       ããã, âââ, hmm[por 1]          
+  Romanian            sst, șșt, șșș                                                                         ăăă                           bâl-bâl
+  Russian             тс-с (ts-s), ш-ш (sh-sh), цыц (tsyts)                                                 хм (hm), эм (em)              ик (ik)
+  Serbian             пссст (pssst), шшш (shhh)                                                                                           
+  Sinhalese                                                                                                                               බැක් බැක් (bäk bäk)
+  Slovak              čššš, pssst                                                                           hmmm                          bla bla bla
+  Spanish             chitón, cht                                                                           mmm                           
+  Swedish             schh                                                                                  öh                            
+  Tagalog             tsut                                                                                                                sasasasa
+  Tamil               oosshhh                                                                                                             
+  Thai                จุ๊จุ๊ (chu chu), ชู่ (chuu)                                                                                        ตะ ตะ ตะ (ta ta ta)
+  Turkish             şişt, şişş                                                                            ııı, ee, hmm                  kekelemek
+  Ukrainian                                                                                                                               гик (hyk)
+  Uropi               cit, ccc                                                                                                            
+  Vietnamese          suỵt, xuýt                                                                            hmm, hừmm                     lắp bắp
+  ------------------- ------------------------------------------------------------------------------------- ----------------------------- ----------------------
+
+Expressions of positive emotions[edit]
+
+  ------------------- ---------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------
+  Language            Laughter                                                                                                                                 Kiss
+  Afrikaans           ha ha                                                                                                                                    mwa
+  Albanian            ha ha, hu hu, he he                                                                                                                      puç, mpuç
+  Arabic              hà hà[ara 1]                                                                                                                             mwa
+  Armenian            քա քա (ka ka), չա չա (cha cha)                                                                                                           
+  Asturian            ḥa ḥa, ḥe ḥe                                                                                                                             
+  Basque              kar kar                                                                                                                                  pa
+  Batak               kakak                                                                                                                                    ummah
+  Bengali             ha ha, hee hee, ho ho                                                                                                                    cummo, umma
+  Bosnian                                                                                                                                                      cmok, pusa
+  Bulgarian           хаха (haha), хехехе (hehe), хихи (hihi)                                                                                                  цун (tsun), мляс (mlyas)
+  Catalan             haha, hehe, clac clac, clec clec                                                                                                         muà, muac, txuic, xuic
+  Chinese, Mandarin   哈哈 (hā hā),[zho 6] 呵呵 (hē hē),[zho 7] 嘻嘻 (xī xī),[zho 8] 嘿嘿 (hēi hēi)                                                            boh 啵 (This word is a modern creation)[citation needed]
+  Croatian            ha ha, he he, hi hi                                                                                                                      cmok
+  Czech               ha ha, cha cha [xa xa], chi chi [xi xi]                                                                                                  
+  Danish              ha ha, hi hi, hæ hæ, ho ho, ti hi                                                                                                        møs
+  Dutch               haha, hihi                                                                                                                               smak
+  English             haha, heh-heh, hoho, (tee)heehee                                                                                                         mwah, smooch, smack
+  Estonian            haha, hahhah, hehe, hehheh, hihi                                                                                                         mopsti
+  Finnish             haha, hahhah, hehe, hehheh, hihi (girly), höhö (unintelligent)                                                                           muisk
+  French              haha, héhé, hihi, hoho                                                                                                                   mouah, smack
+  German              haha, hihi                                                                                                                               muah, schmatz
+  Greek               χαχα (haha), χεχε (hehe)                                                                                                                 μα (ma), ματς (mats), μουτς (mouts)
+  Hebrew              חָה־חָה (xà xà)[heb 3]                                                                                                                   מוּאָה (mwa)
+  Hindi                                                                                                                                                        mmuah
+  Hungarian           haha, hehe, hihi, höhö                                                                                                                   cupp
+  Icelandic           haha, hehe, (tittering or laughter) híhí                                                                                                 
+  Indonesian          haha, hehe, wakaka, 'wkwkwk'                                                                                                             muahhh, cupp
+  Italian             ah ah, eh eh, ih ih, uh uh                                                                                                               muah
+  Japanese            あはは (ahaha), フフ (fu fu)                                                                                                             チュー (chū)
+  Kazakh              қарқ-қарқ (qarq-qarq)                                                                                                                    шөп (sho'p)
+  Korean              하하 (haha), 케케 (keke)                                                                                                                 쪽 (jjok)
+  Latvian             ha ha                                                                                                                                    buč
+  Lithuanian          cha cha                                                                                                                                  pakšt
+  Macedonian                                                                                                                                                   цмок (tsmoc)
+  Malay               kahkah, haha, kiki, bahahah                                                                                                              muah
+  Malayalam                                                                                                                                                    umma
+  Marathi             हा हा (ha ha), खो खो (kho kho) (loud laughter)                                                                                           उम्ऽमा (umma)
+  Navajo                                                                                                                                                       ts'oos, k'oos
+  Nepali              हाहा (haha), ahaha                                                                                                                       
+  Norwegian           ha-ha, he-he, hi-hi, ho-ho                                                                                                               smask
+  Persian             hā-hā, he-he, qāh-qāh                                                                                                                    m, mp, māč-o-mūč
+  Polish              haha, hihi, hehe, hoho                                                                                                                   cmok
+  Portuguese          haha, kaka, huehua[por 1]                                                                                                                splish splash, smac, chuac
+  Romanian            ha-ha, hi-hi                                                                                                                             smac, ţoc, mua
+  Russian             хаха (haha), хихи (hihi), хехе (hèhè)                                                                                                    чмок (chmoc)
+  Serbian             хаха (haha), хихи (hihi), хехе (hehe)                                                                                                    цмок (cmok)
+  Sinhalese                                                                                                                                                    උම්ම (umma)
+  Slovak              ha ha, cha cha, hi hi                                                                                                                    cmuk
+  Slovene                                                                                                                                                      cmok
+  Somali              k(h)a k(h)a                                                                                                                              
+  Spanish             jaja, jeje, jiji, jojo, juju                                                                                                             mua, muac, chuik (South America)
+  Swedish             haha,hehe,hoho,hihi,höhö,håhå                                                                                                            smack
+  Tagalog             haha, hehe, hihi                                                                                                                         tsup, mwah
+  Tamil                                                                                                                                                        umma
+  Telugu              haha                                                                                                                                     umma
+  Thai                ฮ่า ๆ ๆ (hahaha)                                                                                                                         จุ๊บ (chup), จ๊วบ (chuap)
+  Turkish             haha, hehe, hihi (girly), kikir (girly, sarcastic), hoho (sarcastic)                                                                     muck /mudʒ(u)k/
+  Ukrainian           ги ги [hihi],ги-ги-ги,га-га [haha],ге-ге [hehe],гі-гі [hihi],кха [kkha],і-хи-хи-х [i khi khi kh],haha,іх [ikh],[khe khe],[khi:],[kha:]   цьом (tsiom)
+  Vietnamese          ha ha, hi hi, hô hô, keke, ka ka, hehe, hi hô, hêlo duke huê                                                                             chụt
+  ------------------- ---------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------
+
+Animal sounds[edit]
+-------------------
+
+Bird sounds[edit]
+
+Domestic birds[edit]
+
+  ------------------- ------------------------------------------------------------------- ------------------------------------------------------------ ----------------------- --------------------------------- ------------------------------------------------
+  Language            Chicken clucking                                                    Rooster crowing                                              Turkey calling          Goose calling                     Duck calling
+  Afrikaans           kloek kloek                                                         koekeloekoe                                                                                                            kwaak
+  Albanian                                                                                kikiriki                                                     glluglluk               gak-gak                           mak-mak
+  Arabic              قرقر (qur qur), بق بق بيق (baq baq baiq)[ara 3]                     kuku-kookoo, kuku-reekoo, esku kookoo, صقاع (siqā`)[ara 3]                           كواك كواك (kwāk kwāk)[ara 4]      وق وق (waq-waq), بطبطة (batbata)[ara 5][ara 6]
+  Armenian            ճիտ ճիտ ճիտ (jeed jeed jeed)                                        tsoo-ghoo-roo-ghoo, coo-coo-ree-coo                                                                                    
+  Basque              kakara-kakara                                                       kukurruku                                                                            karra-karra                       par-par
+  Batak               kotek-kotek                                                                                                                                                                                kuak-kuak
+  Bengali                                                                                 kuk-ku-ruk-kooo                                                                                                        pnak pnak
+  Bulgarian           ко-ко-ко (ko-ko-ko)                                                 кукуригу (cucurigu)                                                                  квак-квак (kvak kvak)             па-па (paa paa)
+  Catalan             cloc, cloc-cloc                                                     quiquiriquic, cocorococ                                      glo-glo-gloc, glu-glu   coac-coac, guac-guac, qüec-qüec   coac-coac, mec-mec, qüec-qüec
+  Chinese, Mandarin   咯咯 (gē gē)                                                        咕咕咕 (gū gū gū)[zho 9]                                                                                               嘎嘎 (gā gā),[zho 10] 呱呱 (guā guā)[zho 11]
+  Croatian            kokoda, kokodak                                                     kukuriku                                                     "glu-glu-glu"           ga ga                             kva kva
+  Czech               kokodák                                                             kykirikí                                                     hudry hudry             ga ga                             káč káč
+  Danish              kuk kuk, gok gok                                                    kykkeliky                                                                                                              rap rap
+  Dutch               tok tok tok                                                         kukeleku                                                                             gak gak                           kwak kwak, kwaak kwaak
+  English             cluck cluck, bok bok bok, bok bok b'gawk                            cock a doodle doo                                            gobble gobble           honk honk                         quack
+  Estonian            kaa-kaa, kaak-kaak                                                  kikerikii, kukeleegu                                                                 kaak kaak                         prääk prääk, prääks prääks
+  Finnish             kot kot                                                             kukkokiekuu, kukko (cock), kiekuu (crowing)                  klu klu klu                                               kvaak kvaak
+  French              cot cot cot, cot cot codet                                          cocorico[fra 1]                                                                      ca car                            coin coin[fra 1]
+  Georgian                                                                                ყიყლიყო (qiqliqo)                                                                                                      
+  German              gack gack gack, guaguagua                                           kikeriki[ger 1]                                                                      gack gack[ger 1]                  quak quak[ger 1]
+  Greek               κο κο (ko ko), κλο κλο (klo klo) (sitting)                          κικιρίκου (kikiriku)                                                                                                   κουάκ κουάκ (kuak kuak)
+  Hebrew              קוּר־קוּר־קוּר (qur qur qur),[heb 4] בָּק־בָּק־בָּק (bàq bàq bàq)   קוּקוּרִיקוּ (quuquuriqu)[heb 4]                                                     גַּע־גַּע (gaqh gaqh)[heb 4]      גַּע־גַּע (gaʕ gaʕ)[heb 4]
+  Hindi                                                                                   ku-kudu-koo                                                                                                            
+  Hungarian           kot-kot-kot-kodács                                                  kukurikú                                                                             gá gá                             háp háp
+  Icelandic                                                                               gaggalagó                                                                                                              bra bra
+  Indonesian          petok-petok                                                         kukuruyuk                                                                            kwak kwak                         kwek kwek
+  Irish                                                                                   cuc-adiú-dil-ú                                                                                                         
+  Italian             coccodè                                                             chicchirichi[ita 1]                                          glu glu                 qua qua[ita 1]                    qua qua[ita 1]
+  Japanese            コッコッ (kokko)                                                    コケコッコー (kokekokkō)[jpn 10]                                                     ガーガー (gā gā)[jpn 10]          ガーガー (gā gā)[jpn 10]
+  Kazakh              қыт-қыт (qyt-qyt)                                                                                                                                                                          қақ-қақ (qaq-qaq)
+  Korean              꼬꼬댁 (kko kko daek)                                               꼬꼬댁 꼬꼬 (kkokkodek kko), 꼬끼오 (kko-kki-o)                                      꽤액-꽤액 (kkwae-aek-kkwae-aek)   꽥꽥 (kkwaek kkwaek)
+  Latgalian           kā kā                                                               kikerigū, kikerigī, ko ko ko kō                                                      gā gā                             
+  Latin                                                                                   cocococo                                                                                                               
+  Latvian             kluk kluk                                                           kikerigū                                                                             gā gā                             pēk pēk
+  Lithuanian          kud kudak, ko ko ko                                                 kakarykū, kakariekū                                                                                                    kva kva
+  Macedonian                                                                              кукурику (kukuriku)                                                                                                    ква ква (kva kva)
+  Malayalam                                                                               kokarakkoo                                                                                                             
+  Marathi                                                                                 कुकूच-कू (kukooch-koo!)                                                                                                पक पक (pak pak)[mar 1]
+  Nepali                                                                                  kukhuri kaa                                                                                                            braaaq caaq
+  Norwegian           klukk klukk                                                         kykkeliky                                                                                                              kvakk kvakk
+  Persian             qod-qod, qod-qod-qodā(s)                                            qūqūli qū-qū                                                                                                           (Northern) mak-mak
+  Polish              ko ko ko, kod-kodaak                                                kukuryku                                                     gul gul                 gę gę                             kwa kwa kwa
+  Portuguese          có có có                                                            cocorocó, cocoricó[por 1]                                                            quem quem /qüém qüém/, qua qua    quá quá, quak quak
+  Romanian            cotcodac                                                            cucurigu                                                                             ga ga                             mac mac
+  Russian             ко-ко-ко (ko-ko-ko), куд-куда (kud-kuda)                            кукареку (ku-ka-re-ku)                                                               га-га-га (ga-ga-ga)               кря-кря (krja krja)
+  Serbian             кокода (kokoda)                                                     кукурику (kukuriku)                                                                  га (ga)                           квак (kvak)
+  Sinhalese                                                                               කුක්කු කූක් කූ (kuku kūk kuu)                                                                                          
+  Slovene                                                                                 kikiriki                                                                             ga ga                             
+  Spanish             coc co co coc                                                       quiquiriquí, quiquiriquiquí, cocorocó[Spa 1]                 glu, glu, glu           cua cua[Spa 1]                    cua cua[Spa 1]
+  Sundanese                                                                               kongkorongok                                                                                                           
+  Swedish             kluck kluck, kackel                                                 kuckeliku                                                                                                              kvack kvack
+  Tagalog             po-kok                                                              tik-tilá-ok, ko-ko-ro-kok                                                            ong ong                           kwak kwak
+  Tamil                                                                                   kokkara-ko-ko                                                                        baack baack                       kua kua
+  Telugu                                                                                  kokkaro-ko                                                                                                             
+  Thai                กุ๊ก ๆ (kuk kuk)                                                    เอ้กอี๊เอ้กเอ้ก (ek-i-ek-ek)                                                                                           ก้าบ ๆ (kap kap)
+  Turkish             gıt-gıt gıdaak                                                      ü-ürü-üüü /yʔyryʔyː/                                         gulu gulu               vak vak                           vak vak
+  Ukrainian                                                                               koo-ku-ri-koo кукуріку                                                                                                 ках ках (kakh kakh)
+  Uropi                                                                                                                                                                                                          kwa kwa
+  Vietnamese          (cục ta) cục tác                                                    ò ó o (oooooo)                                                                       quạc quạc, cà kếu                 cạp cạp
+  ------------------- ------------------------------------------------------------------- ------------------------------------------------------------ ----------------------- --------------------------------- ------------------------------------------------
+
+Wild birds[edit]
+
+  -------------------- -------------------------------------------------------------------------------------------------------- ----------------------------------------------------------- -----------------------------------------
+  Language             Bird singing                                                                                             Crow calling                                                Owl hooting
+  Afrikaans            twiet twiet                                                                                                                                                          hoe-hoe
+  Albanian             ciu-ciu                                                                                                  krra-krra                                                   ku-ku
+  Arabic               سِقسِق (siqsiq),[ara 7] غِرد (gharid) (to chirp),[ara 8] زِيو زِيو (ziw ziw)[ara 3]                      قاقا qà qà, نعيق (na'eeq),[ara 9] / نعيب (na'eeb)[ara 10]   
+  Armenian             ճիւ ճիւ (jiv jiv)                                                                                        կաաք, կաաք (gaak, gaak)                                     պու պու (boo boo)
+  Basque               txio-txio                                                                                                karra-karra                                                 
+  Batak                                                                                                                                                                                     
+  Bengali              kichir michir                                                                                            কা কা (ka ka)                                               huup huup
+  Bosnian              čip čip                                                                                                                                                              
+  Bulgarian            чик-чирик (chik-chirik)                                                                                  га га (ga ga)                                               бууу (buuu)
+  Catalan              piu-piu, xiu-xiu                                                                                         òc-òc                                                       xut
+  Chinese, Cantonese                                                                                                            呱呱 (gua, gua)                                             
+  Chinese, Mandarin    叽叽喳喳 (jī jī zhā zhā)[zho 12]                                                                         哑哑 (yā yā)[zho 13]                                        
+  Croatian             čip čip                                                                                                  kra kra                                                     hu hu
+  Czech                píp píp, cvrliki                                                                                         krá krá                                                     hůůů
+  Danish               pip pip, kvit kvit, kvittevit                                                                            kra kra                                                     
+  Dutch                twiet twiet, tjierp, tjielp, tsjilp                                                                      kra kra                                                     oehoe
+  English              chirp chirp, tweet tweet, cheep cheep, peep peep                                                         caw caw                                                     hoo hoo, twit twoo (AUS), toowit toowoo
+  Estonian             siuts siuts, siit siit, tsirr tsirr, sirts sirts, siu siu                                                kraaks kraaks                                               uhuu
+  Finnish              tsirp tsirp, tviit, piip piip, ti-ti-tyy (great tit)                                                     kraa kraa                                                   huhuu
+  French               cui cui, piou piou[fra 1]                                                                                crôa crôa                                                   ouh ouh
+  German               piep piep, tschiep[ger 1]                                                                                krah krah                                                   hu hu
+  Greek                τσίου τσίου (tsiu tsiu)                                                                                  κρα κρα (kra kra)                                           
+  Hebrew               צִיף־צִיף (tsif tsif),[heb 4] צְוִיץ־צְוִיץ (tswits tswits)[heb 4]                                       קְרָע־קְרָע (qràqh qràqh)[heb 4]                            הוּ־הוווּ (hu-huuu)
+  Hindi                cheh cheh                                                                                                kaa kaa                                                     
+  Hungarian            csip-csirip                                                                                              kár kár                                                     hú hú
+  Icelandic            bíbí                                                                                                     krúnk krúnk                                                 
+  Indonesian           cit-cit, cicitcuit                                                                                       kaa kaa, kak kak                                            kuk-kuk
+  Italian              cip cip, pio pio (chick)[ita 1]                                                                          cra cra                                                     huu huu
+  Japanese             (chick) ピヨ ピヨ (piyo piyo), ひいひい (hī, hī), チュンチュン (chun chun)[jpn 10]                       カアカア (kaa kaa), ガアガア (gaa gaa)                      ホウホウ (hō hō)
+  Kannada                                                                                                                       kha-kha                                                     
+  Kazakh               шыр-шыр (shyr-shyr), шық-шық (shyq-shyq)                                                                 қарқ-қарқ (qarq-qarq)                                       
+  Korean               짹짹 (jjaek jjaek)                                                                                       까악까악 (kkaak kkaak)                                      
+  Latgalian                                                                                                                     krā                                                         
+  Latvian              čiu čiu, čiv čiv                                                                                         krā                                                         u-hū
+  Lithuanian           čik čirik, čyru vyru                                                                                     kar kar                                                     
+  Macedonian           чурулик чурулик (churulik churulik)                                                                      гра гра (gra gra)                                           
+  Malay                cip cip                                                                                                                                                              
+  Malayalam            coo coo                                                                                                  kra kra                                                     
+  Marathi              किलबिल (kil-bil), छिव-छिव (chiw-chiw), कुहू-कुहू (coohoo-coohoo), किल-किल (kil-kil), काव-काव (kaw-kaw)   काव-काव (kav-kav)                                           
+  Norwegian                                                                                                                     kra kra                                                     
+  Persian              چه‌چه (čah-čah), چهچهه (čah-čahe)                                                                        قارقار (qār-qār)                                            
+  Polish               ćwir ćwir, fiu-fiu                                                                                       kra kra                                                     hu-huuu
+  Portuguese           piu piu                                                                                                  cra cra                                                     u-huu
+  Romanian             cip cirip, piu piu                                                                                       cra cra                                                     hu-huuu
+  Russian              чирик-чирик (chirik-chirik), чик-чирик (chik-chirik), чив-чив (chiv-chiv)                                кар-кар (kar kar)                                           угу (ugu), уху (ukhu)
+  Serbian              ћију-ћију (ćiju-ćiju)                                                                                    кра-кра (kra-kra)                                           
+  Sinhalese            කුමු-කුමු (kumu kumu)                                                                                    කාක්-කාක් (kāk kāk)                                         
+  Slovak               píp píp, čvirik, čvirik                                                                                                                                              
+  Slovene              čiv čiv                                                                                                  kra kra                                                     
+  Spanish              pío pío[Spa 1]                                                                                           cuaa cuaaa, uacc uac                                        uh, uh
+  Swedish              kvitter kvitter                                                                                          kra kra, krax krax                                          ho-hoo
+  Tagalog              twit twit                                                                                                wák wák                                                     
+  Tamil                koo koo                                                                                                  kaa kaa                                                     
+  Telugu                                                                                                                        kaau kaau                                                   
+  Thai                 จิ๊บ ๆ (chip chip)                                                                                       กา กา (ka ka; ka also means a crow)                         
+  Turkish              cik cik /dʒik dʒik/, cibili cibili, şak şak                                                              gaak gaak                                                   gu guk guuk
+  Ukrainian            тьох-тьох (t'okh-t'okh), фіть-фіть (fit'-fit')                                                                                                                       
+  Vietnamese           chíp chíp                                                                                                quạ quạ (quạ also means a crow)                             
+  -------------------- -------------------------------------------------------------------------------------------------------- ----------------------------------------------------------- -----------------------------------------
+
+Mammal sounds[edit]
+
+Cats and dogs[edit]
+
+  -------------------- ------------------------------- -------------------------------------------------------------- ----------------------
+  Language             Cat meowing                     Dog barking                                                    Dog or wolf howling
+  Afrikaans                                            woef                                                           
+  Albanian             mjau-mjau                       ham ham, hum-hum, gam-gam, uof-uof                             huu, auu
+  Arabic               مُواَء (muwà-)[ara 3]           نباح (nibaah), haw haw, hab hab[ara 3]                         عواء (awoooo)[ara 3]
+  Armenian             միաւ (mee-av)                   հաւ հաւ (hav hav)                                              
+  Basque               mau                             au-au, txau-txau (small dogs), zaunk-zaunk (big dogs)          ulu-ulu
+  Batak                ngeong                          kung-kung                                                      auuung
+  Bengali              মিউ মিউ (miu miu)               ঘেউ ঘেউ (gheu gheu), ভেউ ভেউ (bheu bheu), ভউ ভউ (bhou bhou)    huukka huuya
+  Bulgarian            мяу (mjau)                      бау бау (bau bau), джаф джаф (djaff djaff)                     аууу (auuu)
+  Catalan              marramèu, mèu [(mərə)ˈmɛw]      bup-bup, bub-bub                                               auu, ahú
+  Chinese, Cantonese   喵喵 (mēu-mēu)                  㕵㕵 (wōu-wōu)                                                 
+  Chinese, Mandarin    喵 (miāo)[zho 14]               汪汪 (wāng wāng)[zho 15]                                       
+  Croatian             mjau                            vau vau                                                        
+  Czech                mňau [mɲau]                     haf haf                                                        
+  Danish               mjau, mjav, miau, miav          vuf vuf, vov vov, bjæf bjæf                                    
+  Dutch                miauw, mauw                     waf waf, woef woef                                             
+  Egyptian             mjw (miu)                                                                                      
+  English              miaow (UK), meow (US)           woof, arf, bow wow, ruff,yap yap(small dog)                    awooo
+  Estonian             mäu, mjäu, näu, njau, kurnjau   auh auh                                                        
+  Finnish              miau, mau, nau, kurnau          hau hau, vuh vuh                                               auuu, vouuu
+  French               miaou [mja.u][fra 1]            ouah ouah, ouaf ouaf, wouf wouf[fra 1]                         aoouu
+  Galician                                             jau jau                                                        
+  German               miau[ger 1][ger 1]              wau wau, waff waff, wuff wuff                                  
+  Greek                νιάου (niau)                    γαβ γαβ (ghav ghav)                                            αουυυ (auuu)
+  Hebrew               מְיָאוּ (miàw)[heb 4]           הַב־הַב (hav hav),[heb 4] הַאוּ־הַאוּ (haw haw)[heb 4]         אַאוווּ (awooo)
+  Hindi                myaau, myaaoo                   भो भो (bho bho)                                                
+  Hungarian            miaú, nyau                      vau vau                                                        
+  Icelandic            mjá                             voff voff                                                      
+  Indonesian           meong                           guk guk                                                        auuu
+  Italian              miao, miau, mao[ita 1]          bau bau[ita 1]                                                 auuu
+  Japanese             ニャー (nyā)[jpn 10]            ワンワン (wan wan)[jpn 10]                                     ワオーン (waōn)
+  Kannada                                              bow bow                                                        
+  Kazakh               мияу-мияу (mijau-mijau)         арп-арп (arp-arp), шәу-шәу (shau-shau)                         ұұұ (üüü)
+  Korean               야옹 (yaong)                    멍멍 (meong meong)                                             
+  Latgalian            ņau ņau                         vau vau                                                        
+  Latvian              mjau, ņau                       vau                                                            
+  Lithuanian           miau                            au au                                                          aūūū
+  Macedonian           мјау (mjau)                     ав ав (av av), џав џав (dzhav dzhav)                           
+  Malayalam            myaoo myaoo                     bau bau                                                        
+  Marathi              म्यांव (meow/myao)              भो-भो (bho bho)                                                कुई (kuii)
+  Nepali               म्याउँ म्याउँ (myaoo myaoo)                                                                    
+  Norwegian            mjau                            voff voff, vov vov                                             
+  Persian              میومیو (mioo mioo)              واق واق (vāq vāq), هاف هاف (hāf-hāf)                           
+  Polish               miau                            hau hau                                                        a-uuu
+  Portuguese           miau[por 1]                     au au, ão ão, béu béu[por 1]                                   auuu
+  Romanian             miau                            ham ham                                                        auuu
+  Russian              мяу (mjau)                      гав-гав (gav gav, big dogs), тяф-тяф (tyaf tyaf, small dogs)   у-у-у (wu-u-u)
+  Serbian              мњау (mnjau)                    ав ав (av av)                                                  
+  Sinhalese            ඤාවු (ñāvu)                     බුඃ බුඃ (buh buh)                                              
+  Slovak               mňau                            hav-hav, hau-hau, haf-haf                                      
+  Slovene              mijav                           hov hov                                                        
+  Spanish              miau [ˈmjaw][Spa 1]             guau guau[Spa 1]                                               auuu
+  Swedish              mjau, mjao, jam                 vov vov, voff voff                                             
+  Tagalog              meyaw, miyaw, ngiyaw            aw aw                                                          
+  Tamil                மியா (miaow(m))                 லொள் லொள் (loll-loll), vovw-vovw, vazh vazh                    
+  Telugu               miao(m)                         bau bau                                                        
+  Thai                 เมี้ยว (miao), แง้ว (ngaew)     โฮ่ง ๆ (hong hong), บ๊อก ๆ (bok bok)                           โบร๋ว์ (brow)
+  Turkish              miyav                           hav hav                                                        auuu
+  Ukrainian            няв (niav)                      гав (gav)                                                      
+  Urdu                 meow[urd 1]                                                                                    
+  Uropi                miaw                            waw waw                                                        
+  Vietnamese           meo                             gâu gâu, sủa sủa                                               
+  Volapük              miov                                                                                           
+  -------------------- ------------------------------- -------------------------------------------------------------- ----------------------
+
+Equine sounds[edit]
+
+  ------------ -------------------------- ----------------------------------------------------------------------------------------------------- ------------------------------------------------- -----------------------------------
+  Language     Horse whinnying            Horse trotting                                                                                        Horse galloping                                   Donkey braying
+  Afrikaans    runnik                                                                                                                                                                             hie hô
+  Albanian     iihihihi                   trro-trro, trrok-trrok                                                                                                                                  ia-ia, ioo-ioo
+  Arabic       صهيل (saheel)[ara 3]       deregin-deregin                                                                                                                                         نهيق (naheeq)[ara 3]
+  Basque       iiiiii                     traka-traka                                                                                                                                             aja-ja
+  Bengali      chi hni                    tag bag                                                                                                                                                 
+  Bulgarian                               тъгъдък тъгъдък (tagadak tagadak)                                                                                                                       и-аа и-аа (i-aa i-aa)
+  Catalan      hiii, iii                  toc-toc toc-toc [tɔk tɔk]                                                                             to-co-toc to-co-toc [tɔkɔ:tɔk]                    i-aaa, ihà
+  Croatian     njihaa                     klop klop                                                                                                                                               i-a
+  Czech        íí-hahá                                                                                                                                                                            íí-áá
+  Danish       vrinsk                     gadagung gadagung                                                                                                                                       
+  Dutch        niii, hiii                 kataklop kataklop                                                                                                                                       ie-aa
+  English      neigh                      clip clop                                                                                             gallop                                            hee-haw
+  Estonian     ii-ha-haa                  koppadi kopp                                                                                                                                            
+  Finnish      ii-ha-haa                  klip-klop                                                                                             kopoti kopoti, koppoti koppoti                    ihaa
+  French       hiii hiii                  pa-ta-clop                                                                                            cataclop cataclop, dougoudoum dougoudoum          hi han
+  German       wiehiehie                                                                                                                                                                          i-ah
+  Hebrew       הִי־הִי (hii hii)[heb 4]                                                                                                                                                           אִי־אָה (-i-à)[heb 4]
+  Hindi        हिं-हिं (hin-hina)                                                                                                                                                                 ढैंचू ढैंचू (Dhai.nchu Dhai.nchu)
+  Hungarian    nyihaha                    klop-klop-klop                                                                                                                                          i-á
+  Indonesian   yihaa                                                                                                                                                                              
+  Italian      hiii hiii                  clop-clop-clop, cloppete clappete                                                                                                                       ih oh
+  Japanese     ヒーン (hīn)                                                                                                                                                                       
+  Kazakh       мияу-мияу (mijau-mijau)    арп-арп (arp-arp), шәу-шәу (shau-shau)                                                                ұұұ (üüü)                                         
+  Korean       히잉 (hi-ing)                                                                                                                                                                      
+  Latin        hinni                                                                                                                                                                              
+  Latvian      ī-ā                        klap klap                                                                                             dipada-dapada                                     
+  Lithuanian   yhaha, ygaga                                                                                                                                                                       
+  Marathi                                 tagdak-tagdak तग्डक-तग्डक                                                                                                                               
+  Norwegian    vrinsk                                                                                                                                                                             
+  Persian      šīhe (شیهه)                pūtikā pūtikā                                                                                                                                           عرعر (ar-ar)
+  Polish       iii-haaa                   kla-klo kla-klo (actually /ˈǃˈǃʷ ˈǃˈǃʷ/, but with the mouth alternately opening and almost closing)   patataj patataj (stressed on the last syllable)   iii-haa
+  Portuguese   hi hi                      pocotó pocotó                                                                                         ii-á, ii-ó                                        
+  Romanian     ni-ha-ha                   trop trop                                                                                                                                               i-ha
+  Russian      и-го-го (i-go-go)          цок-цок (tsok-tsok) (colloquial), тыгыдык-тыгыдык (tygydyk-tygydyk), тыгдым-тыгдым (tygdym-tygdym)                                                      ии-а (ii-a)
+  Spanish      ji ji                      tucutun tucutun                                                                                                                                         i-o
+  Swedish      gnägg                                                                                                                                                                              
+  Tagalog      hihihi haha                                                                                                                                                                        
+  Thai         ฮี้ ๆ (hii hii)            กุบกับ กุบกับ (kupkap kupkap)                                                                                                                           
+  Turkish      ih-hi-i-i                  dıgı-dıg dıgı-dıg                                                                                                                                       aa-ii
+  Vietnamese   hí hí hí                   nhong nhong                                                                                                                                             
+  ------------ -------------------------- ----------------------------------------------------------------------------------------------------- ------------------------------------------------- -----------------------------------
+
+Animals with cloven hoofs[edit]
+
+  ------------------- --------------------- --------------------------------- ---------------------- ------------------------------------------------------------------ -------------------------
+  Language            Cow mooing            Sheep bleating                    Goat bleating          Pig grunting                                                       Pig squealing
+  Afrikaans           moe                   mê                                                                                                                          
+  Albanian            muu                   behehe, bee                       behehe, bee                                                                               
+  Arabic              moo, ngoah            امباع (mbaa), مأة (maa')[ara 3]   ثغاء[ara 11]           قباع (qibaa)[ara 3]                                                
+  Armenian                                  մայ (may)                                                                                                                   
+  Basque              mu                    mee                               bee                    kurrin-kurrin                                                      
+  Bengali             hamba                 myaa myaa                         byaa byaa              ghnot ghnot                                                        
+  Bulgarian           муу (muu)             беее (beee)                       меее (meee)            грух грух (gruh gruh)                                              квич-квич (kvich-kvich)
+  Catalan             mmm, muu              bèè, mèè                          bèè, mèè               oinc-oinc, gronyc                                                  
+  Chinese, Mandarin   哞 (mōu)[zho 16]      咩 (miē)[zho 17]                                                                                                            
+  Croatian            muu                   bee                                                                                                                         
+  Czech               bůů                   béé                               meee                   chro chro                                                          kvík kvík
+  Danish              muh                   mæh                                                      øf øf,[dan 8] grynt[dan 9]                                         
+  Dutch               boe                   bèh, mèh                                                 knor knor                                                          
+  English             moo                   baa                               maa, naa               oink oink                                                          
+  Estonian            ammuu, muu, möö       mää mää                                                  röh röh röh                                                        
+  Finnish             ammuu, muu, möö       mää, bää                          mä-ä-ä-ää. bä-ä-ä-ää   röh röh, nöf nöf                                                   skviik
+  French              meuh, mou             bêêh                                                     groin groin, grouik grouik[fra 1]                                  
+  Georgian                                  ვეეე (veee)                                              ღრუტუ ღრუტუ (ghrutu ghrutu)                                        
+  German              muh                   mäh                                                      grunz grunz, oink oink[ger 1]                                      
+  Greek (ancient)                           βῆ (bê)                                                  ko-i ko-i[gre 2]                                                   
+  Greek (modern)      μoυ (mu)              μεε (mee)                                                                                                                   
+  Hebrew              מוווּ (muuu)[heb 4]   מֶה (meh)[heb 4]                                         אוֹינְק־אוֹינְק (-oinq -oinq),[heb 4] חְרר־חְרר (xrr xrr)[heb 4]   
+  Hindi               moo                                                                                                                                               
+  Hungarian           mú, bú                bee                               mek mek                röf röf, uí uí                                                     
+  Icelandic                                 mee                                                                                                                         
+  Indonesian          mooh                  mbee, mbek                        mbek                   grok grok                                                          
+  Italian             mu                    bee                                                      oink oink[ita 1]                                                   
+  Japanese            モーモー (mō mō)      メーメー (mē mē)                                         プヒプヒ (puhi puhi), ブーブー (bū bū)[jpn 10]                     
+  Kazakh              мөө (moo)                                                                      қорс-қорс (qors-qors)                                              
+  Korean              음매 (eum-mae)        음매 (eum-mae)                                           꿀꿀 (kkul kkul)                                                   
+  Kyrgyz                                    маа (maa)                                                                                                                   
+  Latgalian           mū                                                                             ruk ruk, kvī kvī                                                   
+  Latin                                     bee                                                                                                                         
+  Latvian             mū                    bē, mē                                                   ruk ruk, kvī kvī                                                   
+  Lithuanian          mū                    be                                                       kvy kvy, kvykt kvykt, kriu kriu                                    
+  Marathi             हम्मा (hamma)         बँ-बँ (baanh-baanh)                                                                                                         
+  Norwegian           mø                    bæ                                mæ                     nøff nøff                                                          
+  Persian             māγ                   bā-bā                                                                                                                       
+  Polish              muuu                  beee                              beee                   chrum chrum                                                        kwi kwi
+  Portuguese          mu mu                 meh                               béee                   ronc ronc, oinc oinc                                               
+  Romanian            mu                    meee, beee                                               groh groh                                                          
+  Russian             му (mu)               бее-е (beh)                       мее-е (meh)            хрю-хрю (hrju hrju)                                                
+  Serbian             му (mu)               бее-е (beh)                       мее-е (meh)            грок грок (grok grok)                                              
+  Slovak              múú                   béé                               méé                    kroch-kroch                                                        kvík-kvík
+  Slovene             mu                                                                                                                                                
+  Spanish             mu                    beee                              beee                   oinc oinc[Spa 1]                                                   
+  Swedish             mu                    bä                                                       nöff nöff, grymt grymt                                             
+  Tagalog             ungaa                                                                          ngok ngok                                                          
+  Telugu              అంబా (amba)           mae                                                                                                                         
+  Thai                มอ (mo)               แบะ แบะ (bae bae)                                        อู๊ด ๆ (uut uut), ครอก ๆ (khrok khrok)                             
+  Turkish             mö                    mee                                                                                                                         
+  Uropi               mu, muh               bee, beh                                                 grun grun                                                          
+  Vietnamese          ụm bò                 be be                             be be                  ụt ụt, ụt ịt, ỉn ỉn, ủn ỉn                                         eng éc
+  Welsh                                                                                              soch soch                                                          
+  ------------------- --------------------- --------------------------------- ---------------------- ------------------------------------------------------------------ -------------------------
+
+Other mammals[edit]
+
+  ------------ ---------------------------- ------------------------ --------------------------------
+  Language     Elephant trumpeting          Lion/tiger roaring       Monkey chatting
+  Albanian     tyy, trryy                   arr, grr                 i-u-a-a, u-u-a-a
+  Arabic       نهيم (naheem)[ara 12]        زئير (za'ir)[ara 3]      ضحك (duhik)[ara 3]
+  Catalan      hiii, iiiii                  arrr, brahh, graa        hiii-hii, iiii-iii
+  Czech                                                              u-u e-e
+  Dutch        toet                         grrr                     oe-oe a-a
+  English      baraag, nrrr, toot           roar, grrr, rawr, roar   oo-ooh a-aah, ook ook, eek eek
+  Finnish      tööt, trööt                  mur                      juk juk, tsik tsik
+  French       braah                        roarrr, grrr             ouah ah ah hein
+  German       töröö                                                 
+  Hebrew                                                             אוּ־אוּ אַ־אָה (-u-u a-àh)
+  Hungarian    tü-tü                                                 mak-mak
+  Indonesian   ngoah                        aum                      kak kak kak
+  Italian      baaa                         roar                     u-u-ah-ah-ah
+  Japanese     パオーン (paōn)              ガオー (gaō)             ウキウキ (u-ki-u-ki)
+  Kazakh                                    арс (ars)                
+  Korean                                    어흥 (eo-heung)          우끼끼끼 (u-kki-kki-kki)
+  Polish                                    wrrr, grrr               u-u
+  Portuguese                                urawr                    u-u-u, u-u-ááá
+  Romanian                                  grrrrr                   
+  Russian                                   р-р-р (rrr)              чи-чи-чи (chi-chi-chi)
+  Spanish      biaaah                       grrr                     iih, iih
+  Swedish      tuut                                                  
+  Tagalog      awoo                                                  hoo-hoo-aah
+  Thai         แป๊น (paen), แปร๊น (praen)   โฮก (hoak)               เจี๊ยก ๆ (chiak chiak)
+  Turkish                                   ravr                     
+  Ukrainian                                                          fru-fru-fru, che-che
+  Vietnamese   ré, rống                     goám, gầm, rống          khẹc khẹc
+  ------------ ---------------------------- ------------------------ --------------------------------
+
+Other animals[edit]
+
+  ------------------- ----------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------- ----------------------
+  Language            Bee buzzing                                                                                           Frog croaking                                                                      Snake hissing
+  Afrikaans           zoem                                                                                                  kwaak                                                                              sis
+  Albanian            bëzz, zhh, vzvzvz                                                                                     krra-krra                                                                          pss
+  Arabic              طنين (taneen), دوي (dwii)[ara 3]                                                                      نقيق (naqiq)[ara 3]                                                                فحيح (fahih)[ara 13]
+  Armenian,           բզզ (bezuzz), բզզէ (bezuzze)                                                                                                                                                             
+  Basque              brun-brun                                                                                             kro-kro                                                                            zi-zi
+  Batak               ngung-ngung                                                                                                                                                                              
+  Bengali             gun gun                                                                                               মক মক (môk môk), কট কট (kôṭ kôṭ), ghangor ghang                                    phnosh
+  Bulgarian,          бззз (bzzz)                                                                                           ква ква (kva kva)                                                                  ссс (sss)
+  Catalan             bzzz, zum-zum, nyee                                                                                   ruac ruac, roac roac, rac rac                                                      sss, hss
+  Chinese, Mandarin   嗡嗡 (wēng wēng)[zho 18]                                                                              呱呱 (guā guā)[zho 11]                                                             嘶嘶 (sī sī)
+  Croatian            zum zum, bzzz                                                                                         kre kre                                                                            hsss
+  Czech               bzzz                                                                                                  kvá kvá                                                                            sss
+  Danish              sum                                                                                                   kvæk kvæk,[dan 10] græbæk[citation needed]                                         
+  Dutch                                                                                                                     kwaak kwaak                                                                        
+  English             buzz, bzzz, (in rural English (as mentioned in Joel Chandler Harris's "Uncle Remus" stories), zoon)   (USA) ribbit, gribbit; (Britain) croak                                             hiss, sss
+  Estonian            summ-summ-summ                                                                                        krooks krooks                                                                      
+  Finnish             surr, surrur                                                                                          kurr kurr, kroak                                                                   
+  French              bzzz                                                                                                  croa croa                                                                          siff
+  Galician                                                                                                                  cro cro                                                                            
+  German              summ                                                                                                  gribbit, quaak                                                                     zisch
+  Greek                                                                                                                     brekekekex koax koax (ancient, likely Rana ridibunda), κουάξ κουάξ (kuaks kuaks)   
+  Hebrew              בְּזזז (bzzz), זוּם־זוּם (zum zum)                                                                    קְוָה־קְוָה (qwà qwà)[heb 4]                                                       סְסס (sss)
+  Hindi                                                                                                                     tarr tarr                                                                          
+  Hungarian           zümm                                                                                                  brekeke, brekk, kutykurutty, kvákk                                                 sssz
+  Indonesian          nguing                                                                                                krok krok                                                                          
+  Italian             bzzz, zumm                                                                                            cra cra, cri cri                                                                   pisss
+  Japanese            ブーン (būn)                                                                                          ケロケロ (kero kero)                                                               シャー (shā)
+  Kazakh                                                                                                                    бақ-бақ (baq-baq)                                                                  
+  Korean                                                                                                                    개굴개굴 (gaegul gaegul)                                                           
+  Latgalian                                                                                                                 kvak kvak, kvā kvā, kvarr kvarr                                                    
+  Latvian             bzz, zumm                                                                                             kvā kvā                                                                            
+  Lithuanian                                                                                                                kva kva                                                                            
+  Macedonian                                                                                                                кре кре (crè crè)                                                                  
+  Marathi             zzz                                                                                                   डरांव-डरांव (darav-darav)                                                          फुस्स (phusss)
+  Norwegian           sum sum                                                                                               kvekk kvekk, kvakk kvakk                                                           
+  Nepali              bhun bhun, bhununu                                                                                                                                                                       
+  Persian             vez-vez                                                                                               qūr-qūr                                                                            fūke, fūff
+  Polish              bzzz, zzz                                                                                             kum kum, rech rech                                                                 sss
+  Portuguese          zum zum, bzzz                                                                                         croac croac                                                                        sss
+  Romanian            bâzzz                                                                                                 oac oac                                                                            sss
+  Russian             жжж (zhhh)                                                                                            ква ква (kva kva)                                                                  шшш (shhh)
+  Serbian             zum zum, bzz                                                                                          кре кре (kre kre)                                                                  
+  Sinhalese                                                                                                                 බක බක baka baka                                                                    
+  Slovene                                                                                                                   kvak kvak, rega kvak                                                               
+  Spanish             zum                                                                                                   croac croac                                                                        sss
+  Swedish             surr surr                                                                                             kvack kvack, ko ack ack ack, kväk                                                  väs
+  Tagalog             zzz                                                                                                   kokak kokak                                                                        sss
+  Telugu                                                                                                                    beka beka                                                                          buss
+  Thai                หึ่ง ๆ (hueng hueng)                                                                                  อ๊บ ๆ (op op)                                                                      ฟ่อ (fo)
+  Turkish             vızz                                                                                                  vrak vrak                                                                          tısss
+  Ukrainian                                                                                                                 ква-ква (kva kva),[uk 1] кум-кум (kum kum),[uk 2] квок-квок (kvok kvok)[uk 2]      
+  Vietnamese                                                                                                                ồm ộp, ộp ộp                                                                       
+  ------------------- ----------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------- ----------------------
+
+Collisions, bursts, and strikes[edit]
+-------------------------------------
+
+Balloon or bubble bursting[edit]
+
+-   In Albanian, pau, puf
+-   In Arabic, pakh, poof
+-   In batak. tak
+-   In Bemba, pobo
+-   In Bengali, phat, phatash
+-   In Bulgarian, puc пук, pa па
+-   In Croatian, puk
+-   In Czech, puf
+-   In Danish, bang, knald
+-   In Dutch, pang, pof, paf, poef
+-   In English, pop, bang
+-   In Estonian pops
+-   In French, bang, pop
+-   In Finnish, poks
+-   In German, baeng, plop
+-   In Greek, bam μπαμ, bum μπουμ
+-   In Hindi, thaa
+-   In Hungarian, pukk (quieter); durr, bumm, bámm (louder)
+-   In Indonesian, dor
+-   In Italian, bum
+-   In Japanese, pan パンッ
+-   In Korean, ppang 빵, ppeong 뻥, pang 팡, peong 펑
+-   In Latvian, bliukš
+-   In Lithuanian, pokšt
+-   In Macedonian, pau пау
+-   In Marathi, Dhum ढुम्
+-   In Navajo, dǫǫn (nasalized o)
+-   In Persian, poloq
+-   In Polish, bum, pyk
+-   In Portuguese, pá, bum
+-   In Romanian, poc
+-   In Russian, bakh бах
+-   In Serbian, puk
+-   In Slovene, pok
+-   In Spanish, pop
+-   In Swedish, poff
+-   In Tagalog, putók, pak
+-   In Thai, โป๊ะ (po), ปั้ง (pang)
+-   In Turkish, bom
+-   In Vietnamese, bốp, bụp
+
+Cannon firing; gunshot; machine gun fire[edit]
+
+-   In Afrikaans, kaboem; boem; ra-tat-tat
+-   In Albanian, pum-pum; bau-bau, ta-ta-ta-ta, du-du-du-du
+-   In Arabic, bom; bov, tokh طخ[ara 1]
+-   In Basque, bunba; danba; ta-ta-ta-ta-ta
+-   In Bengali, goom goom
+-   In Bulgarian, bum бум, kh кх, tatatata тататата
+-   In Catalan, buuum, pumba; pam, pum; ratatatatà
+-   In Chinese, Mandarin, pēng 砰; ping, pa 乒, 啪; da da da...
+    嗒嗒嗒[citation needed]
+-   In Croatian, bum, pam, puf
+-   In Czech, bum, prásk, ratatata
+-   In Danish, bang, bum
+-   In Dutch, boem; pang, pauw; ratatata
+-   In English, bam, boom, blam, kaboom; bang, pow; rat-at-at-at-at-at,
+    gat-gat-gat-gat, skkrrt skkrrt, dakka-dakka
+-   In Estonian, põmm, kõmm; pauh, karpauh
+-   In Finnish, pum; pam; ra-ta-ta-ta-ta-ta, rä-tä-tä-tä-tä-tä
+-   In French, boum; pan
+-   In German, bumm, rumms, kawumm; peng, puff, päng; rat-tat-tat-tat
+-   In Greek, cabum, bum μπουμ, bam μπαμ; bam, pan, piu-piu (mainly by
+    children); trrrrrr
+-   In Hebrew, bum בּוּם
+-   In Hindi, thaa
+-   In Hungarian bumm, dörr; ratata, trrrrr
+-   In Icelandic, búmm; bamm
+-   In Indonesian, dor,
+-   In Italian, bum; bang; pum
+-   In Japanese, バーンバーン (bān bān), dōn ドーン, bakyūn バキューン
+-   In Kannada, dum, dhaam
+-   In Kazakh, bydyrsch быдырщ
+-   In Korean, ppang 빵
+-   In Latvian, bum
+-   In Lithuanian, bumpt, bum, pokšt
+-   In Persian, bang
+-   In Macedonian, bum бум; pau пау; ra ta ta ta ра та та та
+-   In Marathi, Dhishkyaon ढिश्क्यँव, dhishum धिशुम
+-   In Polish, bum-bum; bang-bang, pif-paf and others; tra ta ta ta ta
+-   In Portuguese, bam, boom, cabum; pá,pum; ratátátá
+-   In Romanian, bum; poc
+-   In Russian, ba-bakh ба-бах; pif-paf пиф-паф; tra-ta-ta тра-та-та
+-   In Sinhalese, ḍisum ඩිසුම්; ḍung ඩුං; ḍaka-ḍaka-ḍaka ඩක-ඩක-ඩක
+-   In Spanish, pum; bang; praca
+-   In Swedish, bom; pang, bang
+-   In Tagalog, boom; boogsh
+-   In Tamil, dishum
+-   In Telugu, dishyoom
+-   In Thai, ตูม (tuum, cannon firing); ปัง (pang, gunshot)
+-   In Turkish, bom, bam, güm, dıkşınyaa (by kids)
+-   In Uropi, bam (cannon), pang (gun)
+-   In Vietnamese, đoàng (louder); pằng (quieter); bùm (usually for
+    cannons)
+
+Crash[edit]
+
+-   In Albanian, pum, bau, përrtaf,
+-   In Afrikaans, doef, kadoef
+-   In Arabic, bom, tàkh, tràkh[ara 1]
+-   In Basque: danba, pun, plaust
+-   In Bengali: ṭhash ঠাস, ṭhush ঠুস, dhum ধুম, dham ধাম, daram, dhapash
+-   In Bulgarian, bum бум, dum дум, trjas тряс, pras прас
+-   In Catalan, bumba, catacrac, patam, paf
+-   In Chinese, Mandarin, hong 轰[citation needed]
+-   In Croatian, bum, tres
+-   In Czech, řach, bum, prásk
+-   In Danish, bum, bump, bang, krasj
+-   In Dutch, boem, knal, plof, bam
+-   In English, boom, bam, wham, slam, bang, crash, clash, pow, thonk,
+    thunk, thud, clang
+-   In Estonian, prõmm, pauh, piraki, karpauh
+-   In Tagalog, ka-boom
+-   In Finnish, pam, pum, ryskis, kolin, räiskis
+-   In French, bing, bang, boum, bam, vlan
+-   In German, rumms, bumms, bauz, krach, knall
+-   In Gilbertese, beeku
+-   In Greek, bam μπαμ, gcup
+-   In Haitian Creole, bip
+-   In Hebrew, bum בּוּם, trax טְרַאח[heb 5]
+-   In Hindi, dhishumm धिशुम्म, dhishum धिशुम
+-   In Hungarian, dzzs, bumm, bamm, puff, paff, csatt, nyekk
+-   In Indonesian, buk, brekk, j'derr
+-   In Italian, bum, badabeu, patatraf
+-   In Japanese, ガーン (gān)
+-   In Korean, kung 쿵
+-   In Kyrgyz, тарс'
+-   In Latin, tuxtax
+-   In Latvian, bum
+-   In Lithuanian, bumpt, bum
+-   In Macedonian, bum бум, pam пам, pum пум, dum дум, très трес
+-   In Malay, gedebak-gedebuk, beng
+-   In Marathi, dhadaam धडाम्
+-   In Polish, bum, trach
+-   In Portuguese, crash, boom
+-   In Romanian, bum, buf, pac, poc, trosc, zbang
+-   In Russian, bum бум
+-   In Sinhalese, daḍas දඩස්
+-   In Spanish, bum, catapum, crash
+-   In Swedish, krasch
+-   In Tamil, dhishumm, dhishum
+-   In Thai, โครม (khrom)
+-   In Turkish, güm, bam, dıkş, çat, pat, zbam
+-   In Vietnamese, ầm, rầm
+
+Door or floor creaking[edit]
+
+-   In Albanian, grr
+-   In Afrikaans, kraak
+-   In Bulgarian, skratz скръц
+-   In Arabic, azeeez أزيـــز
+-   In Catalan, nyieec, nyeeec
+-   In Croatian, škrip
+-   In Czech, vrrzzz, skřííííp
+-   In Danish, knirk
+-   In Dutch, kraak
+-   In English, creak
+-   In Estonian, kriiks, kriuks
+-   In Finnish, kriik, narsk
+-   In French, crac
+-   In German, knarz
+-   In Hindi, charrr
+-   In Hungarian, nyííí
+-   In Indonesian, krieeet
+-   In Italian, criiic, craaac
+-   In Japanese, gī ギー
+-   In Kazakh, shiiq шииқ
+-   In Korean, ppi-geok 삐걱
+-   In Kyrgyz, кыйч
+-   In Latvian, čīk
+-   In Malay, eeek (keriang-keriut)
+-   In Polish, skrzyp
+-   In Persian, 'γež-γežغژ غژ
+-   In Romanian, scârț
+-   In Russian, skreep скрип
+-   In Spanish, ñyeec, ñyiic
+-   In Swedish, knarr
+-   In Tagalog, ekk
+-   In Thai, แอ๊ด (aet)
+-   In Turkish, gıcır, gıcırt
+-   In Uropi, krak
+-   In Vietnamese, kétttt, ken két, cọt kẹt, kẽo kẹt
+
+Engine back-firing while freewheeling[edit]
+
+-   In Albanian, përr-përr-përr, dum-dum-dum
+-   In Batak, put-put-put, doput-doput
+-   In Italian, rrra-tatatatata...
+-   In Malay, prreng prreng
+-   In Polish, pyr pyr pyr
+-   In Romanian, pâr pâr
+-   In Russian, dìr-dìr-dìr дыр-дыр-дыр
+-   In Spanish, tac tac tac
+
+Knocking[edit]
+
+-   In Albanian, tak-tak, tok-tok, trok-trok
+-   In Arabic, daqqa دَقَّ
+-   In Afrikaans, klop
+-   In Batak, tok-tok-tok
+-   In Bengali, khat khat, takatak
+-   In Bulgarian, chuc chuc чук чук
+-   In Catalan, toc toc
+-   In Chinese, Mandarin, dang dang dang 当当当[citation needed]
+-   In Croatian, kuc kuc
+-   In Czech, ťuk ťuk
+-   In Danish, bank bank
+-   In Dutch, klop klop
+-   In English, knock knock, bang bang bang
+-   In Finnish, kop kop
+-   In Estonian, kopp kopp
+-   In French, toc toc
+-   In German, klopf klopf
+-   In Greek, τοκ τοκ
+-   In Hebrew, tuq tuq תּוּק־תּוּק[heb 6]
+-   In Hindi, thakk thakk
+-   In Hungarian, kop kop, kip kop
+-   In Icelandic, bank bank
+-   In Indonesian, tok tok
+-   In Italian, toc toc
+-   In Japanese, コツコツ (kotsu kotsu), kon kon コンコン, ton ton
+    トントン
+-   In Korean, ttok ttok 똑똑
+-   In Latvian, tuk tuk
+-   In Lithuanian, tuk tuk
+-   In Malay, tok tok tok (ketuk)
+-   In Marathi, thak-thak ठक्-ठक्
+-   In Persian, taq-taq
+-   In Polish, puk-puk
+-   In Portuguese, toc toc, noque noque, truz truz
+-   In Romanian, cioc-cioc
+-   In Russian, tuk-tuk тук-тук
+-   In Spanish, toc toc
+-   In Swedish, knack knack
+-   In Tagalog, tok tok tok
+-   In Thai, ก๊อก ๆ ๆ (kok kok kok)
+-   In Turkish, tak tak
+-   In Vietnamese, cốc cốc, cộc cộc
+-   In Zulu, nqo nqo nqo
+
+Strikes[edit]
+
+Dull strike[edit]
+
+-   In Albanian, pum, bam, llau
+-   In Afrikaans, doef
+-   In Bulgarian, toup туп, khlop хлоп
+-   In Danish, bump, dunk
+-   In English, knock, bump, rap, thud, boom, thump
+-   In Finnish, tök, pöksis
+-   In German, klopf, plumps, platsch
+-   In Japanese, don ドン, zun ズン
+-   In Korean, peok 퍽
+-   In Persian, bāmp
+-   In Polish, łup
+-   In Portuguese, puf, pluft, pum
+-   In Russian, bats бац
+-   In Romanian, buf!
+-   In Spanish, toc
+-   In Thai, ตึง (tueng), ตึ้ง (tueng)
+
+Falling strike[edit]
+
+-   In Albanian, pum, pëlltaf, përrtaf
+-   In Afrikaans, plof
+-   In Bulgarian, plyos пльос, shlyap шляп
+-   In Croatian, pljas, tres, bum, tup[hr 1]
+-   In Czech, žuch
+-   In Dutch, plof, plop
+-   In English, plop, splat, thud, thunk, thonk
+-   In French, floc
+-   In German, plumps, patsch, plump
+-   In Hungarian, puff, paff
+-   In Indonesian, bruk, gedebuk
+-   In Japanese, potori ぽとり
+-   In Korean, teok 턱
+-   In Persian, dāmb
+-   In Portuguese, ploft, paft, catapluft, pimba
+-   In Romanian, pleosc, fleoșc
+-   In Russian, khlop хлоп shlyop шлёп
+-   In Spanish, plaf, paf
+-   In Tagalog. blag, bug
+-   In Thai, โครม (khrohm)
+-   In Vietnamese, bịch
+
+Sharp strike[edit]
+
+-   In Albanian, tink, ting
+-   In Afrikaans, klingel, kletter
+-   In Bulgarian, dzun дзън
+-   In Catalan, cling. clang, cataclinc-cataclanc
+-   In Czech, cink
+-   In Croatian, zvek, zvec[hr 1]
+-   In Chinese, Cantonese, bìhng-līng baang-làahng 乒鈴嘭唥
+-   In Chinese, Mandarin, kuāng lāng 哐啷,[zho 19] guang-dang
+    哐当[citation needed]
+-   In Dutch, klink, ring, klingel, rinkel, kletter, tingel
+-   In English, clang, clink, clank, clunk, chink, dink, tink, plink,
+    ding, ring, ping, ting, jingle, jangle, tinkle, pow, conk
+-   In Finnish, kilin, kolin
+-   In French, paf, bim, bam
+-   In German, klang, kling, klirr, klimper, klingel, bimmel
+-   In Hebrew, zbang זְבֶּנְג[heb 7]
+-   In Indonesian, jleb
+-   In Japanese, カーン (kān)
+-   In Korean, jjaeng 쨍, ting 팅
+-   In Persian, jiring
+-   In Portuguese, pim, plim
+-   In Romanian, jap, harsht, trosc
+-   In Russian, dzyn’ дзынь, zvyak звяк, klatzклац
+-   In Spanish, tintin, tilín
+-   In Thai, ติ๊ง (ting), ปิ๊ง (ping)
+-   In Vietnamese, keng, beng
+
+Wet strike[edit]
+
+-   In Albanian, plluq, pëlltuq, pllaf
+-   In Afrikaans, plons, plas, spat
+-   In Bulgarian, plyok пльок
+-   In Catalan, xap, xof, patatxap
+-   In Croatian, šljap
+-   In Czech, plesk
+-   In Chinese, Mandarin, ba-ji 啪唧[citation needed]
+-   In Danish, plask
+-   In Dutch, plons
+-   In English, splash, splish, splosh, splat
+-   In Estonian lärts, plärts
+-   In Finnish, loiskis, mäts
+-   In French, plouf
+-   In German, patsch, platsch, klatsch, schwapp
+-   In Hungarian, platty, placcs
+-   In Indonesian, crot, byur
+-   In Italian, plop
+-   In Japanese, bicha びちゃっ
+-   In Korean, cheolpudeok 철푸덕, cheolpeok 철퍽
+-   In Kyrgyz, чалп
+-   In Malay, trushh, shushh, pishh
+-   In Persian, čolop-čolop, pešenge
+-   In Polish, plask
+-   In Portuguese, tchibum[por 1]
+-   In Romanian, pleosc, fleoșc, fleașc
+-   In Russian, bultykh бултых, plyukh плюх
+-   In Spanish, splash, plaf
+-   In Swedish, plask
+-   In Tagalog, plok
+-   In Thai, โพล๊ะ (plo), แผละ (plae)
+-   In Uropi, plac
+-   In Vietnamese, bẹp, phọp
+
+Crunch, сracking (of sticks, bones etc.)[edit]
+
+-   In Croatian, krc [hr 1]
+-   In Czech, křup
+-   In English crunch, crash, crack[1]
+-   In Russian, khryas хрясь,[1] khrust хрусть
+
+Machinery[edit]
+---------------
+
+Camera shutter[edit]
+
+-   In Albanian, klik
+-   In Afrikaans, klik
+-   In Arabic, chic chic تشك تشك
+-   In Basque, klisk
+-   In Batak, ceklek
+-   In Bulgarian, щрак (shtrak)
+-   In Catalan, cx, xic, txc or txic
+-   In Chinese, Mandarin, kā chā咔嚓
+-   In Croatian, klik
+-   In Czech, cvak
+-   In Danish, klik
+-   In Dutch, klik
+-   In English, click
+-   In Estonian klõps, plõks
+-   In Finnish, klik
+-   In French, clic
+-   In German, klick
+-   In Hebrew, chik צִ'יק
+-   In Hungarian, klikk
+-   In Italian, clic
+-   In Indonesian, cepret, cekrek
+-   In Japanese, pasha パシャ
+-   In Korean, chalkak 찰칵
+-   In Kyrgyz, чырк
+-   In Latvian, klik klik
+-   In Malay, cekek cekek
+-   In Polish, pstryk, klik klik
+-   In Portuguese, clic clic
+-   In Romanian, clic
+-   In Russian, shchyolk щёлк, chik чик
+-   In Spanish, clic
+-   In Swedish, klick
+-   In Tagalog, klik
+-   In Thai, แชะ (chae)
+-   In Turkish, klik, şlak
+-   In Uropi, klik
+-   In Vietnamese, lách cách
+
+Car engine revving[edit]
+
+-   In Albanian, vum-vum-vum, përr-përr-përr
+-   In Afrikaans, wroem, broem
+-   In Arabic, hunn hunn هن هــن, aan aan آن آن
+-   In Batak, ngong, ngooongngng
+-   In Bulgarian, bram-bram бръм-бръм
+-   In Catalan, rum, rumm
+-   In Croatian, brum brum, vrum vrum
+-   In Czech, brmmm brmmm
+-   In Danish, vrum vrum, brum brum, nøn nøn
+-   In Dutch, broem, vroem
+-   In English, vroom vroom, broom broom
+-   In Estonian, põrr põrr
+-   In Finnish, vruum vruum, bruum bruum, prööm prööm (spoken)
+-   In French, vroum vroum
+-   In German, brumm brumm, wrumm wrumm
+-   In Hebrew, aan aan אָאן אָאן
+-   In Hungarian, brum brumm
+-   In Indonesian, bremmm bremmm, ngeng ngeng
+-   In Italian, brum brum, vrum vrum
+-   In Japanese, buroro ブロロ
+-   In Korean, bureung bureung 부릉부릉
+-   In Malay, ngeng ngeng, brum brum, vrum vrum, preng preng, ngii ngii
+-   In Polish, brummm brummmm
+-   In Portuguese, vruum vruum
+-   In Romanian, vrum vrum
+-   In Russian, rrr ppp ru ru ру ру rum rum рум рум
+-   In Spanish, 'rue fun
+-   In Swedish, brum
+-   In Telugu, raeyyyyyyy
+-   In Thai, บรื๊น ๆ (bruen bruen)
+-   In Turkish, vrum vrum (truck), vrın vrın (car)
+-   In Vietnamese, bờ rừm
+
+Car horn honking[edit]
+
+-   In Albanian, po-po, ty-ty
+-   In Afrikaans, toet
+-   In Arabic, beeb beep, طيط-طيط ṭiṭ-ṭiṭ
+-   In Batak, tot, tooot
+-   In Bulgarian, bi-biip би-биип
+-   In Catalan, pipip, mec mec, moc moc
+-   In Chinese, Mandarin, ba ba 叭叭
+-   In Croatian, tu tu, bi bip
+-   In Czech, tů tů
+-   In Danish, dyt dyt, båt båt
+-   In Dutch, toet toet
+-   In English, honk honk, beep beep, toot toot
+-   In Estonian, tuut tuut, piip piip
+-   In Finnish, tööt tööt
+-   In French, tut-tut
+-   In German, tut
+-   In Greek, bip bip, μπιπ μπιπ
+-   In Hebrew, bip bip בִּיפּ־בִּיפּ
+-   In Hungarian, tü-tű, tü-tűt
+-   In Icelandic. bíb bíb
+-   In Indonesian, din din
+-   In Italian, bip bip, biii biii
+-   In Japanese, pu pū ププー
+-   In Korean, ppang ppang 빵빵
+-   In Latvian, pī pī
+-   In Lithuanian, pyp pyp
+-   In Malay, pon pon, pot pot, ,pet pet, pin pin (toy car)
+-   In Marathi, paa-paa पँ-पँ
+-   In Norwegian, bært bært
+-   In Polish, bib-biiib
+-   In Portuguese, bi-bi or fon-fon[por 1]
+-   In Romanian, tiiit! ti-ti!
+-   In Russian, bi-bi би-би, bi-bip би-бип
+-   In Spanish, pi pi, pip pip
+-   In Swedish, tut tut
+-   In Tagalog, bip bip
+-   In Telugu, poy ppoy
+-   In Thai, ปี๊น ๆ (pin pin)
+-   In Turkish, düt düt, bip bip, dat dat
+-   In Uropi, tut
+-   In Vietnamese, bim bim, pim pim
+
+Clock ticking[edit]
+
+[]
+
+A sign in a shop window in Italy proclaims "No Tic Tac".
+
+-   In Albanian, tik-tak
+-   In Afrikaans, tik-tok
+-   In Basque, tiki-taka
+-   In Batak, tik-tak, tik-tak
+-   In Bengali, tik tik
+-   In Bulgarian, tic tac тик так
+-   In Catalan, tic-tac
+-   In Chinese, Mandarin, dī dā 嘀嗒[zho 20]
+-   In Croatian, tik tak
+-   In Czech, tik ťak
+-   In Danish, tik tak
+-   In Dutch, tik tak
+-   In English, tick tock
+-   In Estonian, tikk takk
+-   In Finnish, tik tak
+-   In French, tic tac
+-   In German, tick tack
+-   In Greek, tic tac τικ τακ
+-   In Hebrew, tiq taq תִּיק־תַּק[heb 8]
+-   In Hindi, tic tic
+-   In Hungarian, tik tak
+-   In Icelandic, tik tak
+-   In Indonesian, tik tok
+-   In Italian, tic toc, tic tac
+-   In Japanese, チクタク (chikutaku), カチカチ (kachi kachi)
+-   In Korean ttok-ttak ttok-ttak 똑딱똑딱
+-   In Latvian, tik tak
+-   In Lithuanian, tik tak
+-   In Macedonian, tic tac тик так
+-   In Malay, tik tok
+-   In Marathi, tik-tik टिक-टिक
+-   In Nepali, clit caqq
+-   In Norwegian tikk takk
+-   In Polish, tik tak
+-   In Portuguese, tique-taque,[por 1] tic toc
+-   In Romanian, tic tac
+-   In Russian, tic-tac тик-так
+-   In Slovene, tik tak
+-   In Spanish, tic tac
+-   In Swedish, tick tack
+-   In Tagalog, tik tak tik tak
+-   In Tamil, tik tik
+-   In Thai, ติ๊กต็อก (tiktok)
+-   In Turkish, tik tak
+-   In Vietnamese, tích tắc
+-   In Volapük, tiktö
+
+Doorbell ringing[edit]
+
+-   In Albanian, tring-tring, ding-dong
+-   In Afrikaans, trieng
+-   In Basque, dilin-dalan
+-   In Catalan, ding-dong, ring-ring, meec...
+-   In Croatian, din don
+-   In Danish, ding ding, ring ring
+-   In Dutch, tring tring
+-   In English, ding-dong, bing-bong
+-   In Finnish, pim pom
+-   In French, ding-dong
+-   In German, klingeling
+-   In Hungarian, csing-ling
+-   In Indonesian, ting-tong
+-   In Italian, din don, drin drin
+-   In Japanese, ピンポーン (pinpōn)
+-   In Malay, ding dong, ting tong
+-   In Marathi, ting-tong टिंग-टौंग
+-   In Polish, dzyń-dzyń
+-   In Portuguese, ding dong[por 1]
+-   In Romanian, țâr țâr
+-   In Russian, din-don дин-дон
+-   In Spanish, ding dong
+-   In Swedish, ding dong, pling plong
+-   In Tagalog, ding dong
+-   In Thai, ติ๊งต่อง (ting tong), ติ๊งหน่อง (ting nong),
+-   In Italian, din don
+
+Keyboard striking[edit]
+
+-   In Albanian, tok-tok-tok, tëk-tëk-tëk
+-   In Batak, tik tik
+-   In Bulgarian, trak-trak трак-трак
+-   In Catalan txiquiti-txiquiti, txic txic
+-   In Czech, klik, ťuk ťuk
+-   In Danish: klik klik
+-   In Dutch: tik tik
+-   In English: click click, click clack
+-   In Estonian klõp klõp klõp
+-   In Finnish: klik klik, klik klak, naks, naputinap
+-   In French: clic clic
+-   In German: klack klack klack (typewriter), tipp tipp tipp (computer)
+-   In Hebrew, klik klik, קְלִיק־קְלִיק[heb 9]
+-   In Italian, clic clic, tip tap
+-   In Japanese, kata kata カタカタ
+-   In Latvian, klikš, klab klab
+-   In Malay, tek tek tek tek
+-   In Polish, klik klik
+-   In Russian, klatz-klatz клац-клац
+-   In Spanish, tac tac tac
+-   In Swedish, knapp knapp, klick klick
+-   In Tagalog, chu ku chu ku chuk
+-   In Thai, ก้อกแก้ก (kokkaek)
+-   In Turkish, tıkı tıkı tıkı, tıkır tıkır
+-   In Vietnamese, lạch cạch
+
+Match striking[edit]
+
+-   In Albanian, frrap
+-   In Bengali, phash
+-   In Russian, chirk чирк
+-   In English, fwoosh
+
+Telephone ringing[edit]
+
+-   In Albanian, tring-tring
+-   In Afrikaans, trieng trieng
+-   In Arabic, terren terren تــرن تــرن
+-   In Basque, tirrin-tirrin
+-   In Batak, riiing, riiing...
+-   In Bengali, kring, kring
+-   In Bulgarian, zan zan зън зън
+-   In Catalan, ring, ring
+-   In Chinese, Mandarin, ling ling ling
+-   In Croatian, drin drin
+-   In Czech, crrrrr
+-   In Danish, ring ring, dingeling
+-   In Dutch, tring tring
+-   In English, ring ring, brrring brrring, ringaling
+-   In Estonian tirr tirr tirr
+-   In Finnish, ring ring
+-   In French, dring dring
+-   In German, klingeling, klingelingeling
+-   In Hungarian, csing ling
+-   In Indonesian, kring kring
+-   In Italian, drin drin
+-   In Japanese, jiriririri(n), ジリリリリ(ン)
+-   In Kazakh, shyryl-shyryl шырыл шырыл
+-   In Korean, ttareureung ttareureung 따르릉 따르릉
+-   In Kyrgyz, чырр
+-   In Latvian, dzin dzin
+-   In Lithuanian, dzin dzin, dzin dzilin
+-   In Malay, kring kring, trut trut (berdering)
+-   In Polish, dryń dryń
+-   In Portuguese, trimm
+-   In Romanian, ţâr-ţâr
+-   In Russian, dzyn’-dzyn’ дзынь-дзынь
+-   In Spanish, rin rin
+-   In Swedish, ring ring
+-   In Tagalog, kring kring
+-   In Thai, kring kring กริ๊ง กริ๊ง
+-   In Turkish, zır zır
+-   In Vietnamese, reng
+
+Siren wailing[edit]
+
+-   In Albanian, iu-iu-iu, auo-auo
+-   In Afrikaans, pie-pô
+-   In Arabic, wee-wee[ara 2]
+-   In Bengali, pay puu
+-   In Bosnian, ni-na ni-na ni-na
+-   In Bulgarian, tii-nu-nii-nu нии-ну-нии-ну
+-   In Catalan, ninu ni, ni no ni no
+-   In Croatian, ninu ninu, tinu ninu, viju viju, fiju fiju[hr 1]
+-   In Danish, ba bu
+-   In Dutch, Taatuutaatuu
+-   In English Nee naw, wee-woo, waow-waow (police), awooga (klaxon),
+-   In Estonian, Viiu, viiu,
+-   In Filipino, wang wang wang
+-   In Finnish, Pii paa, Viiuu viiuu viiuu
+-   In French, Pin Pon
+-   In German, Tatütata
+-   In Greek, eeuu eeuu ηου-ηου
+-   In Hungarian, nínó, nénó
+-   In Italian, nino nino, ta tu-ta tu
+-   In Japanese, ピーポーピーポー (pīpō pīpō)
+-   In Korean, ppippo ppippo 삐뽀 삐뽀
+-   In Latvian, ī-ū
+-   In Macedonian, piu uiu пиу уиу
+-   In Malay, nino nino, iyo iyo
+-   In Minions, mi naw mi naw
+-   In Norwegian, Bæ bu bæ bu
+-   In Polish, ioioioio
+-   In Portuguese, uooooo /uóóóóó/, uiu uiu uiu, tinóni
+-   In Romanian, ni no ni no
+-   In Russian, wiu-wiu виу-виу or уиу-уиу
+-   In Slovene, uiuiui
+-   In Spanish Wiu Wiu, nino-nino
+-   In Tamil, aaaaaeeen-neeeeen
+-   In Thai, ปี๊ป่อ ปี๊ป่อ (pipo pipo), วี้หว่อ วี้หว่อ (wiwo wiwo)
+-   In Turkish, Daa dii
+-   In Vietnamese, ò e í e
+
+Train whistling[edit]
+
+-   In Albanian, ty-tyy
+-   In Afrikaans, toe-toe
+-   In Arabic, toot-toot
+-   In Bulgarian, ту-тууу (tu-tuuu)
+-   In Catalan, tu tu, tu tuut
+-   In Chinese, Cantonese, 嗚嗚
+-   In Croatian, ču ču
+-   In Czech, hůůů
+-   In Danish, fut fut
+-   In Dutch, tuutuut
+-   In English, choo choo, woo woo
+-   In Estonian, tuut tuut
+-   In French, tchou tchou
+-   In Finnish, tuut tuut
+-   In German, lah nah, spä nö
+-   In Hebrew, tu-tu טוּ־טוּ
+-   In Hindi, tree paa tee
+-   In Hungarian, si-hu-hu-hu
+-   In Indonesian, tuuut tuuut
+-   In Italian, tu tuu, ciuf ciuf
+-   In Japanese, shuppo shuppo シュッポシュッポ
+-   In Kazakh, чу-чуууу
+-   In Korean, chik chik pok pok 칙칙폭폭
+-   In Latvian, tū tū
+-   In Lithuanian, tū tū
+-   In Marathi, choo-choo चू-चूऽ
+-   In Polish, tu-tuuu
+-   In Portuguese, piuí [por 2]
+-   In Romanian, u! uuu!
+-   In Russian, tu-tuu ту-туу, tu-duu ту-дуу, roo nee pоу-ни
+-   In Spanish, chu chu
+-   In Swedish, tuut-tuut
+-   In Tagalog, hup
+-   In Telugu, koo chuk chuk
+-   In Thai, ปู๊น ปู๊น (pun pun)
+-   In Turkish, çuv çuv
+
+Physical and natural phenomena[edit]
+------------------------------------
+
+Electric flowing (buzzing)[edit]
+
+-   In Albanian, bëzz
+-   In Afrikaans, zoei
+-   In English, bzzz buzz
+-   In Hebrew, bzzz בְּזזז, tzzz טְזְזז
+-   In Japanese, biri biri ビリビリ
+-   In Korean, jjirit jjirit 찌릿찌릿
+-   In Latvian, bzz, zumm
+-   In Polish, bzzzz...
+-   In Romanian, bâz bzzz
+-   In Spanish, bzzz
+-   In Swedish, bzzz
+-   In Thai, tued ตืด
+
+Electric shock[edit]
+
+-   In Albanian, zëp, xëp
+-   In Catalan, pssst.
+-   In English, zap
+-   In Filipino, tssst
+-   In Finnish, tsäp
+-   In French, zap
+-   In German, zapp
+-   In Japanese, biri ビリッ, bachi バチッ
+-   In Polish, bzzt
+
+Fire[edit]
+
+-   In Albanian, vu-vu-vu
+-   In Afrikaans, knetter
+-   In Basque, su-su
+-   In Dutch, knetter
+-   In English, crackle crackle
+-   In German, knister knister
+-   In Hungarian, rip-rop
+-   In Japanese, Pachi pachi パチパチ
+-   In Polish, trzask
+-   In Swedish, knaster knaster
+-   In Thai, พรึ่บ (prueb), พรึ่บ พรั่บ (prueb prub)
+
+Rain[edit]
+
+-   In English, pitter-patter
+-   In French, plic ploc
+-   In Hebrew, teef taf
+-   In Hungarian, csipp csepp
+-   In Japanese, shito shito しとしと
+-   In Mandarin, xī lì huālā 淅瀝哗啦
+
+Thunder[edit]
+
+-   In Albanian, bau, pëtau, përtau
+-   In Basque, burrun
+-   In Batak, huist
+-   In English, crack, kaboom
+-   In German, zack
+-   In Hebrew, בְּרָק b'raq
+-   In Korean, beonjjeok 번쩍
+-   In Marathi, kadaad कडाड
+-   In Portuguese, Kabum, buum, boom
+-   In Spanish, brum
+-   In Thai, เปรี้ยง (priang)
+
+Steam hissing[edit]
+
+-   In Albanian, kshhh
+-   In Afrikaans, sis
+-   In Arabic, fssss[ara 1]
+-   In Batak, ssssss
+-   In English, psss
+-   In German, zisch
+-   In Hebrew, psss פְּססס
+-   In Japanese, pushū プシュー
+-   In Romanian, fâs, fsssss
+-   In Russian, psssh пшшш
+-   In Spanish, psss
+-   In Swedish, pssst
+-   In Tagalog, sssss
+-   In Thai, ฟู่ (fuu)
+
+Thunder[edit]
+
+-   In Albanian, bubu, bubububum
+-   In Batak, rapak, maturapak, dugu-dugu-dugu
+-   In Bengali, kar kar, gur gur
+-   In Catalan, brrum
+-   In English, roll, rumble, boom
+-   In Finnish, jyrin, jylin
+-   In German, groll, grummel
+-   In Hungarian, dörr
+-   In Japanese, goro goro ゴロゴロ
+-   In Marathi, gad-gad गड्-गड्
+-   In Polish, grzmot
+-   In Romanian, bum
+-   In Russian, babakh бабах, tararakh тарарах, trakh-tararakh
+    трах-тарарах
+-   In Swedish, muller
+-   In Tagalog, boom
+-   In Thai, ครืน ครืน (kruen kruen)
+
+Water dripping[edit]
+
+-   In Albanian, pik-pik, pim-pim
+-   In Afrikaans, drip
+-   In Arabic, tik tik or tok tok[ara 1]
+-   In Bengali: টুপ টুপ ṭup ṭup ঢিপ ঢিপ ḍhip ḍhip
+-   In Bulgarian, cap-cap кап-кап
+-   In Chinese, Cantonese, dihk-dihk 滴滴
+-   In Chinese, Mandarin, dī dá 滴答[zho 21]
+-   In Catalan, plip plip, tip-tip-tip
+-   In Croatian, kap kap
+-   In Czech, kap
+-   In Danish, dryp dryp (dryppe is the verbal), plop plop
+-   In Dutch, drup drup, drip, drop
+-   In English, drip drop, plink plonk
+-   In Estonian, tilks tilks
+-   In Finnish, tip tip
+-   In French, plic plic/ploc
+-   In German, plitsch, platsch, tropf
+-   In Greek, plits plits πλιτς πλιτς, splats splats σπλατς σπλατς
+-   In Hebrew, tif taf טִיף־טַף
+-   In Hindi, tipak, tipak
+-   In Hungarian, csöp-csöp, csip-csöp (csöpp or csepp is also the word
+    for "drop")
+-   In Indonesian, tik tik
+-   In Italian, plin plin, plop plop
+-   In Japanese, ポツポツ (potsu potsu), pota pota ポタポタ
+-   In Korean, ttokttok 똑똑, ttuk-ttuk 뚝뚝
+-   In Latvian, pik pik, pak pak, pakš pakš
+-   In Lithuanian, krapt krapt, krap krap
+-   In Macedonian, cap cap кап кап
+-   In Marathi, tap-tap टप-टप
+-   In Persian, ček ček, 'čak čak
+-   In Polish, kap kap (kapać is the verb)
+-   In Portuguese, plim plim, plic plic
+-   In Romanian, pic pic
+-   In Russian, kap kap кап-кап
+-   In Spanish, ploc ploc, pluip pluip
+-   In Swedish, dripp dropp
+-   In Tagalog, tuk tuk tuk
+-   In Tamil, sottu-sottu
+-   In Telugu, tup tup
+-   In Thai, ติ๋ง ๆ (ting ting), แหมะ ๆ (mae mae)
+-   In Turkish, şıp şıp
+-   In Uropi, plok
+-   In Vietnamese, tỏng tỏng, toỏng toỏng, tí tách
+
+White water[edit]
+
+-   In Batak, soook
+
+Wind blowing or waves flowing[edit]
+
+-   In Albanian, kshh, fëshh
+-   In Bengali, ভোঁ bhõ, শন শন shôn shôn, ঝির ঝির jhir jhir
+-   In Basque, firu-firu
+-   In Bulgarian, fiiuu фииуу
+-   In Chinese, Mandarin, fuuu
+-   In Croatian, fiju
+-   In Czech, fíííí
+-   In Dutch, woesh, woesj
+-   In English, whoo, whoosh, swish, rustle, whine, whizz, whistle,
+    wheeze, howl, zoom, sigh
+-   In Finnish, viuuh
+-   In French, frou-frou, vromb, murmur, hurl
+-   In German, huiiih, wutsch, saus, rausch, wein, schwirr, heul, zoom,
+    surr, seufz
+-   In Greek, fru fru φρού φρού, sfýrigh σφύριγ, url ούρλ, sýrigh σύριγ,
+    thýr θυρ
+-   In Hindi, sarr sarr, saayein saayein
+-   In Hungarian, hiss-huss, huss
+-   In Italian, fiuu, fisch, mormor, url, sussurr
+-   In Japanese, byuu byuu, pyuu pyuu, zawa zawa, soyo soyo
+-   In Korean, wing-wing 윙윙
+-   In Lithuanian, ššš
+-   In Macedonian, fuuuu fuuuu фуууу фуууу
+-   In Persian, moj, موج
+-   In Polish, szszszsz, huuuuuu
+-   In Portuguese, Vuuuush
+-   In Romanian, vâj
+-   In Russian, uu-u уу-у
+-   In Spanish, fuuuu fuuuu, fgrrrr frgrrrr, aul, zumb, susurr
+-   In Swedish, svisch
+-   In Tagalog, fuuuu fuuuu
+-   In Tamil, shhhhhhhhhh
+-   In Telugu, shhhhhhh
+-   In Thai, วิ้ว วิ้ว (wio wio), ฟิ้ว ฟิ้ว (fio fio)
+-   In Turkish, vuuuu vuuuu
+-   In Vietnamese, vi vu, vù vù; rì rào, xào xạc (rustling)
+
+Others[edit]
+------------
+
+Jingling[edit]
+
+-   In Albanian, tring-tring, dring-dring
+-   In Afrikaans, klingel, klingeling
+-   In Arabic, خشخش (khashkhash)[ara 14]
+-   In Armenian zar zank զար զանկ
+-   In Basque, tilin-tilin, tilin-talan
+-   In Bengali, rini-jhini
+-   In Chinese, Cantonese, dìuh-díu fihng 吊吊捹 (吊 means "hang")
+-   In Chinese, Mandarin, dīng líng 叮铃,[zho 22] dīng dāng 叮当 [zho
+    23]
+-   In Batak, giring, giring
+-   In Bulgarian, ljush-bash люш-баш, ding-dong динг-донг
+-   In Croatian, ding dong
+-   In Czech, cinky-cink
+-   In Dutch, tingeling
+-   In English, clink clank, dingle dangle, jingle jangle
+-   In Estonian kill-kõll, kilks-kõlks, kilin-kõlin
+-   In Finnish, kilin, helin
+-   In French, ding-dong
+-   In German, klingeling
+-   In Greek, ντινγκ ντανγκ (ding dang)
+-   In Hebrew, ding-dong דִינְג־דוֹנְג[heb 10]
+-   In Hungarian, csing-ling, bim-bam, giling-galang
+-   In Japanese, チリンチリン (chirin chirin), チーン (chīn)
+-   In Korean, dallang dallang 달랑달랑 ttallang ttallang 딸랑딸랑
+    jjallang jjallang 짤랑짤랑
+-   In Latvian, dzin dzin
+-   In Macedonian, dang, ding, dong данг, динг, донг
+-   In Malay, ding dong, kring kring
+-   In Polish, dzyń-dzyń
+-   In Romanian, ding-dong
+-   In Russian, din'-don динь-дон dzìnj-dzìnj дзынь-дзынь
+-   In Spanish, ding ding
+-   In Swedish, dingelidång kling klang
+-   In Tagalog, klang klang
+-   In Tamil, sil-sila silu-sila
+-   In Thai, เคร้ง (kreng), กรุ๊งกริ๊ง (krung kring)
+-   In Turkish, çangır çungur, şangır şungur
+
+References[edit]
+----------------
+
+1.  ^ a b [1]
+
+Arabic words[edit]
+
+1.  ^ a b c d e f g "Sneeze like an Arab: Onomatopoeias in the Middle
+    East". al-bawaba. October 4, 2015. Retrieved 12 April 2018.
+2.  ^ a b Dickinson, James; Hervey, Sándor; Higgins, Ian (2002).
+    Thinking Arabic Translation: A course in translation method. London:
+    Routledge. p. 75.
+3.  ^ a b c d e f g h i j k l m n الدغامين, أحمد (March 6, 2008).
+    "السموع : أسماء أصوات الحيوانات والطيور بالعربية ( الجزء الأول )".
+    Abu Dhabi. Retrieved 12 April 2018.
+4.  ^ "quack". Reverso Dictionary. Reverso-Softissimo. Retrieved 12
+    April 2018.
+5.  ^ "Translation of "وقوق" in English". Reverso Context.
+    Reverso-Softissimo. 2017. Retrieved 12 April 2018.
+6.  ^ الباحث العربي: قاموس عربي عربي
+7.  ^ Cowan, J.M., ed. (1993). The Hans Wehr Dictionary of Modern
+    Written Arabic (4 ed.). Spoken Language Services. p. 483.
+    ISBN 978-0879500030.
+8.  ^ Cowan, J.M., ed. (1993). The Hans Wehr Dictionary of Modern
+    Written Arabic (4 ed.). Spoken Language Services. p. 784.
+    ISBN 978-0879500030.
+9.  ^ الباحث العربي: قاموس عربي عربي
+10. ^ الباحث العربي: قاموس عربي عربي
+11. ^ "ثغاء". Reverso Dictionary. Reverso-Softissimo. Retrieved 13 April
+    2018.
+12. ^ الباحث العربي: قاموس عربي عربي
+13. ^ Cowan, J.M., ed. (1993). The Hans Wehr Dictionary of Modern
+    Written Arabic (4 ed.). Spoken Language Services. p. 817.
+    ISBN 978-0879500030.
+14. ^ Muhammad Muhaidat, Fatima (2009). A Tale of Two Cities in Arabic
+    Translation. Boca Raton: Universal-Publishers. ISBN 9781599422893.
+
+Chinese words[edit]
+
+1.  ^ "怦怦" in Han Dian online dictionary
+2.  ^ "阿嚏" in Han Dian online dictionary
+3.  ^ "呼噜" in Han Dian online dictionary
+4.  ^ "哇哇" in Han Dian online dictionary
+5.  ^ "嘘" in Han Dian online dictionary
+6.  ^ "哈哈" in Han Dian online dictionary
+7.  ^ "呵呵" in Han Dian online dictionary
+8.  ^ "嘻嘻" in Han Dian online dictionary
+9.  ^ "Nyaa or miao? Animal sounds across languages". Living Language.
+    March 8, 2013. Retrieved 12 April 2018.
+10. ^ "嘎嘎" in Han Dian online dictionary
+11. ^ a b "呱呱" in Han Dian online dictionary
+12. ^ "叽叽喳喳" in Han Dian online dictionary
+13. ^ "哑哑" in Han Dian online dictionary
+14. ^ "喵" in Han Dian online dictionary
+15. ^ "汪汪" in Han Dian online dictionary
+16. ^ "哞" in Han Dian online dictionary
+17. ^ "咩" in Han Dian online dictionary
+18. ^ "嗡嗡" in Han Dian online dictionary
+19. ^ "哐啷" in Han Dian online dictionary
+20. ^ "嘀嗒" in Han Dian online dictionary
+21. ^ "滴答" in Han Dian online dictionary
+22. ^ "叮铃" in Han Dian online dictionary
+23. ^ "叮当" in Han Dian online dictionary
+
+Croatian words[edit]
+
+1.  ^ a b c d University of Zagreb, Faculty of humanities and social
+    sciences, Departament of east Slavic languages and literatures,
+    Chair of Russian language, Master Thesis, PROBLEMS IN THE
+    TRANSLATION OF RUSSIAN COMICS (Ivana Ivančić), 2015
+
+Danish words[edit]
+
+1.  ^ "haps". Den Danske Ordbog. Retrieved 23 August 2019.
+2.  ^ http://ordnet.dk/ddo/ordbog?query=b%C3%B8vs
+3.  ^ http://ordnet.dk/ddo/ordbog?query=r%C3%A6b
+4.  ^ http://ordnet.dk/ddo/ordbog?query=vr%C3%A6l
+5.  ^ http://ordnet.dk/ddo/ordbog?query=ssh
+6.  ^ http://ordnet.dk/ddo/ordbog?query=tys
+7.  ^ http://ordnet.dk/ddo/ordbog?query=hys
+8.  ^ http://ordnet.dk/ddo/ordbog?query=%C3%B8f
+9.  ^ http://ordnet.dk/ddo/ordbog?query=grynt
+10. ^ http://ordnet.dk/ddo/ordbog?query=kv%C3%A6k
+
+English words[edit]
+
+1.  ^ "wah-wah" from the Oxford English Dictionary
+
+French words[edit]
+
+1.  ^ a b c d e f "Nyaa or miao? Animal sounds across languages". Living
+    Language. March 8, 2013. Retrieved 12 April 2018.
+
+German words[edit]
+
+1.  ^ a b c d e f g "Nyaa or miao? Animal sounds across languages".
+    Living Language. March 8, 2013. Retrieved 12 April 2018.
+
+Greek words[edit]
+
+1.  ^
+    http://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BF%CF%85%CE%AC&dq=
+2.  ^ Aristophanes, son of Philippus (1920). Acharnians. New York:
+    Liveright. p. 780. Retrieved 12 April 2018.
+
+Hebrew words[edit]
+
+1.  ^ "אַפְּצִ'י" in Morfix online dictionary Archived 2010-08-25 at the
+    Wayback Machine
+2.  ^ "Ouch" in Morfix online dictionary Archived 2010-08-25 at the
+    Wayback Machine
+3.  ^ "חָה חָה חָה" Archived 2011-08-07 at the Wayback Machine in Morfix
+    online dictionary Archived 2010-08-25 at the Wayback Machine
+4.  ^ a b c d e f g h i j k l m n o p q Animals sounds in Hebrew,
+    HaSafa-HaIvrit (The Hebrew Language) web site (in Hebrew)
+5.  ^ "Bang" in Babylon dictionary
+6.  ^ "תּוּק תּוּק"[permanent dead link] in Morfix online dictionary
+    Archived 2010-08-25 at the Wayback Machine
+7.  ^ "זְבֶּנְג" Archived 2011-08-07 at the Wayback Machine in Morfix
+    online dictionary Archived 2010-08-25 at the Wayback Machine
+8.  ^ "תִּיק־תַּק"[permanent dead link] in Morfix online dictionary
+    Archived 2010-08-25 at the Wayback Machine
+9.  ^ "קְלִיק"[permanent dead link] in Morfix online dictionary Archived
+    2010-08-25 at the Wayback Machine
+10. ^ "דִינְג־דוֹנְג"[permanent dead link] in Morfix online dictionary
+    Archived 2010-08-25 at the Wayback Machine
+
+Italian words[edit]
+
+1.  ^ a b c d e f g "Nyaa or miao? Animal sounds across languages".
+    Living Language. March 8, 2013. Retrieved 12 April 2018.
+
+Japanese words[edit]
+
+1.  ^ むしゃ‐むしゃ. Yahoo! Japan (in Japanese). Archived from the
+    original on 2012-04-04. Retrieved 2011-05-05.
+2.  ^ もぐ‐もぐ. Yahoo! Japan (in Japanese). Archived from the original
+    on 2012-04-04. Retrieved 2011-05-05.
+3.  ^ ぱく‐ぱく. Yahoo! Japan (in Japanese). Archived from the original
+    on 2012-04-04. Retrieved 2011-05-05.
+4.  ^ ごくっ‐と. Yahoo! Japan (in Japanese). Archived from the original
+    on 2012-09-10. Retrieved 2011-05-05.
+5.  ^ "Archived copy". Archived from the original on 2012-04-04.
+    Retrieved 2011-05-05.CS1 maint: archived copy as title (link)
+6.  ^ "Archived copy". Archived from the original on 2012-04-04.
+    Retrieved 2011-05-05.CS1 maint: archived copy as title (link)
+7.  ^ "Archived copy". Archived from the original on 2012-09-08.
+    Retrieved 2011-05-05.CS1 maint: archived copy as title (link)
+8.  ^ "Archived copy". Archived from the original on 2012-04-04.
+    Retrieved 2011-05-05.CS1 maint: archived copy as title (link)
+9.  ^ "Archived copy". Archived from the original on 2012-04-04.
+    Retrieved 2011-05-05.CS1 maint: archived copy as title (link)
+10. ^ a b c d e f g "Nyaa or miao? Animal sounds across languages".
+    Living Language. March 8, 2013. Retrieved 12 April 2018.
+
+Marathi words[edit]
+
+1.  ^ "प्राण्यांचे_आवाज [mr]" from the Marathi Wikipedia
+
+Portuguese words[edit]
+
+1.  ^ a b c d e f g h i j k l m n o Marcello, Dulce (October 24, 2016).
+    "How To Say Ouch, Atchoo, and Meow in Portuguese". Living Language.
+    Retrieved 13 April 2018.
+2.  ^ Trem da alegria [pt][circular reference]
+
+Spanish words[edit]
+
+1.  ^ a b c d e f g "Nyaa or miao? Animal sounds across languages".
+    Living Language. March 8, 2013. Retrieved 12 April 2018.
+
+Ukrainian words[edit]
+
+1.  ^ "КВА" in «Словник української мови»
+2.  ^ a b "КУМ" in «Словник української мови»
+
+Urdu words[edit]
+
+1.  ^ http://www.eleceng.adelaide.edu.au/Personal/dabbott/animal.html
+
+External links[edit]
+--------------------
+
+-   Written Sound, an online onomatopoeia dictionary
+-   Cross-linguistics onomatopoeia at WikIdioms (Archived)
+-   Derek Abbott's, Animal Noises
+-   Portal for the Greek language and language education, onomatopoeic
+    words in Modern Greek
+-   Onomatopoeia - words for rain that sound like rain
+
+[]
+
+Retrieved from
+"https://en.wikipedia.org/w/index.php?title=Cross-linguistic_onomatopoeias&oldid=966617693"
+
+Categories:
+
+-   Onomatopoeia
+-   Language comparison
+
+Hidden categories:
+
+-   Webarchive template wayback links
+-   All articles with dead external links
+-   Articles with dead external links from November 2019
+-   Articles with permanently dead external links
+-   CS1 uses Japanese-language script (ja)
+-   CS1 Japanese-language sources (ja)
+-   CS1 maint: archived copy as title
+-   All articles lacking reliable references
+-   Articles lacking reliable references from September 2015
+-   Articles needing additional references from November 2010
+-   All articles needing additional references
+-   Articles that may contain original research from November 2010
+-   All articles that may contain original research
+-   Pages with non-English text lacking appropriate markup from April
+    2019
+-   Articles with multiple maintenance issues
+-   Dynamic lists
+-   Articles containing Afrikaans-language text
+-   Articles containing Albanian-language text
+-   Articles containing Basque-language text
+-   Articles with text from the Batak languages collective
+-   Articles containing Bengali-language text
+-   Articles containing Bulgarian-language text
+-   Articles containing Catalan-language text
+-   Articles containing Mandarin Chinese-language text
+-   All articles with unsourced statements
+-   Articles with unsourced statements from November 2011
+-   Articles containing Croatian-language text
+-   Articles containing Czech-language text
+-   Articles containing Danish-language text
+-   Articles containing Dutch-language text
+-   Articles containing Estonian-language text
+-   Articles containing Finnish-language text
+-   Articles containing French-language text
+-   Articles containing German-language text
+-   Articles containing Hebrew-language text
+-   Articles containing Hungarian-language text
+-   Articles containing Icelandic-language text
+-   Articles containing Indonesian-language text
+-   Articles containing Italian-language text
+-   Articles containing Japanese-language text
+-   Articles containing Thai-language text
+-   Articles containing Korean-language text
+-   Articles containing Russian-language text
+-   Articles containing Telugu-language text
+-   Articles with unsourced statements from December 2017
+-   Articles containing Ukrainian-language text
+-   Articles containing Arabic-language text
+-   Articles containing Kazakh-language text
+-   Articles containing Kyrgyz-language text
+-   Articles containing Latvian-language text
+-   Articles containing Lithuanian-language text
+-   Articles containing Malay-language text
+-   Articles containing Polish-language text
+-   Articles containing Portuguese-language text
+-   Articles containing Romanian-language text
+-   Articles containing Spanish-language text
+-   Articles containing Swedish-language text
+-   Articles containing Filipino-language text
+-   Articles containing Turkish-language text
+-   Articles containing Kanuri-language text
+
+    </div>
+
+Navigation menu
+---------------
+
+Personal tools
+
+-   Not logged in
+-   Talk
+-   Contributions
+-   Create account
+-   Log in
+
+    </div>
+
+Namespaces
+
+-   Article
+-   Talk
+
+    </div>
+
+Variants
+
+    </div>
+
+Views
+
+-   Read
+-   Edit
+-   View history
+
+    </div>
+
+More
+
+    </div>
+
+Search
+
+        </div>
+    </div>
+
+Navigation
+
+-   Main page
+-   Contents
+-   Current events
+-   Random article
+-   About Wikipedia
+-   Contact us
+-   Donate
+-   Wikipedia store
+
+    </div>
+
+Contribute
+
+-   Help
+-   Community portal
+-   Recent changes
+-   Upload file
+
+    </div>
+
+Tools
+
+-   What links here
+-   Related changes
+-   Upload file
+-   Special pages
+-   Permanent link
+-   Page information
+-   Cite this page
+-   Wikidata item
+
+    </div>
+
+Print/export
+
+-   Download as PDF
+-   Printable version
+
+    </div>
+
+Languages
+
+-   Français
+-   한국어
+
+Edit links
+
+-   This page was last edited on 8 July 2020, at 04:05 (UTC).
+-   Text is available under the Creative Commons Attribution-ShareAlike
+    License; additional terms may apply. By using this site, you agree
+    to the Terms of Use and Privacy Policy. Wikipedia® is a registered
+    trademark of the Wikimedia Foundation, Inc., a non-profit
+    organization.
+
+-   Privacy policy
+-   About Wikipedia
+-   Disclaimers
+-   Contact Wikipedia
+-   Developers
+-   Statistics
+-   Cookie statement
+-   Mobile view
+
+-   [Wikimedia Foundation]
+-   [Powered by MediaWiki]
+
