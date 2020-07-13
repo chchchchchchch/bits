@@ -1,44 +1,6 @@
 Cross-linguistic onomatopoeias
 ==============================
 
-    <div id="bodyContent" class="mw-body-content">
-        <div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
-        <div id="contentSub"></div>
-
-
-        <div id="jump-to-nav"></div>
-        <a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
-        <a class="mw-jump-link" href="#searchInput">Jump to search</a>
-        <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table class="box-Multiple_issues plainlinks metadata ambox ambox-content ambox-multiple_issues compact-ambox" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" decoding="async" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" data-file-width="40" data-file-height="40" /></div></td><td class="mbox-text"><div class="mbox-text-span"><div class="mw-collapsible" style="width:95%; margin: 0.2em 0;"><b>This article has multiple issues.</b> Please help <b><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Cross-linguistic_onomatopoeias&amp;action=edit">improve it</a></b> or discuss these issues on the <b><a href="/wiki/Talk:Cross-linguistic_onomatopoeias" title="Talk:Cross-linguistic onomatopoeias">talk page</a></b>. <small><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove these template messages</a>)</i></small>
-
-[]
-
-This article needs additional citations for verification. Please help
-improve this article by adding citations to reliable sources. Unsourced
-material may be challenged and removed.  
-Find sources: "Cross-linguistic onomatopoeias" – news · newspapers ·
-books · scholar · JSTOR (November 2010)(Learn how and when to remove
-this template message)
-
-[]
-
-This article possibly contains original research. Please improve it by
-verifying the claims made and adding inline citations. Statements
-consisting only of original research should be removed. (November
-2010)(Learn how and when to remove this template message)
-
-[]
-
-This article or section should specify the language of its non-English
-content, using {{lang}}, with an appropriate ISO 639 code. See why.
-(April 2019)
-
-(Learn how and when to remove this template message)
-
-  ---- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  []   This article contains Indic text. Without proper rendering support, you may see question marks or boxes, misplaced vowels or missing conjuncts instead of Indic text.
-  ---- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 Because of the nature of onomatopoeia, there are many words which show a
 similar pronunciation in the languages of the world. The following is a
 list of some conventional examples:
@@ -46,96 +8,72 @@ list of some conventional examples:
 Contents
 --------
 
--   1 Human sounds
-    -   1.1 Consuming food or drink
-    -   1.2 Bodily functions and involuntary sounds
-    -   1.3 Cries of distress
-    -   1.4 Interrupted speech
-    -   1.5 Expressions of positive emotions
+1 Human sounds
+-   1.1 Consuming food or drink
+-   1.2 Bodily functions and involuntary sounds
+-   1.3 Cries of distress
+-   1.4 Interrupted speech
+-   1.5 Expressions of positive emotions
 
--   2 Animal sounds
-    -   2.1 Bird sounds
-        -   2.1.1 Domestic birds
-        -   2.1.2 Wild birds
+2 Animal sounds
+-   2.1 Bird sounds
+    -   2.1.1 Domestic birds
+    -   2.1.2 Wild birds
 
-    -   2.2 Mammal sounds
-        -   2.2.1 Cats and dogs
-        -   2.2.2 Equine sounds
-        -   2.2.3 Animals with cloven hoofs
-        -   2.2.4 Other mammals
+-   2.2 Mammal sounds
+    -   2.2.1 Cats and dogs
+    -   2.2.2 Equine sounds
+    -   2.2.3 Animals with cloven hoofs
+    -   2.2.4 Other mammals
 
-    -   2.3 Other animals
+-   2.3 Other animals
 
--   3 Collisions, bursts, and strikes
-    -   3.1 Balloon or bubble bursting
-    -   3.2 Cannon firing; gunshot; machine gun fire
-    -   3.3 Crash
-    -   3.4 Door or floor creaking
-    -   3.5 Engine back-firing while freewheeling
-    -   3.6 Knocking
-    -   3.7 Strikes
-        -   3.7.1 Dull strike
-        -   3.7.2 Falling strike
-        -   3.7.3 Sharp strike
-        -   3.7.4 Wet strike
+3 Collisions, bursts, and strikes
+-   3.1 Balloon or bubble bursting
+-   3.2 Cannon firing; gunshot; machine gun fire
+-   3.3 Crash
+-   3.4 Door or floor creaking
+-   3.5 Engine back-firing while freewheeling
+-   3.6 Knocking
+-   3.7 Strikes
+    -   3.7.1 Dull strike
+    -   3.7.2 Falling strike
+    -   3.7.3 Sharp strike
+    -   3.7.4 Wet strike
+-   3.8 Crunch, сracking (of sticks, bones etc.)
 
-    -   3.8 Crunch, сracking (of sticks, bones etc.)
+4 Machinery
+-   4.1 Camera shutter
+-   4.2 Car engine revving
+-   4.3 Car horn honking
+-   4.4 Clock ticking
+-   4.5 Doorbell ringing
+-   4.6 Keyboard striking
+-   4.7 Match striking
+-   4.8 Telephone ringing
+-   4.9 Siren wailing
+-   4.10 Train whistling
 
--   4 Machinery
-    -   4.1 Camera shutter
-    -   4.2 Car engine revving
-    -   4.3 Car horn honking
-    -   4.4 Clock ticking
-    -   4.5 Doorbell ringing
-    -   4.6 Keyboard striking
-    -   4.7 Match striking
-    -   4.8 Telephone ringing
-    -   4.9 Siren wailing
-    -   4.10 Train whistling
+5 Physical and natural phenomena
+-   5.1 Electric flowing (buzzing)
+-   5.2 Electric shock
+-   5.3 Fire
+-   5.4 Rain
+-   5.5 Thunder
+-   5.6 Steam hissing
+-   5.7 Thunder
+-   5.8 Water dripping
+-   5.9 White water
+-   5.10 Wind blowing or waves flowing
 
--   5 Physical and natural phenomena
-    -   5.1 Electric flowing (buzzing)
-    -   5.2 Electric shock
-    -   5.3 Fire
-    -   5.4 Rain
-    -   5.5 Thunder
-    -   5.6 Steam hissing
-    -   5.7 Thunder
-    -   5.8 Water dripping
-    -   5.9 White water
-    -   5.10 Wind blowing or waves flowing
+6 Others
+-   6.1 Jingling
 
--   6 Others
-    -   6.1 Jingling
 
--   7 References
-    -   7.1 Arabic words
-    -   7.2 Chinese words
-    -   7.3 Croatian words
-    -   7.4 Danish words
-    -   7.5 English words
-    -   7.6 French words
-    -   7.7 German words
-    -   7.8 Greek words
-    -   7.9 Hebrew words
-    -   7.10 Italian words
-    -   7.11 Japanese words
-    -   7.12 Marathi words
-    -   7.13 Portuguese words
-    -   7.14 Spanish words
-    -   7.15 Ukrainian words
-    -   7.16 Urdu words
+Human sounds
+------------
 
--   8 External links
-
-This is a dynamic list and may never be able to satisfy particular
-standards for completeness. You can help by expanding it with reliably
-sourced entries.
-
-Human sounds[edit]
-------------------
-
-Consuming food or drink[edit]
+Consuming food or drink
 
   ------------------- ------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------- ----------------------------------------------------------------
   Language            Biting                                                       Eating food                                                                                                                                 Drinking                                                                Swallowing             Brushing teeth
@@ -190,7 +128,7 @@ Consuming food or drink[edit]
   Vietnamese          ngoạm                                                        măm măm, nhăm nhăm, nhồm nhoàm, chàm chạp                                                                                                   ực ực, ừng ực                                                                                  
   ------------------- ------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------- ----------------------------------------------------------------
 
-Bodily functions and involuntary sounds[edit]
+Bodily functions and involuntary sounds
 
   -------------------- ---------------------------------------------------------------------- ---------------------------------------- -------------------- ------------------------------------ ------------------------------------------------ ----------------------------------------------- -------------------
   Language             Heart beating                                                          Belching                                 Coughing             Flatulence                           Sneezing                                         Snoring                                         Yawning
@@ -255,7 +193,7 @@ Bodily functions and involuntary sounds[edit]
   Vietnamese           thình thịch, bình bịch                                                 ợ                                                             phẹt, bủm, địt                       hắt xì, ắt xì                                    khò, khò khò                                    oáp, ngáp
   -------------------- ---------------------------------------------------------------------- ---------------------------------------- -------------------- ------------------------------------ ------------------------------------------------ ----------------------------------------------- -------------------
 
-Cries of distress[edit]
+Cries of distress
 
   ------------------- ---------------------------------------------- --------------------------------------------------------------------------------------------------------------------- ---------------------------------
   Language            Baby crying                                    Scream                                                                                                                Shriek
@@ -323,7 +261,7 @@ Cries of distress[edit]
   Yiddish                                                            אוי (oy)                                                                                                              
   ------------------- ---------------------------------------------- --------------------------------------------------------------------------------------------------------------------- ---------------------------------
 
-Interrupted speech[edit]
+Interrupted speech
 
   ------------------- ------------------------------------------------------------------------------------- ----------------------------- ----------------------
   Language            Hushing                                                                               Pausing or thinking           Stuttering
@@ -378,7 +316,7 @@ Interrupted speech[edit]
   Vietnamese          suỵt, xuýt                                                                            hmm, hừmm                     lắp bắp
   ------------------- ------------------------------------------------------------------------------------- ----------------------------- ----------------------
 
-Expressions of positive emotions[edit]
+Expressions of positive emotions
 
   ------------------- ---------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------
   Language            Laughter                                                                                                                                 Kiss
@@ -443,12 +381,13 @@ Expressions of positive emotions[edit]
   Vietnamese          ha ha, hi hi, hô hô, keke, ka ka, hehe, hi hô, hêlo duke huê                                                                             chụt
   ------------------- ---------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------
 
-Animal sounds[edit]
--------------------
 
-Bird sounds[edit]
+Animal sounds
+-------------
 
-Domestic birds[edit]
+Bird sounds
+
+Domestic birds
 
   ------------------- ------------------------------------------------------------------- ------------------------------------------------------------ ----------------------- --------------------------------- ------------------------------------------------
   Language            Chicken clucking                                                    Rooster crowing                                              Turkey calling          Goose calling                     Duck calling
@@ -513,7 +452,7 @@ Domestic birds[edit]
   Vietnamese          (cục ta) cục tác                                                    ò ó o (oooooo)                                                                       quạc quạc, cà kếu                 cạp cạp
   ------------------- ------------------------------------------------------------------- ------------------------------------------------------------ ----------------------- --------------------------------- ------------------------------------------------
 
-Wild birds[edit]
+Wild birds
 
   -------------------- -------------------------------------------------------------------------------------------------------- ----------------------------------------------------------- -----------------------------------------
   Language             Bird singing                                                                                             Crow calling                                                Owl hooting
@@ -577,9 +516,9 @@ Wild birds[edit]
   Vietnamese           chíp chíp                                                                                                quạ quạ (quạ also means a crow)                             
   -------------------- -------------------------------------------------------------------------------------------------------- ----------------------------------------------------------- -----------------------------------------
 
-Mammal sounds[edit]
+Mammal sounds
 
-Cats and dogs[edit]
+Cats and dogs
 
   -------------------- ------------------------------- -------------------------------------------------------------- ----------------------
   Language             Cat meowing                     Dog barking                                                    Dog or wolf howling
@@ -647,7 +586,7 @@ Cats and dogs[edit]
   Volapük              miov                                                                                           
   -------------------- ------------------------------- -------------------------------------------------------------- ----------------------
 
-Equine sounds[edit]
+Equine sounds
 
   ------------ -------------------------- ----------------------------------------------------------------------------------------------------- ------------------------------------------------- -----------------------------------
   Language     Horse whinnying            Horse trotting                                                                                        Horse galloping                                   Donkey braying
@@ -693,7 +632,7 @@ Equine sounds[edit]
   Vietnamese   hí hí hí                   nhong nhong                                                                                                                                             
   ------------ -------------------------- ----------------------------------------------------------------------------------------------------- ------------------------------------------------- -----------------------------------
 
-Animals with cloven hoofs[edit]
+Animals with cloven hoofs
 
   ------------------- --------------------- --------------------------------- ---------------------- ------------------------------------------------------------------ -------------------------
   Language            Cow mooing            Sheep bleating                    Goat bleating          Pig grunting                                                       Pig squealing
@@ -753,7 +692,7 @@ Animals with cloven hoofs[edit]
   Welsh                                                                                              soch soch                                                          
   ------------------- --------------------- --------------------------------- ---------------------- ------------------------------------------------------------------ -------------------------
 
-Other mammals[edit]
+Other mammals
 
   ------------ ---------------------------- ------------------------ --------------------------------
   Language     Elephant trumpeting          Lion/tiger roaring       Monkey chatting
@@ -786,7 +725,7 @@ Other mammals[edit]
   Vietnamese   ré, rống                     goám, gầm, rống          khẹc khẹc
   ------------ ---------------------------- ------------------------ --------------------------------
 
-Other animals[edit]
+Other animals
 
   ------------------- ----------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------- ----------------------
   Language            Bee buzzing                                                                                           Frog croaking                                                                      Snake hissing
@@ -844,10 +783,10 @@ Other animals[edit]
   Vietnamese                                                                                                                ồm ộp, ộp ộp                                                                       
   ------------------- ----------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------- ----------------------
 
-Collisions, bursts, and strikes[edit]
--------------------------------------
+Collisions, bursts, and strikes
+-------------------------------
 
-Balloon or bubble bursting[edit]
+Balloon or bubble bursting
 
 -   In Albanian, pau, puf
 -   In Arabic, pakh, poof
@@ -890,7 +829,7 @@ Balloon or bubble bursting[edit]
 -   In Turkish, bom
 -   In Vietnamese, bốp, bụp
 
-Cannon firing; gunshot; machine gun fire[edit]
+Cannon firing; gunshot; machine gun fire
 
 -   In Afrikaans, kaboem; boem; ra-tat-tat
 -   In Albanian, pum-pum; bau-bau, ta-ta-ta-ta, du-du-du-du
@@ -944,7 +883,7 @@ Cannon firing; gunshot; machine gun fire[edit]
 -   In Vietnamese, đoàng (louder); pằng (quieter); bùm (usually for
     cannons)
 
-Crash[edit]
+Crash
 
 -   In Albanian, pum, bau, përrtaf,
 -   In Afrikaans, doef, kadoef
@@ -994,7 +933,7 @@ Crash[edit]
 -   In Turkish, güm, bam, dıkş, çat, pat, zbam
 -   In Vietnamese, ầm, rầm
 
-Door or floor creaking[edit]
+Door or floor creaking
 
 -   In Albanian, grr
 -   In Afrikaans, kraak
@@ -1032,7 +971,7 @@ Door or floor creaking[edit]
 -   In Uropi, krak
 -   In Vietnamese, kétttt, ken két, cọt kẹt, kẽo kẹt
 
-Engine back-firing while freewheeling[edit]
+Engine back-firing while freewheeling
 
 -   In Albanian, përr-përr-përr, dum-dum-dum
 -   In Batak, put-put-put, doput-doput
@@ -1043,7 +982,7 @@ Engine back-firing while freewheeling[edit]
 -   In Russian, dìr-dìr-dìr дыр-дыр-дыр
 -   In Spanish, tac tac tac
 
-Knocking[edit]
+Knocking
 
 -   In Albanian, tak-tak, tok-tok, trok-trok
 -   In Arabic, daqqa دَقَّ
@@ -1799,379 +1738,4 @@ Jingling[edit]
 -   In Tamil, sil-sila silu-sila
 -   In Thai, เคร้ง (kreng), กรุ๊งกริ๊ง (krung kring)
 -   In Turkish, çangır çungur, şangır şungur
-
-References[edit]
-----------------
-
-1.  ^ a b [1]
-
-Arabic words[edit]
-
-1.  ^ a b c d e f g "Sneeze like an Arab: Onomatopoeias in the Middle
-    East". al-bawaba. October 4, 2015. Retrieved 12 April 2018.
-2.  ^ a b Dickinson, James; Hervey, Sándor; Higgins, Ian (2002).
-    Thinking Arabic Translation: A course in translation method. London:
-    Routledge. p. 75.
-3.  ^ a b c d e f g h i j k l m n الدغامين, أحمد (March 6, 2008).
-    "السموع : أسماء أصوات الحيوانات والطيور بالعربية ( الجزء الأول )".
-    Abu Dhabi. Retrieved 12 April 2018.
-4.  ^ "quack". Reverso Dictionary. Reverso-Softissimo. Retrieved 12
-    April 2018.
-5.  ^ "Translation of "وقوق" in English". Reverso Context.
-    Reverso-Softissimo. 2017. Retrieved 12 April 2018.
-6.  ^ الباحث العربي: قاموس عربي عربي
-7.  ^ Cowan, J.M., ed. (1993). The Hans Wehr Dictionary of Modern
-    Written Arabic (4 ed.). Spoken Language Services. p. 483.
-    ISBN 978-0879500030.
-8.  ^ Cowan, J.M., ed. (1993). The Hans Wehr Dictionary of Modern
-    Written Arabic (4 ed.). Spoken Language Services. p. 784.
-    ISBN 978-0879500030.
-9.  ^ الباحث العربي: قاموس عربي عربي
-10. ^ الباحث العربي: قاموس عربي عربي
-11. ^ "ثغاء". Reverso Dictionary. Reverso-Softissimo. Retrieved 13 April
-    2018.
-12. ^ الباحث العربي: قاموس عربي عربي
-13. ^ Cowan, J.M., ed. (1993). The Hans Wehr Dictionary of Modern
-    Written Arabic (4 ed.). Spoken Language Services. p. 817.
-    ISBN 978-0879500030.
-14. ^ Muhammad Muhaidat, Fatima (2009). A Tale of Two Cities in Arabic
-    Translation. Boca Raton: Universal-Publishers. ISBN 9781599422893.
-
-Chinese words[edit]
-
-1.  ^ "怦怦" in Han Dian online dictionary
-2.  ^ "阿嚏" in Han Dian online dictionary
-3.  ^ "呼噜" in Han Dian online dictionary
-4.  ^ "哇哇" in Han Dian online dictionary
-5.  ^ "嘘" in Han Dian online dictionary
-6.  ^ "哈哈" in Han Dian online dictionary
-7.  ^ "呵呵" in Han Dian online dictionary
-8.  ^ "嘻嘻" in Han Dian online dictionary
-9.  ^ "Nyaa or miao? Animal sounds across languages". Living Language.
-    March 8, 2013. Retrieved 12 April 2018.
-10. ^ "嘎嘎" in Han Dian online dictionary
-11. ^ a b "呱呱" in Han Dian online dictionary
-12. ^ "叽叽喳喳" in Han Dian online dictionary
-13. ^ "哑哑" in Han Dian online dictionary
-14. ^ "喵" in Han Dian online dictionary
-15. ^ "汪汪" in Han Dian online dictionary
-16. ^ "哞" in Han Dian online dictionary
-17. ^ "咩" in Han Dian online dictionary
-18. ^ "嗡嗡" in Han Dian online dictionary
-19. ^ "哐啷" in Han Dian online dictionary
-20. ^ "嘀嗒" in Han Dian online dictionary
-21. ^ "滴答" in Han Dian online dictionary
-22. ^ "叮铃" in Han Dian online dictionary
-23. ^ "叮当" in Han Dian online dictionary
-
-Croatian words[edit]
-
-1.  ^ a b c d University of Zagreb, Faculty of humanities and social
-    sciences, Departament of east Slavic languages and literatures,
-    Chair of Russian language, Master Thesis, PROBLEMS IN THE
-    TRANSLATION OF RUSSIAN COMICS (Ivana Ivančić), 2015
-
-Danish words[edit]
-
-1.  ^ "haps". Den Danske Ordbog. Retrieved 23 August 2019.
-2.  ^ http://ordnet.dk/ddo/ordbog?query=b%C3%B8vs
-3.  ^ http://ordnet.dk/ddo/ordbog?query=r%C3%A6b
-4.  ^ http://ordnet.dk/ddo/ordbog?query=vr%C3%A6l
-5.  ^ http://ordnet.dk/ddo/ordbog?query=ssh
-6.  ^ http://ordnet.dk/ddo/ordbog?query=tys
-7.  ^ http://ordnet.dk/ddo/ordbog?query=hys
-8.  ^ http://ordnet.dk/ddo/ordbog?query=%C3%B8f
-9.  ^ http://ordnet.dk/ddo/ordbog?query=grynt
-10. ^ http://ordnet.dk/ddo/ordbog?query=kv%C3%A6k
-
-English words[edit]
-
-1.  ^ "wah-wah" from the Oxford English Dictionary
-
-French words[edit]
-
-1.  ^ a b c d e f "Nyaa or miao? Animal sounds across languages". Living
-    Language. March 8, 2013. Retrieved 12 April 2018.
-
-German words[edit]
-
-1.  ^ a b c d e f g "Nyaa or miao? Animal sounds across languages".
-    Living Language. March 8, 2013. Retrieved 12 April 2018.
-
-Greek words[edit]
-
-1.  ^
-    http://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BF%CF%85%CE%AC&dq=
-2.  ^ Aristophanes, son of Philippus (1920). Acharnians. New York:
-    Liveright. p. 780. Retrieved 12 April 2018.
-
-Hebrew words[edit]
-
-1.  ^ "אַפְּצִ'י" in Morfix online dictionary Archived 2010-08-25 at the
-    Wayback Machine
-2.  ^ "Ouch" in Morfix online dictionary Archived 2010-08-25 at the
-    Wayback Machine
-3.  ^ "חָה חָה חָה" Archived 2011-08-07 at the Wayback Machine in Morfix
-    online dictionary Archived 2010-08-25 at the Wayback Machine
-4.  ^ a b c d e f g h i j k l m n o p q Animals sounds in Hebrew,
-    HaSafa-HaIvrit (The Hebrew Language) web site (in Hebrew)
-5.  ^ "Bang" in Babylon dictionary
-6.  ^ "תּוּק תּוּק"[permanent dead link] in Morfix online dictionary
-    Archived 2010-08-25 at the Wayback Machine
-7.  ^ "זְבֶּנְג" Archived 2011-08-07 at the Wayback Machine in Morfix
-    online dictionary Archived 2010-08-25 at the Wayback Machine
-8.  ^ "תִּיק־תַּק"[permanent dead link] in Morfix online dictionary
-    Archived 2010-08-25 at the Wayback Machine
-9.  ^ "קְלִיק"[permanent dead link] in Morfix online dictionary Archived
-    2010-08-25 at the Wayback Machine
-10. ^ "דִינְג־דוֹנְג"[permanent dead link] in Morfix online dictionary
-    Archived 2010-08-25 at the Wayback Machine
-
-Italian words[edit]
-
-1.  ^ a b c d e f g "Nyaa or miao? Animal sounds across languages".
-    Living Language. March 8, 2013. Retrieved 12 April 2018.
-
-Japanese words[edit]
-
-1.  ^ むしゃ‐むしゃ. Yahoo! Japan (in Japanese). Archived from the
-    original on 2012-04-04. Retrieved 2011-05-05.
-2.  ^ もぐ‐もぐ. Yahoo! Japan (in Japanese). Archived from the original
-    on 2012-04-04. Retrieved 2011-05-05.
-3.  ^ ぱく‐ぱく. Yahoo! Japan (in Japanese). Archived from the original
-    on 2012-04-04. Retrieved 2011-05-05.
-4.  ^ ごくっ‐と. Yahoo! Japan (in Japanese). Archived from the original
-    on 2012-09-10. Retrieved 2011-05-05.
-5.  ^ "Archived copy". Archived from the original on 2012-04-04.
-    Retrieved 2011-05-05.CS1 maint: archived copy as title (link)
-6.  ^ "Archived copy". Archived from the original on 2012-04-04.
-    Retrieved 2011-05-05.CS1 maint: archived copy as title (link)
-7.  ^ "Archived copy". Archived from the original on 2012-09-08.
-    Retrieved 2011-05-05.CS1 maint: archived copy as title (link)
-8.  ^ "Archived copy". Archived from the original on 2012-04-04.
-    Retrieved 2011-05-05.CS1 maint: archived copy as title (link)
-9.  ^ "Archived copy". Archived from the original on 2012-04-04.
-    Retrieved 2011-05-05.CS1 maint: archived copy as title (link)
-10. ^ a b c d e f g "Nyaa or miao? Animal sounds across languages".
-    Living Language. March 8, 2013. Retrieved 12 April 2018.
-
-Marathi words[edit]
-
-1.  ^ "प्राण्यांचे_आवाज [mr]" from the Marathi Wikipedia
-
-Portuguese words[edit]
-
-1.  ^ a b c d e f g h i j k l m n o Marcello, Dulce (October 24, 2016).
-    "How To Say Ouch, Atchoo, and Meow in Portuguese". Living Language.
-    Retrieved 13 April 2018.
-2.  ^ Trem da alegria [pt][circular reference]
-
-Spanish words[edit]
-
-1.  ^ a b c d e f g "Nyaa or miao? Animal sounds across languages".
-    Living Language. March 8, 2013. Retrieved 12 April 2018.
-
-Ukrainian words[edit]
-
-1.  ^ "КВА" in «Словник української мови»
-2.  ^ a b "КУМ" in «Словник української мови»
-
-Urdu words[edit]
-
-1.  ^ http://www.eleceng.adelaide.edu.au/Personal/dabbott/animal.html
-
-External links[edit]
---------------------
-
--   Written Sound, an online onomatopoeia dictionary
--   Cross-linguistics onomatopoeia at WikIdioms (Archived)
--   Derek Abbott's, Animal Noises
--   Portal for the Greek language and language education, onomatopoeic
-    words in Modern Greek
--   Onomatopoeia - words for rain that sound like rain
-
-[]
-
-Retrieved from
-"https://en.wikipedia.org/w/index.php?title=Cross-linguistic_onomatopoeias&oldid=966617693"
-
-Categories:
-
--   Onomatopoeia
--   Language comparison
-
-Hidden categories:
-
--   Webarchive template wayback links
--   All articles with dead external links
--   Articles with dead external links from November 2019
--   Articles with permanently dead external links
--   CS1 uses Japanese-language script (ja)
--   CS1 Japanese-language sources (ja)
--   CS1 maint: archived copy as title
--   All articles lacking reliable references
--   Articles lacking reliable references from September 2015
--   Articles needing additional references from November 2010
--   All articles needing additional references
--   Articles that may contain original research from November 2010
--   All articles that may contain original research
--   Pages with non-English text lacking appropriate markup from April
-    2019
--   Articles with multiple maintenance issues
--   Dynamic lists
--   Articles containing Afrikaans-language text
--   Articles containing Albanian-language text
--   Articles containing Basque-language text
--   Articles with text from the Batak languages collective
--   Articles containing Bengali-language text
--   Articles containing Bulgarian-language text
--   Articles containing Catalan-language text
--   Articles containing Mandarin Chinese-language text
--   All articles with unsourced statements
--   Articles with unsourced statements from November 2011
--   Articles containing Croatian-language text
--   Articles containing Czech-language text
--   Articles containing Danish-language text
--   Articles containing Dutch-language text
--   Articles containing Estonian-language text
--   Articles containing Finnish-language text
--   Articles containing French-language text
--   Articles containing German-language text
--   Articles containing Hebrew-language text
--   Articles containing Hungarian-language text
--   Articles containing Icelandic-language text
--   Articles containing Indonesian-language text
--   Articles containing Italian-language text
--   Articles containing Japanese-language text
--   Articles containing Thai-language text
--   Articles containing Korean-language text
--   Articles containing Russian-language text
--   Articles containing Telugu-language text
--   Articles with unsourced statements from December 2017
--   Articles containing Ukrainian-language text
--   Articles containing Arabic-language text
--   Articles containing Kazakh-language text
--   Articles containing Kyrgyz-language text
--   Articles containing Latvian-language text
--   Articles containing Lithuanian-language text
--   Articles containing Malay-language text
--   Articles containing Polish-language text
--   Articles containing Portuguese-language text
--   Articles containing Romanian-language text
--   Articles containing Spanish-language text
--   Articles containing Swedish-language text
--   Articles containing Filipino-language text
--   Articles containing Turkish-language text
--   Articles containing Kanuri-language text
-
-    </div>
-
-Navigation menu
----------------
-
-Personal tools
-
--   Not logged in
--   Talk
--   Contributions
--   Create account
--   Log in
-
-    </div>
-
-Namespaces
-
--   Article
--   Talk
-
-    </div>
-
-Variants
-
-    </div>
-
-Views
-
--   Read
--   Edit
--   View history
-
-    </div>
-
-More
-
-    </div>
-
-Search
-
-        </div>
-    </div>
-
-Navigation
-
--   Main page
--   Contents
--   Current events
--   Random article
--   About Wikipedia
--   Contact us
--   Donate
--   Wikipedia store
-
-    </div>
-
-Contribute
-
--   Help
--   Community portal
--   Recent changes
--   Upload file
-
-    </div>
-
-Tools
-
--   What links here
--   Related changes
--   Upload file
--   Special pages
--   Permanent link
--   Page information
--   Cite this page
--   Wikidata item
-
-    </div>
-
-Print/export
-
--   Download as PDF
--   Printable version
-
-    </div>
-
-Languages
-
--   Français
--   한국어
-
-Edit links
-
--   This page was last edited on 8 July 2020, at 04:05 (UTC).
--   Text is available under the Creative Commons Attribution-ShareAlike
-    License; additional terms may apply. By using this site, you agree
-    to the Terms of Use and Privacy Policy. Wikipedia® is a registered
-    trademark of the Wikimedia Foundation, Inc., a non-profit
-    organization.
-
--   Privacy policy
--   About Wikipedia
--   Disclaimers
--   Contact Wikipedia
--   Developers
--   Statistics
--   Cookie statement
--   Mobile view
-
--   [Wikimedia Foundation]
--   [Powered by MediaWiki]
 
