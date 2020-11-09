@@ -19,7 +19,7 @@
 # SET VARIABLES 
 # =========================================================================== #
   SHPATH=`dirname \`readlink -f $0\``
-  SVGROOT="$SHPATH/../E"
+  SVGROOT="$SHPATH/.."
   SRCPATH="$SHPATH/../src"
   # ----------------------------------------------------------------------- #
     ARGUMENTS=`echo $* | sed 's/ -[a-z]\b//g'`
