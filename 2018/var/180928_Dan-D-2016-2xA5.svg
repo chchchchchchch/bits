@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- CLEANED: 1538160192/3e48d5f6a37c61b3b6450adacc861d7e -->
+<!-- CLEANED: 1604956781/9b6b54361427f3a654dae138a87bfb31 -->
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -4155,7 +4155,7 @@
    clip-path="url(#clipPath3223)"
    transform="translate(0,-1380)">
       <image
-   xlink:href="../../../src/2016/dand/non-free/fp-tables.png"
+   xlink:href="../../src/2016/dand/non-free/fp-tables.png"
    checksum="ce906209e31aedd1"
    clip-path="url(#clipPath3182)"
    width="1024"
@@ -4164,7 +4164,7 @@
    x="10"
    y="0" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/fp-tables.png"
+   xlink:href="../../src/2016/dand/non-free/fp-tables.png"
    checksum="ce906209e31aedd1"
    transform="translate(-1120,0)"
    clip-path="url(#clipPath3186)"
@@ -4179,7 +4179,7 @@
    id="g3227"
    transform="translate(0,-1359)">
       <image
-   xlink:href="../../../src/2016/dand/non-free/fp-tables.png"
+   xlink:href="../../src/2016/dand/non-free/fp-tables.png"
    checksum="ce906209e31aedd1"
    y="0"
    x="10"
@@ -4188,7 +4188,7 @@
    width="1024"
    clip-path="url(#clipPath3182)" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/fp-tables.png"
+   xlink:href="../../src/2016/dand/non-free/fp-tables.png"
    checksum="ce906209e31aedd1"
    width="1024"
    height="768"
@@ -4208,7 +4208,7 @@
    clip-path="url(#clipPath3719)"
    transform="translate(-1160,-2460)">
       <image
-   xlink:href="../../../src/2016/dand/non-free/fp-tables.png"
+   xlink:href="../../src/2016/dand/non-free/fp-tables.png"
    checksum="ce906209e31aedd1"
    clip-path="url(#clipPath3571)"
    width="1024"
@@ -4218,7 +4218,7 @@
    y="0"
    transform="translate(1280,-10)" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/fp-tables.png"
+   xlink:href="../../src/2016/dand/non-free/fp-tables.png"
    checksum="ce906209e31aedd1"
    style="display:inline"
    clip-path="url(#clipPath3584)"
@@ -4235,7 +4235,7 @@
    clip-path="url(#clipPath3762)"
    transform="translate(-1160,-2270)">
       <image
-   xlink:href="../../../src/2016/dand/non-free/fp-tables.png"
+   xlink:href="../../src/2016/dand/non-free/fp-tables.png"
    checksum="ce906209e31aedd1"
    clip-path="url(#clipPath3571-2)"
    width="1024"
@@ -4245,7 +4245,7 @@
    y="0"
    transform="translate(1280,-10)" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/fp-tables.png"
+   xlink:href="../../src/2016/dand/non-free/fp-tables.png"
    checksum="ce906209e31aedd1"
    style="display:inline"
    clip-path="url(#clipPath3584-4)"
@@ -4274,7 +4274,7 @@
    id="rect3776"
    sodipodi:nodetypes="ccccc" />
     <image
-   xlink:href="../../../src/2016/dand/non-free/fp-tables.png"
+   xlink:href="../../src/2016/dand/non-free/fp-tables.png"
    checksum="ce906209e31aedd1"
    style="display:inline"
    clip-path="url(#clipPath3830-6)"
@@ -4323,7 +4323,7 @@
      y="471.78864">~</tspan></text>
     </g>
     <image
-   xlink:href="../../../src/2016/dand/non-free/fp-tables.png"
+   xlink:href="../../src/2016/dand/non-free/fp-tables.png"
    checksum="ce906209e31aedd1"
    y="-10"
    x="1340"
@@ -4341,7 +4341,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/non-free/fp-tables.png"
+   xlink:href="../../src/2016/dand/non-free/fp-tables.png"
    checksum="ce906209e31aedd1"
    style="display:inline"
    clip-path="url(#clipPath3286-7)"
@@ -5049,7 +5049,7 @@
    id="path25537-1"
    sodipodi:nodetypes="ccccc" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160606123718.png"
+   xlink:href="../../src/2016/dand/free/20160606123718.png"
    checksum="bc5bb3260ed608d7"
    width="836"
    height="710"
@@ -6067,7 +6067,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/20160606123633.png"
+   xlink:href="../../src/2016/dand/free/20160606123633.png"
    checksum="6a8711e47cefe5b7"
    transform="translate(0,-2360)"
    y="20"
@@ -6077,7 +6077,7 @@
    width="836"
    clip-path="url(#clipPath6003)" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160606123751.png"
+   xlink:href="../../src/2016/dand/free/20160606123751.png"
    checksum="7c4f24860c46b62e"
    transform="translate(0,-4240)"
    y="20"
@@ -6087,7 +6087,7 @@
    width="836"
    clip-path="url(#clipPath6003)" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160606123858.png"
+   xlink:href="../../src/2016/dand/free/20160606123858.png"
    checksum="83ce9ed03add04e8"
    transform="translate(0,-1580)"
    y="20"
@@ -6242,7 +6242,7 @@
      y="106.82199">selfhtml</tspan></text>
     </g>
     <image
-   xlink:href="../../../src/2016/dand/free/20160606123633.png"
+   xlink:href="../../src/2016/dand/free/20160606123633.png"
    checksum="6a8711e47cefe5b7"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6003)"
@@ -6252,7 +6252,7 @@
    x="70"
    y="20" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160606123751.png"
+   xlink:href="../../src/2016/dand/free/20160606123751.png"
    checksum="7c4f24860c46b62e"
    transform="translate(0,-4240)"
    clip-path="url(#clipPath6003)"
@@ -6361,7 +6361,7 @@
    sodipodi:nodetypes="cccc" />
     </g>
     <image
-   xlink:href="../../../src/2016/dand/free/20160606123858.png"
+   xlink:href="../../src/2016/dand/free/20160606123858.png"
    checksum="83ce9ed03add04e8"
    clip-path="url(#clipPath6003)"
    width="836"
@@ -6406,7 +6406,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/20160606123751.png"
+   xlink:href="../../src/2016/dand/free/20160606123751.png"
    checksum="7c4f24860c46b62e"
    transform="translate(0,-4240)"
    y="20"
@@ -6525,7 +6525,7 @@
    id="path6120-8" />
       </g>
       <image
-   xlink:href="../../../src/2016/dand/free/20160606123858.png"
+   xlink:href="../../src/2016/dand/free/20160606123858.png"
    checksum="83ce9ed03add04e8"
    transform="translate(71,85)"
    y="20"
@@ -7287,7 +7287,7 @@
    id="path6277"
    sodipodi:nodetypes="ccccc" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/stlasif.gif"
+   xlink:href="../../src/2016/dand/non-free/stlasif.gif"
    checksum="bf495a93b6ce16bb"
    width="1021"
    height="790"
@@ -7321,7 +7321,7 @@
    d="m 1176,402 9,0 0,788 -9,0 z"
    style="color:#280b0b;fill:#d0cfc0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/stlasif.gif"
+   xlink:href="../../src/2016/dand/non-free/stlasif.gif"
    checksum="bf495a93b6ce16bb"
    clip-path="url(#clipPath6264)"
    y="402"
@@ -7346,7 +7346,7 @@
    d="m 69.5,-1710 0,-291.5 949,0 0,291.5"
    style="color:#280b0b;fill:#d4d4d4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <image
-   xlink:href="../../../src/2016/dand/free/flash_edit-2.png"
+   xlink:href="../../src/2016/dand/free/flash_edit-2.png"
    checksum="74dbe85eb43347d8"
    transform="translate(-129,-2360)"
    clip-path="url(#clipPath6669)"
@@ -7366,7 +7366,7 @@
    id="g6712"
    transform="translate(130,-2330)">
       <image
-   xlink:href="../../../src/2016/dand/non-free/lf12f5.png"
+   xlink:href="../../src/2016/dand/non-free/lf12f5.png"
    checksum="498955e15c803307"
    clip-path="url(#clipPath6827)"
    width="600"
@@ -7773,7 +7773,7 @@
    id="g6712-6"
    transform="translate(130,-2330)">
       <image
-   xlink:href="../../../src/2016/dand/non-free/lf12f5.png"
+   xlink:href="../../src/2016/dand/non-free/lf12f5.png"
    checksum="498955e15c803307"
    y="118"
    x="-45"
@@ -8283,7 +8283,7 @@
    id="g4395"
    transform="translate(-40,-1420)">
       <image
-   xlink:href="../../../src/2016/dand/free/20160607091409.png"
+   xlink:href="../../src/2016/dand/free/20160607091409.png"
    checksum="ca0500323fbaad80"
    y="181"
    x="152"
@@ -8320,7 +8320,7 @@
    id="g4371"
    transform="translate(1010,-3510)">
       <image
-   xlink:href="../../../src/2016/dand/free/20160607091510.png"
+   xlink:href="../../src/2016/dand/free/20160607091510.png"
    checksum="42fdf27488d932ab"
    y="931"
    x="117"
@@ -8357,7 +8357,7 @@
    id="g4379"
    transform="translate(-1065,-3155)">
       <image
-   xlink:href="../../../src/2016/dand/free/20160607091626.png"
+   xlink:href="../../src/2016/dand/free/20160607091626.png"
    checksum="9f4b9e46b6806499"
    y="931"
    x="1164"
@@ -8399,7 +8399,7 @@
    id="g4387"
    transform="translate(0,-2360)">
       <image
-   xlink:href="../../../src/2016/dand/free/20160607091713.png"
+   xlink:href="../../src/2016/dand/free/20160607091713.png"
    checksum="669108e0eff8df22"
    y="931"
    x="2098"
@@ -8465,7 +8465,7 @@
    id="g4379-4"
    transform="translate(-1065,-3155)">
       <image
-   xlink:href="../../../src/2016/dand/free/20160607091626.png"
+   xlink:href="../../src/2016/dand/free/20160607091626.png"
    checksum="9f4b9e46b6806499"
    width="826"
    height="716"
@@ -8511,7 +8511,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/20160606195708.png"
+   xlink:href="../../src/2016/dand/free/20160606195708.png"
    checksum="35c80bbe937b6e6c"
    width="817"
    height="503"
@@ -8522,7 +8522,7 @@
    id="g4778"
    transform="translate(-150,-2566)">
       <image
-   xlink:href="../../../src/2016/dand/free/20160606195618.png"
+   xlink:href="../../src/2016/dand/free/20160606195618.png"
    checksum="3222fcdcdbc71ce4"
    y="300"
    x="306"
@@ -8550,7 +8550,7 @@
    id="path4774"
    sodipodi:nodetypes="cccc" />
       <image
-   xlink:href="../../../src/2016/dand/free/20160606200816.png"
+   xlink:href="../../src/2016/dand/free/20160606200816.png"
    checksum="1f4349756e9abbad"
    y="589"
    x="618"
@@ -8561,7 +8561,7 @@
    transform="translate(-310,-290)" />
     </g>
     <image
-   xlink:href="../../../src/2016/dand/free/20160606195747.png"
+   xlink:href="../../src/2016/dand/free/20160606195747.png"
    checksum="bedf4dd606773eb6"
    width="630"
    height="680"
@@ -8569,7 +8569,7 @@
    x="-19"
    y="-3260" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160606195908.png"
+   xlink:href="../../src/2016/dand/free/20160606195908.png"
    checksum="c9290fb92d17946e"
    width="734"
    height="651"
@@ -9063,7 +9063,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/non-free/i-know-this-scene-jurassic-park-when-lex-saves-day-by-hacking-into-unix-system-under-two.jpg"
+   xlink:href="../../src/2016/dand/non-free/i-know-this-scene-jurassic-park-when-lex-saves-day-by-hacking-into-unix-system-under-two.jpg"
    checksum="9cb0c708ce0f4313"
    width="1439.4464"
    height="780"
@@ -9123,7 +9123,7 @@
    id="g5411"
    transform="translate(0,-2360)">
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    clip-path="url(#clipPath5405)"
    width="1144"
@@ -9133,7 +9133,7 @@
    y="127"
    transform="translate(-300,530)" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    transform="matrix(-1,0,0,1,1826,530)"
    y="127"
@@ -9147,7 +9147,7 @@
    id="g5415"
    transform="translate(0,-2469)">
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    transform="translate(-300,530)"
    y="127"
@@ -9157,7 +9157,7 @@
    width="1144"
    clip-path="url(#clipPath5405)" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    clip-path="url(#clipPath5405)"
    width="1144"
@@ -9171,7 +9171,7 @@
    transform="translate(0,-2579)"
    id="g5421">
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    clip-path="url(#clipPath5405)"
    width="1144"
@@ -9181,7 +9181,7 @@
    y="127"
    transform="translate(-300,530)" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    transform="matrix(-1,0,0,1,1826,530)"
    y="127"
@@ -9195,7 +9195,7 @@
    id="g5427"
    transform="translate(0,-2690)">
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    transform="translate(-300,530)"
    y="127"
@@ -9205,7 +9205,7 @@
    width="1144"
    clip-path="url(#clipPath5405)" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    clip-path="url(#clipPath5405)"
    width="1144"
@@ -9219,7 +9219,7 @@
    transform="translate(0,-2800)"
    id="g5433">
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    clip-path="url(#clipPath5405)"
    width="1144"
@@ -9229,7 +9229,7 @@
    y="127"
    transform="translate(-300,530)" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    transform="matrix(-1,0,0,1,1826,530)"
    y="127"
@@ -9243,7 +9243,7 @@
    id="g5439"
    transform="translate(0,-2911)">
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    transform="translate(-300,530)"
    y="127"
@@ -9253,7 +9253,7 @@
    width="1144"
    clip-path="url(#clipPath5405)" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    clip-path="url(#clipPath5405)"
    width="1144"
@@ -9267,7 +9267,7 @@
    transform="translate(0,-3022)"
    id="g5445">
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    clip-path="url(#clipPath5405)"
    width="1144"
@@ -9277,7 +9277,7 @@
    y="127"
    transform="translate(-300,530)" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    transform="matrix(-1,0,0,1,1826,530)"
    y="127"
@@ -9295,7 +9295,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
+   xlink:href="../../src/2016/dand/non-free/zoap2qcomenv2cweyrt6.JPG"
    checksum="6a88eec89af5020e"
    transform="translate(-3,-2361)"
    clip-path="url(#clipPath5379)"
@@ -9346,7 +9346,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/non-free/2how8wo.jpg"
+   xlink:href="../../src/2016/dand/non-free/2how8wo.jpg"
    checksum="7327efae41d5132a"
    transform="translate(-10,-2360)"
    clip-path="url(#clipPath5294)"
@@ -9421,7 +9421,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/non-free/VVWS0506_osfa.png"
+   xlink:href="../../src/2016/dand/non-free/VVWS0506_osfa.png"
    checksum="08ad30b7e606249a"
    transform="translate(-130,-2448)"
    clip-path="url(#clipPath5528)"
@@ -9431,7 +9431,7 @@
    x="51"
    y="191" />
     <image
-   xlink:href="../../../src/2016/dand/non-free/VVWS0506_unix.png"
+   xlink:href="../../src/2016/dand/non-free/VVWS0506_unix.png"
    checksum="f7a7e289f42129a9"
    transform="translate(-152,-2537)"
    clip-path="url(#clipPath5601)"
@@ -9517,7 +9517,7 @@
    d="m 96,92.99 0,0.5 0,561.99995 0,0.5 0.5,0 380,0 0.5,0 0,-0.5 0,-561.99995 0,-0.5 -0.5,0 -380,0 z m 1,1 379,0 0,560.99995 -379,0 z"
    style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#280b0b;fill:#280b0b;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
         <image
-   xlink:href="../../../src/2016/dand/non-free/raymond-photo.jpg"
+   xlink:href="../../src/2016/dand/non-free/raymond-photo.jpg"
    checksum="d6555faecd14c92c"
    transform="translate(-290,-30)"
    clip-path="url(#clipPath5671)"
@@ -9642,7 +9642,7 @@
    d="m 358,901.99 0,0.5 0,484 0,0.5 0.5,0 512,0 0.5,0 0,-0.5 0,-484 0,-0.5 -0.5,0 -512,0 z m 1,1 511,0 0,483 -511,0 z"
    style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#280b0b;fill:#280b0b;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
       <image
-   xlink:href="../../../src/2016/dand/non-free/pdp11-unix.jpg"
+   xlink:href="../../src/2016/dand/non-free/pdp11-unix.jpg"
    checksum="b7b02445c63d86ac"
    y="409.98706"
    x="518.91577"
@@ -9681,7 +9681,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/non-free/unixphilosophy.jpg"
+   xlink:href="../../src/2016/dand/non-free/unixphilosophy.jpg"
    checksum="05fac1f7c02cca97"
    width="1056.3961"
    height="768"
@@ -10699,7 +10699,7 @@
      style="font-size:22px;line-height:200%;fill:#f2f2f2">was hosted at the KHM in early 2008.<flowSpan
    style="fill:#280b0b"
    id="flowSpan6635"> Inspired by the idea that within Linux culture users are encouraged to think and make their own applications,</flowSpan> the idea was to create a hyperconnective machine/instrument/environment</flowPara></flowRoot>    <image
-   xlink:href="../../../src/2016/dand/non-free/regen-pd.png"
+   xlink:href="../../src/2016/dand/non-free/regen-pd.png"
    checksum="0545a9585f6b1d18"
    width="790"
    height="585"
@@ -10754,7 +10754,7 @@
      id="tspan4212-6-0"
      sodipodi:role="line">TODO: hyperconnective instrument</tspan></text>
     <image
-   xlink:href="../../../src/2016/dand/free/system_01_02.png"
+   xlink:href="../../src/2016/dand/free/system_01_02.png"
    checksum="6bf6602a15105033"
    width="800"
    height="552"
@@ -10784,7 +10784,7 @@
      x="372.1748"
      y="-2421.1484">TODO: hyperconnective instrument</tspan></text>
     <image
-   xlink:href="../../../src/2016/dand/free/system_01_01.png"
+   xlink:href="../../src/2016/dand/free/system_01_01.png"
    checksum="6a8c6d3f2013581b"
    width="800"
    height="552"
@@ -10826,7 +10826,7 @@
    d="m -76,-2360 1100,0 0,768 -1100,0 z"
    style="color:#280b0b;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <image
-   xlink:href="../../../src/2016/dand/free/system_02.png"
+   xlink:href="../../src/2016/dand/free/system_02.png"
    checksum="3f1278643b67759d"
    transform="translate(-40,-2340)"
    clip-path="url(#clipPath7096)"
@@ -10843,7 +10843,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/non-free/DSC_0008.JPG"
+   xlink:href="../../src/2016/dand/non-free/DSC_0008.JPG"
    checksum="639b61dee89b2930"
    clip-path="url(#clipPath4026)"
    transform="matrix(0.03819344,0.99927036,-0.99927036,0.03819344,0,-2360)"
@@ -10896,7 +10896,7 @@
      style="font-size:22px;line-height:200%;fill:#280b0b">Posters were generated from a pool of modular illustrations,</flowPara><flowPara
      style="font-size:22px;line-height:200%;fill:#f2f2f2"
      id="flowPara10158">producing not one poster, but a lot of variations.</flowPara></flowRoot>    <image
-   xlink:href="../../../src/2016/dand/free/20160608123924.png"
+   xlink:href="../../src/2016/dand/free/20160608123924.png"
    checksum="29f769cc2932e5d8"
    transform="translate(20,-2364)"
    clip-path="url(#clipPath7313)"
@@ -10930,7 +10930,7 @@
      style="font-size:22px;line-height:200%;fill:#f2f2f2"><flowSpan
    id="flowSpan7469"
    style="font-size:22px;line-height:200%;fill:#280b0b">producing not one poster, </flowSpan>but a lot of variations.</flowPara></flowRoot>    <image
-   xlink:href="../../../src/2016/dand/free/20160608131428.png"
+   xlink:href="../../src/2016/dand/free/20160608131428.png"
    checksum="90bac9eecbdd6317"
    transform="translate(-11,-2394)"
    clip-path="url(#clipPath7431)"
@@ -10962,7 +10962,7 @@
      style="font-size:22px;line-height:200%;fill:#280b0b">Posters were generated from a pool of modular illustrations,</flowPara><flowPara
      style="font-size:22px;line-height:200%;fill:#280b0b"
      id="flowPara7451">producing not one poster, but a lot of variations.</flowPara></flowRoot>    <image
-   xlink:href="../../../src/2016/dand/free/20160608131448.png"
+   xlink:href="../../src/2016/dand/free/20160608131448.png"
    checksum="d00bff51f56e4f50"
    width="1024"
    height="768"
@@ -10992,7 +10992,7 @@
      id="flowPara7552">Posters were generated from a pool of modular illustrations,</flowPara><flowPara
      id="flowPara7554"
      style="font-size:22px;line-height:200%;fill:#280b0b">producing not one poster, but a lot of variations.</flowPara></flowRoot>    <image
-   xlink:href="../../../src/2016/dand/free/20160608131511.png"
+   xlink:href="../../src/2016/dand/free/20160608131511.png"
    checksum="3178e352ac3c82b8"
    y="-2360"
    x="0"
@@ -11498,7 +11498,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/03_MAKEART2009_Printposter-03.jpg"
+   xlink:href="../../src/2016/dand/free/03_MAKEART2009_Printposter-03.jpg"
    checksum="28949130b83145eb"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6735)"
@@ -11515,7 +11515,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/03_MAKEART2009_Printposter-01.jpg"
+   xlink:href="../../src/2016/dand/free/03_MAKEART2009_Printposter-01.jpg"
    checksum="38654a410bfb0018"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6757)"
@@ -11525,7 +11525,7 @@
    x="-69.578888"
    y="-20.38686" />
     <image
-   xlink:href="../../../src/2016/dand/free/03_MAKEART2009_Printposter-02.jpg"
+   xlink:href="../../src/2016/dand/free/03_MAKEART2009_Printposter-02.jpg"
    checksum="9bf5990b373171d5"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6746)"
@@ -11542,7 +11542,7 @@
    inkscape:groupmode="layer"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/04_MAKEART2009_Variety-01_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_MAKEART2009_Variety-01_600dpi-dark.jpg"
    checksum="de37a667975355bd"
    transform="matrix(0,1.5177852,-1.5177852,0,1095.3822,-2396.9878)"
    clip-path="url(#clipPath6768)"
@@ -11559,7 +11559,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/04_MAKEART2009_Variety-02_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_MAKEART2009_Variety-02_600dpi-dark.jpg"
    checksum="ab4be5bfd173ae15"
    clip-path="url(#clipPath6779)"
    width="837.68652"
@@ -11594,7 +11594,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/03_LIWOLI2010_Printposter-01.jpg"
+   xlink:href="../../src/2016/dand/free/03_LIWOLI2010_Printposter-01.jpg"
    checksum="bc19b9a06fabcfff"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6790)"
@@ -11611,7 +11611,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/04_LIWOLI2010_Variety-03_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_LIWOLI2010_Variety-03_600dpi-dark.jpg"
    checksum="a565ca55f191ae9b"
    width="1063.0605"
    height="1503.7164"
@@ -11626,7 +11626,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/04_LIWOLI2010_Variety-03_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_LIWOLI2010_Variety-03_600dpi-dark.jpg"
    checksum="a565ca55f191ae9b"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath9741)"
@@ -11679,7 +11679,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/03_MAKEART2010_Printposter-06.jpg"
+   xlink:href="../../src/2016/dand/free/03_MAKEART2010_Printposter-06.jpg"
    checksum="b41bcd60d4acc20e"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6801)"
@@ -11696,7 +11696,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/03_MAKEART2010_Printposter-05.jpg"
+   xlink:href="../../src/2016/dand/free/03_MAKEART2010_Printposter-05.jpg"
    checksum="77524d0045caab40"
    width="1024.1112"
    height="561.19299"
@@ -11711,7 +11711,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/03_MAKEART2010_Printposter-02.jpg"
+   xlink:href="../../src/2016/dand/free/03_MAKEART2010_Printposter-02.jpg"
    checksum="fb8c289dfafe35c4"
    width="618.1239"
    height="797.36755"
@@ -11726,7 +11726,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/04_MAKEART2010_Variety-02_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_MAKEART2010_Variety-02_600dpi-dark.jpg"
    checksum="4c4808f8b77cf152"
    transform="translate(490,-2360)"
    y="-12.809252"
@@ -11736,7 +11736,7 @@
    width="573.59869"
    clip-path="url(#clipPath9747)" />
     <image
-   xlink:href="../../../src/2016/dand/free/04_MAKEART2010_Variety-01_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_MAKEART2010_Variety-01_600dpi-dark.jpg"
    checksum="8c9dc8a4a485a355"
    transform="translate(-36,-2360)"
    clip-path="url(#clipPath9753)"
@@ -11753,7 +11753,7 @@
    style="display:none"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/free/04_MAKEART2010_Variety-02_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_MAKEART2010_Variety-02_600dpi-dark.jpg"
    checksum="4c4808f8b77cf152"
    clip-path="url(#clipPath8966)"
    width="573.59869"
@@ -11763,7 +11763,7 @@
    y="-12.809252"
    transform="matrix(1.6287721,0,0,1.6287721,457.30143,-2607.0276)" />
     <image
-   xlink:href="../../../src/2016/dand/free/04_MAKEART2010_Variety-01_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_MAKEART2010_Variety-01_600dpi-dark.jpg"
    checksum="8c9dc8a4a485a355"
    y="-12.809252"
    x="6.8815918"
@@ -12029,7 +12029,7 @@
      style="font-size:22px;line-height:200%;fill:#f2f2f2">software_.</flowPara><flowPara
      id="flowPara8144"
      style="font-size:22px;line-height:200%;fill:#280b0b" /></flowRoot>    <image
-   xlink:href="../../../src/2016/dand/non-free/goldberg_01.png"
+   xlink:href="../../src/2016/dand/non-free/goldberg_01.png"
    checksum="bb7c6581f4a5599a"
    width="800"
    height="372"
@@ -12195,7 +12195,7 @@
    style="display:inline"
    sodipodi:insensitive="true">
     <image
-   xlink:href="../../../src/2016/dand/non-free/_DSC4772.JPG"
+   xlink:href="../../src/2016/dand/non-free/_DSC4772.JPG"
    checksum="da4a9c9047f7a75d"
    y="0.40089476"
    x="-28.992315"
@@ -12469,7 +12469,7 @@
    d="m 3,-2360 1021,0 0,768 -1021,0 z"
    style="color:#280b0b;fill:#dddddd;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160608183137.png"
+   xlink:href="../../src/2016/dand/free/20160608183137.png"
    checksum="85776bcbde0e3e29"
    transform="translate(0,-2360)"
    style="display:inline"
@@ -12513,7 +12513,7 @@
    id="rect2985-7"
    sodipodi:nodetypes="ccccc" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160608183155.png"
+   xlink:href="../../src/2016/dand/free/20160608183155.png"
    checksum="15e37121d51a72f5"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6931)"
@@ -12557,7 +12557,7 @@
    d="m 3,-2360 1021,0 0,768 -1021,0 z"
    style="color:#280b0b;fill:#dddddd;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160608172714.png"
+   xlink:href="../../src/2016/dand/free/20160608172714.png"
    checksum="af3543aabf6512ea"
    transform="translate(0,-2360)"
    style="display:inline"
@@ -12601,7 +12601,7 @@
    id="path6996"
    sodipodi:nodetypes="ccccc" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160608172743.png"
+   xlink:href="../../src/2016/dand/free/20160608172743.png"
    checksum="8074c6446e963309"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6931)"
@@ -12645,7 +12645,7 @@
    d="m 3,-2360 1021,0 0,768 -1021,0 z"
    style="color:#280b0b;fill:#dddddd;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160608172756.png"
+   xlink:href="../../src/2016/dand/free/20160608172756.png"
    checksum="bbc1242ea99865d4"
    transform="translate(0,-2360)"
    style="display:inline"
@@ -12689,7 +12689,7 @@
    id="path7048"
    sodipodi:nodetypes="ccccc" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160608172805.png"
+   xlink:href="../../src/2016/dand/free/20160608172805.png"
    checksum="566eb3801002d4fb"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6931)"
@@ -12733,7 +12733,7 @@
    d="m 3,-2360 1021,0 0,768 -1021,0 z"
    style="color:#280b0b;fill:#dddddd;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160608172828.png"
+   xlink:href="../../src/2016/dand/free/20160608172828.png"
    checksum="3fc00806c471b1b4"
    transform="translate(0,-2360)"
    style="display:inline"
@@ -12777,7 +12777,7 @@
    id="path7100"
    sodipodi:nodetypes="ccccc" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160608173205.png"
+   xlink:href="../../src/2016/dand/free/20160608173205.png"
    checksum="1c356a15b34383dd"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6931)"
@@ -12821,7 +12821,7 @@
    d="m 3,-2360 1021,0 0,768 -1021,0 z"
    style="color:#280b0b;fill:#dddddd;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160608173228.png"
+   xlink:href="../../src/2016/dand/free/20160608173228.png"
    checksum="52ecbfb4af4eb0cb"
    transform="translate(0,-2360)"
    style="display:inline"
@@ -12865,7 +12865,7 @@
    id="path7152"
    sodipodi:nodetypes="ccccc" />
     <image
-   xlink:href="../../../src/2016/dand/free/20160608173247.png"
+   xlink:href="../../src/2016/dand/free/20160608173247.png"
    checksum="65719118fd39a82b"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6931)"
@@ -12930,7 +12930,7 @@
      id="flowPara7192">We developed an online interface, where people could ask or answer</flowPara><flowPara
      style="font-size:22px;line-height:200%;fill:#280b0b"
      id="flowPara7198">questions.</flowPara></flowRoot>    <image
-   xlink:href="../../../src/2016/dand/free/20160608173408.png"
+   xlink:href="../../src/2016/dand/free/20160608173408.png"
    checksum="3e75f7350e94e26b"
    transform="translate(0,-2360)"
    style="display:inline"
@@ -12978,7 +12978,7 @@
    id="flowSpan7222">These conversations were collected and used to generate</flowSpan></flowPara><flowPara
      id="flowPara7224"
      style="font-size:22px;line-height:200%;fill:#f2f2f2">posters to promote the event.</flowPara></flowRoot>    <image
-   xlink:href="../../../src/2016/dand/free/20160608173443.png"
+   xlink:href="../../src/2016/dand/free/20160608173443.png"
    checksum="8dd38bbc2d922371"
    transform="translate(0,-2360)"
    clip-path="url(#clipPath6931)"
@@ -13026,7 +13026,7 @@
    transform="translate(-20,0)"
    id="g5976">
         <image
-   xlink:href="../../../src/2016/dand/free/04_LGM2013_Variety-02_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_LGM2013_Variety-02_600dpi-dark.jpg"
    checksum="827db78a21fda3c6"
    clip-path="none"
    y="-11.777328"
@@ -13035,7 +13035,7 @@
    height="797.58508"
    width="563.85724" />
         <image
-   xlink:href="../../../src/2016/dand/free/04_LGM2013_Variety-01_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_LGM2013_Variety-01_600dpi-dark.jpg"
    checksum="b54a22b1d6aadf20"
    clip-path="url(#clipPath5972)"
    width="563.85724"
@@ -13083,7 +13083,7 @@
    id="g6030"
    transform="translate(-20,0)">
         <image
-   xlink:href="../../../src/2016/dand/free/04_LGM2013_Variety-02_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_LGM2013_Variety-02_600dpi-dark.jpg"
    checksum="827db78a21fda3c6"
    width="563.85724"
    height="797.58508"
@@ -13092,7 +13092,7 @@
    y="-11.777328"
    clip-path="none" />
         <image
-   xlink:href="../../../src/2016/dand/free/04_LGM2013_Variety-01_600dpi-dark.jpg"
+   xlink:href="../../src/2016/dand/free/04_LGM2013_Variety-01_600dpi-dark.jpg"
    checksum="b54a22b1d6aadf20"
    y="-11.777328"
    x="-10.846802"
@@ -13153,7 +13153,7 @@
      id="flowPara10710">The 'local setup' could be installed on any standard GNU/Linux</flowPara><flowPara
      style="font-size:22px;line-height:200%;fill:#280b0b"
      id="flowPara10712">computer (and even OSX worked).</flowPara></flowRoot>    <image
-   xlink:href="../../../src/2016/dand/free/160603_dand-conversations.png"
+   xlink:href="../../src/2016/dand/free/160603_dand-conversations.png"
    checksum="1fe88664c517199a"
    width="668.48334"
    height="945.19391"
@@ -13189,7 +13189,7 @@
      id="flowPara10842">contributions through a lot of different layers and complexities,</flowPara><flowPara
      style="font-size:22px;line-height:200%;fill:#280b0b"
      id="flowPara10844">from proofreading to replicating the whole infrastructure.</flowPara></flowRoot>    <image
-   xlink:href="../../../src/2016/dand/free/00037.png"
+   xlink:href="../../src/2016/dand/free/00037.png"
    checksum="768870c87496f8ea"
    width="1024"
    height="768"
