@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- CLEANED: 1604957626/78dea17a38fbd6890c43d9d81d50cbc6 -->
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -29,14 +29,8 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.56791553"
-     inkscape:cx="683.42572"
-     inkscape:cy="376.20669"
-     inkscape:current-layer="layer5"
      units="mm"
      guidecolor="#ff0000"
      guideopacity="0.47058824"
@@ -78,72 +72,57 @@
      sodipodi:insensitive="true"><path
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 10.625,0 0,765.34375 10.625,0 524.40625,0 524.43755,0 10.625,0 0,-765.34375 -10.625,0 L 21.25,0 10.625,0 z"
-       id="canvasfull"
-       inkscape:connector-curvature="0" /><path
+       id="canvasfull" /><path
        style="color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 10.625,0 0,765.34375 10.625,0 L 21.25,0 10.625,0 z"
-       id="outercropleft"
-       inkscape:connector-curvature="0" /><path
+       id="outercropleft" /><path
        style="color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 10.625,754.71875 0,10.625 535.03125,0 0,-10.625 -535.03125,0 z"
-       id="bottomcropleft"
-       inkscape:connector-curvature="0" /><path
+       id="bottomcropleft" /><path
        style="color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 10.625,0 0,10.625 535.03125,0 0,-10.625 L 10.625,0 z"
-       id="topcropleft"
-       inkscape:connector-curvature="0" /><path
+       id="topcropleft" /><path
        style="color:#000000;fill:none;stroke:#0000ff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 10.629921,-10.00046 0,785.35433"
        id="beforecropleft"
-       inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" /><path
        style="color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 1070.0938,0 0,765.34375 10.625,0 0,-765.34375 -10.625,0 z"
-       id="outercropright"
-       inkscape:connector-curvature="0" /><path
+       id="outercropright" /><path
        style="color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 545.65625,754.71875 0,10.625 535.06255,0 0,-10.625 -535.06255,0 z"
-       id="bottomcropright"
-       inkscape:connector-curvature="0" /><path
+       id="bottomcropright" /><path
        style="color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 545.65625,0 0,10.625 535.06255,0 0,-10.625 -535.06255,0 z"
-       id="topcropright"
-       inkscape:connector-curvature="0" /><path
+       id="topcropright" /><path
        style="color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 1080.7081,-10.00046 0,785.35433"
        id="beforecropright"
-       inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" /><path
        style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:#00ff00;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 556.29876,-4.6023438e-4 -10.63,0 0,765.35433023438 10.63,0 z"
-       id="innercropright"
-       inkscape:connector-curvature="0" /><path
+       id="innercropright" /><path
        style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:#00ff00;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 545.66876,-4.6023438e-4 -10.63,0 0,765.35433023438 10.63,0 z"
-       id="innercropleft"
-       inkscape:connector-curvature="0" /><path
+       id="innercropleft" /><path
        style="opacity:0.5;color:#000000;fill:#ffffff;fill-opacity:1;stroke:none"
        d="m 21.25,10.625 0,744.0937 1048.8438,0 0,-744.0937 -1048.8438,0 z"
-       id="canvasoverlay"
-       inkscape:connector-curvature="0" /><path
+       id="canvasoverlay" /><path
        style="fill:none;stroke:#00ff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="m 545.669,771.94051 0,-778.5270405"
-       id="centerbuild"
-       inkscape:connector-curvature="0" /></g><g
+       id="centerbuild" /></g><g
      inkscape:label="XX_PAGE"
      inkscape:groupmode="layer"
      id="refcanvas"
      style="display:inline"
      sodipodi:insensitive="true"><path
        sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
        id="canvas"
        d="m 21.259843,10.62935 1048.818857,0 0,744.09449 -1048.818857,0 z"
        style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline" /><path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="m 545.669,771.94051 0,-778.5270403"
-       id="center"
-       inkscape:connector-curvature="0" /></g><g
+       id="center" /></g><g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="XX_PXREF"
@@ -152,13 +131,15 @@
        y="-1384.8552"
        x="31.994308"
        id="image3100"
-       xlink:href="file:///home/christoph/0000_Projekte/LFKN_Freeze+Press/Artwork/2015/150124--lovethebash/incoming/drstrangelove-or_-how-i-learned-to-stop-worrying-and-love-the-bomb.jpg"
+       xlink:href="../../../../../0000_Projekte/LFKN_Freeze+Press/Artwork/2015/150124--lovethebash/incoming/drstrangelove-or_-how-i-learned-to-stop-worrying-and-love-the-bomb.jpg"
+       checksum="8b316647bc9c876d"
        height="1321"
        width="936" /><image
        y="-697.37463"
        x="1275.6124"
        id="image3158"
-       xlink:href="file:///home/christoph/0000_Projekte/LFKN_Freeze+Press/Artwork/2015/150124--lovethebash/incoming/dr-strangelove.jpg"
+       xlink:href="../../../../../0000_Projekte/LFKN_Freeze+Press/Artwork/2015/150124--lovethebash/incoming/dr-strangelove.jpg"
+       checksum="d7b94f69085ecdd2"
        height="478"
        width="300" /></g><g
      inkscape:groupmode="layer"
@@ -171,64 +152,55 @@
    id="g3077"><path
      id="path3079"
      style="fill:none;stroke:#ff00ff;stroke-width:0.199;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-     d="M 0,0 270.65,0"
-     inkscape:connector-curvature="0" /></g><g
+     d="M 0,0 270.65,0" /></g><g
    style="fill:none;stroke:#ff00ff;display:inline"
    transform="matrix(1.25,0,0,-1.25,674.14812,51.331255)"
    id="g3081"><path
      id="path3083"
      style="fill:none;stroke:#ff00ff;stroke-width:0.199;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-     d="M 0,0 270.65,0"
-     inkscape:connector-curvature="0" /></g><g
+     d="M 0,0 270.65,0" /></g><g
    style="fill:none;stroke:#ff00ff;display:inline"
    transform="matrix(1.25,0,0,-1.25,674.14812,69.077505)"
    id="g3085"><path
      id="path3087"
      style="fill:none;stroke:#ff00ff;stroke-width:0.199;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-     d="M 0,0 270.65,0"
-     inkscape:connector-curvature="0" /></g><g
+     d="M 0,0 270.65,0" /></g><g
    style="fill:none;stroke:#ff00ff;display:inline"
    transform="matrix(1.25,0,0,-1.25,674.02312,650.8675)"
    id="g3089"><path
      id="path3091"
      style="fill:none;stroke:#ff00ff;stroke-width:0.199;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-     d="M 0,0 0,465.332"
-     inkscape:connector-curvature="0" /></g><g
+     d="M 0,0 0,465.332" /></g><g
    style="fill:none;stroke:#ff00ff;display:inline"
    transform="matrix(1.25,0,0,-1.25,1012.5844,650.8675)"
    id="g3093"><path
      id="path3095"
      style="fill:none;stroke:#ff00ff;stroke-width:0.199;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-     d="M 0,0 0,465.332"
-     inkscape:connector-curvature="0" /></g><g
+     d="M 0,0 0,465.332" /></g><g
    style="fill:none;stroke:#ff00ff;display:inline"
    transform="matrix(1.25,0,0,-1.25,1017.5656,650.8675)"
    id="g3097"><path
      id="path3099"
      style="fill:none;stroke:#ff00ff;stroke-width:0.199;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-     d="M 0,0 0,465.332"
-     inkscape:connector-curvature="0" /></g><g
+     d="M 0,0 0,465.332" /></g><g
    style="fill:none;stroke:#ff00ff;display:inline"
    transform="matrix(1.25,0,0,-1.25,1105.8994,650.8675)"
    id="g3101"><path
      id="path3103"
      style="fill:none;stroke:#ff00ff;stroke-width:0.199;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-     d="M 0,0 0,465.332"
-     inkscape:connector-curvature="0" /></g><g
+     d="M 0,0 0,465.332" /></g><g
    style="fill:none;stroke:#ff00ff;display:inline"
    transform="matrix(1.25,0,0,-1.25,674.14812,650.7425)"
    id="g3105"><path
      id="path3107"
      style="fill:none;stroke:#ff00ff;stroke-width:0.199;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-     d="M 0,0 270.65,0"
-     inkscape:connector-curvature="0" /></g><g
+     d="M 0,0 270.65,0" /></g><g
    style="fill:none;stroke:#ff00ff;display:inline"
    transform="matrix(1.25,0,0,-1.25,674.14812,704.14125)"
    id="g3109"><path
      id="path3111"
      style="fill:none;stroke:#ff00ff;stroke-width:0.199;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
-     d="M 0,0 270.65,0"
-     inkscape:connector-curvature="0" /></g><text
+     d="M 0,0 270.65,0" /></g><text
    id="text3113"
    x="587.19934"
    y="715.59247"
@@ -237,44 +209,34 @@
      y="715.59247"
      x="587.19934"
      style="font-size:6.22662497px;font-variant:normal;writing-mode:lr-tb;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:NimbusSanL-Regu">1</tspan></text>
-
 <path
    d="m 78.807421,36.295005 338.312509,0"
    style="fill:none;stroke:#ff00ff;stroke-width:0.24875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;display:inline"
-   id="path3117"
-   inkscape:connector-curvature="0" /><path
+   id="path3117" /><path
    d="m 78.807421,51.331255 338.312509,0"
    style="fill:none;stroke:#ff00ff;stroke-width:0.24875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;display:inline"
-   id="path3119"
-   inkscape:connector-curvature="0" /><path
+   id="path3119" /><path
    d="m 78.807421,69.077505 338.312509,0"
    style="fill:none;stroke:#ff00ff;stroke-width:0.24875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;display:inline"
-   id="path3121"
-   inkscape:connector-curvature="0" /><path
+   id="path3121" /><path
    d="m -14.881329,650.8675 0,-581.664995"
    style="fill:none;stroke:#ff00ff;stroke-width:0.24875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;display:inline"
-   id="path3123"
-   inkscape:connector-curvature="0" /><path
+   id="path3123" /><path
    d="m 73.949921,650.8675 0,-581.664995"
    style="fill:none;stroke:#ff00ff;stroke-width:0.24875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;display:inline"
-   id="path3125"
-   inkscape:connector-curvature="0" /><path
+   id="path3125" /><path
    d="m 78.682421,650.8675 0,-581.664995"
    style="fill:none;stroke:#ff00ff;stroke-width:0.24875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;display:inline"
-   id="path3127"
-   inkscape:connector-curvature="0" /><path
+   id="path3127" /><path
    d="m 417.24368,650.8675 0,-581.664995"
    style="fill:none;stroke:#ff00ff;stroke-width:0.24875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;display:inline"
-   id="path3129"
-   inkscape:connector-curvature="0" /><path
+   id="path3129" /><path
    d="m 78.807421,650.7425 338.312509,0"
    style="fill:none;stroke:#ff00ff;stroke-width:0.24875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;display:inline"
-   id="path3131"
-   inkscape:connector-curvature="0" /><path
+   id="path3131" /><path
    d="m 78.807421,704.14125 338.312509,0"
    style="fill:none;stroke:#ff00ff;stroke-width:0.24875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;display:inline"
-   id="path3133"
-   inkscape:connector-curvature="0" /><text
+   id="path3133" /><text
    y="715.59247"
    x="500.60495"
    id="text3135"
@@ -283,13 +245,10 @@
      x="500.60495"
      y="715.59247"
      id="tspan3137">2</tspan></text>
-
 <path
-   inkscape:connector-curvature="0"
    id="path68"
    style="color:#000000;fill:none;stroke:#ff00ff;stroke-width:0.24875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
    d="m 607.60179,70.73733 33.219,0 0,33.219 -33.219,0 0,-33.219 z" /><path
-   inkscape:connector-curvature="0"
    id="path68-3"
    style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ff00ff;stroke-width:0.44292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
    d="m 449.1186,70.737325 33.219,0 0,33.218995 -33.219,0 0,-33.218995 z" /></g><g
@@ -301,7 +260,6 @@
    style="color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
    d="m 75.625,-1246.0212 843.75,0 0,390.75 -843.75,0 z"
    id="rect3104"
-   inkscape:connector-curvature="0"
    sodipodi:nodetypes="ccccc" /><text
    xml:space="preserve"
    style="font-size:171.58129883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00ff00;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic"
@@ -314,11 +272,6 @@
      x="175.5287"
      y="-1077.8954"
      dx="0 0 0 0 -15.495212">Dr. Strangelove</tspan></text>
-
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3111"
@@ -330,11 +283,6 @@
      x="222.21269"
      id="tspan3113"
      sodipodi:role="line">(TELEFONO ROJO</tspan></text>
-
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:27.06559372px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00ff00;fill-opacity:1;stroke:none;font-family:Pressuru;-inkscape-font-specification:Pressuru"
@@ -346,11 +294,6 @@
      id="tspan3163"
      x="1345.9452"
      y="-566.30719">Dr. Strangelove</tspan></text>
-
-
-
-
-
 </g><g
      inkscape:label="001"
      inkscape:groupmode="layer"
@@ -366,11 +309,6 @@
      x="1738.3862"
      id="tspan3167"
      sodipodi:role="line">Dr. Strangelove</tspan></text>
-
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Liberation Sans Narrow;-inkscape-font-specification:Liberation Sans Narrow Bold Condensed"
@@ -418,11 +356,6 @@
      x="1820.2789"
      y="-368.80719"
      id="tspan3210">Bomb</tspan></text>
-
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3212"
@@ -442,11 +375,6 @@
      x="1749.7184"
      sodipodi:role="line"
      id="tspan3290"># and love the Bash</tspan></text>
-
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -470,10 +398,6 @@
      x="1749.7184"
      y="-973.80713"
      id="tspan3041">#!/bin/bash</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3043"
@@ -497,10 +421,6 @@
      y="-973.80713"
      x="2019.7184"
      sodipodi:role="line">#!/bin/bash</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -524,10 +444,6 @@
      x="2019.7184"
      y="-973.80713"
      id="tspan3086">#</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -548,10 +464,6 @@
      x="-2212.1636"
      y="1016.2019"
      id="tspan3096">and love the</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3100"
@@ -575,10 +487,6 @@
      y="-863.80713"
      x="2019.7184"
      sodipodi:role="line">#</tspan></text>
-
-
-
-
 <text
    transform="scale(-1,-1)"
    sodipodi:linespacing="125%"
@@ -599,10 +507,6 @@
      y="908.69214"
      x="-2032.5737"
      sodipodi:role="line">and love the</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -627,10 +531,6 @@
      x="-819.27936"
      y="-2022.8057"
      id="tspan3126">#</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -651,10 +551,6 @@
      x="806.42401"
      y="2067.6907"
      id="tspan3134">and love the</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -674,10 +570,6 @@
      sodipodi:role="line"
      x="2447.0132"
      y="-1101.3071">And Love The Bash</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3144"
@@ -697,10 +589,6 @@
      x="2667.0132"
      sodipodi:role="line"
      id="tspan3150">AND LOVE THE BASH</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -720,10 +608,6 @@
      sodipodi:role="line"
      x="2793.4883"
      y="-1101.3071"># AND LOVE THE BASH</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3160"
@@ -771,10 +655,6 @@
      x="3023.4883"
      sodipodi:role="line"
      id="tspan3180">BASH</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -822,10 +702,6 @@
      sodipodi:role="line"
      x="3187.4883"
      y="-978.80713">#</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3205"
@@ -873,10 +749,6 @@
      x="3249.2378"
      sodipodi:role="line"
      id="tspan3225">BASH</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3227"
@@ -888,10 +760,6 @@
      x="3187.4883"
      sodipodi:role="line"
      id="tspan3247">#!STRANGELOVE</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -911,10 +779,6 @@
      sodipodi:role="line"
      x="79.401901"
      y="123.22001"># and love the Bash</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3311"
@@ -938,10 +802,6 @@
      y="218.845"
      x="79.401901"
      sodipodi:role="line">#!/bin/bash</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -965,10 +825,6 @@
      x="272.90192"
      y="218.845"
      id="tspan3329">#!/bin/bash</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3331"
@@ -992,10 +848,6 @@
      y="218.845"
      x="272.90192"
      sodipodi:role="line">#</tspan></text>
-
-
-
-
 <text
    transform="scale(-1,-1)"
    sodipodi:linespacing="125%"
@@ -1016,10 +868,6 @@
      y="-187.04892"
      x="-417.23578"
      sodipodi:role="line">and love the</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -1043,10 +891,6 @@
      x="272.90192"
      y="301.345"
      id="tspan3357">#</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -1067,10 +911,6 @@
      x="-282.5434"
      y="-267.68124"
      id="tspan3365">and love the</tspan></text>
-
-
-
-
 <text
    transform="matrix(0,1,-1,0,0,0)"
    sodipodi:linespacing="125%"
@@ -1095,10 +935,6 @@
      y="-275.21741"
      x="334.74084"
      sodipodi:role="line">#</tspan></text>
-
-
-
-
 <text
    transform="matrix(0,-1,1,0,0,0)"
    sodipodi:linespacing="125%"
@@ -1119,10 +955,6 @@
      y="308.8811"
      x="-344.38235"
      sodipodi:role="line">and love the</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3385"
@@ -1142,10 +974,6 @@
      x="744.37299"
      sodipodi:role="line"
      id="tspan3391">And Love The Bash</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -1165,10 +993,6 @@
      sodipodi:role="line"
      x="939.37299"
      y="153.22">AND LOVE THE BASH</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3401"
@@ -1188,10 +1012,6 @@
      x="872.97931"
      sodipodi:role="line"
      id="tspan3407"># AND LOVE THE BASH</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -1239,10 +1059,6 @@
      sodipodi:role="line"
      x="709.97931"
      y="415.345">BASH</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3431"
@@ -1290,10 +1106,6 @@
      x="872.97931"
      sodipodi:role="line"
      id="tspan3451">#</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -1341,10 +1153,6 @@
      sodipodi:role="line"
      x="919.29144"
      y="415.345">BASH</tspan></text>
-
-
-
-
 <text
    xml:space="preserve"
    style="font-size:10.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Mono;-inkscape-font-specification:Roboto Mono Bold"
@@ -1356,10 +1164,6 @@
      sodipodi:role="line"
      x="1138.4794"
      y="7.2200089">#!STRANGELOVE</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3481"
@@ -1371,10 +1175,6 @@
      x="1138.4794"
      sodipodi:role="line"
      id="tspan3483">#!bin/shtrangelove</tspan></text>
-
-
-
-
 <text
    sodipodi:linespacing="125%"
    id="text3485"
@@ -1386,28 +1186,20 @@
      x="1138.4794"
      sodipodi:role="line"
      id="tspan3487">#!SHRANGELOVE</tspan></text>
-
-
-
-
 <path
    style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
    d="m 460,647.35376 86,0 0,30 -86,0 10,-15 z"
    id="rect3313"
-   inkscape:connector-curvature="0"
    sodipodi:nodetypes="cccccc" /><path
    sodipodi:nodetypes="cccccc"
-   inkscape:connector-curvature="0"
    id="path3316"
    d="m 470,607.35376 76,0 0,30 -76,0 10,-15 z"
    style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" /><path
    style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
    d="m 480,567.35376 66,0 0,30 -66,0 10,-15 z"
    id="path3318"
-   inkscape:connector-curvature="0"
    sodipodi:nodetypes="cccccc" /><path
    sodipodi:nodetypes="cccccc"
-   inkscape:connector-curvature="0"
    id="path3320"
    d="m 490,527.35376 56,0 0,30 -56,0 10,-15 z"
    style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" /></g><g
@@ -1424,7 +1216,6 @@
    style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
    d="m 306.325,118.52876 0,12.4 7.2,14.2 -15.2,-9.6 0,-17"
    id="path3561"
-   inkscape:connector-curvature="0"
    sodipodi:nodetypes="ccccc" /><rect
    style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
    id="rect3489"
@@ -1435,7 +1226,6 @@
    style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
    d="m 109.925,101.32876 0,36.4 0,7.6 -12.8,-8 0,-36"
    id="rect3491"
-   inkscape:connector-curvature="0"
    sodipodi:nodetypes="ccccc" /><rect
    y="69.328758"
    x="157.125"
@@ -1444,7 +1234,6 @@
    id="rect3516"
    style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" /><path
    sodipodi:nodetypes="ccccc"
-   inkscape:connector-curvature="0"
    id="path3518"
    d="m 196.325,111.72876 0,22 9.6,11.6 -19.2,-8 0,-25.6"
    style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" /><text
@@ -1458,10 +1247,6 @@
      y="97.900047"
      x="265.99969"
      sodipodi:role="line">#!/bin/bash</tspan></text>
-
-
-
-
 <rect
    y="169.32877"
    x="261.125"
@@ -1470,7 +1255,6 @@
    id="rect4339"
    style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" /><path
    sodipodi:nodetypes="ccccc"
-   inkscape:connector-curvature="0"
    id="path4341"
    d="m 306.325,218.52876 0,12.4 7.2,14.2 -15.2,-9.6 0,-17"
    style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" /><text
@@ -1484,21 +1268,15 @@
      x="265.99969"
      y="197.90005"
      id="tspan4345">#!/bin/bash</tspan></text>
-
-
-
-
 <path
    style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
    d="m 955.97087,320.63269 c 0,82.56657 -66.93343,149.5 -149.5,149.5 -82.56658,0 -149.5,-66.93343 -149.5,-149.5 0,-82.56657 66.93342,-149.50001 149.5,-149.50001 82.56657,0 149.5,66.93344 149.5,149.50001 z"
-   id="path4371"
-   inkscape:connector-curvature="0" /></g><g
+   id="path4371" /></g><g
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="003"
      style="display:inline"><path
        sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
        id="canvas-6"
        d="m 10.629921,-5.7094304e-4 1070.078779,0 0,765.35433094304 -1070.078779,0 z"
        style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline" /></g></svg>
