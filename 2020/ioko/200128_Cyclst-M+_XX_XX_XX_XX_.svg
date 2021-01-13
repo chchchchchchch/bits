@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.284706534"
-     inkscape:cx="-25.69926858"
-     inkscape:cy="199.4641217"
+     inkscape:zoom="1.387583424"
+     inkscape:cx="187.9806739"
+     inkscape:cy="196.1537467"
      inkscape:document-units="px"
      inkscape:current-layer="svg2902"
      showgrid="false"
@@ -620,6 +620,12 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="CNNCT-01"
+     sodipodi:insensitive="true"
+     connect="..UW..UW" />
   <g
      inkscape:label="CPLUS-00"
      id="g3240"
