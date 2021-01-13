@@ -24,7 +24,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.284706534"
-     inkscape:cx="74.32357446"
+     inkscape:cx="-25.69926858"
      inkscape:cy="199.4641217"
      inkscape:document-units="px"
      inkscape:current-layer="svg2902"
@@ -930,7 +930,6 @@
      id="layer2"
      inkscape:label="CNNCT-01"
      style="display:inline"
-     connect="..UW..UW"
      sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
@@ -1681,7 +1680,6 @@
      id="layer1"
      inkscape:label="CNNCT-01"
      style="display:inline"
-     connect="..UW..UW"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
