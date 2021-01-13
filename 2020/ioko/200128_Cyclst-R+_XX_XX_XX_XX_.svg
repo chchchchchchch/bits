@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.8174437368"
-     inkscape:cx="118.5208853"
-     inkscape:cy="54.71768576"
+     inkscape:zoom="0.9516766031"
+     inkscape:cx="195.7321254"
+     inkscape:cy="211.0236977"
      inkscape:document-units="px"
      inkscape:current-layer="svg2902"
      showgrid="false"
@@ -625,7 +625,7 @@
      id="layer5"
      inkscape:label="CPLUS-01"
      connect="UWUW...."
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none"
@@ -1218,7 +1218,6 @@
        sodipodi:nodetypes="cc" />
   </g>
   <g
-     connect="UWUW...."
      style="display:inline"
      inkscape:label="CNNCT-01"
      id="g3332"
