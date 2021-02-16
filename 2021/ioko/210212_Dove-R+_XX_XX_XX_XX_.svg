@@ -42,10 +42,10 @@
      inkscape:guide-bbox="true"
      inkscape:snap-bbox="true"
      inkscape:snap-global="false"
-     inkscape:zoom="2.491756044"
-     inkscape:cx="189.1548461"
-     inkscape:cy="254.3209973"
-     inkscape:current-layer="g4814">
+     inkscape:zoom="1.497890062"
+     inkscape:cx="136.858193"
+     inkscape:cy="207.8092464"
+     inkscape:current-layer="g4270">
     <sodipodi:guide
        position="67,370"
        orientation="11,0"
@@ -578,7 +578,7 @@
      id="g3949"
      inkscape:groupmode="layer"
      connect="....CW.."
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none"
@@ -634,7 +634,7 @@
        id="path3969"
        d="m 200,333 133,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;display:inline"
-       zpos="700" />
+       zpos="10" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -703,7 +703,7 @@
        id="path4348"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       zpos="700" />
+       zpos="10" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;display:inline"
        d="m 333,333 0,26"
@@ -754,7 +754,7 @@
        id="path3991"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       zpos="700" />
+       zpos="10" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;display:inline"
        d="m 333,333 0,26"
@@ -805,7 +805,7 @@
        id="path4364"
        d="m 200,333 133,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;display:inline"
-       zpos="700" />
+       zpos="10" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -838,7 +838,7 @@
        id="path3899-1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       zpos="700" />
+       zpos="10" />
   </g>
   <g
      style="display:none"
@@ -865,7 +865,7 @@
        id="path4054"
        d="m 190,333 143,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;display:inline"
-       zpos="700" />
+       zpos="10" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 190,370 0,-11"
@@ -884,7 +884,7 @@
      inkscape:groupmode="layer"
      id="g4368"
      inkscape:label="U-045"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
@@ -904,7 +904,7 @@
        id="path4374"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       zpos="700" />
+       zpos="10" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -1232,7 +1232,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;display:inline" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="R-045"
      id="g4418"
      inkscape:groupmode="layer"
@@ -1549,7 +1549,7 @@
      inkscape:groupmode="layer"
      id="g4254"
      inkscape:label="O-040"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
@@ -1896,7 +1896,7 @@
        sodipodi:nodetypes="cc" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="L-040"
      id="g4316"
      inkscape:groupmode="layer"
@@ -2018,7 +2018,7 @@
        style="fill:none;stroke:#323232;stroke-width:1px" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:groupmode="layer"
      id="g3589"
      inkscape:label="FUHNTN-0030"
@@ -2116,7 +2116,7 @@
      zpos="505"
      id="g4859"
      inkscape:label="SCHWNZ-0010"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="cscsssssssscc"
@@ -2160,7 +2160,7 @@
        style="fill:#ffffff;stroke:none" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="KOPF-0020"
      id="g3454"
      zpos="505"
@@ -2178,7 +2178,7 @@
      zpos="505"
      id="g4874"
      inkscape:label="HALS-0010"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
@@ -2199,13 +2199,36 @@
        inkscape:connector-curvature="0"
        id="path3629"
        d="m 234.3433079,207.1068931 -4.4580786,51.4699123 35.6088091,57.6466361 -21.2026058,17.1362787 74.27839,-0.043101 -36.766211,-68.5982368 26.9055187,-56.0185197 z"
-       style="fill:#ffffff;stroke:none" />
+       style="fill:#ffffff;stroke:none"
+       zpos="-10" />
     <path
-       style="fill:none;stroke:#323232;stroke-width:1px"
-       d="m 234.3433079,207.1068931 -4.4580786,51.4699123 35.6088091,57.6466361 -21.3310616,16.7509113 73.7645669,-0.043101 -36.1239321,-68.2128694 10.4387509,-21.1989586"
-       id="path3411"
+       style="fill:#ffffff;stroke:none"
+       d="m 290.9951643,281.8679416 -9.1915527,-17.1495592 26.9055187,-56.0185197 -74.3658224,-1.5929696 -4.4580786,51.4699123 17.8044046,28.8233181 z"
+       id="path3373"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:none;stroke:#323232;stroke-width:1px"
+       d="m 256.2662821,301.2847473 9.2277563,14.9386942 -21.3310616,16.7509113"
+       id="path3387"
+       zpos="-10"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#323232;stroke-width:1px"
+       d="M 317.9275437,332.9312518 298.7144368,296.6511162"
+       id="path3385"
+       zpos="-10"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#323232;stroke-width:1px"
+       d="m 234.3433079,207.1068931 -4.4580786,51.4699123 26.3810528,42.7079419"
+       id="path3389"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#323232;stroke-width:1px"
+       d="m 298.7144368,296.6511162 -16.9108252,-31.9327338 10.4387509,-21.1989586"
+       id="path3411"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:label="FUVORN-0020"
@@ -2221,16 +2244,21 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <path
+       style="fill:none;stroke:#323232;stroke-width:1px;stroke-linecap:round"
+       d="m 230.2974457,205.2452735 4.7562247,84.0205903 87.2569768,16.2453144"
+       id="path4161"
+       inkscape:connector-curvature="0" />
+    <path
        style="fill:none;stroke:#323232;stroke-width:1px"
-       d="m 230.2974457,205.2452735 4.7562247,84.0205903 87.2569768,16.2453144 -5.4497809,27.3842437"
+       d="m 322.3106472,305.5111782 -5.4497809,27.3842437"
        id="path4025"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       zpos="-10"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#323232;stroke-width:1px;stroke-linecap:round"
        d="m 332.9731398,261.030912 -14.4777457,-7.9844452"
        id="path4029"
-       zpos="700"
+       zpos="-10"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#323232;stroke-width:1px;stroke-linecap:round"
@@ -2255,13 +2283,36 @@
        inkscape:connector-curvature="0"
        id="path3585"
        d="m 312.1014953,188.6030616 16.4683273,74.9737438 -39.6088091,52.6466361 20.2026058,17.1362787 -55.27839,-0.043101 21.766211,-64.5982368 -37.1808863,-53.5586367 z"
-       style="fill:#ffffff;stroke:none" />
+       style="fill:#ffffff;stroke:none"
+       zpos="-10" />
+    <path
+       style="fill:#ffffff;stroke:none"
+       d="m 275.6514403,268.7183824 -37.1808863,-53.5586367 73.6309413,-26.5566841 16.4683273,74.9737438 z"
+       id="path4163"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <path
        style="fill:none;stroke:#323232;stroke-width:1px"
-       d="m 238.470554,215.1597457 37.1808863,53.5586367 -22.0231226,64.3413252 55.27839,-0.085355 -19.9456942,-16.7509113 39.6088091,-52.6466361 -16.4622585,-74.9324538"
+       d="m 238.470554,215.1597457 37.1808863,53.5586367"
+       id="path4171"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#323232;stroke-width:1px"
+       d="m 275.6514403,268.7183824 -22.0231226,64.3413252"
+       id="path4169"
+       zpos="-10"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#323232;stroke-width:1px"
+       d="m 308.9067077,332.9743526 -19.9456942,-16.7509113 39.6088091,-52.6466361"
+       id="path4167"
+       zpos="-10"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#323232;stroke-width:1px"
+       d="M 328.5698226,263.5768052 312.1075641,188.6443514"
        id="path3587"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc" />
+       inkscape:connector-curvature="0" />
   </g>
   <g
      style="display:none"
@@ -2310,7 +2361,7 @@
      zpos="505"
      id="g4881"
      inkscape:label="FLGLOBN-0010"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="cssssssssssc"
@@ -2330,7 +2381,7 @@
      zpos="505"
      id="g4954"
      inkscape:label="SCHWNZ-0010"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#323232;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;display:inline"
@@ -2421,7 +2472,8 @@
      zpos="505"
      id="g4814"
      inkscape:label="AUGE-0030"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        inkscape:connector-curvature="0"
        id="path3351"
@@ -2453,7 +2505,7 @@
      zpos="505"
      id="g4981"
      inkscape:label="FLGLUNTN-0010"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ssssssssssss"
