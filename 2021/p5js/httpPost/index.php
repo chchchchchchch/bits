@@ -21,17 +21,11 @@
      $token = md5(str_shuffle($ID.$FP)); // RANDOMIZED TOKEN
                                          // BASED ON CUSTOM $SEED
 
-     $thisURI = (isset($_SERVER['HTTPS']) && 
-                      $_SERVER['HTTPS']  === 'on' ? "https" : "http") . 
-                "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
   // ----------------------------------------------------------------------- //
   // GET POST
   // ----------------------------------------------------------------------- //
-  // stackoverflow.com/q/18866571
-  // ----------------------------
-     $_POST = json_decode(file_get_contents('php://input'), true);
 
-     if (!empty($_POST)){
+//file_put_contents('debug.' . time() . '.log',json_encode($_POST));
 
       if ( isset($_POST['data']) && 
            isset($_POST['token']) && 
@@ -40,18 +34,15 @@
 $file = 'test.txt';
 $write = 'asdsfds';
 
-     //if ( file_exists($file) && is_writeable($file) ) {
+       if ( file_exists($file) && is_writeable($file) ) {
 
             $f = fopen($file,"a");  // APPEND
             fwrite($f,$write."\n"); // WRITE
             fclose($f);             // CLOSE
-     //}
+       }
 
-
-       echo 'SUPER!'; // TODO: STATUS CODE
        exit;
       }
-     }
   // ----------------------------------------------------------------------- //
 ?>
 <!DOCTYPE html>
@@ -62,13 +53,12 @@ $write = 'asdsfds';
     <title>httpPost</title>
     <script src="../p5.min.js"></script> 
     <script>
-  //let postUrl = 'https://www.lafkon.net/exchange/ch/tmp/httpPost/';
-  //let postUrl = 'http://ptsv2.com/t/5i475-1620145241/post';
-  //let postUrl = 'https://jsonplaceholder.typicode.com/posts';
-    let postUrl  = <?php echo "'" . $thisURI . "';\n" ?>;
-    let postToken = <?php echo "'" . $token . "';\n" ?>;
-  //let postData = { data: 'sddsfds', 
-  //                 token: token };
+  //let url = 'https://lafkon.net/exchange/ch/tmp/httpPost';
+  //let url = 'http://ptsv2.com/t/5i475-1620145241/post';
+    let url = 'https://jsonplaceholder.typicode.com/posts';
+    let token = <?php echo "'" . $token . "';\n" ?>;
+    let postData = { data: 'sddsfds', 
+                     token: token };
     
     function setup() {
       createCanvas(800,800);
@@ -76,28 +66,11 @@ $write = 'asdsfds';
     }
 
     function mousePressed() {
-
-      postData = { data: mouseX + ':' + mouseY, 
-                   token: postToken };
-/*
-      httpPost(postUrl,'txt',postData,
+      httpPost(url, 'json', postData,
                function(result) {
                strokeWeight(2);
                text(result.data, mouseX, mouseY);
                });
-*/
-      httpPost(
-        postUrl,
-        'txt',
-        postData,
-        function(result) {
-          // ... won't be called
-        },
-        function(error) {
-          strokeWeight(2);
-          text(error.toString(), mouseX, mouseY);
-        }
-      );
     }
     </script>
   </head>
