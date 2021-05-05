@@ -5,7 +5,12 @@
      $seed = "12345";
      mt_srand($seed);
 
-     session_start();
+  // ----------------------------------------------------------------------- //
+  // GET POST (stackoverflow.com/q/18866571)
+  // ----------------------------------------------------------------------- //
+     $_POST = json_decode(file_get_contents('php://input'), true);
+
+     if (empty($_POST)){ session_start(); }
      $ID = session_id(); // SESSION ID
 
   //  SORT OF BROWSER FINGERPRINTING
@@ -22,21 +27,17 @@
                                          // BASED ON CUSTOM $SEED
 
      $thisURI = (isset($_SERVER['HTTPS']) && 
-                      $_SERVER['HTTPS']  === 'on' ? "https" : "http") . 
-                "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+                       $_SERVER['HTTPS']  === 'on' ? "https" : "http") . 
+                   "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
   // ----------------------------------------------------------------------- //
-  // GET POST
+  // HANDLE POST DATA
   // ----------------------------------------------------------------------- //
-  // stackoverflow.com/q/18866571
-  // ----------------------------
-     $_POST = json_decode(file_get_contents('php://input'), true);
-
      if (!empty($_POST)){
 
       if ( isset($_POST['data']) && 
            isset($_POST['token']) && 
            count($_POST) == 2 ) {
-
+/*
 $file = 'test.txt';
 $write = 'asdsfds';
 
@@ -46,9 +47,10 @@ $write = 'asdsfds';
             fwrite($f,$write."\n"); // WRITE
             fclose($f);             // CLOSE
      //}
-
+*/
 
        echo 'SUPER!';
+       echo '$ID:' . $ID;
        exit;
       }
      }
@@ -101,17 +103,27 @@ $write = 'asdsfds';
     }
     </script>
   </head>
+<!--
   <body>
     <div id="canvas"></div>
-  </body>
+  </body>-->
 
 <?php 
+/*
        echo '$ID: ' . $ID . '<br>'; 
        echo '$uinfo: ' . $uinfo . '<br>';
        echo '$FP: ' . $FP . '<br><br>';
        echo '<br><br><br><br>';
 
        echo $token . '<br><br>';
+*/
+
+     if (empty($_POST)){ echo '$_POST EMPTY' . '<br>';
+                         echo '$ID: ' . $ID . '<br>';
+
+     }
+
+
 ?>
 
 </html>
