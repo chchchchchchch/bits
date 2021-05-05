@@ -9,10 +9,19 @@
                        $_SERVER['HTTPS']  === 'on' ? "https" : "http") . 
                    "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
   // ----------------------------------------------------------------------- //
+  // GET POST DATA https://stackoverflow.com/a/39508364
+  // ----------------------------------------------------------------------- //
+     $_POST = json_decode(file_get_contents('php://input'), true);
+  // ----------------------------------------------------------------------- //
      session_start();
+     if (empty($_POST)) { // IF NOT RECEIVING POST
+                          session_regenerate_id(); // NEW SESSION ID
+                          $_SESSION = array();     // CLEAN SESSION KEYS
+     }
+  // ----------------------------------------------------------------------- //
      $ID = session_id(); // SESSION ID
      $RNDSEED = preg_replace('/[^0-9]/','',$ID);
-  // ----------------------------------------------------------------------- //
+/*// ----------------------------------------------------------------------- //
   //  SORT OF BROWSER FINGERPRINTING  // TODO: BETTER
   // (FALLBACK/ADD-ON FOR SESSION ID)
   // -------------------------------
@@ -23,8 +32,8 @@
 
      $FP = md5(trim($uinfo));
   // ----------------------------------------------------------------------- //
-//     $token = md5(str_shuffle($ID.$FP)); // RANDOMIZED TOKEN
-//                                         // BASED ON CUSTOM $SEED
+     $token = md5(str_shuffle($ID.$FP)); // RANDOMIZED TOKEN
+                                         // BASED ON CUSTOM $SEED */
   // ----------------------------------------------------------------------- //
   // CREATE KEY (RANDOMIZED BY $seed)
   // ----------------------------------------------------------------------- //
@@ -107,10 +116,6 @@
   // ----------------------------------------------------------------------- //
   // HANDLE POST DATA
   // ----------------------------------------------------------------------- //
-  // https://stackoverflow.com/a/39508364
-  // ------------------------------------
-     $_POST = json_decode(file_get_contents('php://input'), true);
-
      if (!empty($_POST)) { // BIRDS/BEES DO IT
       if ( isset($_POST['key']) && // KEY IS SET
            isset($_POST['data']) && // DATA IS SET
