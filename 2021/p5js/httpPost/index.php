@@ -2,17 +2,15 @@
   // ----------------------------------------------------------------------- //
   // GLOBALS
   // ----------------------------------------------------------------------- //
-     $seed = "12345";
-     mt_srand($seed);
-
+     $RNDSEED = "12345";
   // ----------------------------------------------------------------------- //
-  // GET POST (stackoverflow.com/q/18866571)
+     $thisURI = (isset($_SERVER['HTTPS']) && 
+                       $_SERVER['HTTPS']  === 'on' ? "https" : "http") . 
+                   "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
   // ----------------------------------------------------------------------- //
-     $_POST = json_decode(file_get_contents('php://input'), true);
-
      session_start();
      $ID = session_id(); // SESSION ID
-
+  // ----------------------------------------------------------------------- //
   //  SORT OF BROWSER FINGERPRINTING
   // (FALLBACK/ADD-ON FOR SESSION ID)
   // -------------------------------
@@ -22,16 +20,59 @@
      $uinfo = $ip.$port.$agent;
 
      $FP = md5(trim($uinfo));
-
+  // ----------------------------------------------------------------------- //
      $token = md5(str_shuffle($ID.$FP)); // RANDOMIZED TOKEN
                                          // BASED ON CUSTOM $SEED
+  // ----------------------------------------------------------------------- //
 
-     $thisURI = (isset($_SERVER['HTTPS']) && 
-                       $_SERVER['HTTPS']  === 'on' ? "https" : "http") . 
-                   "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+  // ------------------------------------------------------------------------ //
+     function makeKey($seed) {
+
+       mt_srand($seed);
+
+       $keyCode = str_shuffle("AAAAAAAAAAZZZZZZZZZZ1620197449");
+
+       return $keyCode;
+     }
+  // ------------------------------------------------------------------------ //
+     function checkKey($keyCode,$seed) {
+
+
+      $u = str_unshuffle($keyCode,$seed);
+
+
+      return $u;
+
+     }
+  // ------------------------------------------------------------------------ //
+  // https://www.php.net/manual/de/function.str-shuffle.php
+  // ------------------------------------------------------------------------ //
+     function str_unshuffle($str,$seed) {
+       $unique = implode(array_map('chr',range(0,254)));
+       $none   = chr(255);
+       $slen   = strlen($str);
+       $c      = intval(ceil($slen/255));
+       $r      = '';
+       for($i=0;$i<$c;$i++) {
+           $aaa = str_repeat($none,$i*255);
+           $bbb = (($i+1)<$c) ? $unique : substr($unique,0,$slen%255);
+           $ccc = (($i+1)<$c) ? str_repeat($none, strlen($str)-($i+1)*255) : "";
+           $tmp = $aaa.$bbb.$ccc;
+           mt_srand($seed);
+           $sh  = str_shuffle($tmp);
+           for($j=0; $j<strlen($bbb); $j++){
+               $r .= $str{strpos($sh,$unique{$j})};
+           }
+       }
+       return $r;
+     }
   // ----------------------------------------------------------------------- //
   // HANDLE POST DATA
   // ----------------------------------------------------------------------- //
+  // https://stackoverflow.com/a/39508364
+  // ------------------------------------
+     $_POST = json_decode(file_get_contents('php://input'), true);
+
      if (!empty($_POST)){
 
       if ( isset($_POST['data']) && 
@@ -117,46 +158,24 @@ $write = 'asdsfds';
 
        echo $token . '<br><br>';
 */
-
+/*
      if (empty($_POST)){ echo '$_POST EMPTY' . '<br>';
                          echo '$ID: ' . $ID . '<br>';
 
      }
+*/
 
-$string = "AAAAAAAAAAZZZZZZZZZZ1620197449";
-
-//$seed = 1234567890;
- mt_srand($seed);
-
-$sh = str_shuffle($string);  //print 'eloWHl rodl!'
-
+/*
 echo "<br><br>";
 
-echo $sh .  "<br>"; //print 'eloWHl rodl!'
-echo str_unshuffle($sh,$seed) . "<br>"; //print 'Hello World!'
+echo $keyCode .  "<br>"; //print 'eloWHl rodl!'
+echo str_unshuffle($keyCode,$seed) . "<br>";
+*/
 
+     $keyCode = makeKey($RNDSEED);
 
-// https://www.php.net/manual/de/function.str-shuffle.php
-// ------------------------------------------------------
-   function str_unshuffle($str,$seed) {
-       $unique = implode(array_map('chr',range(0,254)));
-       $none   = chr(255);
-       $slen   = strlen($str);
-       $c      = intval(ceil($slen/255));
-       $r      = '';
-       for($i=0;$i<$c;$i++) {
-           $aaa = str_repeat($none,$i*255);
-           $bbb = (($i+1)<$c) ? $unique : substr($unique,0,$slen%255);
-           $ccc = (($i+1)<$c) ? str_repeat($none, strlen($str)-($i+1)*255) : "";
-           $tmp = $aaa.$bbb.$ccc;
-           mt_srand($seed);
-           $sh  = str_shuffle($tmp);
-           for($j=0; $j<strlen($bbb); $j++){
-               $r .= $str{strpos($sh,$unique{$j})};
-           }
-       }
-       return $r;
-   }
+     echo $keyCode .  "<br>";
+     echo checkKey($keyCode,$RNDSEED);
 
 ?>
 
