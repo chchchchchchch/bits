@@ -53,12 +53,12 @@ $write = 'asdsfds';
     <title>httpPost</title>
     <script src="../p5.min.js"></script> 
     <script>
-  //let url = 'https://lafkon.net/exchange/ch/tmp/httpPost';
-  //let url = 'http://ptsv2.com/t/5i475-1620145241/post';
-    let url = 'https://jsonplaceholder.typicode.com/posts';
-    let token = <?php echo "'" . $token . "';\n" ?>;
-    let postData = { data: 'sddsfds', 
-                     token: token };
+  //let postUrl = 'https://lafkon.net/exchange/ch/tmp/httpPost';
+  //let postUrl = 'http://ptsv2.com/t/5i475-1620145241/post';
+    let postUrl = 'https://jsonplaceholder.typicode.com/posts';
+    let postToken = <?php echo "'" . $token . "';\n" ?>;
+  //let postData = { data: 'sddsfds', 
+  //                 token: token };
     
     function setup() {
       createCanvas(800,800);
@@ -66,7 +66,10 @@ $write = 'asdsfds';
     }
 
     function mousePressed() {
-      httpPost(url, 'json', postData,
+
+      postData = { data: mouseX + ':' + mouseY, 
+                   token: postToken };
+      httpPost(postUrl,'json',postData,
                function(result) {
                strokeWeight(2);
                text(result.data, mouseX, mouseY);
