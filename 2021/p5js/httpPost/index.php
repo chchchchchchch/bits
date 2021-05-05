@@ -2,7 +2,7 @@
   // ----------------------------------------------------------------------- //
   // GLOBALS
   // ----------------------------------------------------------------------- //
-     $RNDSEED = "12345";$keyMaxAge = 5;
+     $RNDSEED = "12345";$keyMaxAge = 30;
   // ----------------------------------------------------------------------- //
      $thisURI = (isset($_SERVER['HTTPS']) && 
                        $_SERVER['HTTPS']  === 'on' ? "https" : "http") . 
@@ -24,42 +24,57 @@
 //     $token = md5(str_shuffle($ID.$FP)); // RANDOMIZED TOKEN
 //                                         // BASED ON CUSTOM $SEED
   // ----------------------------------------------------------------------- //
-
-  // ------------------------------------------------------------------------ //
+  // CREATE KEY (RANDOMIZED BY $seed)
+  // ----------------------------------------------------------------------- //
      function makeKey($seed) {
 
        mt_srand($seed);
 
-       $base = substr(md5(random_int(100,999)),0,10);
-       $chck = substr(md5($base),0,10);
        $time = time();
+       $base = substr(md5(random_int(100,999)),0,10);
+       $chck = substr(md5($base.$time),0,10);
 
        $keyCode = str_shuffle($base.$chck.$time);
 
        return $keyCode;
      }
   // ------------------------------------------------------------------------ //
+  // DE-RANDOMIZE AND VALIDATE KEY
+  // ------------------------------------------------------------------------ //
      function checkKey($keyCode,$seed,$keyMaxAge) {
 
-      $key = str_unshuffle($keyCode,$seed);
+       $key = str_unshuffle($keyCode,$seed);
 
-      $base = substr($key,0,10);
-      $chck = substr($key,10,10);
-      $time = substr($key,20,10);
+       if ( strlen($key) != 30 ) { 
 
-      $keyAge = time() - $time;
+            $error = "INVALID KEY";
 
-      if ( $keyAge > $keyMaxAge ||
-           $chck != substr(md5($base),0,10) ) {
+       } else {
+ 
+         $base = substr($key,0,10);
+         $chck = substr($key,10,10);
+         $time = intval(substr($key,20,10));
+   
+         $keyAge = time() - $time;
 
-        if ( $chck != substr(md5($base),0,10) ) { 
-             $error = "INVALID KEY + "; }
-        if (  $keyAge > $keyMaxAge) { 
-             $error = $error . "KEY EXPIRED (".$keyAge.")"; }
+         if ( $keyAge > $keyMaxAge ||
+              $chck != substr(md5($base.$time),0,10) ) {
+   
+           if ( $chck != substr(md5($base.$time),0,10) ) { 
+                $error = "INVALID KEY"; 
+                http_response_code(403);
+           } else {
+              if ( $keyAge > $keyMaxAge) {
 
-        return $error;
-      }
+                   http_response_code(406);
+                   if ( $error != "" ) { $error = $error . ' + '; }
+                   $error = $error . "KEY EXPIRED (".$keyAge.")";
+              }
+          }
+         }
+       } 
 
+       return $error;
      }
   // ------------------------------------------------------------------------ //
   // https://www.php.net/manual/de/function.str-shuffle.php
@@ -98,17 +113,19 @@
            $keyCode = strip_tags(trim($_POST['key']));
            $keyCheck = checkKey($keyCode,$RNDSEED,$keyMaxAge); 
 
-           if ( $keyCheck == "" ) {
+        // ------------------------------------------------------------- //
+           if ( $keyCheck == "" ) { // ALLRIGHT. DO YOUR THING
+        // ------------------------------------------------------------- //
 
-               echo 'VALID KEY!';
 
-           } else {
 
-               echo $keyCheck;
-               http_response_code(403);
 
+        // ------------------------------------------------------------- //
+           echo makeKey($RNDSEED); // RETURN ANOTHER KEY
+        // ------------------------------------------------------------- //
+           } else { echo $keyCheck;
            }
-
+        // ------------------------------------------------------------- //
        exit;
       }
      }
@@ -129,8 +146,9 @@
     let postKey = <?php echo "'" . $keyCode . "';\n"; ?>
     
     function setup() {
-      createCanvas(800,800);
+      createCanvas(400,400);
       background(200);
+      textAlign(CENTER);
     }
 
     function mousePressed() {
@@ -142,54 +160,19 @@
                function(result) {
                  background(200);
                  fill(0);
-                 text(result.toString(),width/2,height/2);
+                 postKey = result.toString();
+                 text(postKey,width/2,height/2);
                },
                function(error) {
                  background(200);
                  fill(255,0,0);
-                 text(error.toString(),width/2,height/2);
+                 text(JSON.stringify(error.status),width/2,height/2);
                }
       );
     }
     </script>
   </head>
-<!--
   <body>
     <div id="canvas"></div>
-  </body>-->
-
-<?php 
-/*
-       echo '$ID: ' . $ID . '<br>'; 
-       echo '$uinfo: ' . $uinfo . '<br>';
-       echo '$FP: ' . $FP . '<br><br>';
-       echo '<br><br><br><br>';
-
-       echo $token . '<br><br>';
-*/
-/*
-     if (empty($_POST)){ echo '$_POST EMPTY' . '<br>';
-                         echo '$ID: ' . $ID . '<br>';
-
-     }
-*/
-
-/*
-echo "<br><br>";
-
-echo $keyCode .  "<br>"; //print 'eloWHl rodl!'
-echo str_unshuffle($keyCode,$seed) . "<br>";
-*/
-
-/*
-     $keyCode = makeKey($RNDSEED);
-
-     echo $keyCode .  "<br><br>";
-   //echo checkKey($keyCode,$RNDSEED);
-
-     checkKey($keyCode,$RNDSEED);
-*/
-
-?>
-
+  </body>
 </html>
