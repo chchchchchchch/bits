@@ -10,7 +10,7 @@
   // ----------------------------------------------------------------------- //
      $_POST = json_decode(file_get_contents('php://input'), true);
 
-     if (empty($_POST)){ session_start(); }
+     session_start();
      $ID = session_id(); // SESSION ID
 
   //  SORT OF BROWSER FINGERPRINTING
@@ -123,6 +123,40 @@ $write = 'asdsfds';
 
      }
 
+$string = "AAAAAAAAAAZZZZZZZZZZ1620197449";
+
+//$seed = 1234567890;
+ mt_srand($seed);
+
+$sh = str_shuffle($string);  //print 'eloWHl rodl!'
+
+echo "<br><br>";
+
+echo $sh .  "<br>"; //print 'eloWHl rodl!'
+echo str_unshuffle($sh,$seed) . "<br>"; //print 'Hello World!'
+
+
+// https://www.php.net/manual/de/function.str-shuffle.php
+// ------------------------------------------------------
+   function str_unshuffle($str,$seed) {
+       $unique = implode(array_map('chr',range(0,254)));
+       $none   = chr(255);
+       $slen   = strlen($str);
+       $c      = intval(ceil($slen/255));
+       $r      = '';
+       for($i=0;$i<$c;$i++) {
+           $aaa = str_repeat($none,$i*255);
+           $bbb = (($i+1)<$c) ? $unique : substr($unique,0,$slen%255);
+           $ccc = (($i+1)<$c) ? str_repeat($none, strlen($str)-($i+1)*255) : "";
+           $tmp = $aaa.$bbb.$ccc;
+           mt_srand($seed);
+           $sh  = str_shuffle($tmp);
+           for($j=0; $j<strlen($bbb); $j++){
+               $r .= $str{strpos($sh,$unique{$j})};
+           }
+       }
+       return $r;
+   }
 
 ?>
 
