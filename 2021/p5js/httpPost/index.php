@@ -11,7 +11,7 @@
      session_start();
      $ID = session_id(); // SESSION ID
   // ----------------------------------------------------------------------- //
-  //  SORT OF BROWSER FINGERPRINTING
+  //  SORT OF BROWSER FINGERPRINTING  // TODO: BETTER
   // (FALLBACK/ADD-ON FOR SESSION ID)
   // -------------------------------
      $ip = $_SERVER['REMOTE_ADDR'];
@@ -30,18 +30,39 @@
 
        mt_srand($seed);
 
-       $keyCode = str_shuffle("AAAAAAAAAAZZZZZZZZZZ1620197449");
+       $base = substr(md5(random_int(100,999)),0,10);
+       $chck = substr(md5($base),0,10);
+       $time = time();
+
+       $keyCode = str_shuffle($base.$chck.$time);
+     //$keyCode = str_shuffle("AAAAAAAAAAZZZZZZZZZZ1620197449");
 
        return $keyCode;
      }
   // ------------------------------------------------------------------------ //
      function checkKey($keyCode,$seed) {
 
+      $key = str_unshuffle($keyCode,$seed);
 
-      $u = str_unshuffle($keyCode,$seed);
+      $base = substr($key,0,10);
+      $chck = substr($key,10,10);
+      $time = substr($key,20,10);
 
+      $keyAge = time() - $time;
 
-      return $u;
+      if ( $chck == substr(md5($base),0,10) ) {
+
+echo 'VALID KEY' . "<br>";
+echo 'KEY AGE: ' . $keyAge . "<br>";
+
+      }
+
+   /* echo $base . "<br>";
+      echo md5($base) . "<br>";
+      echo $chck . "<br>";
+      echo $time . "<br>"; */
+
+    //return $u;
 
      }
   // ------------------------------------------------------------------------ //
@@ -174,8 +195,11 @@ echo str_unshuffle($keyCode,$seed) . "<br>";
 
      $keyCode = makeKey($RNDSEED);
 
-     echo $keyCode .  "<br>";
-     echo checkKey($keyCode,$RNDSEED);
+     echo $keyCode .  "<br><br>";
+   //echo checkKey($keyCode,$RNDSEED);
+
+     checkKey($keyCode,$RNDSEED);
+
 
 ?>
 
