@@ -2,7 +2,7 @@
   // ----------------------------------------------------------------------- //
   // GLOBALS
   // ----------------------------------------------------------------------- //
-     $RNDSEED = "12345";
+     $RNDSEED = "12345";$keyMaxAge = 5;
   // ----------------------------------------------------------------------- //
      $thisURI = (isset($_SERVER['HTTPS']) && 
                        $_SERVER['HTTPS']  === 'on' ? "https" : "http") . 
@@ -21,8 +21,8 @@
 
      $FP = md5(trim($uinfo));
   // ----------------------------------------------------------------------- //
-     $token = md5(str_shuffle($ID.$FP)); // RANDOMIZED TOKEN
-                                         // BASED ON CUSTOM $SEED
+//     $token = md5(str_shuffle($ID.$FP)); // RANDOMIZED TOKEN
+//                                         // BASED ON CUSTOM $SEED
   // ----------------------------------------------------------------------- //
 
   // ------------------------------------------------------------------------ //
@@ -35,12 +35,11 @@
        $time = time();
 
        $keyCode = str_shuffle($base.$chck.$time);
-     //$keyCode = str_shuffle("AAAAAAAAAAZZZZZZZZZZ1620197449");
 
        return $keyCode;
      }
   // ------------------------------------------------------------------------ //
-     function checkKey($keyCode,$seed) {
+     function checkKey($keyCode,$seed,$keyMaxAge) {
 
       $key = str_unshuffle($keyCode,$seed);
 
@@ -50,19 +49,16 @@
 
       $keyAge = time() - $time;
 
-      if ( $chck == substr(md5($base),0,10) ) {
+      if ( $keyAge > $keyMaxAge ||
+           $chck != substr(md5($base),0,10) ) {
 
-echo 'VALID KEY' . "<br>";
-echo 'KEY AGE: ' . $keyAge . "<br>";
+        if ( $chck != substr(md5($base),0,10) ) { 
+             $error = "INVALID KEY + "; }
+        if (  $keyAge > $keyMaxAge) { 
+             $error = $error . "KEY EXPIRED (".$keyAge.")"; }
 
+        return $error;
       }
-
-   /* echo $base . "<br>";
-      echo md5($base) . "<br>";
-      echo $chck . "<br>";
-      echo $time . "<br>"; */
-
-    //return $u;
 
      }
   // ------------------------------------------------------------------------ //
@@ -94,45 +90,43 @@ echo 'KEY AGE: ' . $keyAge . "<br>";
   // ------------------------------------
      $_POST = json_decode(file_get_contents('php://input'), true);
 
-     if (!empty($_POST)){
+     if (!empty($_POST)) { // BIRDS/BEES DO IT
+      if ( isset($_POST['key']) && // KEY IS SET
+           isset($_POST['data']) && // DATA IS SET
+           count($_POST) == 2 ) {    // CHECK CONFORMITY
 
-      if ( isset($_POST['data']) && 
-           isset($_POST['token']) && 
-           count($_POST) == 2 ) {
-/*
-$file = 'test.txt';
-$write = 'asdsfds';
+           $keyCode = strip_tags(trim($_POST['key']));
+           $keyCheck = checkKey($keyCode,$RNDSEED,$keyMaxAge); 
 
-     //if ( file_exists($file) && is_writeable($file) ) {
+           if ( $keyCheck == "" ) {
 
-            $f = fopen($file,"a");  // APPEND
-            fwrite($f,$write."\n"); // WRITE
-            fclose($f);             // CLOSE
-     //}
-*/
+               echo 'VALID KEY!';
 
-       echo 'SUPER!';
-       echo '$ID:' . $ID;
+           } else {
+
+               echo $keyCheck;
+               http_response_code(403);
+
+           }
+
        exit;
       }
      }
   // ----------------------------------------------------------------------- //
+// --------------------------------------------------------------------------- //
+   $keyCode = makeKey($RNDSEED);
+
 ?>
 <!DOCTYPE html>
 <html lang="">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>httpPost</title>
+    <title>httpPost (+Key)</title>
     <script src="../p5.min.js"></script> 
     <script>
-  //let postUrl = 'https://www.lafkon.net/exchange/ch/tmp/httpPost/';
-  //let postUrl = 'http://ptsv2.com/t/5i475-1620145241/post';
-  //let postUrl = 'https://jsonplaceholder.typicode.com/posts';
-    let postUrl  = <?php echo "'" . $thisURI . "';\n" ?>;
-    let postToken = <?php echo "'" . $token . "';\n" ?>;
-  //let postData = { data: 'sddsfds', 
-  //                 token: token };
+    let postUrl = <?php echo "'" . $thisURI . "';\n"; ?>
+    let postKey = <?php echo "'" . $keyCode . "';\n"; ?>
     
     function setup() {
       createCanvas(800,800);
@@ -141,26 +135,20 @@ $write = 'asdsfds';
 
     function mousePressed() {
 
-      postData = { data: mouseX + ':' + mouseY, 
-                   token: postToken };
-/*
+      postData = { key: postKey,
+                   data: mouseX + ':' + mouseY };
+
       httpPost(postUrl,'txt',postData,
                function(result) {
-               strokeWeight(2);
-               text(result.data, mouseX, mouseY);
-               });
-*/
-      httpPost(
-        postUrl,
-        'txt',
-        postData,
-        function(result) {
-          // ... won't be called
-        },
-        function(error) {
-          strokeWeight(2);
-          text(error.toString(), mouseX, mouseY);
-        }
+                 background(200);
+                 fill(0);
+                 text(result.toString(),width/2,height/2);
+               },
+               function(error) {
+                 background(200);
+                 fill(255,0,0);
+                 text(error.toString(),width/2,height/2);
+               }
       );
     }
     </script>
@@ -193,13 +181,14 @@ echo $keyCode .  "<br>"; //print 'eloWHl rodl!'
 echo str_unshuffle($keyCode,$seed) . "<br>";
 */
 
+/*
      $keyCode = makeKey($RNDSEED);
 
      echo $keyCode .  "<br><br>";
    //echo checkKey($keyCode,$RNDSEED);
 
      checkKey($keyCode,$RNDSEED);
-
+*/
 
 ?>
 
