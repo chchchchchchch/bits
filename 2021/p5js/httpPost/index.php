@@ -71,7 +71,11 @@
                    $error = $error . "KEY EXPIRED (".$keyAge.")";
               }
           }
-         }
+         } else { if (empty($_SESSION[$key])) {
+                            $_SESSION[$key] = 1;
+                  } else { $error = "KEY HAS BEEN USED"; 
+                           http_response_code(403); }
+        }
        } 
 
        return $error;
