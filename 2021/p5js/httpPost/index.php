@@ -3,7 +3,6 @@
   // GLOBALS
   // ----------------------------------------------------------------------- //
      $keyMaxAge = 30;
-   //$RNDSEED = "12345";
   // ----------------------------------------------------------------------- //
      $thisURI = (isset($_SERVER['HTTPS']) && 
                        $_SERVER['HTTPS']  === 'on' ? "https" : "http") . 
@@ -14,28 +13,15 @@
      $_POST = json_decode(file_get_contents('php://input'), true);
   // ----------------------------------------------------------------------- //
      session_start();
-     if (empty($_POST)) { // IF NOT RECEIVING POST
+     if (empty($_POST)) { // IF NOT A POST
                           session_regenerate_id(); // NEW SESSION ID
-                          $_SESSION = array();     // CLEAN SESSION KEYS
+                          $_SESSION = array();     // EMPTY SESSION
      }
   // ----------------------------------------------------------------------- //
      $ID = session_id(); // SESSION ID
-     $RNDSEED = preg_replace('/[^0-9]/','',$ID);
-/*// ----------------------------------------------------------------------- //
-  //  SORT OF BROWSER FINGERPRINTING  // TODO: BETTER
-  // (FALLBACK/ADD-ON FOR SESSION ID)
-  // -------------------------------
-     $ip = $_SERVER['REMOTE_ADDR'];
-     $port = $_SESSION['REMOTE_PORT'];
-     $agent = $_SERVER['HTTP_USER_AGENT'];
-     $uinfo = $ip.$port.$agent;
-
-     $FP = md5(trim($uinfo));
+     $RNDSEED = intval(pow(preg_replace('/[^0-9]/','1',$ID),1/4)) + 23;
   // ----------------------------------------------------------------------- //
-     $token = md5(str_shuffle($ID.$FP)); // RANDOMIZED TOKEN
-                                         // BASED ON CUSTOM $SEED */
-  // ----------------------------------------------------------------------- //
-  // CREATE KEY (RANDOMIZED BY $seed)
+  // CREATE KEY (SHUFFLED BY $RNDSEED)
   // ----------------------------------------------------------------------- //
      function makeKey($seed) {
 
@@ -84,8 +70,8 @@
           }
          } else { if (empty($_SESSION[$key])) {
                             $_SESSION[$key] = 1;
-                  } else { $error = "KEY HAS BEEN USED"; 
-                           http_response_code(403); }
+                  } else {  $error = "KEY HAS BEEN USED"; 
+                            http_response_code(403); }
         }
        } 
 
