@@ -104,27 +104,36 @@
   // ----------------------------------------------------------------------- //
      if (!empty($_POST)) { // BIRDS/BEES DO IT
       if ( isset($_POST['key']) && // KEY IS SET
-           isset($_POST['data']) && // DATA IS SET
-           count($_POST) == 2 ) {    // CHECK CONFORMITY
+           isset($_POST['data'])   && // DATA IS SET
+           isset($_POST['checksum'])  && // CHECKSUM IS SET
+           count($_POST) == 3 ) {           // CHECK CONFORMITY
 
            $keyCode = strip_tags(trim($_POST['key']));
            $keyCheck = checkKey($keyCode,$RNDSEED,$keyMaxAge); 
+        // ------------------------------------------------------------- //
+           if ( $keyCheck == "" ) { // ALLRIGHT. CONTINUE
+        // ------------------------------------------------------------- //
+        // CHECK CHECKSUM
+        // ------------------------------------------------------------- //
+           $data = strip_tags(trim($_POST['data']));
+           $checksum = strip_tags(trim($_POST['checksum']));
+        // --
+           if ( md5($data.$keyCode) == $checksum ) { // DO YOUR THING
+        // ------------------------------------------------------------- //
+
+
+
 
         // ------------------------------------------------------------- //
-           if ( $keyCheck == "" ) { // ALLRIGHT. DO YOUR THING
-        // ------------------------------------------------------------- //
-
-
-
-
-        // ------------------------------------------------------------- //
-           echo makeKey($RNDSEED); // RETURN ANOTHER KEY
+           } else { http_response_code(403);echo 'INVALID DATA!';exit; }
+        // =-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- //
+           echo makeKey($RNDSEED); // MAKE/RETURN ANOTHER KEY
         // ------------------------------------------------------------- //
            } else { echo $keyCheck;
            }
         // ------------------------------------------------------------- //
-       exit;
-      }
+        exit;
+      } exit;
      }
   // ----------------------------------------------------------------------- //
 // --------------------------------------------------------------------------- //
@@ -137,23 +146,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>httpPost (+Key)</title>
+    <script src="md5.min.js"></script> 
     <script src="../p5.min.js"></script> 
     <script>
     let postUrl = <?php echo "'" . $thisURI . "';\n"; ?>
     let postKey = <?php echo "'" . $keyCode . "';\n"; ?>
-    
+    let postData;
+
     function setup() {
       createCanvas(400,400);
       background(200);
       textAlign(CENTER);
     }
 
+    function draw() {
+
+      postData = mouseX + ':' + mouseY
+
+    }
+
     function mousePressed() {
 
-      postData = { key: postKey,
-                   data: mouseX + ':' + mouseY };
+      checksum = md5(postData + postKey)
 
-      httpPost(postUrl,'txt',postData,
+      postData = { key: postKey,
+                   data: postData,
+                   checksum: checksum };
+
+      httpPost(postUrl,'txt',
+               postData,
                function(result) {
                  background(200);
                  fill(0);
@@ -164,8 +185,7 @@
                  background(200);
                  fill(255,0,0);
                  text(JSON.stringify(error.status),width/2,height/2);
-               }
-      );
+               });
     }
     </script>
   </head>
