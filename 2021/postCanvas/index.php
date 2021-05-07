@@ -3,6 +3,7 @@
   // GLOBALS
   // ----------------------------------------------------------------------- //
      $keyMaxAge = 300;
+     $xsdPath = __DIR__ . DIRECTORY_SEPARATOR . 'xsd/svg.xsd';
   // ----------------------------------------------------------------------- //
      $thisURI = (isset($_SERVER['HTTPS']) && 
                        $_SERVER['HTTPS']  === 'on' ? "https" : "http") . 
@@ -95,6 +96,26 @@
        }
        return $r;
      }
+  // ------------------------------------------------------------------------ //
+  // https://github.com/dumistoklus/svg-xsd-schema/releases/tag/1.0.0
+  // ------------------------------------------------------------------------ //
+    /**
+     * @param string $xmlData
+     * @param string $xsdPath
+     * @return array|bool
+     */
+     function validateSvg($xmlData,$xsdPath)
+     { libxml_use_internal_errors(true);
+       $xml = new DOMDocument();
+       $xml->loadXML($xmlData);
+       $result = $xml->schemaValidate($xsdPath);
+       if (!$result) {
+           $errors = libxml_get_errors();
+           libxml_clear_errors();
+           return $errors;
+       }
+       return true;
+     }
   // ----------------------------------------------------------------------- //
   // HANDLE POST DATA
   // ----------------------------------------------------------------------- //
@@ -117,9 +138,12 @@
            if ( md5($data.$keyCode) == $checksum ) { // DO YOUR THING
         // ------------------------------------------------------------- //
         // ------------------------------------------------------------- //
-           $file = "test.svg";
-           $f = fopen($file, "w"); // OPEN (W(RITE))
-           fwrite($f,urldecode($data));fclose($f); // WRITE AND CLOSE
+           $svgData = urldecode($data);
+           if (validateSvg($svgData,$xsdPath) === true) { 
+               $file = "test.svg";
+               $f = fopen($file, "w"); // OPEN (W(RITE))
+               fwrite($f,urldecode($data));fclose($f); // WRITE AND CLOSE
+           } else { http_response_code(403);echo 'INVALID SVG!';exit; }
         // ------------------------------------------------------------- //
         // ------------------------------------------------------------- //
            } else { http_response_code(403);echo 'INVALID CHECKSUM!';exit; }
