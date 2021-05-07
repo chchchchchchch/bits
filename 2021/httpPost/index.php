@@ -147,7 +147,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>httpPost (+Key)</title>
     <script src="md5.min.js"></script> 
-    <script src="../p5.min.js"></script> 
+    <script src="p5.min.js"></script> 
     <script>
     let postUrl = <?php echo "'" . $thisURI . "';\n"; ?>
     let postKey = <?php echo "'" . $keyCode . "';\n"; ?>
