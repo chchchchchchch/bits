@@ -9,7 +9,7 @@
 # --
   MAYROTATE="R+";MAYFLIP="\-M+";
 # ----------------------------------------------------------------------- #
-  TMP="tmptmp";TIME=`date +%s`
+  TMP="tmptmp";TIME=`date +%s`"000"
 # ----------------------------------------------------------------------- #
   # ----------------------------------------------------------------- #
     C=`echo $CONNECTORS | cut -d ":" -f 1`;
@@ -160,7 +160,14 @@
                   sed 's/\(.\)\(.\)\(.\)\(.\)\(.\)\(.\)\(.\)/\1\5\7/g'`
    done
  # ----
-   SEED=`echo $LAYERGREP | sed 's/[^|]*/000/g' | sed 's/|//g'`
+  #SEED=`echo $LAYERGREP | sed 's/[^|]*/111/g' | sed 's/|//g'`
+   SEEDLENGTH=`echo $LAYERGREP     | #
+               sed 's/[^|]*/000/g' | #
+               sed 's/|//g' | wc -c` #
+   SEED=`echo $LAYERGREP | md5sum        | #
+         sed 's/$/12345678901234567890/' | #
+         sed 's/[a-f]/1/g'               | #
+         cut -c 1-$SEEDLENGTH`             #
    TIME=`expr $TIME + 1`
  # ----------------------------------------------------------------------- #
    echo "$CHECKHASH|$SRCID|$HASH|$SEED|$TIME"
