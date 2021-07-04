@@ -84,6 +84,20 @@
    do 
       KOMBI=`echo $KOMBI | sed 's/::SP::/ /g'`
       LAYERGREP=`echo $KOMBI | sed 's/ /|/g'`
+
+      KOMBI=`echo ${SRCSRC}                    | #
+             sed 's/<g/\n&/g'                  | # GROUPS ON NEWLINE
+             sed '/^<g/s/>/&\n/g'              | # FIRST '>' ON NEWLINE
+             grep ':groupmode="layer"'         | #
+             egrep -v 'connect="[^"]*00[^"]*"' | #
+             egrep "$LAYERGREP"                | #
+             sed 's/scape:label/\nlabel/g'     | #
+             grep ^label                       | #
+             grep -v 'label="XX_'              | #
+             cut -d "\"" -f 2                  | #
+             sort -u`                            #
+      LAYERGREP=`echo $KOMBI | sed 's/ /|/g'`
+
       LAYERS=`echo ${SRCSRC}            | #
               sed 's/<g/\n&/g'          | # GROUPS ON NEWLINE
               sed '/^<g/s/>/&\n/g'      | # FIRST '>' ON NEWLINE
@@ -110,6 +124,12 @@
              grep '^connect="' | cut -d '"' -f 2 | #
              cut -c 7-8 | tr [:lower:] [:upper:] | #
              egrep '[A-Z0]' | tail -n 1`
+
+       TOP=`echo $TOP | sed 's/^$/00/'`       # SET TO ZERO (00) IF NOT SET
+       RIGHT=`echo $RIGHT | sed 's/^$/00/'`   # "
+       BOTTOM=`echo $BOTTOM | sed 's/^$/00/'` # "
+       LEFT=`echo $LEFT | sed 's/^$/00/'`     # "
+
         IOS="${TOP}_${RIGHT}_${BOTTOM}_${LEFT}"
       # ---
         R000="${C1}_${C2}_${C3}_${C4}"
@@ -163,10 +183,13 @@
   #SEED=`echo $LAYERGREP | sed 's/[^|]*/111/g' | sed 's/|//g'`
    SEEDLENGTH=`echo $LAYERGREP     | #
                sed 's/[^|]*/000/g' | #
-               sed 's/|//g' | wc -c` #
+               sed 's/|//g'        | #
+               sed 's/^.//'        | # MINUS 1
+               wc -c`                # COUNT
    SEED=`echo $LAYERGREP | md5sum        | #
-         sed 's/$/12345678901234567890/' | #
-         sed 's/[a-f]/1/g'               | #
+         sed 's/$/00000000000000000000/' | #
+         sed 's/[a-c]/1/g'               | #
+         sed 's/[d-f]/2/g'               | #
          cut -c 1-$SEEDLENGTH`             #
    TIME=`expr $TIME + 1`
  # ----------------------------------------------------------------------- #
