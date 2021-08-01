@@ -1385,7 +1385,8 @@
      style="display:inline"
      inkscape:label="ARROW-020"
      id="g4385"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <path
        zpos="-60"
        sodipodi:nodetypes="cccccc"
