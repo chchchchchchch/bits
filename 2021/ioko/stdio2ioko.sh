@@ -45,11 +45,21 @@
                    connect=\"[A-Z0-9\.]*${C4}[A-Z0-9\.]*\"" | #
              sed ':a;N;$!ba;s/\n//g'  | #
              sed 's/ //g'`
-      CGREPCHECK=`echo "$CGREP" | md5sum | cut -c 1-32`
-      if [ `grep -s $CGREPCHECK ${TMP}.done | wc -l` -gt 0   ]
-      then  echo $CGREPCHECK >> ${TMP}.done
-            echo "ALREADY DONE"
-      else
+    # ----------------------------------------------------------------- #
+      R000="${C1}_${C2}_${C3}_${C4}";R090="${C2}_${C3}_${C4}_${C1}"
+      R180="${C3}_${C4}_${C1}_${C2}";R270="${C4}_${C1}_${C2}_${C3}"
+    # ----
+      if [ `basename $SVGSRC | grep "$MAYROTATE" | wc -l` -gt 0 ]
+      then  CGREPCHECK="$R000|$R090|$R180|$R270"
+      elif [ `basename $SVGSRC | grep "$MAYFLIP" | wc -l` -gt 0 ]
+      then  CGREPCHECK="$R000|$R180"
+      else  CGREPCHECK="$R000"
+      fi
+    # --
+      if [ `egrep -s "$CGREPCHECK" ${TMP}.done | wc -l` -gt 0 ]
+      then  sleep 0;# echo "ALREADY DONE ($R000)"
+      else          # echo "CHECKING ($R000)" 
+            echo "$CGREPCHECK" >> ${TMP}.done
   # ----------------------------------------------------------------------- #
     if [ -f $KOMBILIST ];then rm $KOMBILIST;fi
   # ----------------------------------------------------------------------- #
