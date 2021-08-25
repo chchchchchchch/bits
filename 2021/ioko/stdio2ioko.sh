@@ -5,20 +5,47 @@
 # FOR IMPORT AND FURTHER PROCEEDING VIA IOKO INTERFACE 
 # (https://gitlab.com/chch/kombo)
 
-  SVGSRC=$1
-  IOSSRC=$2
-# --
-# TODO: VALIDATE INPUT
+  SVGSRC=`echo $*        | # 
+          sed 's/ /\n/g' | #
+          grep -v '^--'  | #
+          grep '\.svg$'  | # 
+          head -n 1`
+  IOSSRC=`echo $*        | # 
+          sed 's/ /\n/g' | #
+          grep -v '^--'  | #
+          grep '\.ios$'  | # 
+          head -n 1`
 # --
   MAYROTATE="R+";MAYFLIP="\-M+";
   TMP="tmptmp";TIME=`date +%s`"000"
+# --------------------------------------------------------------------------- #
+  if [ `echo $*         | #
+        sed 's/ /\n/g'     | #
+        grep -- "-allow-flip" | #
+        wc -l` -lt 1 ]
+  then  MAYFLIP=`basename $SVGSRC | grep "$MAYFLIP"`;fi
+  if [ `echo $*           | #
+        sed 's/ /\n/g'       | #
+        grep -- "-allow-rotat" | #
+        wc -l` -lt 1 ]
+  then  MAYROTATE=`basename $SVGSRC | grep "$MAYROTATE"`;fi
+# --------
+  ROTATION=`echo $* | sed 's/ /\n/g' | #
+            grep -- "--rotat"        | #
+            cut -d '=' -f 2          | #
+            sed 's/,/\n/g'           | #
+            egrep '^[0-9]+$'         | #
+            rev | sed 's/$/000/'     | #
+            cut -c 1-3 | rev         | #
+            sed 's/^/R/'             | #
+            sed ':a;N;$!ba;s/\n/ /g'`
 # --------------------------------------------------------------------------- #
   SRCSRC=`sed ':a;N;$!ba;s/\n/ /g' ${SVGSRC}` # LOAD INTO VARIABLE
   KOMBILIST=${TMP}.kombilist; # if [ -f $KOMBILIST ];then rm $KOMBILIST;fi
 # =========================================================================== #
   for CONNECTORS in `grep '^R' $IOSSRC   | #
                      cut -d "'" -f 2     | #
-                     cut -c 18- | sort -u` #
+                     cut -c 18- | sort -u | head -n 10` #
    do
   # ----------------------------------------------------------------------- #
     # ----------------------------------------------------------------- #
@@ -48,14 +75,22 @@
     # ----------------------------------------------------------------- #
       R000="${C1}_${C2}_${C3}_${C4}";R090="${C2}_${C3}_${C4}_${C1}"
       R180="${C3}_${C4}_${C1}_${C2}";R270="${C4}_${C1}_${C2}_${C3}"
-    # ----
-      if [ `basename $SVGSRC | grep "$MAYROTATE" | wc -l` -gt 0 ]
-      then  CGREPCHECK="$R000|$R090|$R180|$R270"
-      elif [ `basename $SVGSRC | grep "$MAYFLIP" | wc -l` -gt 0 ]
-      then  CGREPCHECK="$R000|$R180"
-      else  CGREPCHECK="$R000"
+    # ================================================================= #
+      if [ "$ROTATION" != ""  ]
+      then CGREPCHECK="";SEP="" #RESET
+           for R in $ROTATION
+            do if [ "${!R}" != "" ]
+               then CGREPCHECK="$CGREPCHECK$SEP${!R}"
+               fi;  SEP="|"
+           done
+      else if [ "$MAYROTATE" != "" ]
+           then  CGREPCHECK="$R000|$R090|$R180|$R270"
+           elif [ "$MAYFLIP" != "" ]
+           then  CGREPCHECK="$R000|$R180"
+           else  CGREPCHECK="$R000"
+           fi
       fi
-    # --
+    # ================================================================= #
       if [ `egrep -s "$CGREPCHECK" ${TMP}.done | wc -l` -gt 0 ]
       then  sleep 0;# echo "ALREADY DONE ($R000)"
       else          # echo "CHECKING ($R000)" 
@@ -154,13 +189,21 @@
           R090="${C2}_${C3}_${C4}_${C1}"
           R180="${C3}_${C4}_${C1}_${C2}"
           R270="${C4}_${C1}_${C2}_${C3}"
-
-          if [ `basename $SVGSRC | grep "$MAYROTATE" | wc -l` -gt 0 ]
-          then  CGREP="$R000|$R090|$R180|$R270"
-          elif [ `basename $SVGSRC | grep "$MAYFLIP" | wc -l` -gt 0 ]
-          then  CGREP="$R000|$R180"
-          else  CGREP="$R000"
-          fi
+  # ======================================================================= #
+    if [ "$ROTATION" != ""  ]
+    then CGREP="";SEP="" #RESET
+         for R in $ROTATION
+          do if [ "${!R}" != "" ]
+             then CGREP="$CGREP$SEP${!R}"
+             fi;  SEP="|"
+         done
+    else if [ "$MAYROTATE" != "" ]
+         then  CGREP="$R000|$R090|$R180|$R270"
+         elif [ "$MAYFLIP" != "" ]
+         then  CGREP="$R000|$R180"
+         else  CGREP="$R000"
+         fi
+    fi
   # ======================================================================= #
     if [ `echo $IOS | egrep "$CGREP" | wc -l` -gt 0 ]
     then
