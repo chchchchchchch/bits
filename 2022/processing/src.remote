@@ -1,0 +1,81 @@
+# History for processing/build/shared/lib/about*
+# -> https://github.com/processing/processing/commits/c035b87/build/shared/lib/about.jpg
+# -> https://github.com/processing/processing/commits/773b094/build/shared/lib/about-1x.png
+# -> https://github.com/processing/processing/commits/c035b87/build/shared/lib/about-2x.jpg
+
+https://github.com/processing/processing/raw/773b094/build/shared/lib/about-1x.png -> about-1x_190119.png
+https://github.com/processing/processing/raw/d4149a2/build/shared/lib/about-1x.png -> about-1x_180319.png
+https://github.com/processing/processing/raw/7453f9a/build/shared/lib/about-1x.png -> about-1x_160812.png
+https://github.com/processing/processing/raw/7b56136/build/shared/lib/about-1x.png -> about-1x_150930.png
+
+https://github.com/processing/processing/raw/c035b87/build/shared/lib/about-2x.jpg -> about-2x_150520.jpg
+https://github.com/processing/processing/raw/2d28c00/build/shared/lib/about-2x.jpg -> about-2x_130524.jpg
+https://github.com/processing/processing/raw/4815cac/build/shared/lib/about-2x.jpg -> about-2x_130501.jpg
+https://github.com/processing/processing/raw/d5fb25e/build/shared/lib/about-2x.jpg -> about-2x_130430.jpg
+
+https://github.com/processing/processing/raw/c035b87/build/shared/lib/about.jpg -> about_150520.jpg
+https://github.com/processing/processing/raw/2d28c00/build/shared/lib/about.jpg -> about_130524.jpg
+https://github.com/processing/processing/raw/4815cac/build/shared/lib/about.jpg -> about_130501.jpg
+https://github.com/processing/processing/raw/cbc381b/build/shared/lib/about.jpg -> about_130430.jpg
+https://github.com/processing/processing/raw/2c925cf/build/shared/lib/about.jpg -> about_120804.jpg
+https://github.com/processing/processing/raw/45a28bf/build/shared/lib/about.jpg -> about_110306.jpg
+https://github.com/processing/processing/raw/95084ce/build/shared/lib/about.jpg -> about_100714.jpg
+https://github.com/processing/processing/raw/132ce87/build/shared/lib/about.jpg -> about_100309.jpg
+https://github.com/processing/processing/raw/d769733/build/shared/lib/about.jpg -> about_081123.jpg
+https://github.com/processing/processing/raw/19b14d0/build/shared/lib/about.jpg -> about_081014.jpg
+https://github.com/processing/processing/raw/6fd1c27/build/shared/lib/about.jpg -> about_050421.jpg
+https://github.com/processing/processing/raw/0d00c19/build/shared/lib/about.jpg -> about_040914.jpg
+https://github.com/processing/processing/raw/c7cda5c/build/shared/lib/about.jpg -> about_030930.jpg
+https://github.com/processing/processing/raw/a24418d/build/shared/lib/about.jpg -> about_030805.jpg
+https://github.com/processing/processing/raw/0d1cd84/build/shared/lib/about.jpg -> about_030803.jpg
+https://github.com/processing/processing/raw/63392ea/build/shared/lib/about.jpg -> about_030729.jpg
+
+https://github.com/processing/processing-web-archive/raw/f4a7210/img/processing-logo.svg
+https://github.com/processing/processing-web-archive/raw/86a88d2/img/processing.gif
+https://github.com/processing/processing-web-archive/raw/a4cd2ff/img/processing_beta.gif
+
+# History for loading.gif
+# -> https://github.com/processing/processing/commits/a6a8625/build/shared/lib/export/loading.gif
+# -> https://github.com/processing/processing/commits/a6a8625/java/export/loading.gif
+# -> https://github.com/processing/processing/commits/a6a8625/java/application/loading.gif
+# -> https://github.com/processing/processing/commits/a6a8625/java/applet/loading.gif
+
+# History for processing/build/shared/lib/icon.gif
+# -> https://github.com/processing/processing/commits/a6a8625/build/shared/lib/icon.gif
+https://github.com/processing/processing/raw/2067739/build/shared/lib/icon.gif -> icon_050228.gif
+https://github.com/processing/processing/raw/4dca2e3/build/shared/lib/icon.gif -> icon_020802.gif
+
+# BUTTONS!
+# https://github.com/processing/processing/blob/36323e/build/shared/lib/theme/buttons.gif
+
+# https://github.com/processing/processing/raw/41aecc0/build/shared/lib/icons/foundation-16.png
+# https://github.com/processing/processing/raw/41aecc0/build/shared/lib/icons/foundation-32.png
+https://github.com/processing/processing/raw/41aecc0/build/shared/lib/icons/foundation-64.png
+https://github.com/processing/processing/raw/41aecc0/build/shared/lib/icons/pde-1024.png
+# https://github.com/processing/processing/raw/41aecc0/build/shared/lib/icons/pde-128.png
+# https://github.com/processing/processing/raw/41aecc0/build/shared/lib/icons/pde-16.png
+# https://github.com/processing/processing/raw/41aecc0/build/shared/lib/icons/pde-256.png
+# https://github.com/processing/processing/raw/41aecc0/build/shared/lib/icons/pde-32.png
+# https://github.com/processing/processing/raw/41aecc0/build/shared/lib/icons/pde-48.png
+# https://github.com/processing/processing/raw/41aecc0/build/shared/lib/icons/pde-512.png
+# https://github.com/processing/processing/raw/41aecc0/build/shared/lib/icons/pde-64.png
+
+# https://web.archive.org/web/20130116143603/http://processing.org/img/header.gif
+https://web.archive.org/web/20130203113947/http://processing.org/img/processing-1.ico
+https://web.archive.org/web/20130203114003/http://processing.org/img/processing_cover.gif
+# https://web.archive.org/web/20130201174244/http://processing.org/img/processing_forum_back.jpg
+# https://web.archive.org/web/20130116134051/http://processing.org/img/about/overview-header.gif
+# https://web.archive.org/web/20130202100827/http://processing.org/img/about/patrons-header.gif
+# https://web.archive.org/web/20130116143720/http://processing.org/img/about/people-header.gif
+
+# https://web.archive.org/web/20110519162409/http://processing.org/img/shirts/beast-1.jpg
+# https://web.archive.org/web/20110923051528/http://processing.org/img/shirts/beast-2.jpg
+# https://web.archive.org/web/20110923051649/http://processing.org/img/shirts/beast-3.jpg
+# https://web.archive.org/web/20110923051428/http://processing.org/img/shirts/beast-4.jpg
+# https://web.archive.org/web/20101011005328/http://processing.org/img/shirts/beauty-1.jpg
+# https://web.archive.org/web/20110923051503/http://processing.org/img/shirts/beauty-2.jpg
+# https://web.archive.org/web/20110923051212/http://processing.org/img/shirts/brain-1.jpg
+# https://web.archive.org/web/20110923051225/http://processing.org/img/shirts/brain-2.jpg
+# https://web.archive.org/web/20110923091240/http://processing.org/img/shirts/toxi-1.jpg
+# https://web.archive.org/web/20110923091234/http://processing.org/img/shirts/toxi-2.jpg
+# https://web.archive.org/web/20110923091244/http://processing.org/img/shirts/toxi-3.jpg
