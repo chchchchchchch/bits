@@ -1,0 +1,1 @@
+cliclick -e 500 `cat $HPGL | gsed ':a;N;$!ba;s/\n//g' | gsed 's/PD/\n&/g' | gsed 's/PU;/&\n/g' | gsed '/^PD/!s/PA/\n&/g' | grep '^P' | gsed 's/^PA/m:/' | gsed 's/^PD;PA/dd:. m:/g' | gsed 's/;PA/ m:/g' | gsed 's/;PU;/ c:./g' | gsed 's/;//' | gsed 's/^m.*$/& c:./' | gsed ':a;N;$!ba;s/\n/ /g'`
