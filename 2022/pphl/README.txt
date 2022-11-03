@@ -5,8 +5,8 @@ https://chchch.de/teaching#hsa-xxii-pphl
 
 
 ---------------------------------------------------------------------
-% ESP32 Setup
----------------------------------------------------------------------
+% ESP32 SETUP
+--------------
 % https://polluxlabs.net/arduino-tutorials/deinen-esp32-mit-der-arduino-ide-programmieren
 
 Arduino > Preferences
@@ -34,5 +34,19 @@ https://github.com/T-vK/ESP32-BLE-Keyboard/releases/download/0.3.2-beta/ESP32-BL
 ----
 https://github.com/T-vK/ESP32-BLE-Mouse
 https://github.com/T-vK/ESP32-BLE-Mouse/releases
+
+---------------------------------------------------------------------
+https://randomnerdtutorials.com/esp32-pinout-reference-gpios
+
+
+
+
+---------------------------------------------------------------------
+% ACCELEROMETER
+----------------
+https://learn.sparkfun.com/tutorials/accelerometer-basics
+https://wiki.seeedstudio.com/Sensor_accelerometer
+https://wiki.seeedstudio.com/Grove-3-Axis_Digital_Accelerometer-1.5g/
+https://stackoverflow.com/questions/3755059/3d-accelerometer-calculate-the-orientation
 
 ---------------------------------------------------------------------
