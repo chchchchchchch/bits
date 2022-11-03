@@ -5,38 +5,59 @@
    VCC                   ->  3V3
    X                     ->  D12
    Y                     ->  D13
-*/
+   -------------------------------- */
+
+int X, Y;
 
 void setup() {
 
   Serial.begin(9600);
-
 }
+
+/* ---------------------------------- */
 
 void loop() {
 
-  if (analogRead(12) > 2000 ) {
+  X = analogRead(12);
+  Y = analogRead(13);
 
-    Serial.print("TOP");
+  if ( Y < 1800 ) {
+
+    Serial.print( "TOP (" );
+    Serial.print( Y );
+    Serial.print( ") " );
   }
-  if (analogRead(12) < 1000 ) {
+  if ( Y > 2000 ) {
 
-    Serial.print("BOTTOM");
-  }
-
-  if (analogRead(13) > 2000 ) {
-
-    Serial.print("RIGHT");
-  }
-
-  if (analogRead(13) < 1000 ) {
-
-    Serial.print("LEFT");
+    Serial.print("BOTTOM (");
+    Serial.print( Y );
+    Serial.print( ") " );
   }
 
-  Serial.println("");
-  Serial.println("------------------");
-  delay(100);
+  if ( X < 1800 ) {
 
+    Serial.print( "LEFT (" );
+    Serial.print( X );
+    Serial.print( ") " );
+  }
+
+  if ( X > 2000 ) {
+
+    Serial.print( "RIGHT (" );
+    Serial.print( X );
+    Serial.print( ") " );
+
+  }
+
+  if ( Y < 1800 ||
+       Y > 2000 ||
+       X < 1800 ||
+       X > 2000 ) {
+
+    Serial.println("");
+
+  }
+
+  delay(10);
 
 }
