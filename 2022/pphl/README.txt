@@ -37,8 +37,8 @@ https://github.com/T-vK/ESP32-BLE-Mouse/releases
 
 ---------------------------------------------------------------------
 https://randomnerdtutorials.com/esp32-pinout-reference-gpios
-
-
+https://forum.xda-developers.com/t/fixed-any-way-to-hide-mouse-pointer-when-using-bluetooth-keyboard.1127911
+https://learn.adafruit.com/mouse-and-keyboard-control-using-tinyusb-and-ble/ble52-mouse-and-keyboard-usage
 
 
 ---------------------------------------------------------------------
