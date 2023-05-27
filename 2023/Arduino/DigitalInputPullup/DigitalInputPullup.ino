@@ -40,7 +40,9 @@ void loop() {
   // button's pressed, and off when it's not:
   if (sensorVal == HIGH) {
     digitalWrite(13, LOW);
+    digitalWrite(6, LOW);
   } else {
     digitalWrite(13, HIGH);
+    digitalWrite(6, HIGH);
   }
 }
