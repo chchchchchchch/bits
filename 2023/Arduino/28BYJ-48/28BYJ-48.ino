@@ -15,14 +15,38 @@
 // Initialize with pin sequence IN1-IN3-IN2-IN4 for using the AccelStepper library with 28BYJ-48 stepper motor:
 AccelStepper stepper = AccelStepper(MotorInterfaceType, motorPin1, motorPin3, motorPin2, motorPin4);
 
-void setup() {
-  // Set the maximum steps per second:
-  stepper.setMaxSpeed(1000);
+void setup()
+{  
+  //start serial connection
+  Serial.begin(9600);
+  
+  // Change these to suit your stepper if you want
+  stepper.setMaxSpeed(500);
+  //stepper.setAcceleration(1000);
+  stepper.setAcceleration(500);
+  //stepper.setSpeed(10);
+  stepper.moveTo(2038);
 }
+ 
+void loop()
+{
 
-void loop() {
-  // Set the speed of the motor in steps per second:
-  stepper.setSpeed(500);
-  // Step the motor with constant speed as set by setSpeed():
-  stepper.runSpeed();
+    // If at the end of travel go to the other end
+    if (stepper.distanceToGo() == 0) {
+      stepper.moveTo(-stepper.currentPosition());
+      //Serial.println("TURN");
+      delay(500);
+    }
+    //Serial.println(stepper.distanceToGo());
+    stepper.run();
+
+/*
+     stepper.move(1000);
+     stepper.run();
+     Serial.println(stepper.currentPosition());
+     if (stepper.currentPosition()%1000 == 0) {
+         delay(1000);
+     }
+*/
+
 }
