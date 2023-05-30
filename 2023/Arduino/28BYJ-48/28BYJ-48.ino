@@ -1,4 +1,9 @@
-/* Example sketch to control a 28BYJ-48 stepper motor with ULN2003 driver board, AccelStepper and Arduino UNO: continuous rotation. More info: https://www.makerguides.com */
+/* Example sketch to control a 28BYJ-48 stepper motor with ULN2003 driver board,
+   AccelStepper and Arduino UNO: continuous rotation.
+   More info: https://www.makerguides.com */
+/* https://www.pjrc.com/teensy/td_libs_AccelStepper.html
+   https://www.airspayce.com/mikem/arduino/AccelStepper/Bounce_8pde-example.html
+*/
 
 // Include the AccelStepper library:
 #include <AccelStepper.h>
