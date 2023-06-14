@@ -1,71 +1,60 @@
-/*
-// use one of these analog sensors from your Grove Kit
-// https://wiki.seeedstudio.com/Grove-Rotary_Angle_Sensor/
-// https://wiki.seeedstudio.com/Grove-Light_Sensor/
-// https://wiki.seeedstudio.com/Grove-Temperature_Sensor/ > look at code example
-// https://wiki.seeedstudio.com/Grove-Sound_Sensor/ > look at code example
-*/
+// https://mechatrofice.com/arduino/arduino-counter-code-circuit-working
 
-// use servo from your Grove Kit
-// https://wiki.seeedstudio.com/Grove-Servo/
+const int buttonPin = 3;     // the number of the pushbutton pin
+//const int ledPin =  9;      // the number of the LED pin
 
 // servo library
 #include <Servo.h>
-
-/*
-// These constants won't change. They're used to give names to the pins used:
-const int analogInPin = 0; // or A0  // digital input pin that the sensor is attached to
-*/
-const int digitalInPin = 2;  // digital input pin that the sensor is attached to
 const int servoPin = 7; // digital pin that servor motor is attached to
-
-int sensorValue = 0; // value read from sensor
 int servoValue = 0; // value used to drive servo motor
-
 Servo servoMotor; // create servo object to control a servo
 
+// variables will change:
+int buttonState = 0;         // variable for reading the pushbutton status
+int count_value = 0;
+int prestate = 0;
 void setup() {
-  // initialize serial communications at 9600 bps:
-  Serial.begin(9600);
+ 
+/*// initialize the LED pin as an output:
+  pinMode(ledPin, OUTPUT);*/
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin, INPUT);
 
-/*
-  // for analog input no initialization as an input needed !
-*/
-
-  // initialize digital pin as an input:
-  pinMode(digitalInPin, INPUT);
-
-  // attaches the servo on servo pin to the servo object
   servoMotor.attach(servoPin);
+  servoMotor.write(0);
+
+  Serial.begin(9600);
 }
 
 void loop() {
+  // read the state of the pushbutton value:
+  buttonState = digitalRead(buttonPin);
 
+  // check if the pushbutton is pressed. If it is, then the buttonState is HIGH:
+  if ( buttonState == HIGH && prestate == 0 ) {
+    //count_value++;
+    count_value = count_value + 5;
+    servoValue = count_value;
+    Serial.println(count_value);
 /*
-  // read the analog pin
-  sensorValue = analogRead(analogInPin);
+    // turn LED on
+    digitalWrite(ledPin, HIGH);
+    delay(100);
+    // turn LED off
+    digitalWrite(ledPin, LOW);
 */
-  sensorValue = digitalRead(digitalInPin);
-  // print the results to the Serial Monitor:
-  //Serial.println(sensorValue); // you should get '0' or '1'
+    servoMotor.write(servoValue);
+    delay(100);
 
-  if ( sensorValue > 0 ) {
-       Serial.println(sensorValue);
-       servoValue++;
+    prestate = 1;
+  } else if ( count_value > 185 ) {
+    count_value = 0;
+    servoValue = count_value;
+    servoMotor.write(servoValue);
+    delay(100);      
+  } else if ( buttonState == LOW ) {
+    prestate = 0;
   }
-
-/*
-  // map value (sensor value to servo value)
-  // sensor: 0-1023
-  // servo: 0-180
-  servoValue = map(sensorValue, 0, 1023, 0, 180); // change range for sensor value for different sensors (rotary, light, ...)
-  // print the results to the Serial Monitor:
-  Serial.println(sensorValue); // if you use a rotary angly sensor (potentiometer) you should get values between '0' or '1023'
-*/
-
-  // tell servo to go to position
-  servoMotor.write(servoValue);
-
-  
-
 }
