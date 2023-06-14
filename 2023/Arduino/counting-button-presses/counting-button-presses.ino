@@ -1,38 +1,39 @@
-// https://forum.arduino.cc/t/counting-button-presses/119881/4
+// https://mechatrofice.com/arduino/arduino-counter-code-circuit-working
 
-// Counts number of button presses
-// output count to serial
-// blink a led according to count
+const int buttonPin = 3;     // the number of the pushbutton pin
+const int ledPin =  9;      // the number of the LED pin
 
-byte switchPin = 3;                    // switch is connected to pin 2
-byte ledPin = 13;                      // led on pin 13
-byte buttonPresses = 0;                // how many times the button has been pressed 
-byte lastPressCount = 0;               // to keep track of last press count
-
+// variables will change:
+int buttonState = 0;         // variable for reading the pushbutton status
+int count_value = 0;
+int prestate = 0;
 void setup() {
-  pinMode(switchPin, INPUT);          // Set the switch pin as input
-  digitalWrite(switchPin, HIGH);      // set pullup resistor
-  Serial.begin(9600);                 // Set up serial communication at 9600bps
+ 
+/*// initialize the LED pin as an output:
+  pinMode(ledPin, OUTPUT);*/
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin, INPUT);
+  Serial.begin(9600);
 }
 
-void loop(){
-  if (digitalRead(switchPin) == LOW)  // check if button was pressed
-  {
-    buttonPresses++;                  // increment buttonPresses count
-    delay(250);                       // debounce switch
-  }
-  if (buttonPresses == 4) buttonPresses = 0;         // rollover every fourth press
-  if (lastPressCount != buttonPresses)              // only do output if the count has changed
-  {
-    Serial.print ("Button press count = ");          // out to serial
-    Serial.println(buttonPresses, DEC);
-    for (byte n = 0; n <= 5 * buttonPresses; n++)    // lets blink
-    {
-      digitalWrite(ledPin, HIGH);      // turn on led
-      delay(500);                      // wait half a second
-      digitalWrite(ledPin, LOW);       // turn off led
-      delay(500);                      // wait again
-    }
-    lastPressCount = buttonPresses;    // track last press count
+void loop() {
+  // read the state of the pushbutton value:
+  buttonState = digitalRead(buttonPin);
+
+  // check if the pushbutton is pressed. If it is, then the buttonState is HIGH:
+  if (buttonState == HIGH && prestate == 0) {
+    count_value++;
+    Serial.println(count_value);
+    // turn LED on
+    digitalWrite(ledPin, HIGH);
+    delay(100);
+    // turn LED off
+    digitalWrite(ledPin, LOW);
+
+    prestate = 1;
+  } else if(buttonState == LOW) {
+    prestate = 0;
   }
 }
