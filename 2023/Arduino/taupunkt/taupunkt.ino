@@ -9,6 +9,8 @@ float potiWertAnzeige = 0; // Variable für seriellen Monitor definieren
 void setup() {
   // put your setup code here, to run once:
 
+  TCCR1B = TCCR1B & 0b11111000 | 0x01;
+
   pinMode(Gate,OUTPUT);
   Serial.begin(9600); // Festlegung der Datenrate in Bit pro Sekunde (Baud) für die serielle Datenübertragung, muss dann am seriellen Monitor rechts unten auch eingestellt werden
   Serial.println("Lüftersteuerung Programmstart");
