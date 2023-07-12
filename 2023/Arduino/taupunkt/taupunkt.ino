@@ -21,11 +21,13 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-  potiWert = analogRead(Poti)/4; // analogRead liest Werte beim Uno zwischen 0 und 1023 ein, analog Write gibt jedoch nur Werte zwischen 0 und 255 aus
+  potiWert = analogRead(Poti)/2.7; // analogRead liest Werte beim Uno zwischen 0 und 1023 ein, analog Write gibt jedoch nur Werte zwischen 0 und 255 aus
   analogWrite(Gate, potiWert); // Am Pin 9 das PWM Signal zur MOSFET Ansteuerung ausgeben
 
-  potiWertAnzeige =((float)potiWert/255.0)*100.0; // Umrechnung des AnalogWrite Wertes in Prozent, also quasi "Ansteuerungsgrad" des Lüfters
-  Serial.print("Lüfter wird mit "); // Am seriellen Monitor den aktuell eingelesenen Poti-Wert ausgeben (serieller Monitor lässt sich in der Arduino Oberfläche rechts oben öffnen)
-  Serial.print(potiWertAnzeige); 
-  Serial.println(" % angesteuert.");
+//potiWertAnzeige =((float)potiWert/255.0)*100.0; // Umrechnung des AnalogWrite Wertes in Prozent, also quasi "Ansteuerungsgrad" des Lüfters
+//Serial.print("Lüfter wird mit "); // Am seriellen Monitor den aktuell eingelesenen Poti-Wert ausgeben (serieller Monitor lässt sich in der Arduino Oberfläche rechts oben öffnen)
+//Serial.println(" % angesteuert.");
+  Serial.print("potiWert: ");
+  Serial.println(potiWert); 
+  
 }
