@@ -1,36 +1,55 @@
-// Lüfter mit Poti, Arduino Uno und MOSFET steuern 
-// Sketch von Tobias Tippelt, 2020
+#include "DHT.h"
 
-const int g1 = 9; // Digitalen (und PWM fähigen) Pin 9 am Arduino für MOSFET Ansteuerung festlegen
-const int g2 = 10; // Digitalen (und PWM fähigen) Pin 10 am Arduino für MOSFET Ansteuerung festlegen
-const int Poti = A0; // Einlesen des Spannungswertes am Potentiometer
-int potiWert = 0; // Poti-Wert initial auf 0 setzen
-float potiWertAnzeige = 0; // Variable für seriellen Monitor definieren
+#define DHTPIN_0 2
+#define DHTPIN_I 4
+
+#define DHTTYPE DHT22 // DHT 22  (AM2302), AM2321
+
+DHT dht_O(DHTPIN_0, DHTTYPE);
+DHT dht_I(DHTPIN_I, DHTTYPE);
 
 void setup() {
-  // put your setup code here, to run once:
+  
+  Serial.begin(9600);
 
-  TCCR1B = TCCR1B & 0b11111000 | 0x01;
-
-  pinMode(g1,OUTPUT);
-  pinMode(g2,OUTPUT);
-  Serial.begin(9600); // Festlegung der Datenrate in Bit pro Sekunde (Baud) für die serielle Datenübertragung, muss dann am seriellen Monitor rechts unten auch eingestellt werden
-  Serial.println("Lüftersteuerung Programmstart");
-
+  dht_O.begin();
+  dht_I.begin();
+  
 }
 
-
 void loop() {
-  // put your main code here, to run repeatedly:
 
-  potiWert = analogRead(Poti)/4; // analogRead liest Werte beim Uno zwischen 0 und 1023 ein, analog Write gibt jedoch nur Werte zwischen 0 und 255 aus
-  analogWrite(g1, potiWert); // Am Pin 9 das PWM Signal zur MOSFET Ansteuerung ausgeben
-  analogWrite(g2, potiWert); // Am Pin 9 das PWM Signal zur MOSFET Ansteuerung ausgeben
+  // Wait a few seconds between measurements.
+  delay(2000);
 
-//potiWertAnzeige =((float)potiWert/255.0)*100.0; // Umrechnung des AnalogWrite Wertes in Prozent, also quasi "Ansteuerungsgrad" des Lüfters
-//Serial.print("Lüfter wird mit "); // Am seriellen Monitor den aktuell eingelesenen Poti-Wert ausgeben (serieller Monitor lässt sich in der Arduino Oberfläche rechts oben öffnen)
-//Serial.println(" % angesteuert.");
-  Serial.print("potiWert: ");
-  Serial.println(potiWert); 
-  
+  // Reading temperature or humidity takes about 250 milliseconds!
+  // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
+  float h_O = dht_O.readHumidity();
+  float h_I = dht_I.readHumidity();
+  // Read temperature as Celsius (the default)
+  float t_O = dht_O.readTemperature();
+  float t_I = dht_I.readTemperature();
+
+/*
+  // Check if any reads failed and exit early (to try again).
+  if (isnan(h_O) || isnan(t_O)) {
+    Serial.println(F("Failed to read from DHT sensor!"));
+    return;
+  }
+*/
+
+  Serial.print(F("Humidity outside: "));
+  Serial.print(h_O);
+  Serial.print(F("%  temperature outside: "));
+  Serial.print(t_O);
+  Serial.print(F("°C "));
+  Serial.println("");
+
+  Serial.print(F("Humidity inside: "));
+  Serial.print(h_I);
+  Serial.print(F("%  temperature inside: "));
+  Serial.print(t_I);
+  Serial.print(F("°C "));
+  Serial.println("");
+
 }
