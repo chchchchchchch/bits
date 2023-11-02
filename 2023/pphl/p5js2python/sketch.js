@@ -3,7 +3,7 @@ let myColor = [100, 100, 100];
 function setup() {
   createCanvas(200, 200);
   noStroke();
-  connectWebsocket("wss://chat.reasonable.systems/p5js2python");
+  connectWebsocket("ws://localhost:8765");
 }
 
 function draw() {
