@@ -7,3 +7,6 @@ GO TO:
 RUN:
 python websocket-client.py
 
+REQUIRES:
+pip install websocket-client
+
