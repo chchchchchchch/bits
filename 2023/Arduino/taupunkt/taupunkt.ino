@@ -14,9 +14,14 @@ const int MOSFETPIN_2 = 10;
 const int POTIPIN = A0; // Einlesen des Spannungswertes am Potentiometer
 float valPoti = 0; // Poti-Wert initial auf 0 setzen
 
-float h_MAX = 70.0; // max. Luftfeuchte Innen
-float dT = 5.0;     // Temp. Delta für Taupunktberechnung
+float fan_O_speedNow = 0.00; // REMEMBER TO CHECK
+const float fan_O_speedMin = 0.03;
+const float fan_O_speedMax = 1.00;
 
+float h_MAX = 70.0; // max. Luftfeuchte Außen
+float t_MIN = 16.0; // min. Temperatur Innen
+
+float dT = 5.0;     // Temp. Delta für Taupunktberechnung
 float dp;
 float h_I;
 float h_O;
@@ -39,7 +44,10 @@ void setup() {
 
 void loop() {
 
-  valPoti = analogRead(POTIPIN)/1023.0; // analogRead liest Werte beim Uno zwischen 0 und 1023 ein, analog Write gibt jedoch nur Werte zwischen 0 und 255 aus
+// TESTING --------------------------------------
+
+  //valPoti = round(analogRead(POTIPIN))/1023.0;
+  valPoti = round(analogRead(POTIPIN)/10.23)/100.0;
   fan_O(valPoti);
 
 /*
@@ -50,8 +58,7 @@ void loop() {
   }
 */
 
-  // Wait a few seconds between measurements.
-  delay(2000);
+// ----------------------------------------------
 
   // Reading temperature or humidity takes about 250 milliseconds!
   // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
@@ -67,6 +74,7 @@ void loop() {
 //  return;
 //}
 
+/*
   float a, b;
   if (t_O >= 0) {
     a = 7.5;
@@ -82,32 +90,40 @@ void loop() {
 
   dp = (b * v) / (a - v);
 
-  if ((dp - dT) < t_I) {
-    //FAN_I = 1;
-    //fan_I(1);
-    Serial.println("fan_I ON");
-  } else {
-    //FAN_I = 0;
-    //fan_I(0);
-    Serial.println("fan_I OFF");
+  if (t_I > t_MIN) { // Temperatur Innen ok
+      fan_O(0.05);
+  } else {           // Temperatur Innen zu niedrig
+      fan_O(0);
   }
-  if (h_O > h_MAX)  fan_I(0); // Feuchte aussen zu hoch
 
-
-
-
-  Serial.print(F("Humidity outside: "));
+  if ((dp - dT) < t_I) { // Taupunkt optimal
+    //fan_I(1.0);
+    //fan_O(1.0);
+  } else {
+    //fan_I(0);
+  }
+  if (h_O > h_MAX) { // Feuchte Aussen zu hoch
+      fan_I(0);
+  }
+*/
+  Serial.print("h_O:");
   Serial.print(h_O);
-  Serial.print(F("%  temperature outside: "));
+  Serial.print("|");
+  Serial.print("t_O:");
   Serial.print(t_O);
-  Serial.print(F("°C "));
-  Serial.println("");
-
-  Serial.print(F("Humidity inside: "));
+  Serial.print("|");
+  Serial.print("h_I:");
   Serial.print(h_I);
-  Serial.print(F("%  temperature inside: "));
+  Serial.print("|");
+  Serial.print("t_I:");
   Serial.print(t_I);
-  Serial.print(F("°C "));
-  Serial.println("");
+  Serial.println();
+
+  Serial.print("(dp - dT): ");
+  Serial.println((dp - dT));
+
+  // Wait a few seconds between measurements.
+  //delay(60000);
+  delay(2000);
 
 }
