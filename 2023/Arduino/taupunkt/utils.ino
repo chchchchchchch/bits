@@ -12,12 +12,12 @@ void fan_I( float speed ) {
 
 }
 
-const float fan_O_speedMin = 0.05; // REQUIRES 0.1 TO START
+const float fan_O_speedMin = 0.03; // REQUIRES 0.08 TO START
 const float fan_O_speedMax = 1.00;
 
 void fan_O( float speed ) {
 
-  //Serial.println(speed); 
+  Serial.println(speed); 
   speed = 255 * speed;
   analogWrite(MOSFETPIN_1, speed);
 
