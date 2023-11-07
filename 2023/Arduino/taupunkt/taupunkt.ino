@@ -11,9 +11,6 @@ const int RELAISPIN   =  7;
 const int MOSFETPIN_1 =  9;
 const int MOSFETPIN_2 = 10;
 
-const int POTIPIN = A0; // Einlesen des Spannungswertes am Potentiometer
-float valPoti = 0; // Poti-Wert initial auf 0 setzen
-
 float fan_O_speedNow = 0.00; // REMEMBER TO CHECK
 const float fan_O_speedMin = 0.03;
 const float fan_O_speedMax = 1.00;
@@ -50,20 +47,6 @@ void setup() {
 
 void loop() {
 
-// TESTING --------------------------------------
-/*
-  //valPoti = round(analogRead(POTIPIN))/1023.0;
-  valPoti = round(analogRead(POTIPIN)/10.23)/100.0;
-  fan_O(valPoti);
-
-
-  if ( valPoti > 0.9 ) {
-    fan_I(1);
-  } else {
-    fan_I(0);    
-  }
-*/
-
 // ----------------------------------------------
 
   // Reading temperature or humidity takes about 250 milliseconds!
@@ -87,9 +70,14 @@ void loop() {
       //fan_I(1.0);
       fan_O(1.0);    
   } else {
-      //fan_I(0);     
+      //fan_I(0);
+      if ( t_I > t_I_MIN ) {
+           fan_O(0.2);  
+      } else {
+           fan_O(0);        
+      }
   }
-
+  
   Serial.print("h_O:");
   Serial.print(h_O);
   Serial.print("|");
