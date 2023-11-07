@@ -74,12 +74,6 @@ void loop() {
   float t_O = dht_O.readTemperature() + t_O_OFFSET;
   float t_I = dht_I.readTemperature() - t_I_OFFSET;
 
-//// Check if any reads failed and exit early (to try again).
-//if (isnan(h_O) || isnan(t_O)) {
-//  Serial.println(F("Failed to read from DHT sensor!"));
-//  return;
-//}
-
   float tp_O = taupunkt(t_O, h_O);
   float tp_I = taupunkt(t_I, h_I);
   float tp_delta = tp_I - tp_O;
@@ -88,12 +82,6 @@ void loop() {
   if (tp_delta < (tp_DIF)) RUN = false;
   if (t_I < t_I_MIN ) RUN = false;
   if (t_O < t_O_MIN ) RUN = false;
-
-  if (t_I > t_I_MIN) { // Temperatur Innen ok
-      fan_O(0.05);
-  } else {           // Temperatur Innen zu niedrig
-      fan_O(0);
-  }
   
   if ( RUN == true ) {
       //fan_I(1.0);
