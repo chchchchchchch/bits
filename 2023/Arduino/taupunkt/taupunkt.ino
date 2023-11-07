@@ -67,10 +67,10 @@ void loop() {
   if (t_O < t_O_MIN ) RUN = false;
   
   if ( RUN == true ) {
-      //fan_I(1.0);
+      fan_I(1.0);
       fan_O(1.0);    
   } else {
-      //fan_I(0);
+      fan_I(0);
       if ( t_I > t_I_MIN ) {
            fan_O(0.2);  
       } else {
