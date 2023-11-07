@@ -96,17 +96,22 @@ void loop() {
   Serial.print("t_O:");
   Serial.print(t_O);
   Serial.print("|");
+  Serial.print("tp_O:");
+  Serial.print(tp_O);
+  Serial.print("|");
   Serial.print("h_I:");
   Serial.print(h_I);
   Serial.print("|");
   Serial.print("t_I:");
   Serial.print(t_I);
+  Serial.print("|");
+  Serial.print("tp_I:");
+  Serial.print(tp_I);
+  Serial.print("|");
+  Serial.print("RUN:");
+  Serial.print(RUN);
   Serial.println();
 
-  Serial.print("tp_O: ");
-  Serial.println(tp_O);
-  Serial.print("tp_I: ");
-  Serial.println(tp_I);
 
   // Wait a few seconds between measurements.
   //delay(60000);
