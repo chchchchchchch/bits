@@ -18,11 +18,17 @@ float fan_O_speedNow = 0.00; // REMEMBER TO CHECK
 const float fan_O_speedMin = 0.03;
 const float fan_O_speedMax = 1.00;
 
-float h_MAX = 70.0; // max. Luftfeuchte Außen
-float t_MIN = 16.0; // min. Temperatur Innen
+float h_MAX      =  70.0; // max. Luftfeuchte Außen
+float tp_DIF     =   5.0; // minimaler Taupunktunterschied, bei dem das Relais schaltet
+float HYSTERESE  =   1.0; // Abstand von Ein- und Ausschaltpunkt
+float t_I_MIN    =  16.0; // min. Temperatur Innen
+float t_O_MIN    = -10.0; // min. Temperatur Innen
 
-float dT = 5.0;     // Temp. Delta für Taupunktberechnung
-float dp;
+float t_O_OFFSET =  -3.0;
+float t_I_OFFSET =   0.0;
+
+bool RUN;
+
 float h_I;
 float h_O;
 float t_I;
@@ -45,12 +51,12 @@ void setup() {
 void loop() {
 
 // TESTING --------------------------------------
-
+/*
   //valPoti = round(analogRead(POTIPIN))/1023.0;
   valPoti = round(analogRead(POTIPIN)/10.23)/100.0;
   fan_O(valPoti);
 
-/*
+
   if ( valPoti > 0.9 ) {
     fan_I(1);
   } else {
@@ -65,8 +71,8 @@ void loop() {
   float h_O = dht_O.readHumidity();
   float h_I = dht_I.readHumidity();
   // Read temperature as Celsius (the default)
-  float t_O = dht_O.readTemperature();
-  float t_I = dht_I.readTemperature();
+  float t_O = dht_O.readTemperature() + t_O_OFFSET;
+  float t_I = dht_I.readTemperature() - t_I_OFFSET;
 
 //// Check if any reads failed and exit early (to try again).
 //if (isnan(h_O) || isnan(t_O)) {
@@ -74,38 +80,28 @@ void loop() {
 //  return;
 //}
 
-/*
-  float a, b;
-  if (t_O >= 0) {
-    a = 7.5;
-    b = 237.3;
-  } else {
-    a = 7.6;
-    b = 240.7;
-  }
+  float tp_O = taupunkt(t_O, h_O);
+  float tp_I = taupunkt(t_I, h_I);
+  float tp_delta = tp_I - tp_O;
+  
+  if (tp_delta > (tp_DIF + HYSTERESE)) RUN = true;
+  if (tp_delta < (tp_DIF)) RUN = false;
+  if (t_I < t_I_MIN ) RUN = false;
+  if (t_O < t_O_MIN ) RUN = false;
 
-  float sgp = 6.1078 * pow(10, (a * t_O) / (b + t_O));
-  float gp = (t_O / 100) * sgp;
-  float v = log10(gp / 6.1078);
-
-  dp = (b * v) / (a - v);
-
-  if (t_I > t_MIN) { // Temperatur Innen ok
+  if (t_I > t_I_MIN) { // Temperatur Innen ok
       fan_O(0.05);
   } else {           // Temperatur Innen zu niedrig
       fan_O(0);
   }
-
-  if ((dp - dT) < t_I) { // Taupunkt optimal
-    //fan_I(1.0);
-    //fan_O(1.0);
+  
+  if ( RUN == true ) {
+      //fan_I(1.0);
+      fan_O(1.0);    
   } else {
-    //fan_I(0);
+      //fan_I(0);     
   }
-  if (h_O > h_MAX) { // Feuchte Aussen zu hoch
-      fan_I(0);
-  }
-*/
+
   Serial.print("h_O:");
   Serial.print(h_O);
   Serial.print("|");
@@ -119,11 +115,13 @@ void loop() {
   Serial.print(t_I);
   Serial.println();
 
-  Serial.print("(dp - dT): ");
-  Serial.println((dp - dT));
+  Serial.print("tp_O: ");
+  Serial.println(tp_O);
+  Serial.print("tp_I: ");
+  Serial.println(tp_I);
 
   // Wait a few seconds between measurements.
   //delay(60000);
-  delay(2000);
+  delay(10000);
 
 }
