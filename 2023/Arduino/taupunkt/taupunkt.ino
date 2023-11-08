@@ -11,6 +11,9 @@ const int RELAISPIN   =  7;
 const int MOSFETPIN_1 =  9;
 const int MOSFETPIN_2 = 10;
 
+const int analogInPin = 0; // TMP
+int light = 0;             // TMP
+
 float fan_O_speedNow = 0.00; // REMEMBER TO CHECK
 const float fan_O_speedMin = 0.03;
 const float fan_O_speedMax = 1.00;
@@ -67,9 +70,12 @@ void loop() {
   if (h_O > h_MAX+10 )                 RUN = false;
   if (t_I < t_I_MIN )                  RUN = false;
   if (t_O < t_O_MIN )                  RUN = false;
- 
+
+  light = analogRead(analogInPin);  // TMP
+
   if ( RUN == true ) {
-      fan_I(1.0);
+      if ( light < 80 ) fan_I(1.0); // TMP
+    //fan_I(1.0);
       fan_O(1.0);    
   } else {
       fan_I(0);
@@ -86,7 +92,7 @@ void loop() {
        fan_O(0);
        fan_I(0);
   }
-  
+
   Serial.print("h_O:");
   Serial.print(h_O);
   Serial.print("|");
@@ -107,8 +113,10 @@ void loop() {
   Serial.print("|");
   Serial.print("RUN:");
   Serial.print(RUN);
+  Serial.print("|");
+  Serial.print("LIGHT:");
+  Serial.print(light); // TMP
   Serial.println();
-
 
   // Wait a few seconds between measurements.
   //delay(300000); // 5 Minuten
