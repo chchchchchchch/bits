@@ -21,8 +21,8 @@ const float fan_O_speedMax = 1.00;
 float tp_DIF     =   4.0; // minimaler Taupunktunterschied, bei dem das Relais schaltet
 float HYSTERESE  =   1.0; // Abstand von Ein- und Ausschaltpunkt
 
-float h_MAX      =  60.0; // max. Luftfeuchte
-float t_I_MIN    =  15.0; // min. Temperatur Innen
+float h_MAX      =  62.0; // max. Luftfeuchte
+float t_I_MIN    =  16.0; // min. Temperatur Innen
 float t_O_MIN    = -10.0; // min. Temperatur Außen
 
 float t_O_OFFSET =  -3.0;
@@ -84,11 +84,11 @@ void loop() {
       } else if ( t_I > t_I_MIN &&
                   h_I < h_MAX ) {
            fan_O(0.2);
-      } else if ( h_I > h_MAX ) {
+      } else if ( h_I > h_MAX+5 ) {
            fan_O(1.0);
       }
   }
-  if ( t_I < t_I_MIN-2) { // NOTSTOP
+  if ( t_I < t_I_MIN) { // NOTSTOP
        fan_O(0);
        fan_I(0);
   }
