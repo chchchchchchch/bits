@@ -86,9 +86,7 @@ void loop() {
            fan_O(0.2);
       } else if ( h_I > h_MAX+2 ) {
            fan_O(1.0);
-      } else if ( h_I > h_MAX-5 ) {
-           fan_O(0.0);
-      }
+      } 
   }
   if ( t_I < t_I_MIN-4) { // NOTSTOP
        fan_O(0);
