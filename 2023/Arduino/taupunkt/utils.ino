@@ -1,12 +1,14 @@
 void fan_I( float speed ) {
 
   if ( speed > 0 ) {
-
+    
+    Serial.println("SPIN UP FAN_I");
     digitalWrite(RELAISPIN, HIGH);
     delay(100);
    
   } else {
 
+  //Serial.println("STOP FAN_I");
     digitalWrite(RELAISPIN, LOW);    
   }
 
@@ -33,7 +35,7 @@ void fan_O( float speed ) {
          delay(2000);
     }
     
-    Serial.print("SET NEW SPEED: ");
+    Serial.print("SET SPEED FAN_O = ");
     Serial.println(speed);
     fan_O_speedNow = speed; // REMEMBER
     
@@ -43,7 +45,7 @@ void fan_O( float speed ) {
               speed != fan_O_speedNow ) {
     
     analogWrite(MOSFETPIN_1, 0.0);
-    Serial.println("STOP FAN");
+    Serial.println("STOP FAN_O");
     fan_O_speedNow = speed; // REMEMBER
   }
 }
