@@ -8,15 +8,19 @@ DHT dht_O(DHTPIN_0, DHTTYPE);
 DHT dht_I(DHTPIN_I, DHTTYPE);
 
 const int RELAISPIN   =  7;
-const int MOSFETPIN_1 =  9;
-const int MOSFETPIN_2 = 10;
+const int MOSFETPIN_O =  9;
+const int MOSFETPIN_I = 10;
+
+String FANMODE;
 
 const int analogInPin = 0; // TMP
 int light = 0;             // TMP
 
-float fan_O_speedNow = 0.00; // REMEMBER TO CHECK
-const float fan_O_speedMin = 0.03;
-const float fan_O_speedMax = 1.00;
+const float fan_speedMin = 0.03;
+const float fan_speedMax = 1.00;
+float fan_speedNow   = 0.0; // REMEMBER TO CHECK
+float fan_O_speedNow = 0.0; // REMEMBER TO CHECK
+float fan_I_speedNow = 0.0; // REMEMBER TO CHECK
 
 float tp_DIF     =   4.0; // minimaler Taupunktunterschied, bei dem das Relais schaltet
 float HYSTERESE  =   1.0; // Abstand von Ein- und Ausschaltpunkt
@@ -37,13 +41,14 @@ float t_O;
 
 void setup() {
 
-  TCCR1B = TCCR1B & 0b11111000 | 0x01;
+//TCCR1B = TCCR1B & 0b11111000 | 0x01;
 
   dht_O.begin();
   dht_I.begin();
 
   pinMode(RELAISPIN, OUTPUT);
-  pinMode(MOSFETPIN_1,OUTPUT);
+  pinMode(MOSFETPIN_O,OUTPUT);
+  pinMode(MOSFETPIN_I,OUTPUT);
 
   Serial.begin(9600);
 
@@ -74,23 +79,22 @@ void loop() {
   light = analogRead(analogInPin);  // TMP
 
   if ( RUN == true ) {
-      if ( light < 80 ) fan_I(1.0); // TMP
-    //fan_I(1.0);
-      fan_O(1.0);    
+      fan(MOSFETPIN_I, 1.0);
+      fan(MOSFETPIN_O, 1.0);    
   } else {
-      fan_I(0);
+      fan(MOSFETPIN_I, 0.0);
       if ( h_I < h_MAX-5 ) {
-           fan_O(0);
+           fan(MOSFETPIN_O, 0.0);
       } else if ( t_I > t_I_MIN &&
                   h_I < h_MAX ) {
-           fan_O(0.2);
+           fan(MOSFETPIN_O, 1.0);
       } else if ( h_I > h_MAX+2 ) {
-           fan_O(1.0);
+           fan(MOSFETPIN_O, 1.0);
       } 
   }
-  if ( t_I < t_I_MIN-4) { // NOTSTOP
-       fan_O(0);
-       fan_I(0);
+  if ( t_I < t_I_MIN-4) { // EMERGENCY HALT
+       fan(MOSFETPIN_O, 0.0);
+       fan(MOSFETPIN_I, 0.0);
   }
 
   Serial.print("h_O:");

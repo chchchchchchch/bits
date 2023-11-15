@@ -1,52 +1,45 @@
-void fan_I( float speed ) {
+void fan(int MOSFETPIN, float speed ) {
 
-  if ( speed > 0 ) {
-    
-    Serial.println("SPIN UP FAN_I");
-    digitalWrite(RELAISPIN, HIGH);
-    delay(100);
-   
+  if ( MOSFETPIN == 9 ) {
+       String FANMODE = "OUT";
+       float fan_speedNow = fan_O_speedNow;
   } else {
-
-  //Serial.println("STOP FAN_I");
-    digitalWrite(RELAISPIN, LOW);    
+       String FANMODE = "IN";
+       float fan_speedNow = fan_I_speedNow;
   }
-
-}
-
-void fan_O( float speed ) {
 
   if ( speed > 0.0 &&
-       speed < fan_O_speedMin ) {
-       speed = fan_O_speedMin;
+       speed < fan_speedMin ) {
+       speed = fan_speedMin;
   }
-
-  if ( speed > fan_O_speedMax ) {
-       speed = fan_O_speedMax;
+  if ( speed > fan_speedMax ) {
+       speed = fan_speedMax;
   }
+  if ( speed != fan_speedNow &&
+       speed >= fan_speedMin ) {
 
-  if ( speed != fan_O_speedNow &&
-       speed >= fan_O_speedMin ) {
-
-    if ( speed < fan_O_speedMin && speed > 0.0 ) {
+    if ( speed < fan_speedMin && speed > 0.0 ) {
          // SPIN UP
-         Serial.println("SPIN UP FAN");
-         analogWrite(MOSFETPIN_1, 0.1);
+         Serial.println("SPIN UP FAN_" + FANMODE);
+         analogWrite(MOSFETPIN, 0.1);
          delay(2000);
     }
-    
-    Serial.print("SET SPEED FAN_O = ");
+    Serial.print("SET SPEED FAN_" + FANMODE + "= ");
     Serial.println(speed);
     fan_O_speedNow = speed; // REMEMBER
     
-    analogWrite(MOSFETPIN_1, speed * 255);
+    analogWrite(MOSFETPIN, speed * 255);
     
-  } else if ( speed < fan_O_speedMin &&
+  } else if ( speed < fan_speedMin &&
               speed != fan_O_speedNow ) {
     
-    analogWrite(MOSFETPIN_1, 0.0);
-    Serial.println("STOP FAN_O");
-    fan_O_speedNow = speed; // REMEMBER
+    analogWrite(MOSFETPIN, 0.0);
+    Serial.println("STOP FAN_" + FANMODE);
+    if ( FANMODE == "OUT" ) {
+         fan_O_speedNow = speed; // REMEMBER
+    } else {
+         fan_I_speedNow = speed; // REMEMBER
+    }
   }
 }
 
