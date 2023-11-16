@@ -86,13 +86,7 @@ void loop() {
       } else if ( t_I > t_I_MIN &&
                   h_I > h_MAX ) {
            fan(MOSFETPIN_O, 1.0);
-      } else if ( h_I > h_MAX+5 ) {
-           fan(MOSFETPIN_O, 1.0);
       } 
-  }
-  if ( t_I < t_I_MIN-4) { // EMERGENCY HALT
-       fan(MOSFETPIN_O, 0.0);
-       fan(MOSFETPIN_I, 0.0);
   }
 
   Serial.print("h_O:");
