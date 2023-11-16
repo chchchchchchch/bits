@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- CLEANED: 1700132997/54bf49f036241d6e2d31203c8fff400d -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="790"
+   height="1122"
+   version="1.1"
+   id="svg"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
+   sodipodi:docname="231116_iostitch.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     objecttolerance="5"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:document-units="px"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     sodipodi:insensitive="true"
+     inkscape:label="XX_REF"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <image
+       xlink:href="./lilostitch_01.jpg"
+       checksum="800b9c34c6921e44"
+       y="556"
+       x="4379.2773"
+       width="956.08746"
+       height="1444"
+       preserveAspectRatio="none"
+       id="image1669"
+       style="stroke-width:1.26662"
+/>
+    <image
+       xlink:href="./lilostitch_02.jpg"
+       checksum="2421bde98e219ce1"
+       y="556"
+       x="3363.2253"
+       width="976.05188"
+       height="1444"
+       preserveAspectRatio="none"
+       id="image1683"
+       style="stroke-width:1.86772"
+/>
+    <image
+       xlink:href="./lilostitch_03.jpg"
+       checksum="40bc8f4da8c7d51b"
+       y="556"
+       x="2347"
+       width="976.22534"
+       height="1444"
+       preserveAspectRatio="none"
+       id="image1697"
+       style="stroke-width:2.01593"
+/>
+    <image
+       xlink:href="./lilostitch_04.jpg"
+       checksum="4bd5be13111ccec9"
+       y="-175"
+       x="2377"
+       width="950"
+       height="528"
+       preserveAspectRatio="none"
+       id="image1711"
+/>
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:inline;opacity:0.8"
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="XX_TRACE">
+  </g>
+</svg>
