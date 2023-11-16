@@ -24,7 +24,7 @@ float fan_I_speedNow = 0.0; // REMEMBER TO CHECK
 float tp_DIF     =   4.0; // minimaler Taupunktunterschied, bei dem das Relais schaltet
 float HYSTERESE  =   1.0; // Abstand von Ein- und Ausschaltpunkt
 
-float h_MAX      =  62.0; // max. Luftfeuchte
+float h_MAX      =  64.0; // max. Luftfeuchte
 float t_I_MIN    =  16.0; // min. Temperatur Innen
 float t_O_MIN    = -10.0; // min. Temperatur Außen
 
@@ -84,9 +84,9 @@ void loop() {
       if ( h_I < h_MAX-5 ) {
            fan(MOSFETPIN_O, 0.0);
       } else if ( t_I > t_I_MIN &&
-                  h_I < h_MAX ) {
+                  h_I > h_MAX ) {
            fan(MOSFETPIN_O, 1.0);
-      } else if ( h_I > h_MAX+2 ) {
+      } else if ( h_I > h_MAX+5 ) {
            fan(MOSFETPIN_O, 1.0);
       } 
   }
