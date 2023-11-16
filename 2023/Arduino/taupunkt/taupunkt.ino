@@ -7,7 +7,6 @@
 DHT dht_O(DHTPIN_0, DHTTYPE);
 DHT dht_I(DHTPIN_I, DHTTYPE);
 
-const int RELAISPIN   =  7;
 const int MOSFETPIN_O =  9;
 const int MOSFETPIN_I = 10;
 
@@ -46,7 +45,6 @@ void setup() {
   dht_O.begin();
   dht_I.begin();
 
-  pinMode(RELAISPIN, OUTPUT);
   pinMode(MOSFETPIN_O,OUTPUT);
   pinMode(MOSFETPIN_I,OUTPUT);
 
