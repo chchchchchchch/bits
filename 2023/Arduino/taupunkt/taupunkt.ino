@@ -194,13 +194,12 @@ void loop() {
       client.stop();
     }
     // ------------------------------------------------------------------------
+    delay(60000);
 
   } else { // SILENT
     fan(MOSFETPIN_I, 0.0);
-    fan(MOSFETPIN_O, 0.0); 
+    fan(MOSFETPIN_O, 0.0);
+    delay(1000);
   }
-
-
-  delay(1000);
-
+  
 } // END loop
