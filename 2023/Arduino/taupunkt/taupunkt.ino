@@ -196,11 +196,12 @@ void loop() {
   
     // --- post to Server -----------------------------------------------------
     if(p) Serial.println(postData);
-  
+
     postData = "dht=" + postData;
     if ( client.connect(server, port) ) {
       //if(p) Serial.println("connected");    
       client.post("/dht.php", contentType, postData);
+      delay(5000);
     // show the status code and body of the response
     //int statusCode = client.responseStatusCode();
     //String response = client.responseBody();
