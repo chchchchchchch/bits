@@ -1,4 +1,5 @@
 #include "DHT.h"
+#include <RunningMedian.h>
 #include <WiFiNINA.h>
 #include <WiFiUdp.h>
 #include <NTPClient.h>
@@ -26,6 +27,10 @@ float temp_O;
 float taup_I;
 float taup_O;
 float taup_delta;
+RunningMedian humi_I_MED = RunningMedian(19);
+RunningMedian humi_O_MED = RunningMedian(19);
+RunningMedian temp_I_MED = RunningMedian(19);
+RunningMedian temp_O_MED = RunningMedian(19);
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
@@ -116,6 +121,17 @@ void loop() {
     temp_O = dht_O.readTemperature() + temp_O_CORRECTION;
     temp_I = dht_I.readTemperature() + temp_I_CORRECTION;
 
+    humi_O_MED.add(humi_O);
+    humi_I_MED.add(humi_I);
+    temp_O_MED.add(temp_O);
+    temp_I_MED.add(temp_I);
+
+    humi_O = humi_O_MED.getMedian();
+    humi_I = humi_I_MED.getMedian();
+    temp_I = temp_I_MED.getMedian();
+    temp_O = temp_O_MED.getMedian();
+
+
     taup_O = taupunkt(temp_O,humi_O);
     taup_I = taupunkt(temp_I,humi_I);
     taup_delta = taup_I - taup_O;
@@ -126,13 +142,13 @@ void loop() {
     } else {                                                                  // nicht zu kalt
       if ( taup_delta >= taup_DIF ) {                                         //   taup_delta passt
         RUNMODE = 1;                                                          //     ENTFEUCHTUNG (M1)
-      } else if ( RUNMODE == 1 &&                                             
+      } else if (  RUNMODE == 1 &&                                             
                   (taup_delta < taup_DIF) && 
                   (taup_delta > (taup_DIF - HYSTERESE)) ) {                   //   taup_delta passt immernoch
         RUNMODE = 1;                                                          //     ENTFEUCHTUNG Keep running (M1)
       } else {                                                                //   sonst
         RUNMODE = 2;                                                          //     INTERVALLLUEFTUNG (M2)
-      } 
+      }
     }
     //if (humi_O > humi_MAX+10 )                 RUN = false;                 // Könnte wieder rein
 
@@ -168,6 +184,7 @@ void loop() {
         fan(MOSFETPIN_O, 0.0);FAN_O="0";
       }
     }
+
     // ------------------------------------------------------------------------
     postData = postData
              + "|"
@@ -182,7 +199,7 @@ void loop() {
   
     postData = "dht=" + postData;
     if ( client.connect(server, port) ) {
-    //if(p) Serial.println("connected");    
+      //if(p) Serial.println("connected");    
       client.post("/dht.php", contentType, postData);
     // show the status code and body of the response
     //int statusCode = client.responseStatusCode();
