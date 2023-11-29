@@ -168,36 +168,38 @@ void loop() {
         fan(MOSFETPIN_O, 0.0);FAN_O="0";
       }
     }
+    // ------------------------------------------------------------------------
+    postData = postData
+             + "|"
+             + "RUNMODE:" + String(RUNMODE)
+             + "|"
+             + "FAN_O:" + String(FAN_O)
+             + "|"
+             + "FAN_I:" + String(FAN_I);
+  
+    // --- post to Server -----------------------------------------------------
+    if(p) Serial.println(postData);
+  
+    postData = "dht=" + postData;
+    if ( client.connect(server, port) ) {
+    //if(p) Serial.println("connected");    
+      client.post("/dht.php", contentType, postData);
+    // show the status code and body of the response
+    //int statusCode = client.responseStatusCode();
+    //String response = client.responseBody();
+    //Serial.print("Status code: ");Serial.println(statusCode);
+    //Serial.print("Response: ");Serial.println(response);
+    }
+    if ( client.connected() ) {
+      client.stop();
+    }
+    // ------------------------------------------------------------------------
 
   } else { // SILENT
     fan(MOSFETPIN_I, 0.0);
     fan(MOSFETPIN_O, 0.0); 
   }
-  // ------------------------------------------------------------------------
-  postData = postData
-           + "|"
-           + "RUNMODE:" + String(RUNMODE)
-           + "|"
-           + "FAN_O:" + String(FAN_O)
-           + "|"
-           + "FAN_I:" + String(FAN_I);
 
-  // --- post to Server -----------------------------------------------------
-  if(p) Serial.println(postData);
-
-  postData = "dht=" + postData;
-  if ( client.connect(server, port) ) {
-  //if(p) Serial.println("connected");    
-    client.post("/dht.php", contentType, postData);
-  // show the status code and body of the response
-  //int statusCode = client.responseStatusCode();
-  //String response = client.responseBody();
-  //Serial.print("Status code: ");Serial.println(statusCode);
-  //Serial.print("Response: ");Serial.println(response);
-  }
-  if ( client.connected() ) {
-    client.stop();
-  }
 
   delay(1000);
 
