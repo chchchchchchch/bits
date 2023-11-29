@@ -1,5 +1,7 @@
 #include "DHT.h"
-
+#include <WiFiNINA.h>
+#include "conf.h"
+ 
 #define DHTPIN_0 2
 #define DHTPIN_I 4
 #define DHTTYPE DHT22 // DHT 22  (AM2302), AM2321
@@ -24,6 +26,8 @@ float temp_O;
 float taup_I;
 float taup_O;
 float taup_delta;
+
+int status = WL_IDLE_STATUS;
 
 // --- FanValues -----------------------------------------------------
 String FANMODE;
@@ -66,6 +70,20 @@ void setup() {
   pinMode(MOSFETPIN_I,OUTPUT);
 
   if(p) Serial.begin(9600);
+
+  while (status != WL_CONNECTED) {
+    if(p) Serial.print("Attempting to connect to Network named: ");
+    if(p) Serial.println(ssid);
+    status = WiFi.begin(ssid, pass);
+    delay(10000);
+  }
+  if(p) Serial.print("SSID: ");
+  if(p) Serial.println(WiFi.SSID());
+  IPAddress ip = WiFi.localIP();
+  IPAddress gateway = WiFi.gatewayIP();
+  if(p) Serial.print("IP Address: ");
+  if(p) Serial.println(ip);
+
 }
 
 void loop() {
