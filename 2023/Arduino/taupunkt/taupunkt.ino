@@ -1,5 +1,7 @@
 #include "DHT.h"
 #include <WiFiNINA.h>
+#include <WiFiUdp.h>
+#include <NTPClient.h>
 #include <ArduinoHttpClient.h>
 #include "conf.h"
 
@@ -13,13 +15,10 @@ DHT dht_I(DHTPIN_I, DHTTYPE);
 const int SWITCHPIN   = 12;
 const int MOSFETPIN_O =  9;
 const int MOSFETPIN_I = 10;
-const int analogInPin = 0; // TMP
+const int analogInPin =  0; // TMP
 
 // --- Internal ------------------------------------------------------
 int RUNMODE = 0;  //-1=OFF | 0=IDLE | 1=ENTFEUCHTUNG | 2=LUEFTUNG
-int lueftung_CountWaitIntervals = 0;
-int lueftung_CountRunIntervals = 0;
-int lueftung_Status = 0; //0=passive. 1=waiting. 2=running
 float humi_I;
 float humi_O;
 float temp_I;
@@ -27,6 +26,9 @@ float temp_O;
 float taup_I;
 float taup_O;
 float taup_delta;
+
+WiFiUDP ntpUDP;
+NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
 
 WiFiSSLClient wifi;
 HttpClient client = HttpClient(wifi, server, port);
@@ -54,12 +56,6 @@ float temp_O_MIN     = -10.0; // min. Temperatur Außen
 
 float taup_DIF       =   6.0; // minimaler Taupunktunterschied, bei dem das Relais schaltet
 float HYSTERESE      =   3.0; // Abstand von Ein- und Ausschaltpunkt
-
-// --- Timings ------------------------------------------------------
-float loop_Interval   =  2 *60; // Loop-/Messinterval in Sekunden
-
-int lueftung_WaitInterval = 60 *60;   // Lüftung alle x Sekunden (z.B. alle 60 Minuten)
-int lueftung_RunInterval  =  5 *60;   // für y Sekunden          (z.B.  für  5 Minuten)
 
 // --- Logging ------------------------------------------------------
 bool p = true;                        // Do serial print
@@ -90,12 +86,18 @@ void setup() {
   if(p) Serial.print("IP Address: ");
   if(p) Serial.println(ip);
 
+  timeClient.begin();
+
 }
 
 void loop() {
 
+  timeClient.update();
+  int H = timeClient.getHours();
+  int M = timeClient.getMinutes();
+
   // --- checkSwitch -------------------------------------------
-  if(digitalRead(SWITCHPIN) == HIGH) {
+  if ( digitalRead(SWITCHPIN) == HIGH ) {
     if(p && RUNMODE != -1) Serial.println("--- SILENT ON ------------------");
     RUNMODE = -1;
   } else {
@@ -103,9 +105,8 @@ void loop() {
     RUNMODE = 0;
   }
 
+  if ( RUNMODE != -1 ) {
 
-  if(RUNMODE != -1) {
-    
     // --- checkSensors -------------------------------------------    
     // Reading temperature or humidity takes about 250 milliseconds!
     // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
@@ -118,12 +119,12 @@ void loop() {
     taup_O = taupunkt(temp_O,humi_O);
     taup_I = taupunkt(temp_I,humi_I);
     taup_delta = taup_I - taup_O;
-               
+
     // --- checkModeConditions -------------------------------------------
-    if ( (temp_I < temp_I_MIN ) || (temp_O < temp_O_MIN ) ) {                 // zu kalt
+    if ( (temp_I < temp_I_MIN) || (temp_O < temp_O_MIN) ) {                   // zu kalt
       RUNMODE = 0;                                                            //   IDLE/WAIT (M0)
     } else {                                                                  // nicht zu kalt
-      if (taup_delta >= taup_DIF) {                                           //   taup_delta passt
+      if ( taup_delta >= taup_DIF ) {                                         //   taup_delta passt
         RUNMODE = 1;                                                          //     ENTFEUCHTUNG (M1)
       } else if ( RUNMODE == 1 &&                                             
                   (taup_delta < taup_DIF) && 
@@ -133,7 +134,7 @@ void loop() {
         RUNMODE = 2;                                                          //     INTERVALLLUEFTUNG (M2)
       } 
     }
-  //if (humi_O > humi_MAX+10 )                 RUN = false;                   // Könnte wieder rein
+    //if (humi_O > humi_MAX+10 )                 RUN = false;                 // Könnte wieder rein
 
     // --- collect postData ----------------------------------------------
 
@@ -153,54 +154,24 @@ void loop() {
     if ( RUNMODE == 0 ) {          // Switch or stay IDLE (M0)
       fan(MOSFETPIN_I, 0.0);FAN_I="0";
       fan(MOSFETPIN_O, 0.0);FAN_O="0";
-      lueftung_Status = 0;
     } 
     else if ( RUNMODE == 1) {      // Switch or stay ENTFEUCHTUNG (M1)
       fan(MOSFETPIN_I, 1.0);FAN_I="1";
       fan(MOSFETPIN_O, 1.0);FAN_O="1";
-      lueftung_Status = 0;
     } 
-    else if (RUNMODE == 2) {       // Switch or stay LUEFTUNG (M2)
-      if(lueftung_Status == 0) {          //passive
-        lueftung_Status = 1;              
-        lueftung_CountWaitIntervals = 0;
-        lueftung_CountRunIntervals = 0;
-        fan(MOSFETPIN_I, 0.0);FAN_I="0";
-        fan(MOSFETPIN_O, 0.0);FAN_O="0";
-      } 
-      else if (lueftung_Status == 1) {    //waiting
-        lueftung_CountWaitIntervals++;
-        if( (loop_Interval*lueftung_CountWaitIntervals) >= lueftung_WaitInterval ) {
-          lueftung_Status = 2;
-          lueftung_CountWaitIntervals = 0;
-        }
-        fan(MOSFETPIN_I, 0.0);FAN_I="0";
-        fan(MOSFETPIN_O, 0.0);FAN_O="0";
-        if(p) Serial.print( "LUEFTUNG (M2) WAITING: "); 
-        if(p) Serial.print( (loop_Interval*lueftung_CountWaitIntervals)/60.0 ); 
-        if(p) Serial.println( " Minuten" );
-      } 
-      else if (lueftung_Status == 2) {    //runnning
-        lueftung_CountRunIntervals++;
-        if( (loop_Interval*lueftung_CountRunIntervals) >= lueftung_RunInterval ) {
-          lueftung_Status = 1;
-          lueftung_CountRunIntervals = 0;
-        }
+    else if ( RUNMODE == 2 ) {       // Switch or stay LUEFTUNG (M2)
+      if ( M < 20 ) { // RUN FOR EVERY FIRST 20 MINUTES OF EACH HOUR
         fan(MOSFETPIN_I, 0.0);FAN_I="0";
         fan(MOSFETPIN_O, 1.0);FAN_O="1";
-        if(p) Serial.print( "LUEFTUNG (M2) RUNNING: "); 
-        if(p) Serial.print( (loop_Interval*lueftung_CountRunIntervals)/60.0 ); 
-        if(p) Serial.println( " Minuten" );
+      } else {
+        fan(MOSFETPIN_I, 0.0);FAN_I="0";
+        fan(MOSFETPIN_O, 0.0);FAN_O="0";
       }
     }
 
-    delay(loop_Interval*1000);    // Standard Loop-Interval
-
   } else { // SILENT
-    lueftung_Status = 0;
     fan(MOSFETPIN_I, 0.0);
     fan(MOSFETPIN_O, 0.0); 
-    delay(1000);
   }
   // ------------------------------------------------------------------------
   postData = postData
@@ -227,5 +198,7 @@ void loop() {
   if ( client.connected() ) {
     client.stop();
   }
+
+  delay(1000);
 
 } // END loop
