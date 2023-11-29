@@ -1,7 +1,8 @@
 #include "DHT.h"
 #include <WiFiNINA.h>
+#include <ArduinoHttpClient.h>
 #include "conf.h"
- 
+
 #define DHTPIN_0 2
 #define DHTPIN_I 4
 #define DHTTYPE DHT22 // DHT 22  (AM2302), AM2321
@@ -27,7 +28,11 @@ float taup_I;
 float taup_O;
 float taup_delta;
 
+WiFiSSLClient wifi;
+HttpClient client = HttpClient(wifi, server, port);
 int status = WL_IDLE_STATUS;
+String contentType = "application/x-www-form-urlencoded";
+String postData;
 
 // --- FanValues -----------------------------------------------------
 String FANMODE;
@@ -37,13 +42,15 @@ float fan_speedNow   = 0.0; // REMEMBER TO CHECK
 float fan_O_speedNow = 0.0; // REMEMBER TO CHECK
 float fan_I_speedNow = 0.0; // REMEMBER TO CHECK
 
+String FAN_I,FAN_O;
+
 // --- WeatherValues -------------------------------------------------
 float temp_O_CORRECTION =  -3.0;
 float temp_I_CORRECTION =   0.0;
 
 float temp_I_MIN     =  10.0; // min. Temperatur Innen
 float temp_O_MIN     = -10.0; // min. Temperatur Außen
-//float humi_MAX       =  62.0; // max. Luftfeuchte
+//float humi_MAX     =  62.0; // max. Luftfeuchte
 
 float taup_DIF       =   6.0; // minimaler Taupunktunterschied, bei dem das Relais schaltet
 float HYSTERESE      =   3.0; // Abstand von Ein- und Ausschaltpunkt
@@ -56,7 +63,6 @@ int lueftung_RunInterval  =  5 *60;   // für y Sekunden          (z.B.  für  5
 
 // --- Logging ------------------------------------------------------
 bool p = true;                        // Do serial print
-
 
 
 void setup() {
@@ -112,8 +118,7 @@ void loop() {
     taup_O = taupunkt(temp_O,humi_O);
     taup_I = taupunkt(temp_I,humi_I);
     taup_delta = taup_I - taup_O;
-    
-
+               
     // --- checkModeConditions -------------------------------------------
     if ( (temp_I < temp_I_MIN ) || (temp_O < temp_O_MIN ) ) {                 // zu kalt
       RUNMODE = 0;                                                            //   IDLE/WAIT (M0)
@@ -128,19 +133,31 @@ void loop() {
         RUNMODE = 2;                                                          //     INTERVALLLUEFTUNG (M2)
       } 
     }
+  //if (humi_O > humi_MAX+10 )                 RUN = false;                   // Könnte wieder rein
 
-    //if (humi_O > humi_MAX+10 )                 RUN = false;                 // Könnte wieder rein
+    // --- collect postData ----------------------------------------------
 
+    postData = "temp_O:" + String(temp_O)
+               + "|"
+               + "humi_O:" + String(humi_O)
+               + "|"
+               //+ "taup_O:" + String(taup_O)
+               //+ "|"
+               + "temp_I:" + String(temp_I)
+               + "|"
+               + "humi_I:" + String(humi_I);
+               //+ "|"
+               //+ "taup_I:" + String(taup_I);
 
   // --- activateModes-------------------------------------------------------
     if ( RUNMODE == 0 ) {          // Switch or stay IDLE (M0)
-      fan(MOSFETPIN_I, 0.0);
-      fan(MOSFETPIN_O, 0.0); 
+      fan(MOSFETPIN_I, 0.0);FAN_I="0";
+      fan(MOSFETPIN_O, 0.0);FAN_O="0";
       lueftung_Status = 0;
     } 
     else if ( RUNMODE == 1) {      // Switch or stay ENTFEUCHTUNG (M1)
-      fan(MOSFETPIN_I, 1.0);
-      fan(MOSFETPIN_O, 1.0);
+      fan(MOSFETPIN_I, 1.0);FAN_I="1";
+      fan(MOSFETPIN_O, 1.0);FAN_O="1";
       lueftung_Status = 0;
     } 
     else if (RUNMODE == 2) {       // Switch or stay LUEFTUNG (M2)
@@ -148,8 +165,8 @@ void loop() {
         lueftung_Status = 1;              
         lueftung_CountWaitIntervals = 0;
         lueftung_CountRunIntervals = 0;
-        fan(MOSFETPIN_I, 0.0);
-        fan(MOSFETPIN_O, 0.0); 
+        fan(MOSFETPIN_I, 0.0);FAN_I="0";
+        fan(MOSFETPIN_O, 0.0);FAN_O="0";
       } 
       else if (lueftung_Status == 1) {    //waiting
         lueftung_CountWaitIntervals++;
@@ -157,8 +174,8 @@ void loop() {
           lueftung_Status = 2;
           lueftung_CountWaitIntervals = 0;
         }
-        fan(MOSFETPIN_I, 0.0);
-        fan(MOSFETPIN_O, 0.0); 
+        fan(MOSFETPIN_I, 0.0);FAN_I="0";
+        fan(MOSFETPIN_O, 0.0);FAN_O="0";
         if(p) Serial.print( "LUEFTUNG (M2) WAITING: "); 
         if(p) Serial.print( (loop_Interval*lueftung_CountWaitIntervals)/60.0 ); 
         if(p) Serial.println( " Minuten" );
@@ -169,64 +186,13 @@ void loop() {
           lueftung_Status = 1;
           lueftung_CountRunIntervals = 0;
         }
-        fan(MOSFETPIN_I, 0.0);
-        fan(MOSFETPIN_O, 1.0); 
+        fan(MOSFETPIN_I, 0.0);FAN_I="0";
+        fan(MOSFETPIN_O, 1.0);FAN_O="1";
         if(p) Serial.print( "LUEFTUNG (M2) RUNNING: "); 
         if(p) Serial.print( (loop_Interval*lueftung_CountRunIntervals)/60.0 ); 
         if(p) Serial.println( " Minuten" );
       }
     }
-
-    // else {
-    //     fan(MOSFETPIN_I, 0.0);
-    //     if ( humi_I < humi_MAX-5 ) {
-    //         fan(MOSFETPIN_O, 0.0);
-    //     } else if ( temp_I > temp_I_MIN &&
-    //                 humi_I < humi_MAX ) {
-    //         fan(MOSFETPIN_O, 1.0);
-    //     } else if ( humi_I > humi_MAX+2 ) {
-    //         fan(MOSFETPIN_O, 1.0);
-    //     } 
-    // }
-
-    //if ( temp_I < temp_I_MIN-4) { // EMERGENCY HALT
-    //     fan(MOSFETPIN_O, 0.0);
-    //     fan(MOSFETPIN_I, 0.0);
-    //}
-
-    if(p) Serial.print("RUNMODE: ");
-    if(p) Serial.println(RUNMODE);
-    if(p) Serial.print("taup_delta: ");
-    if(p) Serial.println(taup_delta);
-    if(p) Serial.println("------------");
-
-    // Serial.print("RUNMODE:");
-    // Serial.print(RUNMODE);
-    // Serial.print("|");
-    // Serial.print("humi_O:");
-    // Serial.print(humi_O);
-    // Serial.print("|");
-    // Serial.print("temp_O:");
-    // Serial.print(temp_O);
-    // Serial.print("|");
-    // Serial.print("taup_O:");
-    // Serial.print(taup_O);
-    // Serial.print("|");
-    // Serial.print("humi_I:");
-    // Serial.print(humi_I);
-    // Serial.print("|");
-    // Serial.print("temp_I:");
-    // Serial.print(temp_I);
-    // Serial.print("|");
-    // Serial.print("taup_I:");
-    // Serial.print(taup_I);
-    // Serial.print("|");
-    // Serial.print("RUN:");
-    // Serial.print(RUN);
-    // Serial.print("|");
-    // Serial.print("LIGHT:");
-    // Serial.print(light); // TMP
-    // Serial.println();
 
     delay(loop_Interval*1000);    // Standard Loop-Interval
 
@@ -236,4 +202,30 @@ void loop() {
     fan(MOSFETPIN_O, 0.0); 
     delay(1000);
   }
+  // ------------------------------------------------------------------------
+  postData = postData
+           + "|"
+           + "RUNMODE:" + String(RUNMODE)
+           + "|"
+           + "FAN_O:" + String(FAN_O)
+           + "|"
+           + "FAN_I:" + String(FAN_I);
+
+  // --- post to Server -----------------------------------------------------
+  if(p) Serial.println(postData);
+
+  postData = "dht=" + postData;
+  if ( client.connect(server, port) ) {
+  //if(p) Serial.println("connected");    
+    client.post("/dht.php", contentType, postData);
+  // show the status code and body of the response
+  //int statusCode = client.responseStatusCode();
+  //String response = client.responseBody();
+  //Serial.print("Status code: ");Serial.println(statusCode);
+  //Serial.print("Response: ");Serial.println(response);
+  }
+  if ( client.connected() ) {
+    client.stop();
+  }
+
 } // END loop

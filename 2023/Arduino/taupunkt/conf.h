@@ -1,2 +1,5 @@
-char ssid[] = "network";
-char pass[] = "password";
+char ssid[] = "SSID";
+char pass[] = "PASS";
+
+char server[] = "your.server";
+int port = 80;
