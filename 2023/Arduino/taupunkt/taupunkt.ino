@@ -97,6 +97,8 @@ void setup() {
   lastTime = WiFi.getTime();
 }
 
+void(* resetFunc) (void) = 0; // declare reset function @ address 0
+
 void loop() {
 
   // --- checkSwitch -------------------------------------------
@@ -223,6 +225,7 @@ void loop() {
     // show the status code and body of the response
     int statusCode = client.responseStatusCode();
     if(p) Serial.print("Status code: ");Serial.println(statusCode);
+    if ( statusCode != 200 ) resetFunc(); // call reset
     delay(5000);
     client.stop();
 
