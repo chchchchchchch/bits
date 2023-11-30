@@ -121,22 +121,13 @@ void loop() {
     // -----------------------------------------------------------
 
     // --- checkSensors -------------------------------------------    
-    // Reading temperature or humidity takes about 250 milliseconds!
-    // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
-    humi_O = dht_O.readHumidity();
     humi_I = dht_I.readHumidity();
-    // Read temperature as Celsius (the default)
-    temp_O = dht_O.readTemperature() + temp_O_CORRECTION;
     temp_I = dht_I.readTemperature() + temp_I_CORRECTION;
 
-    humi_O_MED.add(humi_O);
     humi_I_MED.add(humi_I);
-    temp_O_MED.add(temp_O);
     temp_I_MED.add(temp_I);
 
-  //humi_O = humi_O_MED.getMedian();
     humi_I = humi_I_MED.getMedian();
-  //temp_O = temp_O_MED.getMedian();
     temp_I = temp_I_MED.getMedian();
 
    if ( NOW == true ) {
@@ -150,9 +141,13 @@ void loop() {
       int sep = response.indexOf(' ');
       humi_O = float(response.substring(sep).toInt());
       temp_O = float(response.substring(0, sep-2).toInt());
-    } else {
-      humi_O = humi_O_MED.getMedian();
-      temp_O = temp_O_MED.getMedian();
+    } else if ( isnan(humi_O) || isnan(temp_O) ) {
+        humi_O = dht_O.readHumidity();
+        temp_O = dht_O.readTemperature() + temp_O_CORRECTION;
+        humi_O_MED.add(humi_O);
+        temp_O_MED.add(temp_O);
+        humi_O = humi_O_MED.getMedian();
+        temp_O = temp_O_MED.getMedian();
     }
 
     // --- collect postData ----------------------------------------------
