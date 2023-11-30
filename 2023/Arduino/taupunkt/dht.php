@@ -1,6 +1,6 @@
 <?php
 
- $timeStamp = date("ymdHis");
+ $timeStamp = date("ymd H:i");
  $postData = $_POST["dht"];
  $file = 'dht.log';
  $logData = $timeStamp."|" . $postData;

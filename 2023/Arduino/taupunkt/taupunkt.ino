@@ -163,11 +163,9 @@ void loop() {
     // --- collect postData ----------------------------------------------
     String postData = "temp_O:" + String(temp_O)
                     + "|"
-                    + "humi_O:" + String(humi_O)
-                    + "|"
-                    //+ "taup_O:" + String(taup_O)
-                    //+ "|"
                     + "temp_I:" + String(temp_I)
+                    + "|"
+                    + "humi_O:" + String(humi_O)
                     + "|"
                     + "humi_I:" + String(humi_I);
                     //+ "|"
@@ -175,8 +173,8 @@ void loop() {
 
   // --- activateModes-------------------------------------------------------
     if ( RUNMODE == 0 ) {          // Switch or stay IDLE (M0)
-      fan(MOSFETPIN_I, 0.0);FAN_I="0";
-      fan(MOSFETPIN_O, 0.0);FAN_O="0";
+      fan(MOSFETPIN_I, 0.0);FAN_I="-";
+      fan(MOSFETPIN_O, 0.0);FAN_O="-";
     } 
     else if ( RUNMODE == 1) {      // Switch or stay ENTFEUCHTUNG (M1)
       fan(MOSFETPIN_I, 1.0);FAN_I="1";
@@ -184,19 +182,19 @@ void loop() {
     } 
     else if ( RUNMODE == 2 ) {       // Switch or stay LUEFTUNG (M2)
       if ( M < 20 ) { // RUN FOR EVERY FIRST 20 MINUTES OF EACH HOUR
-        fan(MOSFETPIN_I, 0.0);FAN_I="0";
+        fan(MOSFETPIN_I, 0.0);FAN_I="-";
         fan(MOSFETPIN_O, 1.0);FAN_O="1";
       } else {
-        fan(MOSFETPIN_I, 0.0);FAN_I="0";
-        fan(MOSFETPIN_O, 0.0);FAN_O="0";
+        fan(MOSFETPIN_I, 0.0);FAN_I="-";
+        fan(MOSFETPIN_O, 0.0);FAN_O="-";
       }
     }
 
     // ------------------------------------------------------------------------
     String contentType = "application/x-www-form-urlencoded";
-    postData = postData
+    postData = "RUNMODE:" + String(RUNMODE)
              + "|"
-             + "RUNMODE:" + String(RUNMODE)
+             + postData
              + "|"
              + "FAN_O:" + String(FAN_O)
              + "|"
