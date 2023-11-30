@@ -59,7 +59,7 @@ float temp_I_CORRECTION =   0.0;
 
 float temp_I_MIN     =  10.0; // min. Temperatur Innen
 float temp_O_MIN     = -10.0; // min. Temperatur Außen
-//float humi_MAX     =  62.0; // max. Luftfeuchte
+float humi_MAX       =  62.0; // max. Luftfeuchte
 
 float taup_DIF       =   6.0; // minimaler Taupunktunterschied, bei dem das Relais schaltet
 float HYSTERESE      =   3.0; // Abstand von Ein- und Ausschaltpunkt
@@ -172,20 +172,20 @@ void loop() {
     int M = timeClient.getMinutes();
 
     // --- checkModeConditions -------------------------------------------
-    if ( (temp_I < temp_I_MIN) || (temp_O < temp_O_MIN) ) {                   // zu kalt
-      RUNMODE = 0;                                                            //   IDLE/WAIT (M0)
-    } else {                                                                  // nicht zu kalt
-      if ( taup_delta >= taup_DIF ) {                                         //   taup_delta passt
-        RUNMODE = 1;                                                          //     ENTFEUCHTUNG (M1)
+    if ( (temp_I < temp_I_MIN) || (temp_O < temp_O_MIN) ) { // too cold
+      RUNMODE = 0;                                          //   IDLE/WAIT (M0)
+    } else {                                                // not too cold
+      if ( taup_delta >= taup_DIF ) {                       //   taup_delta ok
+        RUNMODE = 1;                                        //     ENTFEUCHTUNG (M1)
       } else if (  RUNMODE == 1 &&                                             
                   (taup_delta < taup_DIF) && 
-                  (taup_delta > (taup_DIF - HYSTERESE)) ) {                   //   taup_delta passt immernoch
-        RUNMODE = 1;                                                          //     ENTFEUCHTUNG Keep running (M1)
-      } else {                                                                //   sonst
-        RUNMODE = 2;                                                          //     INTERVALLLUEFTUNG (M2)
+                  (taup_delta > (taup_DIF - HYSTERESE)) ) { //   taup_delta still ok
+        RUNMODE = 1;                                        //     ENTFEUCHTUNG Keep running (M1)
+      } else {                                              //   otherwise
+        RUNMODE = 2;                                        //     INTERVALLLUEFTUNG (M2)
       }
     }
-    //if (humi_O > humi_MAX+10 )                 RUN = false;                 // Könnte wieder rein
+    if ( (humi_O > humi_MAX+10) && RUNMODE == 1 ) RUNMODE = 2;  // Too wet outside
 
   // --- activateModes-------------------------------------------------------
     if ( RUNMODE == 0 ) {          // Switch or stay IDLE (M0)
