@@ -38,8 +38,6 @@ NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
 WiFiSSLClient wifi;
 HttpClient client = HttpClient(wifi, server, port);
 int status = WL_IDLE_STATUS;
-String contentType = "application/x-www-form-urlencoded";
-String postData;
 
 // --- FanValues -----------------------------------------------------
 String FANMODE;
@@ -131,7 +129,6 @@ void loop() {
     temp_I = temp_I_MED.getMedian();
     temp_O = temp_O_MED.getMedian();
 
-
     taup_O = taupunkt(temp_O,humi_O);
     taup_I = taupunkt(temp_I,humi_I);
     taup_delta = taup_I - taup_O;
@@ -154,17 +151,17 @@ void loop() {
 
     // --- collect postData ----------------------------------------------
 
-    postData = "temp_O:" + String(temp_O)
-               + "|"
-               + "humi_O:" + String(humi_O)
-               + "|"
-               //+ "taup_O:" + String(taup_O)
-               //+ "|"
-               + "temp_I:" + String(temp_I)
-               + "|"
-               + "humi_I:" + String(humi_I);
-               //+ "|"
-               //+ "taup_I:" + String(taup_I);
+    String postData = "temp_O:" + String(temp_O)
+                    + "|"
+                    + "humi_O:" + String(humi_O)
+                    + "|"
+                    //+ "taup_O:" + String(taup_O)
+                    //+ "|"
+                    + "temp_I:" + String(temp_I)
+                    + "|"
+                    + "humi_I:" + String(humi_I);
+                    //+ "|"
+                    //+ "taup_I:" + String(taup_I);
 
   // --- activateModes-------------------------------------------------------
     if ( RUNMODE == 0 ) {          // Switch or stay IDLE (M0)
@@ -186,6 +183,7 @@ void loop() {
     }
 
     // ------------------------------------------------------------------------
+    String contentType = "application/x-www-form-urlencoded";
     postData = postData
              + "|"
              + "RUNMODE:" + String(RUNMODE)
@@ -198,21 +196,14 @@ void loop() {
     if(p) Serial.println(postData);
 
     postData = "dht=" + postData;
-    if ( client.connect(server, port) ) {
-      //if(p) Serial.println("connected");    
-      client.post("/dht.php", contentType, postData);
-      delay(5000);
+    client.post("/dht.php", contentType, postData);
     // show the status code and body of the response
-    //int statusCode = client.responseStatusCode();
-    //String response = client.responseBody();
-    //Serial.print("Status code: ");Serial.println(statusCode);
-    //Serial.print("Response: ");Serial.println(response);
-    }
-    if ( client.connected() ) {
-      client.stop();
-    }
+    int statusCode = client.responseStatusCode();
+    if(p) Serial.print("Status code: ");Serial.println(statusCode);
     // ------------------------------------------------------------------------
     delay(60000);
+    // ------------------------------------------------------------------------
+    client.stop();
 
   } else { // SILENT
     fan(MOSFETPIN_I, 0.0);
