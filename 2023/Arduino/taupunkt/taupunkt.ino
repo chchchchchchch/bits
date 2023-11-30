@@ -36,8 +36,9 @@ WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
 
 WiFiSSLClient wifi;
-HttpClient client = HttpClient(wifi, server, port);
 int status = WL_IDLE_STATUS;
+HttpClient client = HttpClient(wifi, server, port);
+HttpClient wttr = HttpClient(wifi, "wttr.in", 443);
 
 boolean NOW;
 long lastTime;
@@ -131,14 +132,26 @@ void loop() {
     temp_O_MED.add(temp_O);
     temp_I_MED.add(temp_I);
 
-    humi_O = humi_O_MED.getMedian();
+  //humi_O = humi_O_MED.getMedian();
     humi_I = humi_I_MED.getMedian();
+  //temp_O = temp_O_MED.getMedian();
     temp_I = temp_I_MED.getMedian();
-    temp_O = temp_O_MED.getMedian();
 
-    taup_O = taupunkt(temp_O,humi_O);
-    taup_I = taupunkt(temp_I,humi_I);
-    taup_delta = taup_I - taup_O;
+   if ( NOW == true ) {
+
+    wttr.get("/Augsburg?format=%t+%h");
+    String response = wttr.responseBody();
+    // int statusCode = wttr.responseStatusCode();
+    wttr.stop();
+
+    if ( response != "" ) {
+      int sep = response.indexOf(' ');
+      humi_O = float(response.substring(sep).toInt());
+      temp_O = float(response.substring(0, sep-2).toInt());
+    } else {
+      humi_O = humi_O_MED.getMedian();
+      temp_O = temp_O_MED.getMedian();
+    }
 
     // --- collect postData ----------------------------------------------
     String postData = "temp_O:" + String(temp_O)
@@ -150,7 +163,9 @@ void loop() {
                     + "humi_I:" + String(humi_I);
     // -------------------------------------------------------------------
 
-   if ( NOW == true ) {
+    taup_O = taupunkt(temp_O,humi_O);
+    taup_I = taupunkt(temp_I,humi_I);
+    taup_delta = taup_I - taup_O;
 
     timeClient.update();
     //int H = timeClient.getHours();
