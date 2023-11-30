@@ -39,6 +39,9 @@ WiFiSSLClient wifi;
 HttpClient client = HttpClient(wifi, server, port);
 int status = WL_IDLE_STATUS;
 
+boolean NOW;
+long lastTime;
+
 // --- FanValues -----------------------------------------------------
 String FANMODE;
 const float fan_speedMin = 0.03;
@@ -90,7 +93,7 @@ void setup() {
   if(p) Serial.println(ip);
 
   timeClient.begin();
-
+  lastTime = WiFi.getTime();
 }
 
 void loop() {
@@ -107,8 +110,16 @@ void loop() {
     if(p && RUNMODE == -1) Serial.println("--- SILENT OFF -----------------");
     RUNMODE = 0;
   }
+  // --- check lastTime ----------------------------------------
+  if ( WiFi.getTime()-lastTime > 300 ) { // SET INTERVALL
+    NOW=true; 
+  } else { 
+    NOW=false; 
+  }
+  // -----------------------------------------------------------
 
   if ( RUNMODE != -1 ) {
+   if ( NOW == true ) {   
 
     // --- checkSensors -------------------------------------------    
     // Reading temperature or humidity takes about 250 milliseconds!
@@ -150,7 +161,6 @@ void loop() {
     //if (humi_O > humi_MAX+10 )                 RUN = false;                 // Könnte wieder rein
 
     // --- collect postData ----------------------------------------------
-
     String postData = "temp_O:" + String(temp_O)
                     + "|"
                     + "humi_O:" + String(humi_O)
@@ -194,21 +204,22 @@ void loop() {
   
     // --- post to Server -----------------------------------------------------
     if(p) Serial.println(postData);
-
     postData = "dht=" + postData;
     client.post("/dht.php", contentType, postData);
     // show the status code and body of the response
     int statusCode = client.responseStatusCode();
     if(p) Serial.print("Status code: ");Serial.println(statusCode);
-    // ------------------------------------------------------------------------
-    delay(60000);
-    // ------------------------------------------------------------------------
+    delay(5000);
     client.stop();
 
+    // --- remember Time  -----------------------------------------------------
+    lastTime = WiFi.getTime();
+
+   }
   } else { // SILENT
     fan(MOSFETPIN_I, 0.0);
     fan(MOSFETPIN_O, 0.0);
-    delay(1000);
   }
   
+  delay(2000);
 } // END loop
