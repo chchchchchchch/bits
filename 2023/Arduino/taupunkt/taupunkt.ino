@@ -98,10 +98,6 @@ void setup() {
 
 void loop() {
 
-  timeClient.update();
-  int H = timeClient.getHours();
-  int M = timeClient.getMinutes();
-
   // --- checkSwitch -------------------------------------------
   if ( digitalRead(SWITCHPIN) == HIGH ) {
     if(p && RUNMODE != -1) Serial.println("--- SILENT ON ------------------");
@@ -110,16 +106,16 @@ void loop() {
     if(p && RUNMODE == -1) Serial.println("--- SILENT OFF -----------------");
     RUNMODE = 0;
   }
-  // --- check lastTime ----------------------------------------
-  if ( WiFi.getTime()-lastTime > 300 ) { // SET INTERVALL
-    NOW=true; 
-  } else { 
-    NOW=false; 
-  }
-  // -----------------------------------------------------------
 
   if ( RUNMODE != -1 ) {
-   if ( NOW == true ) {   
+  
+    // --- check lastTime ----------------------------------------
+    if ( WiFi.getTime()-lastTime > 300 ) { // SET INTERVALL
+      NOW=true; 
+    } else { 
+      NOW=false; 
+    }
+    // -----------------------------------------------------------
 
     // --- checkSensors -------------------------------------------    
     // Reading temperature or humidity takes about 250 milliseconds!
@@ -144,6 +140,22 @@ void loop() {
     taup_I = taupunkt(temp_I,humi_I);
     taup_delta = taup_I - taup_O;
 
+    // --- collect postData ----------------------------------------------
+    String postData = "temp_O:" + String(temp_O)
+                    + "|"
+                    + "temp_I:" + String(temp_I)
+                    + "|"
+                    + "humi_O:" + String(humi_O)
+                    + "|"
+                    + "humi_I:" + String(humi_I);
+    // -------------------------------------------------------------------
+
+   if ( NOW == true ) {
+
+    timeClient.update();
+    //int H = timeClient.getHours();
+    int M = timeClient.getMinutes();
+
     // --- checkModeConditions -------------------------------------------
     if ( (temp_I < temp_I_MIN) || (temp_O < temp_O_MIN) ) {                   // zu kalt
       RUNMODE = 0;                                                            //   IDLE/WAIT (M0)
@@ -159,17 +171,6 @@ void loop() {
       }
     }
     //if (humi_O > humi_MAX+10 )                 RUN = false;                 // Könnte wieder rein
-
-    // --- collect postData ----------------------------------------------
-    String postData = "temp_O:" + String(temp_O)
-                    + "|"
-                    + "temp_I:" + String(temp_I)
-                    + "|"
-                    + "humi_O:" + String(humi_O)
-                    + "|"
-                    + "humi_I:" + String(humi_I);
-                    //+ "|"
-                    //+ "taup_I:" + String(taup_I);
 
   // --- activateModes-------------------------------------------------------
     if ( RUNMODE == 0 ) {          // Switch or stay IDLE (M0)
@@ -212,12 +213,13 @@ void loop() {
 
     // --- remember Time  -----------------------------------------------------
     lastTime = WiFi.getTime();
-
+   } else {
+     delay(5000);
    }
   } else { // SILENT
     fan(MOSFETPIN_I, 0.0);
     fan(MOSFETPIN_O, 0.0);
+    delay(1000);
   }
-  
-  delay(2000);
+
 } // END loop
