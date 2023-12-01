@@ -57,8 +57,8 @@ String FAN_I,FAN_O;
 float temp_O_CORRECTION =  -3.0;
 float temp_I_CORRECTION =   0.0;
 
-float temp_I_MIN     =  10.0; // min. Temperatur Innen
-float temp_O_MIN     = -10.0; // min. Temperatur Außen
+float temp_I_MIN     =  11.0; // min. Temperatur Innen
+float temp_O_MIN     =  -5.0; // min. Temperatur Außen
 float humi_MAX       =  62.0; // max. Luftfeuchte
 
 float taup_DIF       =   6.0; // minimaler Taupunktunterschied, bei dem das Relais schaltet
