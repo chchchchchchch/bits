@@ -57,9 +57,9 @@ String FAN_I,FAN_O;
 float temp_O_CORRECTION =  -3.0;
 float temp_I_CORRECTION =   0.0;
 
-float temp_I_MIN     =  11.0; // min. Temperatur Innen
-float temp_O_MIN     =  -5.0; // min. Temperatur Außen
-float humi_MAX       =  62.0; // max. Luftfeuchte
+float temp_I_MIN     =  10.5; // min. Temperatur Innen
+float temp_O_MIN     = -10.0; // min. Temperatur Außen
+float humi_O_MAX     =  85.0; // max. Luftfeuchte Außen
 
 float taup_DIF       =   6.0; // minimaler Taupunktunterschied, bei dem das Relais schaltet
 float HYSTERESE      =   3.0; // Abstand von Ein- und Ausschaltpunkt
@@ -132,10 +132,18 @@ void loop() {
 
    if ( NOW == true ) {
 
-    wttr.get("/Augsburg?format=%t+%h");
-    String response = wttr.responseBody();
-    // int statusCode = wttr.responseStatusCode();
-    wttr.stop();
+    int attempt = 0;
+    String response = "";
+    while ( response == "" && attempt < 10 ) {
+      wttr.get("/Augsburg?format=%t+%h");
+      int statusCode = wttr.responseStatusCode();
+      response = wttr.responseBody();
+      //if(p) Serial.print("Response: ");Serial.println(response);
+      //if(p) Serial.print("Status code: ");Serial.println(statusCode);
+      delay(5000);
+      wttr.stop();
+      attempt++;
+    }
 
     if ( response != "" ) {
       int sep = response.indexOf(' ');
@@ -168,7 +176,7 @@ void loop() {
     int M = timeClient.getMinutes();
 
     // --- checkModeConditions -------------------------------------------
-    if ( (temp_I < temp_I_MIN) || (temp_O < temp_O_MIN) ) { // too cold
+    if ( (temp_I < temp_I_MIN) && (temp_O < temp_O_MIN) ) { // too cold
       RUNMODE = 0;                                          //   IDLE/WAIT (M0)
     } else {                                                // not too cold
       if ( taup_delta >= taup_DIF ) {                       //   taup_delta ok
@@ -181,7 +189,7 @@ void loop() {
         RUNMODE = 2;                                        //     INTERVALLLUEFTUNG (M2)
       }
     }
-    if ( (humi_O > humi_MAX+10) && RUNMODE == 1 ) RUNMODE = 2;  // Too wet outside
+    if ( (humi_O > humi_O_MAX) && RUNMODE == 1 ) RUNMODE = 2;  // Too wet outside
 
   // --- activateModes-------------------------------------------------------
     if ( RUNMODE == 0 ) {          // Switch or stay IDLE (M0)
