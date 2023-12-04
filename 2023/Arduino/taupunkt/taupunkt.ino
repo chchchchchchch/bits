@@ -149,15 +149,14 @@ void loop() {
         humi_O = humi_O_MED.getMedian();
         temp_O = temp_O_MED.getMedian();
     }
-
     // --- collect postData ----------------------------------------------
-    String postData = "temp_O:" + String(temp_O)
-                    + "|"
-                    + "temp_I:" + String(temp_I)
-                    + "|"
-                    + "humi_O:" + String(humi_O)
-                    + "|"
-                    + "humi_I:" + String(humi_I);
+    String postData = String(temp_O)
+                    + ";"
+                    + String(temp_I)
+                    + ";"
+                    + String(humi_O)
+                    + ";"
+                    + String(humi_I);
     // -------------------------------------------------------------------
 
     taup_O = taupunkt(temp_O,humi_O);
@@ -186,8 +185,8 @@ void loop() {
 
   // --- activateModes-------------------------------------------------------
     if ( RUNMODE == 0 ) {          // Switch or stay IDLE (M0)
-      fan(MOSFETPIN_I, 0.0);FAN_I="-";
-      fan(MOSFETPIN_O, 0.0);FAN_O="-";
+      fan(MOSFETPIN_I, 0.0);FAN_I="0";
+      fan(MOSFETPIN_O, 0.0);FAN_O="0";
     } 
     else if ( RUNMODE == 1) {      // Switch or stay ENTFEUCHTUNG (M1)
       fan(MOSFETPIN_I, 1.0);FAN_I="1";
@@ -195,23 +194,22 @@ void loop() {
     } 
     else if ( RUNMODE == 2 ) {       // Switch or stay LUEFTUNG (M2)
       if ( M < 20 ) { // RUN FOR EVERY FIRST 20 MINUTES OF EACH HOUR
-        fan(MOSFETPIN_I, 0.0);FAN_I="-";
+        fan(MOSFETPIN_I, 0.0);FAN_I="0";
         fan(MOSFETPIN_O, 1.0);FAN_O="1";
       } else {
-        fan(MOSFETPIN_I, 0.0);FAN_I="-";
-        fan(MOSFETPIN_O, 0.0);FAN_O="-";
+        fan(MOSFETPIN_I, 0.0);FAN_I="0";
+        fan(MOSFETPIN_O, 0.0);FAN_O="0";
       }
     }
-
     // ------------------------------------------------------------------------
     String contentType = "application/x-www-form-urlencoded";
-    postData = "RUNMODE:" + String(RUNMODE)
-             + "|"
+    postData = String(RUNMODE)
+             + ";"
              + postData
-             + "|"
-             + "FAN_O:" + String(FAN_O)
-             + "|"
-             + "FAN_I:" + String(FAN_I);
+             + ";"
+             + String(FAN_O)
+             + ";"
+             + String(FAN_I);
   
     // --- post to Server -----------------------------------------------------
     if(p) Serial.println(postData);
