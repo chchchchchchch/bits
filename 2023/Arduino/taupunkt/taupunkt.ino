@@ -214,7 +214,7 @@ void loop() {
     // --- post to Server -----------------------------------------------------
     if(p) Serial.println(postData);
     postData = "dht=" + postData;
-    client.post("/dht.php", contentType, postData);
+    client.post("/dht/log.php", contentType, postData);
     // show the status code and body of the response
     int statusCode = client.responseStatusCode();
     if(p) Serial.print("Status code: ");Serial.println(statusCode);
