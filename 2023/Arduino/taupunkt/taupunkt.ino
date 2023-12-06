@@ -5,6 +5,7 @@
 #include <NTPClient.h>
 #include <ArduinoHttpClient.h>
 #include "conf.h"
+#include <ArduinoJson.h>
 
 #define DHTPIN_0 2
 #define DHTPIN_I 4
@@ -38,7 +39,7 @@ NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
 WiFiSSLClient wifi;
 int status = WL_IDLE_STATUS;
 HttpClient client = HttpClient(wifi, server, port);
-HttpClient wttr = HttpClient(wifi, "wttr.in", 443);
+HttpClient wttr = HttpClient(wifi, "api.open-meteo.com", 443);;
 
 boolean NOW;
 long lastTime;
@@ -95,6 +96,7 @@ void setup() {
 
   timeClient.begin();
   lastTime = WiFi.getTime();
+
 }
 
 void(* resetFunc) (void) = 0; // declare reset function @ address 0
@@ -135,21 +137,22 @@ void loop() {
     int attempt = 0;
     String response = "";
     while ( response == "" && attempt < 10 ) {
-      wttr.get("/Augsburg?format=%t+%h");
+      wttr.get(meteorequest);
       int statusCode = wttr.responseStatusCode();
       response = wttr.responseBody();
       //if(p) Serial.print("Response: ");Serial.println(response);
       //if(p) Serial.print("Status code: ");Serial.println(statusCode);
+      StaticJsonDocument<512> doc;
+      deserializeJson(doc, response);
+      JsonObject current = doc["current"];
+      humi_O = current["relative_humidity_2m"];
+      temp_O = current["temperature_2m"];
       delay(5000);
       wttr.stop();
       attempt++;
     }
 
-    if ( response != "" ) {
-      int sep = response.indexOf(' ');
-      humi_O = float(response.substring(sep).toInt());
-      temp_O = float(response.substring(0, sep-2).toInt());
-    } else if ( isnan(humi_O) || isnan(temp_O) ) {
+    if  ( isnan(humi_O) || isnan(temp_O) ) {
         humi_O = dht_O.readHumidity();
         temp_O = dht_O.readTemperature() + temp_O_CORRECTION;
         humi_O_MED.add(humi_O);
