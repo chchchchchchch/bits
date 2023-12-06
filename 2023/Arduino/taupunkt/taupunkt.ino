@@ -5,7 +5,6 @@
 #include <NTPClient.h>
 #include <ArduinoHttpClient.h>
 #include "conf.h"
-#include <ArduinoJson.h>
 
 #define DHTPIN_0 2
 #define DHTPIN_I 4
@@ -39,7 +38,7 @@ NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
 WiFiSSLClient wifi;
 int status = WL_IDLE_STATUS;
 HttpClient client = HttpClient(wifi, server, port);
-HttpClient wttr = HttpClient(wifi, "api.open-meteo.com", 443);;
+HttpClient wttr = HttpClient(wifi, server, port);
 
 boolean NOW;
 long lastTime;
@@ -142,11 +141,9 @@ void loop() {
       response = wttr.responseBody();
       //if(p) Serial.print("Response: ");Serial.println(response);
       //if(p) Serial.print("Status code: ");Serial.println(statusCode);
-      StaticJsonDocument<512> doc;
-      deserializeJson(doc, response);
-      JsonObject current = doc["current"];
-      humi_O = current["relative_humidity_2m"];
-      temp_O = current["temperature_2m"];
+      int sep = response.indexOf(' ');
+      humi_O = stringToFloat(response.substring(sep+1));
+      temp_O = stringToFloat(response.substring(0, sep));
       delay(5000);
       wttr.stop();
       attempt++;
@@ -160,6 +157,11 @@ void loop() {
         humi_O = humi_O_MED.getMedian();
         temp_O = temp_O_MED.getMedian();
     }
+
+    taup_O = taupunkt(temp_O,humi_O);
+    taup_I = taupunkt(temp_I,humi_I);
+    taup_delta = taup_I - taup_O;
+
     // --- collect postData ----------------------------------------------
     String postData = String(temp_O)
                     + ";"
@@ -167,12 +169,12 @@ void loop() {
                     + ";"
                     + String(humi_O)
                     + ";"
-                    + String(humi_I);
+                    + String(humi_I)
+                    + ";"
+                    + String(taup_O)
+                    + ";"
+                    + String(taup_I);
     // -------------------------------------------------------------------
-
-    taup_O = taupunkt(temp_O,humi_O);
-    taup_I = taupunkt(temp_I,humi_I);
-    taup_delta = taup_I - taup_O;
 
     timeClient.update();
     //int H = timeClient.getHours();
